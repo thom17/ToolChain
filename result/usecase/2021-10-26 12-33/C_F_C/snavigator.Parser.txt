@@ -1,0 +1,25 @@
+@startuml
+ left to right direction
+
+actor Parser as actor681747431
+
+	rectangle main{
+	 usecase PrintStream as UC49
+	actor681747431--UC49
+	}
+	rectangle deleteFiles{
+	 usecase File as UC50
+	actor681747431--UC50
+	}
+	rectangle parsing{
+	 usecase PrintStream as UC51
+	actor681747431--UC51
+	 usecase Throwable as UC52
+	actor681747431--UC52
+	 usecase Process as UC53
+	actor681747431--UC53
+	 usecase Thread as UC54
+	actor681747431--UC54
+	}
+
+@enduml

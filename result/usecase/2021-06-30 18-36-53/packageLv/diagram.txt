@@ -1,0 +1,213 @@
+@startuml
+ left to right direction
+
+actor ForMidEx as actor293749050
+
+	package java.lang {
+		usecase append as UC1296277943
+		usecase toString as UC1528099970
+		usecase waitFor as UC426792528
+		usecase hashCode as UC444096469
+	}
+	actor293749050 -- UC444096469
+	actor293749050 -- UC426792528
+	actor293749050 -- UC1528099970
+	actor293749050 -- UC1296277943
+	package java.util {
+		usecase add as UC1248201524
+	}
+	actor293749050 -- UC1248201524
+	package java.io {
+		usecase println as UC908744222
+		usecase print as UC770921565
+		usecase println as UC1974284481
+		usecase write as UC266906347
+		usecase close as UC1805031342
+	}
+	actor293749050 -- UC1805031342
+	actor293749050 -- UC266906347
+	actor293749050 -- UC1974284481
+	actor293749050 -- UC770921565
+	actor293749050 -- UC908744222
+	package org.eclipse.jdt.core.dom {
+		usecase toString as UC1559258941
+	}
+	actor293749050 -- UC1559258941
+	package dataSet {
+		usecase getPackageName as UC1086811994
+		usecase getName as UC171063899
+		usecase getTypeName as UC1430710100
+		usecase getMemberList as UC181451598
+		usecase getTypeName as UC1905699057
+		usecase getSig as UC1785570426
+		usecase getHasList as UC150180388
+		usecase getFunctionList as UC133579455
+		usecase getClassList as UC1138992016
+		usecase separatePackage as UC1152029154
+		usecase getHeadNode as UC1356614113
+	}
+	actor293749050 -- UC1356614113
+	actor293749050 -- UC1152029154
+	actor293749050 -- UC1138992016
+	actor293749050 -- UC133579455
+	actor293749050 -- UC150180388
+	actor293749050 -- UC1785570426
+	actor293749050 -- UC1905699057
+	actor293749050 -- UC181451598
+	actor293749050 -- UC1430710100
+	actor293749050 -- UC171063899
+	actor293749050 -- UC1086811994
+	package dataSet.stateNode {
+		usecase getCode as UC1695161087
+		usecase getThen as UC1001114349
+		usecase getCondition as UC731802107
+		usecase getElse as UC431996456
+		usecase getTarget as UC743936514
+		usecase getForLine as UC1238292935
+		usecase getCondNode as UC298295476
+		usecase getLastFin as UC1978471002
+		usecase getCond as UC1698322791
+	}
+	actor293749050 -- UC1698322791
+	actor293749050 -- UC1978471002
+	actor293749050 -- UC298295476
+	actor293749050 -- UC1238292935
+	actor293749050 -- UC743936514
+	actor293749050 -- UC431996456
+	actor293749050 -- UC731802107
+	actor293749050 -- UC1001114349
+	actor293749050 -- UC1695161087
+actor ForQuiz2 as actor1518712038
+
+	package java.lang {
+		usecase waitFor as UC426792528
+		usecase append as UC1296277943
+		usecase hashCode as UC444096469
+		usecase toString as UC1528099970
+	}
+	actor1518712038 -- UC1528099970
+	actor1518712038 -- UC444096469
+	actor1518712038 -- UC1296277943
+	actor1518712038 -- UC426792528
+	package java.util {
+		usecase hashCode as UC1986751746
+		usecase toString as UC1795804759
+		usecase add as UC1248201524
+	}
+	actor1518712038 -- UC1248201524
+	actor1518712038 -- UC1795804759
+	actor1518712038 -- UC1986751746
+	package java.io {
+		usecase println as UC908744222
+		usecase write as UC266906347
+		usecase close as UC1805031342
+	}
+	actor1518712038 -- UC1805031342
+	actor1518712038 -- UC266906347
+	actor1518712038 -- UC908744222
+	package dataSet {
+		usecase getImageList as UC1548698416
+		usecase getHeadNode as UC1356614113
+	}
+	actor1518712038 -- UC1356614113
+	actor1518712038 -- UC1548698416
+actor ForQuiz3 as actor731573979
+
+	package java.lang {
+		usecase waitFor as UC426792528
+		usecase append as UC1296277943
+		usecase hashCode as UC444096469
+		usecase toString as UC1528099970
+	}
+	actor731573979 -- UC1528099970
+	actor731573979 -- UC444096469
+	actor731573979 -- UC1296277943
+	actor731573979 -- UC426792528
+	package java.util {
+		usecase toString as UC1795804759
+		usecase add as UC1248201524
+	}
+	actor731573979 -- UC1248201524
+	actor731573979 -- UC1795804759
+	package java.io {
+		usecase println as UC908744222
+		usecase write as UC266906347
+		usecase close as UC1805031342
+	}
+	actor731573979 -- UC1805031342
+	actor731573979 -- UC266906347
+	actor731573979 -- UC908744222
+	package dataSet {
+		usecase getImageList as UC1548698416
+		usecase getHeadNode as UC1356614113
+	}
+	actor731573979 -- UC1356614113
+	actor731573979 -- UC1548698416
+actor ForQuiz4 as actor104105431
+
+	package java.lang {
+		usecase waitFor as UC426792528
+		usecase append as UC1296277943
+		usecase hashCode as UC444096469
+		usecase toString as UC1528099970
+	}
+	actor104105431 -- UC1528099970
+	actor104105431 -- UC444096469
+	actor104105431 -- UC1296277943
+	actor104105431 -- UC426792528
+	package java.util {
+		usecase toString as UC1795804759
+		usecase add as UC1248201524
+	}
+	actor104105431 -- UC1248201524
+	actor104105431 -- UC1795804759
+	package java.io {
+		usecase println as UC908744222
+		usecase write as UC266906347
+		usecase close as UC1805031342
+	}
+	actor104105431 -- UC1805031342
+	actor104105431 -- UC266906347
+	actor104105431 -- UC908744222
+	package dataSet {
+		usecase getImageList as UC1548698416
+		usecase getHeadNode as UC1356614113
+	}
+	actor104105431 -- UC1356614113
+	actor104105431 -- UC1548698416
+	package dataSet.stateNode {
+		usecase getThen as UC1001114349
+		usecase getKey as UC602572848
+		usecase getElse as UC431996456
+	}
+	actor104105431 -- UC431996456
+	actor104105431 -- UC602572848
+	actor104105431 -- UC1001114349
+actor NodeClassDg as actor93981118
+
+	package java.lang {
+		usecase waitFor as UC426792528
+		usecase append as UC1296277943
+		usecase toString as UC1528099970
+	}
+	actor93981118 -- UC1528099970
+	actor93981118 -- UC1296277943
+	actor93981118 -- UC426792528
+	package java.util {
+		usecase add as UC1248201524
+	}
+	actor93981118 -- UC1248201524
+	package java.io {
+		usecase println as UC908744222
+		usecase write as UC266906347
+		usecase close as UC1805031342
+	}
+	actor93981118 -- UC1805031342
+	actor93981118 -- UC266906347
+	actor93981118 -- UC908744222
+	package dataSet.stateNode {
+		usecase getCondition as UC731802107
+	}
+	actor93981118 -- UC731802107
+
+@enduml

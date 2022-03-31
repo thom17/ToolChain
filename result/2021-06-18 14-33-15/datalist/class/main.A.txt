@@ -1,0 +1,29 @@
+@startuml
+class main.A{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	java.lang.String a (390689829);
+	java.lang.String result (252553541);
+	int x (1208203046);
+	java.lang.String c (268084911);
+	java.lang.String b (1406014249);
+..method..
+	int getx() (829149076);
+	boolean check(int) (1678046232);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	int x (1208203046);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	A (1041365481);
+	C (501609049);
+..member..
+..method..
+	void test(main.B) (1922930974);
+	boolean check(int) (1678046232);
+}
+
+@enduml

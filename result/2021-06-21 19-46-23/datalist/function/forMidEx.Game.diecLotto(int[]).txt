@@ -1,0 +1,21 @@
+@startuml
+class forMidEx.Game.diecLotto(int[]){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	int target (1819940427);
+	int[] list (1277933280);
+	int ans (1046665075);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	int gameCount (405896924);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

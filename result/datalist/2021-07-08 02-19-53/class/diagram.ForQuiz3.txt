@@ -1,0 +1,62 @@
+@startuml
+class diagram.ForQuiz3{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String[] skipValue (1499458969);
+	String[] skipClass (2102534528);
+	int funNum (267400033);
+	ArrayList<StateNode> nodelist (2030458069);
+..method..
+	void main(java.lang.String[]) (1603493193);
+	void main(dataSet.DataList) (857811226);
+	void makeFile(java.lang.String, java.lang.String) (1036283684);
+	boolean checkSkipList(java.lang.String, java.lang.String[]) (1991193781);
+	String makeScript(dataSet.DataList) (856901180);
+	void makeMemberInfo(dataSet.Class, java.lang.StringBuilder) (242833949);
+	void makeFunctionInfo(dataSet.Class, java.lang.StringBuilder) (236275784);
+	void makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder) (163631293);
+__**<color:blue>calling list</color>**__
+..class..
+	Process (1809269661);
+	PrintStream (1005063886);
+	ForQuiz3 (108798399);
+	Writer (1653318246);
+	OutputStreamWriter (305242558);
+	StringBuilder (1578052738);
+	Object (1521986562);
+	AbstractCollection (1549733596);
+	Member (861339480);
+	Function (159791010);
+	ArrayList (2041386868);
+..member..
+	ArrayList<StateNode> nodelist (2030458069);
+	int funNum (267400033);
+..method..
+	null waitFor() (1290606579);
+	null println(java.lang.String) (1739111611);
+	void makeFile(java.lang.String, java.lang.String) (1036283684);
+	null write(java.lang.String) (1934234778);
+	null close() (1827239708);
+	null append(java.lang.String) (1798239502);
+	null hashCode() (1251709638);
+	void makeMemberInfo(dataSet.Class, java.lang.StringBuilder) (242833949);
+	void makeFunctionInfo(dataSet.Class, java.lang.StringBuilder) (236275784);
+	null toString() (715570093);
+	null toString() (2117142060);
+	ArrayList<String> getImageList() (1630790155);
+	void makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder) (163631293);
+	StateNode getHeadNode() (668707379);
+	null add(E) (105856166);
+__**<color:orange>called by list</color>**__
+..class..
+	ForQuiz3 (108798399);
+..member..
+..method..
+	void main(dataSet.DataList) (857811226);
+	String makeScript(dataSet.DataList) (856901180);
+	void makeFunctionInfo(dataSet.Class, java.lang.StringBuilder) (236275784);
+	void makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder) (163631293);
+}
+
+@enduml

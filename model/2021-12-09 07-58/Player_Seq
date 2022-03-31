@@ -1,0 +1,19 @@
+@startuml
+group UC01 Play Game
+	Player->GameSystem : playGame(name)
+	GameSystem->GameSystem : diceSetting()
+	group main()
+		group diceRoll(dice)
+			GameSystem->Dice : roll()
+		Dice-->GameSystem : 주사위의 결과값을 반환한다.
+		end
+		GameSystem->GameSystem : move(dice,player)
+	GameSystem-->GameSystem : 게임의 종료
+	end
+	GameSystem->GameSystem : gameEnd()
+end
+group UC02 View Score
+end
+group UC03 Configure Game
+end
+@enduml

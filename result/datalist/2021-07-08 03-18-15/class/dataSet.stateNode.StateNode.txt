@@ -1,0 +1,82 @@
+@startuml
+class dataSet.stateNode.StateNode{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	int id (220774932);
+	String code (801634926);
+	String nextCheck (2139900147);
+	String key (658369552);
+	StateNode thenNode (1825485441);
+	StateNode elseNode (2093625852);
+	StateNode before (1637627206);
+..method..
+	StateNode StateNode(java.lang.String) (688457737);
+	StateNode StateNode(java.lang.String, java.lang.String) (818609427);
+	StateNode StateNode(java.lang.String, java.lang.String, java.lang.String) (488795943);
+	StateNode StateNode() (496259008);
+	void setBefore(dataSet.stateNode.StateNode) (2084324667);
+	StateNode init(java.lang.String, java.lang.String, java.lang.String) (460922314);
+	StateNode init(java.lang.String, java.lang.String, java.lang.String, dataSet.stateNode.StateNode) (363594453);
+	StateNode getThen() (1358917731);
+	StateNode getElse() (721004015);
+	StateNode setThen(dataSet.stateNode.StateNode) (888289302);
+	StateNode setElse(dataSet.stateNode.StateNode) (1731654671);
+	StateNode getBefore() (318371990);
+	String getCondition() (985702731);
+	String getKey() (1967710715);
+	String getCode() (244788961);
+__**<color:blue>calling list</color>**__
+..class..
+	StateNode (1913266128);
+..member..
+	String code (801634926);
+	String nextCheck (2139900147);
+	String key (658369552);
+	StateNode before (1637627206);
+	StateNode thenNode (1825485441);
+	StateNode elseNode (2093625852);
+..method..
+	StateNode init(java.lang.String, java.lang.String, java.lang.String) (460922314);
+	StateNode setThen(dataSet.stateNode.StateNode) (888289302);
+	StateNode setElse(dataSet.stateNode.StateNode) (1731654671);
+	void setBefore(dataSet.stateNode.StateNode) (2084324667);
+__**<color:orange>called by list</color>**__
+..class..
+	ForStateNode (1739111611);
+	StateNode (1913266128);
+	ForMidEx (5313207);
+	ForQuiz4 (955581180);
+	NodeClassDg (1348421068);
+	Test_Visitor (1089579669);
+..member..
+..method..
+	String getForLine() (1874962678);
+	StateNode getLastFin() (347436335);
+	StateNode StateNode(java.lang.String) (688457737);
+	StateNode StateNode(java.lang.String, java.lang.String) (818609427);
+	StateNode StateNode(java.lang.String, java.lang.String, java.lang.String) (488795943);
+	StateNode StateNode() (496259008);
+	void setBefore(dataSet.stateNode.StateNode) (2084324667);
+	StateNode init(java.lang.String, java.lang.String, java.lang.String) (460922314);
+	StateNode init(java.lang.String, java.lang.String, java.lang.String, dataSet.stateNode.StateNode) (363594453);
+	StateNode setThen(dataSet.stateNode.StateNode) (888289302);
+	StateNode setElse(dataSet.stateNode.StateNode) (1731654671);
+	void stateMake(dataSet.stateNode.StateNode, java.lang.String) (10044740);
+	void stateParsing(dataSet.stateNode.StateNode, java.lang.String, java.lang.String, boolean) (1576607881);
+	StateNode forNodeMake(dataSet.stateNode.StateNode, java.lang.String, java.lang.String) (465134665);
+	StateNode nextThen(java.lang.String[], dataSet.stateNode.StateNode) (1863075316);
+	StateNode nextElse(java.lang.String[], dataSet.stateNode.StateNode) (1163336956);
+	void makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder) (263111287);
+	void switchNodeInfo(dataSet.stateNode.StateNode, java.lang.String) (457660003);
+	void stateNodeInfo(dataSet.stateNode.StateNode, java.lang.String) (376017690);
+	Function makeFunction(org.eclipse.jdt.core.dom.MethodDeclaration, dataSet.Data_base) (106787773);
+	void returnStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (1797578199);
+	void forStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (654299840);
+	void ifStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (316671934);
+	void expressionStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (859156431);
+	void variableDeclarationStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (1914684131);
+	void switchStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (1771965424);
+}
+
+@enduml

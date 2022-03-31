@@ -1,0 +1,33 @@
+@startuml
+group void Login()
+	TestScenario->Shop : login(java.lang.String, java.lang.String)
+		Shop-->TestScenario
+end
+
+group void Buy_Product()
+	TestScenario->Shop : buy(shop.User, shop.Goods)
+		Shop->User : buy(shop.Goods)
+			User->Goods : getMoney()
+				Goods-->User
+			User-->Shop
+		Shop-->TestScenario
+end
+
+group void Charge_Money()
+	TestScenario->Shop : charge(shop.User, int)
+		Shop->User : setMoney(int)
+			User-->Shop
+		Shop-->TestScenario
+end
+
+group void Add_Product()
+	TestScenario->Shop : addGoods(shop.Goods, java.lang.String)
+		Shop-->TestScenario
+end
+
+group void Registration()
+	TestScenario->Shop : regist(java.lang.String, java.lang.String)
+		Shop-->TestScenario
+end
+
+@enduml

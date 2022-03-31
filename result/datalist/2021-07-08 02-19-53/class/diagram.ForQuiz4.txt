@@ -1,0 +1,72 @@
+@startuml
+class diagram.ForQuiz4{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String[] skipMember (392377326);
+	String[] skipClass (417773355);
+	String[] skipKey (829239469);
+	int funNum (1051155205);
+	ArrayList<StateNode> nodelist (819323772);
+..method..
+	void main(java.lang.String[]) (497501602);
+	void main(dataSet.DataList) (1167582947);
+	void makeFile(java.lang.String, java.lang.String) (1106043431);
+	boolean checkSkipList(java.lang.String, java.lang.String[]) (1581066085);
+	String makeScript(dataSet.DataList) (2031154005);
+	void makeMemberInfo(dataSet.Class, java.lang.StringBuilder) (952172944);
+	void makeFunctionInfo(dataSet.Class, java.lang.StringBuilder) (384438050);
+	String getColor(dataSet.stateNode.StateNode) (55226986);
+	StateNode nextThen(java.lang.String[], dataSet.stateNode.StateNode) (263111287);
+	StateNode nextElse(java.lang.String[], dataSet.stateNode.StateNode) (457660003);
+	void makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder) (376017690);
+__**<color:blue>calling list</color>**__
+..class..
+	Process (1809269661);
+	PrintStream (1005063886);
+	ForQuiz4 (1739581705);
+	Writer (1653318246);
+	OutputStreamWriter (305242558);
+	StringBuilder (1578052738);
+	Object (1521986562);
+	AbstractCollection (1549733596);
+	Member (861339480);
+	Function (159791010);
+	StateNode (1253827612);
+	ArrayList (2041386868);
+..member..
+	ArrayList<StateNode> nodelist (819323772);
+..method..
+	null waitFor() (1290606579);
+	null println(java.lang.String) (1739111611);
+	void makeFile(java.lang.String, java.lang.String) (1106043431);
+	null write(java.lang.String) (1934234778);
+	null close() (1827239708);
+	null append(java.lang.String) (1798239502);
+	null hashCode() (1251709638);
+	void makeMemberInfo(dataSet.Class, java.lang.StringBuilder) (952172944);
+	void makeFunctionInfo(dataSet.Class, java.lang.StringBuilder) (384438050);
+	null toString() (715570093);
+	null toString() (2117142060);
+	ArrayList<String> getImageList() (1630790155);
+	void makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder) (376017690);
+	StateNode getHeadNode() (668707379);
+	StateNode getThen() (465134665);
+	boolean checkSkipList(java.lang.String, java.lang.String[]) (1581066085);
+	String getKey() (10044740);
+	StateNode getElse() (1731654671);
+	null add(E) (105856166);
+__**<color:orange>called by list</color>**__
+..class..
+	ForQuiz4 (1739581705);
+..member..
+..method..
+	void main(dataSet.DataList) (1167582947);
+	String makeScript(dataSet.DataList) (2031154005);
+	void makeFunctionInfo(dataSet.Class, java.lang.StringBuilder) (384438050);
+	StateNode nextThen(java.lang.String[], dataSet.stateNode.StateNode) (263111287);
+	StateNode nextElse(java.lang.String[], dataSet.stateNode.StateNode) (457660003);
+	void makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder) (376017690);
+}
+
+@enduml

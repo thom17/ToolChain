@@ -1,0 +1,26 @@
+@startuml
+class forMidEx.Game.diceBattle(int){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	int diceNum (656479172);
+	int newValue (1944702768);
+	int diceshape (124888672);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Game (1208203046);
+..member..
+	int winCount (977552154);
+	int gameCount (424398527);
+..method..
+	boolean diceBattle(int) (390689829);
+__**<color:orange>called by list</color>**__
+..class..
+	Game (1208203046);
+..member..
+..method..
+	boolean diceBattle(int) (390689829);
+}
+
+@enduml

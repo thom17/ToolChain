@@ -1,0 +1,24 @@
+@startuml
+class target.IfTree.main(java.lang.String[]){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	int l (992802731);
+	int ll (715521683);
+	int lrr (1545242146);
+	String[] args (1524126153);
+	int lr (102065302);
+	int r (63001505);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	int sum (589835301);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

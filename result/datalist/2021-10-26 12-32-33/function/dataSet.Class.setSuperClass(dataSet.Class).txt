@@ -1,0 +1,22 @@
+@startuml
+class "dataSet.Class.setSuperClass(dataSet.Class)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.Class cls (996533593);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Class (1302141801);
+..member..
+	Class superClass (981487964);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	SN_Dumper (535352603);
+..member..
+..method..
+	void readIn(dataSet.DataList) (758465579);
+}
+
+@enduml

@@ -1,0 +1,22 @@
+@startuml
+class shop.User.buy(shop.Goods){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Goods goods (1101184763);
+	int goodsMoney (1816147548);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Goods (1069716895);
+..member..
+	int money (1965237677);
+..method..
+	int getMoney() (522553046);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

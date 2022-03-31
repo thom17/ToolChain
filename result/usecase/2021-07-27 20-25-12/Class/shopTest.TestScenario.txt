@@ -1,0 +1,27 @@
+@startuml
+ left to right direction
+
+actor TestScenario as actor1309176095
+
+	rectangle Login{
+	 usecase Shop as UC2
+	actor1309176095--UC2
+	}
+	rectangle Buy_Product{
+	 usecase Shop as UC3
+	actor1309176095--UC3
+	}
+	rectangle Charge_Money{
+	 usecase Shop as UC4
+	actor1309176095--UC4
+	}
+	rectangle Add_Product{
+	 usecase Shop as UC5
+	actor1309176095--UC5
+	}
+	rectangle Registration{
+	 usecase Shop as UC6
+	actor1309176095--UC6
+	}
+
+@enduml

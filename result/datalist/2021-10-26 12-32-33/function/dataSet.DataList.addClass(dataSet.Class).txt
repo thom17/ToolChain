@@ -1,0 +1,26 @@
+@startuml
+class "dataSet.DataList.addClass(dataSet.Class)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.Class cls (1296910502);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Class (1302141801);
+..member..
+..method..
+	String getName() (2008159348);
+__**<color:orange>called by list</color>**__
+..class..
+	Class (1302141801);
+	SN_Dumper (535352603);
+..member..
+..method..
+	void addClass(dataSet.Class) (968957548);
+	void addCallClass(dataSet.Class) (1924966548);
+	void readCl(dataSet.DataList) (248487859);
+	void readBy(dataSet.DataList) (936628786);
+}
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+ left to right direction
+
+actor User as actor1714078840
+
+	rectangle buy{
+	 usecase ArrayList as UC0
+	actor1714078840--UC0
+	 usecase Goods as UC1
+	actor1714078840--UC1
+	}
+	rectangle chckPwd{
+	 usecase String as UC2
+	actor1714078840--UC2
+	}
+
+@enduml

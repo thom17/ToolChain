@@ -1,0 +1,21 @@
+@startuml
+ left to right direction
+
+actor Main as actor1430710100
+
+	rectangle main{
+	 usecase addDataList as UC2132762784
+	actor1430710100--UC2132762784
+	 usecase main as UC2011857007
+	actor1430710100--UC2011857007
+	 usecase println as UC1001114349
+	actor1430710100--UC1001114349
+	}
+	actor PrintStream as actor731802107
+	actor731802107 -- dataSet.Function@3babcaed
+	actor ForMidEx as actor770921565
+	actor770921565 -- dataSet.Function@77ea806f
+	actor Test_Visitor as actor181451598
+	actor181451598 -- dataSet.Function@7f1f60a0
+
+@enduml

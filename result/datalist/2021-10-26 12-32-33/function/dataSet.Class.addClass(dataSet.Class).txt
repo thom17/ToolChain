@@ -1,0 +1,21 @@
+@startuml
+class "dataSet.Class.addClass(dataSet.Class)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.Class cls (814377348);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	DataList (1391119179);
+	Class (1302141801);
+..member..
+..method..
+	void addClass(dataSet.Class) (693345846);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

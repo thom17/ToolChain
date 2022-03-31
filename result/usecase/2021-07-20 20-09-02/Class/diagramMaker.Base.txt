@@ -1,0 +1,27 @@
+@startuml
+ left to right direction
+
+actor Base as actor260580453
+
+	rectangle makeDateFolder{
+	 usecase File as UC38
+	actor260580453--UC38
+	}
+	rectangle makeFile{
+	 usecase PrintStream as UC39
+	actor260580453--UC39
+	 usecase Writer as UC40
+	actor260580453--UC40
+	 usecase OutputStreamWriter as UC41
+	actor260580453--UC41
+	}
+	rectangle printLog{
+	 usecase Process as UC42
+	actor260580453--UC42
+	 usecase PrintStream as UC43
+	actor260580453--UC43
+	 usecase BufferedReader as UC44
+	actor260580453--UC44
+	}
+
+@enduml

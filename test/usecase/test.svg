@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="342px" preserveAspectRatio="none" style="width:586px;height:342px;" version="1.1" viewBox="0 0 586 342" width="586px" zoomAndPan="magnify"><defs><filter height="300%" id="f34z3yx0fk0lg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0972a9ad5a37b79112fb90609a2a1468]
+cluster GameSystem--><rect fill="#FFFFFF" filter="url(#f34z3yx0fk0lg)" height="323" style="stroke: #000000; stroke-width: 1.5;" width="483" x="91" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="92" x="286.5" y="22.5352">GameSystem</text><ellipse cx="161.9283" cy="241.9857" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="62.9283" ry="14.9857" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="118.4283" y="246.7298">GameSystem</text><ellipse cx="161.8762" cy="307.159" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="50.3762" ry="14.659" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="128.3762" y="311.9031">playGame</text><ellipse cx="162.2401" cy="177.159" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="56.7401" ry="14.659" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="124.2401" y="181.9031">diceSetting</text><ellipse cx="162.0416" cy="113.159" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="27.0416" ry="14.659" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="145.0416" y="117.9031">main</text><ellipse cx="161.8051" cy="49.159" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="43.3051" ry="14.659" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="133.3051" y="53.9031">printPos</text><ellipse cx="339.6188" cy="177.159" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="54.6188" ry="14.659" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="73" x="303.1188" y="181.9031">choiceDice</text><ellipse cx="339.6838" cy="113.159" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="41.1838" ry="14.659" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="312.6838" y="117.9031">diceRoll</text><ellipse cx="339.663" cy="49.159" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="29.163" ry="14.659" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="321.163" y="53.9031">move</text><ellipse cx="510.033" cy="177.159" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="56.033" ry="14.659" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="472.533" y="181.9031">printResult</text><ellipse cx="509.7548" cy="113.159" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="48.2548" ry="14.659" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="477.7548" y="117.9031">gameEnd</text><!--MD5=[99d6a8fae9d72df7deea093ab072b874]
+entity actor735937428--><ellipse cx="22.5" cy="244" fill="#FEFECE" filter="url(#f34z3yx0fk0lg)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M22.5,252 L22.5,279 M9.5,260 L35.5,260 M22.5,279 L9.5,294 M22.5,279 L35.5,294 " fill="none" filter="url(#f34z3yx0fk0lg)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="6" y="313.0352">Main</text><!--MD5=[23b1b700bf04c58abf91304b3cbb2fae]
+link actor735937428 to UC1342346098--><path d="M39.0503,271.0849 C58.1759,266.5605 90.4401,258.9281 117.119,252.617 " fill="none" id="actor735937428-UC1342346098" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f1b259ff666cbd8401aec61ba40fcc4c]
+link actor735937428 to UC238762799--><path d="M39.0503,278.7965 C59.475,283.4817 94.8838,291.6042 122.4723,297.9327 " fill="none" id="actor735937428-UC238762799" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7faa26c8e6a74a9e8e11f46107691c80]
+link UC1358343316 to UC1824837049--><!--MD5=[bc0145b25398629da7f740d7457b0abe]
+link UC1824837049 to UC672746064--><!--MD5=[ea67f181ae01a8ff85145e518d98e3a7]
+link UC1358343316 to UC2133655103--><!--MD5=[f981261c272e734f859e8a0f528c2695]
+link UC2133655103 to UC442199874--><!--MD5=[8336cd2f6c18b136c8d935874d7887ec]
+link UC442199874 to UC1345900725--><!--MD5=[267400bdc78fefde8aa84dc3e31800ae]
+link UC2133655103 to UC839998248--><!--MD5=[249604f3d22bb91bcbbdf8f644c61d88]
+link UC839998248 to UC718571091--><!--MD5=[ff84b2b8355f21d09b5a4bf5986e1121]
+@startuml
+ left to right direction
+
+actor Main as actor735937428
+rectangle GameSystem{
+	usecase GameSystem as UC1342346098
+		actor735937428 - - UC1342346098
+	usecase playGame as UC238762799
+		actor735937428 - - UC238762799
+	usecase diceSetting as UC1358343316
+	usecase main as UC1824837049
+	usecase printPos as UC672746064
+	usecase choiceDice as UC2133655103
+	usecase diceRoll as UC442199874
+	usecase move as UC1345900725
+	usecase printResult as UC839998248
+	usecase gameEnd as UC718571091
+}
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ko
+Country: KR
+--></g></svg>

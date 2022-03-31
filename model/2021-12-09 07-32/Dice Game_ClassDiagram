@@ -1,0 +1,39 @@
+@startuml
+class GameSystem 
+{
+
+	playGame(String name)
+	diceSetting()
+	main()
+	gameEnd()
+	diceRoll(Dice dice)
+	move(Dice dice, Player player)
+
+}
+ GameSystem *-- Dice
+ GameSystem *-- Map
+ GameSystem *-- Player
+
+class Player 
+{
+	 String name
+	 int pos
+
+
+}
+
+class Dice 
+{
+	 int[] shapeList
+
+
+}
+
+class Map 
+{
+	 int[] eventList
+
+
+}
+
+@enduml

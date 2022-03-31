@@ -1,0 +1,37 @@
+@startuml
+ left to right direction
+
+actor TestScenario as actor1261153343
+
+	rectangle Login{
+	 usecase login as UC1073763441
+	actor1261153343--UC1073763441
+	}
+	actor Shop as actor1006094903
+	 UC1073763441 -- actor1006094903
+	rectangle Buy_Product{
+	 usecase buy as UC752316209
+	actor1261153343--UC752316209
+	}
+	actor Shop as actor1006094903
+	 UC752316209 -- actor1006094903
+	rectangle Charge_Money{
+	 usecase charge as UC914356853
+	actor1261153343--UC914356853
+	}
+	actor Shop as actor1006094903
+	 UC914356853 -- actor1006094903
+	rectangle Add_Product{
+	 usecase addGoods as UC1229161065
+	actor1261153343--UC1229161065
+	}
+	actor Shop as actor1006094903
+	 UC1229161065 -- actor1006094903
+	rectangle Registration{
+	 usecase regist as UC195228908
+	actor1261153343--UC195228908
+	}
+	actor Shop as actor1006094903
+	 UC195228908 -- actor1006094903
+
+@enduml

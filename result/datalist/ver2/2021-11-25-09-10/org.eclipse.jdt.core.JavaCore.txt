@@ -1,0 +1,71 @@
+@startuml
+class "JavaCore" as cl1{
+Package org.eclipse.jdt.core
+Lib true
+HashCode : 104494977
+ABS Score : 0
+Relative Score : 0
+__**<color:green>has list</color>**__
+....
+	<color:green>null getOptions() (0)
+	<color:green>null setComplianceOptions(java.lang.String, java.util.Map) (0)
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	hongik.selab.parser.java.JavaParser (261849385);
+..member..
+..method..
+	 hongik.selab.parser.java.JavaParser.init(java.io.File) (137902612);
+}
+
+ package Functions{
+class "getOptions()" as f8312750  #line:green
+{
+Static : false
+return Type : null
+hashCode : 8312750
+ABS Score : 0
+Relative Score : 0
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	hongik.selab.parser.java.JavaParser (261849385);
+..member..
+..method..
+	 hongik.selab.parser.java.JavaParser.init(java.io.File) (137902612);
+}
+class "setComplianceOptions(java.lang.String, java.util.Map)" as f1404703093  #line:green
+{
+Static : false
+return Type : null
+hashCode : 1404703093
+ABS Score : 0
+Relative Score : 0
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	hongik.selab.parser.java.JavaParser (261849385);
+..member..
+..method..
+	 hongik.selab.parser.java.JavaParser.init(java.io.File) (137902612);
+}
+}
+
+@enduml

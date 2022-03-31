@@ -1,0 +1,17 @@
+@startuml
+ left to right direction
+
+actor StringBuilder as actor753816421
+
+actor Object as actor2037147839
+
+actor Process as actor1456906673
+
+actor Throwable as actor443638755
+
+actor String as actor1155169971
+
+actor Runtime as actor1583992583
+
+
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+class target.Coffee{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	void addShot() (2142080121);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

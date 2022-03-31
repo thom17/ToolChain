@@ -1,0 +1,28 @@
+@startuml
+group Class Class(java.lang.String, java.lang.String)
+	Class->PrintStream : println()
+		PrintStream-->Class
+end
+
+group void addCallBy(dataSet.Data_base)
+	Class->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Class
+end
+
+group void addCall(dataSet.Data_base)
+	Class->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Class
+end
+
+group void addHas(dataSet.Data_base)
+	Class->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Class
+end
+
+@enduml

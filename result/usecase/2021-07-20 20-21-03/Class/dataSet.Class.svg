@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="831px" preserveAspectRatio="none" style="width:245px;height:831px;" version="1.1" viewBox="0 0 245 831" width="245px" zoomAndPan="magnify"><defs><filter height="300%" id="f1mz9lotpsz2o7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[59ebf0283d772b222685dc1bf28c35d4]
+cluster Class--><rect fill="#FFFFFF" filter="url(#f1mz9lotpsz2o7)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="93" x="129.5" y="461.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="38" x="157" y="479.6533">Class</text><!--MD5=[89e6df34a40fd0f881e4a85c208f9fb2]
+cluster addCallBy--><rect fill="#FFFFFF" filter="url(#f1mz9lotpsz2o7)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="114" x="119" y="573.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="141.5" y="591.6533">addCallBy</text><ellipse cx="176.0772" cy="516.5973" fill="#FEFECE" filter="url(#f1mz9lotpsz2o7)" rx="30.5772" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="156.5772" y="522.7121">println</text><ellipse cx="176.1838" cy="628.5973" fill="#FEFECE" filter="url(#f1mz9lotpsz2o7)" rx="41.1838" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="149.1838" y="634.7121">addData</text><!--MD5=[1c29af3ac24047ec778f7853894e444e]
+entity addCall--><rect fill="#FFFFFF" filter="url(#f1mz9lotpsz2o7)" height="39.2295" style="stroke: #000000; stroke-width: 1.5;" width="68" x="7" y="780"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="17" y="806.1533">addCall</text><!--MD5=[8f0924f43ae853ce469cf0305736724a]
+entity addHas--><rect fill="#FFFFFF" filter="url(#f1mz9lotpsz2o7)" height="39.2295" style="stroke: #000000; stroke-width: 1.5;" width="68" x="7" y="706"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="17" y="732.1533">addHas</text><!--MD5=[ccd92fdf9bf7911b7d49748277971cdf]
+entity actor736874772--><ellipse cx="41" cy="596" fill="#FEFECE" filter="url(#f1mz9lotpsz2o7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M41,604 L41,631 M28,612 L54,612 M41,631 L28,646 M41,631 L54,646 " fill="none" filter="url(#f1mz9lotpsz2o7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="23.5" y="667.6533">Class</text><!--MD5=[2699aedbcd2b1f3b132d3903ac9b60ef]
+entity actor652803980--><ellipse cx="176" cy="371" fill="#FEFECE" filter="url(#f1mz9lotpsz2o7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M176,379 L176,406 M163,387 L189,387 M176,406 L163,421 M176,406 L189,421 " fill="none" filter="url(#f1mz9lotpsz2o7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="139" y="442.6533">PrintStream</text><!--MD5=[d984bb4da65c8dd74022dba8ba4ca7b1]
+entity UC189--><ellipse cx="41" cy="371" fill="#FEFECE" filter="url(#f1mz9lotpsz2o7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M41,379 L41,406 M28,387 L54,387 M41,406 L28,421 M41,406 L54,421 " fill="none" filter="url(#f1mz9lotpsz2o7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="19.5" y="442.6533">UC189</text><!--MD5=[2402d7512d9aa01d473b8fba52e12d98]
+entity actor188193734--><ellipse cx="176" cy="133" fill="#FEFECE" filter="url(#f1mz9lotpsz2o7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M176,141 L176,168 M163,149 L189,149 M176,168 L163,183 M176,168 L189,183 " fill="none" filter="url(#f1mz9lotpsz2o7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="150" y="204.6533">DataList</text><!--MD5=[91de141f335cc0db860f2d050c6ed507]
+entity UC190--><ellipse cx="41" cy="14" fill="#FEFECE" filter="url(#f1mz9lotpsz2o7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M41,22 L41,49 M28,30 L54,30 M41,49 L28,64 M41,49 L54,64 " fill="none" filter="url(#f1mz9lotpsz2o7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="19.5" y="85.6533">UC190</text><!--MD5=[2b015479cc21796aac80d4e614be550f]
+entity UC191--><ellipse cx="41" cy="133" fill="#FEFECE" filter="url(#f1mz9lotpsz2o7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M41,141 L41,168 M28,149 L54,149 M41,168 L28,183 M41,168 L54,183 " fill="none" filter="url(#f1mz9lotpsz2o7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="19.5" y="204.6533">UC191</text><!--MD5=[1c42231200d5c807bb63918f2048c94a]
+entity UC192--><ellipse cx="41" cy="252" fill="#FEFECE" filter="url(#f1mz9lotpsz2o7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M41,260 L41,287 M28,268 L54,268 M41,287 L28,302 M41,287 L54,302 " fill="none" filter="url(#f1mz9lotpsz2o7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="19.5" y="323.6533">UC192</text><!--MD5=[c376d60f81cbc6d25c609ceb06e6a8fe]
+link actor736874772 to UC1295338046--><path d="M58.58,614.54 C84.2,592.96 133.14,551.75 158.63,530.28 " fill="none" id="actor736874772-UC1295338046" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[90336aeb1b13f794ba8b69e00227b4cb]
+link UC189 to actor652803980--><path d="M62.78,403.5 C83.09,403.5 114.43,403.5 138.83,403.5 " fill="none" id="UC189-actor652803980" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7a45b7dbc71eab27b16a2a6efce0c3d8]
+link actor736874772 to UC569894199--><path d="M58.58,646.56 C85.73,658.16 139.07,657.44 162.95,644.38 " fill="none" id="actor736874772-UC569894199" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7a45b7dbc71eab27b16a2a6efce0c3d8]
+link actor736874772 to UC569894199--><path d="M58.58,628.5 C77.52,628.5 109.19,628.5 134.72,628.5 " fill="none" id="actor736874772-UC569894199-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7a45b7dbc71eab27b16a2a6efce0c3d8]
+link actor736874772 to UC569894199--><path d="M58.58,610.44 C85.73,598.84 139.07,599.56 162.95,612.62 " fill="none" id="actor736874772-UC569894199-2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[aaeb33e0e180671bab5bec7221d88a91]
+link UC190 to actor188193734--><path d="M62.78,65.09 C86.31,86.14 124.63,120.43 149.83,142.98 " fill="none" id="UC190-actor188193734" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b84aead47a36dde633562b062c81e369]
+link UC191 to actor188193734--><path d="M62.78,165.5 C86.31,165.5 124.63,165.5 149.83,165.5 " fill="none" id="UC191-actor188193734" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c226efa8ad815a0631b68b641007adff]
+link UC192 to actor188193734--><path d="M62.78,265.91 C86.31,244.86 124.63,210.57 149.83,188.02 " fill="none" id="UC192-actor188193734" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8ebe0e33676304c7a2e2a2d21d22fef2]
+@startuml
+ left to right direction
+
+actor Class as actor736874772
+
+	rectangle Class{
+	 usecase println as UC1295338046
+	actor736874772- -UC1295338046
+	}
+	actor PrintStream as actor652803980
+	 UC189 - - actor652803980
+	rectangle addCallBy{
+	 usecase addData as UC569894199
+	actor736874772- -UC569894199
+	}
+	actor DataList as actor188193734
+	 UC190 - - actor188193734
+	rectangle addCall{
+	 usecase addData as UC569894199
+	actor736874772- -UC569894199
+	}
+	actor DataList as actor188193734
+	 UC191 - - actor188193734
+	rectangle addHas{
+	 usecase addData as UC569894199
+	actor736874772- -UC569894199
+	}
+	actor DataList as actor188193734
+	 UC192 - - actor188193734
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

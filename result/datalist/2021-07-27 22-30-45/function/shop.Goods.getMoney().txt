@@ -1,0 +1,19 @@
+@startuml
+class "shop.Goods.getMoney()" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	User (621300254);
+..member..
+..method..
+	boolean buy(shop.Goods) (359368949);
+}
+
+@enduml

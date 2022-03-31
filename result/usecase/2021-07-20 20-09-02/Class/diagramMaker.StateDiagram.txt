@@ -1,0 +1,25 @@
+@startuml
+ left to right direction
+
+actor StateDiagram as actor584349634
+
+	rectangle drawMain{
+	 usecase StringBuilder as UC105
+	actor584349634--UC105
+	 usecase Writer as UC106
+	actor584349634--UC106
+	 usecase OutputStreamWriter as UC107
+	actor584349634--UC107
+	 usecase Runtime as UC108
+	actor584349634--UC108
+	 usecase PrintStream as UC109
+	actor584349634--UC109
+	}
+	rectangle drawNode{
+	 usecase StringBuilder as UC110
+	actor584349634--UC110
+	 usecase StateNode as UC111
+	actor584349634--UC111
+	}
+
+@enduml

@@ -1,0 +1,69 @@
+@startuml
+group new GameSystem(int[][])
+	GameSystem->Map : Map()
+		Map-->GameSystem
+	GameSystem->Player : Player(java.lang.String)
+		Player-->GameSystem
+end
+
+group void playGame(java.lang.String)
+	GameSystem->Player : Player(java.lang.String)
+	GameSystem->GameSystem : diceSetting()
+		GameSystem->Dice : Dice(int[])
+			Dice-->GameSystem
+		GameSystem-->GameSystem
+	GameSystem->GameSystem : main()
+		GameSystem->GameSystem : choiceDice(gameSystem.Player)
+			GameSystem->PrintStream : println(java.lang.String)
+				PrintStream-->GameSystem
+			GameSystem->GameSystem : printPos(gameSystem.Player)
+				GameSystem->Player : getPos()
+					Player-->GameSystem
+				GameSystem->Map : getSize()
+					Map-->GameSystem
+				GameSystem->PrintStream : println(java.lang.String)
+				GameSystem->PrintStream : print(java.lang.String)
+					PrintStream-->GameSystem
+				GameSystem->PrintStream : println()
+					PrintStream-->GameSystem
+				GameSystem-->GameSystem
+			GameSystem->PrintStream : print(java.lang.String)
+			GameSystem->PrintStream : println()
+			GameSystem-->GameSystem
+		GameSystem->GameSystem : diceRoll(gameSystem.Dice)
+			GameSystem->Dice : roll()
+			GameSystem-->GameSystem
+		GameSystem->GameSystem : move(int, gameSystem.Player)
+			GameSystem->Player : getPos()
+			GameSystem->Map : getSize()
+			GameSystem->Map : getEvent(int)
+				Map-->GameSystem
+			GameSystem->PrintStream : println(java.lang.String)
+			GameSystem->Player : setPos(int)
+				Player-->GameSystem
+			GameSystem-->GameSystem
+		GameSystem-->GameSystem
+	GameSystem-->GameSystem
+end
+
+group void diceSetting()
+end
+
+group void printPos(gameSystem.Player)
+end
+
+group Dice choiceDice(gameSystem.Player)
+end
+
+group int diceRoll(gameSystem.Dice)
+end
+
+group void move(int, gameSystem.Player)
+end
+
+group void printResult()
+	GameSystem->PrintStream : println(java.lang.String)
+	GameSystem-->GameSystem
+end
+
+@enduml

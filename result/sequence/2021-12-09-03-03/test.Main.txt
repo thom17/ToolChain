@@ -1,0 +1,17 @@
+@startuml
+group void main(java.lang.String[])
+	Main->GameSystem : GameSystem(int[][])
+		GameSystem->Map : Map()
+			Map-->GameSystem
+		GameSystem->Player : Player(java.lang.String)
+			Player-->GameSystem
+		GameSystem-->Main
+	Main->GameSystem : playGame(java.lang.String)
+		GameSystem->Player : Player(java.lang.String)
+			Player-->GameSystem
+		GameSystem->GameSystem : diceSetting()
+		GameSystem->GameSystem : main()
+		GameSystem-->Main
+end
+
+@enduml

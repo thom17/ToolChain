@@ -1,0 +1,140 @@
+@startuml
+class "Player" as cl1{
+Package gameSystem
+Lib false
+HashCode : 704106237
+ABS : 12
+RES : 2
+__**<color:green>has list</color>**__
+	<color:green>java.lang.String name (1)
+	<color:green>int pos (1)
+....
+	<color:salmon>new Player(java.lang.String) (5)
+	<color:green>String getName() (0)
+	<color:green>int getPos() (0)
+	<color:green>void setPos(int) (3)
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	gameSystem.Player.name (1106681476);
+	gameSystem.Player.pos (2037764568);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+	gameSystem.Player (704106237);
+..member..
+	gameSystem.GameSystem.printPos(gameSystem.Player).player (131872530);
+	gameSystem.GameSystem.printPos(gameSystem.Player).opponent (795321555);
+	gameSystem.GameSystem.move(int, gameSystem.Player).player (98826337);
+..method..
+	 gameSystem.GameSystem.printPos(gameSystem.Player) (2017797638);
+	 gameSystem.GameSystem.choiceDice(gameSystem.Player) (1096485705);
+	 gameSystem.GameSystem.move(int, gameSystem.Player) (1834361038);
+	 gameSystem.GameSystem.GameSystem(int[][]) (1148255190);
+	 gameSystem.GameSystem.playGame(java.lang.String) (366252104);
+	 gameSystem.Player.Player(java.lang.String) (1236444285);
+	 gameSystem.Player.setPos(int) (1150058854);
+}
+
+ package Functions{
+class "Player(java.lang.String)" as f1236444285  
+{
+Static : false
+return Type : new
+hashCode : 1236444285
+ABS : 5
+RES : 5
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.Player.Player(java.lang.String).name (37981645);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	gameSystem.Player.name (1106681476);
+	gameSystem.Player.pos (2037764568);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 gameSystem.GameSystem.GameSystem(int[][]) (1148255190);
+	 gameSystem.GameSystem.playGame(java.lang.String) (366252104);
+}
+class "getName()" as f605052357  #line:green
+{
+Static : false
+return Type : String
+hashCode : 605052357
+ABS : 0
+RES : 0
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+class "getPos()" as f823914581  #line:green
+{
+Static : false
+return Type : int
+hashCode : 823914581
+ABS : 0
+RES : 0
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+	gameSystem.GameSystem.printPos(gameSystem.Player).player (131872530);
+	gameSystem.GameSystem.printPos(gameSystem.Player).opponent (795321555);
+	gameSystem.GameSystem.move(int, gameSystem.Player).player (98826337);
+..method..
+	 gameSystem.GameSystem.printPos(gameSystem.Player) (2017797638);
+	 gameSystem.GameSystem.move(int, gameSystem.Player) (1834361038);
+}
+class "setPos(int)" as f1150058854  #line:green
+{
+Static : false
+return Type : void
+hashCode : 1150058854
+ABS : 3
+RES : 3
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.Player.setPos(int).pos (1365767549);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	gameSystem.Player.pos (2037764568);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+	gameSystem.GameSystem.move(int, gameSystem.Player).player (98826337);
+..method..
+	 gameSystem.GameSystem.move(int, gameSystem.Player) (1834361038);
+}
+}
+
+@enduml

@@ -1,0 +1,28 @@
+@startuml
+class target.A.main(){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	int odd (1058634310);
+	int even (1668016508);
+	int sum (1353070773);
+	int r (404214852);
+	int j (1822971466);
+	int i (1354003114);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	PrintStream (1738674023);
+..member..
+..method..
+	null print(java.lang.String) (1691185247);
+	null println(int) (333683827);
+__**<color:orange>called by list</color>**__
+..class..
+	Test (153245266);
+..member..
+..method..
+	void main(java.lang.String[]) (283383329);
+}
+
+@enduml

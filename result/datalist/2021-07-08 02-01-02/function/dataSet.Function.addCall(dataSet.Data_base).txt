@@ -1,0 +1,23 @@
+@startuml
+class dataSet.Function.addCall(dataSet.Data_base){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Data_base target (963884756);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	DataList (1258120701);
+	Data_base (337295973);
+..member..
+..method..
+	void addData(dataSet.Data_base) (5313207);
+	void addCall(dataSet.Data_base) (335436727);
+	void addCallBy(dataSet.Data_base) (1182725120);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

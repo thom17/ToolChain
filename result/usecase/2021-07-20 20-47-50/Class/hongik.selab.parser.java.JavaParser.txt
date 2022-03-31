@@ -1,0 +1,87 @@
+@startuml
+ left to right direction
+
+actor JavaParser as actor1585824283
+
+	rectangle makeASTList{
+	 usecase size as UC172
+	actor1585824283--UC172
+	}
+actor size as actor1585824283
+UC172--actor1585824283
+
+	rectangle makeFileList{
+	 usecase add as UC173
+	actor1585824283--UC173
+	}
+actor add as actor1585824283
+UC173--actor1585824283
+
+	rectangle init{
+	 usecase printStackTrace as UC174
+	actor1585824283--UC174
+	 usecase append as UC175
+	actor1585824283--UC175
+	 usecase read as UC176
+	actor1585824283--UC176
+	 usecase close as UC177
+	actor1585824283--UC177
+	 usecase newParser as UC178
+	actor1585824283--UC178
+	 usecase setKind as UC179
+	actor1585824283--UC179
+	 usecase setSource as UC180
+	actor1585824283--UC180
+	 usecase toCharArray as UC181
+	actor1585824283--UC181
+	 usecase toString as UC182
+	actor1585824283--UC182
+	 usecase setStatementsRecovery as UC183
+	actor1585824283--UC183
+	 usecase setBindingsRecovery as UC184
+	actor1585824283--UC184
+	 usecase setResolveBindings as UC185
+	actor1585824283--UC185
+	 usecase setComplianceOptions as UC186
+	actor1585824283--UC186
+	 usecase setCompilerOptions as UC187
+	actor1585824283--UC187
+	}
+actor setCompilerOptions as actor1585824283
+UC187--actor1585824283
+actor setComplianceOptions as actor1585824283
+UC186--actor1585824283
+actor setResolveBindings as actor1585824283
+UC185--actor1585824283
+actor setBindingsRecovery as actor1585824283
+UC184--actor1585824283
+actor setStatementsRecovery as actor1585824283
+UC183--actor1585824283
+actor toString as actor1585824283
+UC182--actor1585824283
+actor toCharArray as actor1585824283
+UC181--actor1585824283
+actor setSource as actor1585824283
+UC180--actor1585824283
+actor setKind as actor1585824283
+UC179--actor1585824283
+actor newParser as actor1585824283
+UC178--actor1585824283
+actor close as actor1585824283
+UC177--actor1585824283
+actor read as actor1585824283
+UC176--actor1585824283
+actor append as actor1585824283
+UC175--actor1585824283
+actor printStackTrace as actor1585824283
+UC174--actor1585824283
+
+	rectangle main{
+	 usecase println as UC188
+	actor1585824283--UC188
+	}
+actor println as actor1585824283
+UC188--actor1585824283
+
+
+@enduml

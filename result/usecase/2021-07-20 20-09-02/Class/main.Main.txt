@@ -1,0 +1,13 @@
+@startuml
+ left to right direction
+
+actor Main as actor1105129521
+
+	rectangle main{
+	 usecase Test_Visitor as UC45
+	actor1105129521--UC45
+	 usecase PrintStream as UC46
+	actor1105129521--UC46
+	}
+
+@enduml

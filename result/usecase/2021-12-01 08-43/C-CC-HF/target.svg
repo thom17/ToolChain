@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="741px" preserveAspectRatio="none" style="width:305px;height:741px;" version="1.1" viewBox="0 0 305 741" width="305px" zoomAndPan="magnify"><defs><filter height="300%" id="f2s8bs9pqjmzz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c7b92c334c391cc0f2442c3db215ccf4]
+cluster PrintStream--><rect fill="#FFFFFF" filter="url(#f2s8bs9pqjmzz)" height="224" style="stroke: #000000; stroke-width: 1.5;" width="98" x="172" y="160"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="180" y="178.1533">PrintStream</text><!--MD5=[99eba6e841e10f0e903161ac505afb50]
+cluster A--><rect fill="#FFFFFF" filter="url(#f2s8bs9pqjmzz)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="80" x="180.5" y="408"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="216" y="426.1533">A</text><!--MD5=[1ac86e32d85a1471ad504068693702a1]
+cluster Barista--><rect fill="#FFFFFF" filter="url(#f2s8bs9pqjmzz)" height="156" style="stroke: #000000; stroke-width: 1.5;" width="145" x="148" y="520"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="49" x="196" y="538.1533">Barista</text><!--MD5=[46d86c279b9cc4be7bc3fbe603a3d714]
+cluster Coffee--><rect fill="#FFFFFF" filter="url(#f2s8bs9pqjmzz)" height="156" style="stroke: #000000; stroke-width: 1.5;" width="113" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="40" y="25.1533">Coffee</text><ellipse cx="220.5772" cy="351.0973" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="30.5772" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="201.0772" y="357.2121">println</text><ellipse cx="220.5772" cy="283.0973" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="30.5772" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="201.0772" y="289.2121">println</text><ellipse cx="220.299" cy="215.0973" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="22.799" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="206.299" y="221.2121">print</text><ellipse cx="220.7132" cy="463.0973" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="24.2132" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="205.7132" y="469.2121">main</text><ellipse cx="220.7401" cy="575.0973" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="56.7401" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="182.7401" y="581.2121">makeCoffee</text><ellipse cx="220.3051" cy="643.0973" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="43.3051" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="191.8051" y="649.2121">getOrder</text><ellipse cx="63.4767" cy="62.0973" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="40.4767" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="36.9767" y="68.2121">addShot</text><ellipse cx="63.5416" cy="130.0973" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="27.0416" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="46.5416" y="136.2121">make</text><!--MD5=[6bf29589f1b3e80f89eb703d1c39dd79]
+entity actor1047087935--><ellipse cx="63.5" cy="661.5" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M63.5,669.5 L63.5,696.5 M50.5,677.5 L76.5,677.5 M63.5,696.5 L50.5,711.5 M63.5,696.5 L76.5,711.5 " fill="none" filter="url(#f2s8bs9pqjmzz)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="41.5" y="733.1533">Barista</text><!--MD5=[56adbec308d717d1d5d5ebe627eea282]
+entity actor464887938--><ellipse cx="63.5" cy="542.5" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M63.5,550.5 L63.5,577.5 M50.5,558.5 L76.5,558.5 M63.5,577.5 L50.5,592.5 M63.5,577.5 L76.5,592.5 " fill="none" filter="url(#f2s8bs9pqjmzz)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="26" y="614.1533">CoffeeShop</text><!--MD5=[73147d5480b82269d392d20353ce8081]
+entity actor2020152163--><ellipse cx="63.5" cy="318.5" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M63.5,326.5 L63.5,353.5 M50.5,334.5 L76.5,334.5 M63.5,353.5 L50.5,368.5 M63.5,353.5 L76.5,368.5 " fill="none" filter="url(#f2s8bs9pqjmzz)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="49.5" y="390.1533">Test</text><!--MD5=[df9c4103e424c29317a53a71d671ed9c]
+entity actor1104443373--><ellipse cx="63.5" cy="191.5" fill="#FEFECE" filter="url(#f2s8bs9pqjmzz)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M63.5,199.5 L63.5,226.5 M50.5,207.5 L76.5,207.5 M63.5,226.5 L50.5,241.5 M63.5,226.5 L76.5,241.5 " fill="none" filter="url(#f2s8bs9pqjmzz)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="9" x="59" y="263.1533">A</text><!--MD5=[929ff6012973990cc7ae3a2135c3d648]
+link actor2020152163 to UC898694235--><path d="M78.26,351 C103.15,351 156.2,351 189.73,351 " fill="none" id="actor2020152163-UC898694235" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4f38d556f47c2a51efc282150e320871]
+link actor1104443373 to UC60292059--><path d="M78.26,229.24 C104.56,239.25 162.29,261.22 195.22,273.76 " fill="none" id="actor1104443373-UC60292059" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[cf3d6748747e62619e049643dba21bf3]
+link actor2020152163 to UC60292059--><path d="M78.1,344.78 C93.19,337.9 118.28,326.53 140,317 C158.69,308.79 179.96,299.71 195.79,293 " fill="none" id="actor2020152163-UC60292059" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[df4d599fa37b041ff7346c6789f4396e]
+link actor1104443373 to UC869601985--><path d="M78.26,223.2 C105.15,221.64 164.91,218.17 197.41,216.28 " fill="none" id="actor1104443373-UC869601985" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[53c8dc00d99218acb96b5e95cc1fb9b0]
+link actor2020152163 to UC1365008457--><path d="M78.26,360.94 C106.85,381.6 172.61,429.12 203.24,451.25 " fill="none" id="actor2020152163-UC1365008457" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[817b08b3b08af04d4633beac0107fa77]
+link actor464887938 to UC1671179293--><path d="M101.23,575 C119.94,575 143.08,575 163.92,575 " fill="none" id="actor464887938-UC1671179293" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[dc6605a076ca3c74ea3ef5d39c824da5]
+@startuml
+ left to right direction
+
+actor Barista as actor1047087935
+actor CoffeeShop as actor464887938
+actor Test as actor2020152163
+actor A as actor1104443373
+rectangle PrintStream{
+	usecase println as UC898694235
+		actor2020152163 - - UC898694235
+	usecase println as UC60292059
+		actor1104443373 - - UC60292059
+		actor2020152163 - - UC60292059
+	usecase print as UC869601985
+		actor1104443373 - - UC869601985
+}
+rectangle A{
+	usecase main as UC1365008457
+		actor2020152163 - - UC1365008457
+}
+rectangle Barista{
+	usecase makeCoffee as UC1671179293
+		actor464887938 - - UC1671179293
+	usecase getOrder as UC1609124502
+}
+rectangle Coffee{
+	usecase addShot as UC1144068272
+	usecase make as UC1985836631
+}
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

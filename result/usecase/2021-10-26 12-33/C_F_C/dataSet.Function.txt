@@ -1,0 +1,23 @@
+@startuml
+ left to right direction
+
+actor Function as actor622820646
+
+	rectangle Function{
+	 usecase Class as UC84
+	actor622820646--UC84
+	 usecase String as UC85
+	actor622820646--UC85
+	}
+	rectangle Function{
+	 usecase String as UC86
+	actor622820646--UC86
+	 usecase Class as UC87
+	actor622820646--UC87
+	}
+	rectangle forTest{
+	 usecase PrintStream as UC88
+	actor622820646--UC88
+	}
+
+@enduml

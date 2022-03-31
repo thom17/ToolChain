@@ -1,0 +1,59 @@
+@startuml
+class "Instrument" as cl1{
+Package classRelation
+Lib false
+HashCode : 1682681674
+ABS Score : 15
+Relative Score : 7
+__**<color:green>has list</color>**__
+	<color:green>classRelation.Sound sound (2)
+....
+	<color:salmon>Sound play() (7)
+__**<color:blue>calling list</color>**__
+..class..
+	classRelation.Sound (1965445467);
+..member..
+	classRelation.Instrument.sound (517254671);
+..method..
+	 classRelation.Sound.Sound(int) (1422238463);
+__**<color:orange>called by list</color>**__
+..class..
+	classRelation.Guitarist (1478797373);
+	classRelation.Instrument (1682681674);
+..member..
+	classRelation.Guitarist.playSong(classRelation.Guitar).guitar (1833789138);
+..method..
+	 classRelation.Guitarist.playSong(classRelation.Guitar) (1450652220);
+	 classRelation.Instrument.play() (707157673);
+}
+
+ package Functions{
+class "play()" as f707157673  
+{
+Static : false
+return Type : Sound
+hashCode : 707157673
+ABS Score : 7
+Relative Score : 7
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	classRelation.Sound (1965445467);
+..member..
+	classRelation.Instrument.sound (517254671);
+..method..
+	 classRelation.Sound.Sound(int) (1422238463);
+__**<color:orange>called by list</color>**__
+..class..
+	classRelation.Guitarist (1478797373);
+..member..
+	classRelation.Guitarist.playSong(classRelation.Guitar).guitar (1833789138);
+..method..
+	 classRelation.Guitarist.playSong(classRelation.Guitar) (1450652220);
+}
+}
+
+@enduml

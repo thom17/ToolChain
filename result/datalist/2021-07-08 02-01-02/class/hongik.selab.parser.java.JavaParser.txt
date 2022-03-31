@@ -1,0 +1,67 @@
+@startuml
+class hongik.selab.parser.java.JavaParser{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	ASTParser parser (103788407);
+	CompilationUnit compilationUnit (523839133);
+	ArrayList<File> targetList (1848778141);
+	File settingFile (1968038739);
+	int fileNum (249736858);
+..method..
+	CompilationUnit[] makeASTList(java.lang.String) (1488550933);
+	boolean isJavaFile(java.io.File) (647580778);
+	void makeFileList(java.io.File) (1020552337);
+	void init(java.io.File) (668568559);
+	// 새방식
+CompilationUnit parsing() (882053845);
+	void main(java.lang.String[]) (1485169201);
+__**<color:blue>calling list</color>**__
+..class..
+	JavaParser (1206580572);
+	ArrayList (2041386868);
+	Throwable (738695357);
+	StringBuilder (1578052738);
+	Reader (3027538);
+	BufferedReader (2009979916);
+	ASTParser (1729992636);
+	String (2001676690);
+	JavaCore (100805003);
+	PrintStream (1005063886);
+..member..
+	ArrayList<File> targetList (1848778141);
+	int fileNum (249736858);
+	ASTParser parser (103788407);
+..method..
+	void makeFileList(java.io.File) (1020552337);
+	null size() (532068603);
+	void init(java.io.File) (668568559);
+	// 새방식
+CompilationUnit parsing() (882053845);
+	null add(E) (105856166);
+	null printStackTrace() (345865414);
+	null append(java.lang.String) (1798239502);
+	null read(char[]) (437306494);
+	null close() (222947526);
+	null newParser(int) (655550708);
+	null setKind(int) (1486277532);
+	null setSource(char[]) (1153025988);
+	null toCharArray() (108271693);
+	null toString() (715570093);
+	null setStatementsRecovery(boolean) (907089215);
+	null setBindingsRecovery(boolean) (1479926346);
+	null setResolveBindings(boolean) (1379436911);
+	null setComplianceOptions(java.lang.String, java.util.Map) (1957188885);
+	null setCompilerOptions(java.util.Map) (1244536402);
+	null println(java.lang.Object) (1040093935);
+__**<color:orange>called by list</color>**__
+..class..
+	JavaParser (1206580572);
+..member..
+..method..
+	CompilationUnit[] makeASTList(java.lang.String) (1488550933);
+	void makeFileList(java.io.File) (1020552337);
+	void init(java.io.File) (668568559);
+}
+
+@enduml

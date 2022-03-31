@@ -1,0 +1,35 @@
+@startuml
+ left to right direction
+
+actor Class as actor736874772
+
+	rectangle Class{
+	 usecase println as UC189
+	actor736874772--UC189
+	}
+actor println as actor736874772
+UC189--actor736874772
+
+	rectangle addCallBy{
+	 usecase addData as UC190
+	actor736874772--UC190
+	}
+actor addData as actor736874772
+UC190--actor736874772
+
+	rectangle addCall{
+	 usecase addData as UC191
+	actor736874772--UC191
+	}
+actor addData as actor736874772
+UC191--actor736874772
+
+	rectangle addHas{
+	 usecase addData as UC192
+	actor736874772--UC192
+	}
+actor addData as actor736874772
+UC192--actor736874772
+
+
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+class "script.CodeStateDiagram.makeOneState(dataSet.Function, boolean)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.Function fun (687399269);
+	boolean comment (1415545023);
+	String str (1727424614);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Function (622820646);
+..member..
+..method..
+	String getTypeName() (1088744071);
+	String printParameterType() (1484275564);
+__**<color:orange>called by list</color>**__
+..class..
+	CodeStateDiagram (1624788833);
+..member..
+..method..
+	void connectDef(dataSet.DataList, java.lang.StringBuilder) (402978317);
+}
+
+@enduml

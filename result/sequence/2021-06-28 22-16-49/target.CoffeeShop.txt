@@ -1,0 +1,7 @@
+@startuml
+group void main(java.lang.String[])
+	CoffeeShop->Barista : makeCoffee(target.Coffee, boolean)
+		Barista-->CoffeeShop
+end
+
+@enduml

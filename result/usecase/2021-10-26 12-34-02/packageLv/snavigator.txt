@@ -1,0 +1,59 @@
+@startuml
+ left to right direction
+
+actor SN_Dumper as actor535352603
+
+	package java.util {
+		usecase get as UC827579900
+		usecase size as UC1622135821
+	}
+	actor535352603 -- UC1622135821
+	actor535352603 -- UC827579900
+	package java.io {
+		usecase println as UC1197176722
+		usecase readLine as UC1970779713
+		usecase print as UC923013679
+	}
+	actor535352603 -- UC923013679
+	actor535352603 -- UC1970779713
+	actor535352603 -- UC1197176722
+	package dataSet {
+		usecase addClass as UC693345846
+		usecase setSuperClass as UC764358458
+		usecase addMember as UC843959601
+		usecase addVar as UC854989361
+		usecase addFunction as UC1346197173
+		usecase addFunction as UC257718694
+		usecase addCallClass as UC1924966548
+		usecase getName as UC2008159348
+		usecase getCallList as UC1657125852
+	}
+	actor535352603 -- UC1657125852
+	actor535352603 -- UC2008159348
+	actor535352603 -- UC1924966548
+	actor535352603 -- UC257718694
+	actor535352603 -- UC1346197173
+	actor535352603 -- UC854989361
+	actor535352603 -- UC843959601
+	actor535352603 -- UC764358458
+	actor535352603 -- UC693345846
+actor Parser as actor681747431
+
+	package java.lang {
+		usecase printStackTrace as UC985487390
+		usecase waitFor as UC1296928719
+		usecase sleep as UC1628289406
+	}
+	actor681747431 -- UC1628289406
+	actor681747431 -- UC1296928719
+	actor681747431 -- UC985487390
+	package java.io {
+		usecase println as UC1197176722
+		usecase delete as UC612716569
+		usecase print as UC923013679
+	}
+	actor681747431 -- UC923013679
+	actor681747431 -- UC612716569
+	actor681747431 -- UC1197176722
+
+@enduml

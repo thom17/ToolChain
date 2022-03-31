@@ -1,0 +1,31 @@
+@startuml
+group String getUndefSize()
+	Complex->StringBuilder : toString()
+		StringBuilder-->Complex
+end
+
+group void addFunctionScore(dataSet.Class)
+	Complex->Complex : getLine()
+	Complex->StringBuilder : append(java.lang.String)
+		StringBuilder-->Complex
+	Complex->Function : getSig()
+		Function-->Complex
+	Complex->DataList : getFunctionList()
+		DataList-->Complex
+	Complex->Data_base : getHasList()
+		Data_base-->Complex
+end
+
+group int getMemberScore(dataSet.Data_base)
+	Complex->Member : getTypeName()
+		Member-->Complex
+	Complex->StringBuilder : append(java.lang.String)
+		StringBuilder-->Complex
+end
+
+group void getLineNum(dataSet.Function)
+	Complex->Scanner : hasNext()
+		Scanner-->Complex
+end
+
+@enduml

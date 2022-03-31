@@ -1,0 +1,22 @@
+@startuml
+class "shop.User.buy(shop.Goods)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Goods goods (758119607);
+	int goodsMoney (1982787818);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Goods (2012330741);
+..member..
+	int money (391630194);
+..method..
+	int getMoney() (607207372);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

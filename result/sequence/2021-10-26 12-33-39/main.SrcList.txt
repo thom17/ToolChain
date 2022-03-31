@@ -1,0 +1,15 @@
+@startuml
+group void makeTargetList()
+	SrcList->Writer : write(java.lang.String)
+		Writer-->SrcList
+	SrcList->OutputStreamWriter : close()
+		OutputStreamWriter-->SrcList
+end
+
+group void main(java.lang.String[])
+	SrcList->SrcList : makeTargetList()
+	SrcList->PrintStream : println(java.lang.String)
+		PrintStream-->SrcList
+end
+
+@enduml

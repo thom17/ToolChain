@@ -1,0 +1,539 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 10
+	extendsClassScore = 0
+	callScore = 11
+	callByScore = 11
+	methodNum = 16
+	memberNum = 7
+	constructorNum = 0
+	selfCoverage = 3
+	needCallBy = 20
+	ABS = 47
+	REL = 2
+	coverage = 13.0%
+__**<color:green>has list</color>**__
+	<color:green>java.lang.String name (1)
+	<color:green>java.lang.String modifier (1)
+	<color:green>dataSet.DataList hasList (2)
+	<color:green>dataSet.DataList callList (2)
+	<color:green>dataSet.DataList callByList (2)
+	<color:green>boolean isAbstract (1)
+	<color:green>boolean isStatic (1)
+	<color:green>void setStatic(boolean) (3)
+	<color:green>void setAbstract(boolean) (3)
+	<color:green>void setModfi(java.lang.String) (3)
+	<color:green>boolean isAbstract() (0)
+	<color:green>String getModifier() (0)
+	<color:green>String getName() (0)
+	<color:green>DataList getCallList() (0)
+	<color:green>DataList getHasList() (0)
+	<color:green>DataList getCallByList() (0)
+	<color:orange>void main(java.lang.String[]) (5)
+	<color:green>String getPackageName() (0)
+	<color:green>String getSrcName() (0)
+	<color:green>void addCallBy(dataSet.Data_base) (4)
+	<color:green>void addCall(dataSet.Data_base) (4)
+	<color:green>void addHas(dataSet.Data_base) (4)
+	<color:green>Complex getComplex() (0)
+}
+
+class dataSet.Data_base.setStatic1654015823 as "setStatic(boolean)"#line:green 
+{
+	pram : (boolean )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.setStatic(boolean)
+	Sig : setStatic(boolean)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 2
+	CallBy Score : 0
+	memberUse Score : 2
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 11.6096
+	Volume : 20.6797
+	Diffifculty: 7.5
+	Effort : 155.0978
+	ABS Score : 3
+	Relative Score : 3
+}
+class dataSet.Data_base.setAbstract1116264846 as "setAbstract(boolean)"#line:green 
+{
+	pram : (boolean )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.setAbstract(boolean)
+	Sig : setAbstract(boolean)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 2
+	CallBy Score : 0
+	memberUse Score : 2
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 11.6096
+	Volume : 20.6797
+	Diffifculty: 7.5
+	Effort : 155.0978
+	ABS Score : 3
+	Relative Score : 3
+}
+class dataSet.Data_base.setModfi378693799 as "setModfi(java.lang.String)"#line:green 
+{
+	pram : (java.lang.String )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.setModfi(java.lang.String)
+	Sig : setModfi(java.lang.String)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 2
+	CallBy Score : 0
+	memberUse Score : 2
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 12.7549
+	Volume : 22.4588
+	Diffifculty: 2.6667
+	Effort : 59.8902
+	ABS Score : 3
+	Relative Score : 3
+}
+class dataSet.Data_base.isAbstract677144856 as "isAbstract()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.isAbstract()
+	Sig : isAbstract()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 1
+	Effort : 4.7549
+	ABS Score : 0
+	Relative Score : 0
+}
+class dataSet.Data_base.getModifier2023817059 as "getModifier()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.getModifier()
+	Sig : getModifier()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 1
+	Effort : 4.7549
+	ABS Score : 0
+	Relative Score : 0
+}
+class dataSet.Data_base.getName2086673744 as "getName()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.getName()
+	Sig : getName()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 1
+	Effort : 4.7549
+	ABS Score : 0
+	Relative Score : 0
+}
+class dataSet.Data_base.getCallList2041742635 as "getCallList()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.getCallList()
+	Sig : getCallList()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 1
+	Effort : 4.7549
+	ABS Score : 0
+	Relative Score : 0
+}
+class dataSet.Data_base.getHasList846014380 as "getHasList()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.getHasList()
+	Sig : getHasList()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 1
+	Effort : 4.7549
+	ABS Score : 0
+	Relative Score : 0
+}
+class dataSet.Data_base.getCallByList1296670053 as "getCallByList()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.getCallByList()
+	Sig : getCallByList()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 1
+	Effort : 4.7549
+	ABS Score : 0
+	Relative Score : 0
+}
+class dataSet.Data_base.main826245889 as "main(java.lang.String[])" 
+{
+	pram : (java.lang.String[] )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.main(java.lang.String[])
+	Sig : main(java.lang.String[])
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 3
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 4
+	Volume : 8
+	Diffifculty: 1
+	Effort : 8
+	ABS Score : 5
+	Relative Score : 5
+}
+class dataSet.Data_base.getPackageName1556730832 as "getPackageName()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.getPackageName()
+	Sig : getPackageName()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : 0
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+class dataSet.Data_base.getSrcName130211746 as "getSrcName()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.getSrcName()
+	Sig : getSrcName()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : 0
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+class dataSet.Data_base.addCallBy107075722 as "addCallBy(dataSet.Data_base)"#line:green 
+{
+	pram : (dataSet.Data_base )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.addCallBy(dataSet.Data_base)
+	Sig : addCallBy(dataSet.Data_base)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 2
+	Call Score : 2
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 0.5
+	Effort : 2.3774
+	ABS Score : 4
+	Relative Score : 4
+}
+class dataSet.Data_base.addCall1259037900 as "addCall(dataSet.Data_base)"#line:green 
+{
+	pram : (dataSet.Data_base )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.addCall(dataSet.Data_base)
+	Sig : addCall(dataSet.Data_base)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 2
+	Call Score : 2
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 0.5
+	Effort : 2.3774
+	ABS Score : 4
+	Relative Score : 4
+}
+class dataSet.Data_base.addHas1506703662 as "addHas(dataSet.Data_base)"#line:green 
+{
+	pram : (dataSet.Data_base )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.addHas(dataSet.Data_base)
+	Sig : addHas(dataSet.Data_base)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 2
+	Call Score : 2
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 0.5
+	Effort : 2.3774
+	ABS Score : 4
+	Relative Score : 4
+}
+class dataSet.Data_base.getComplex1214284410 as "getComplex()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.Data_base
+	SrcSig : dataSet.Data_base.getComplex()
+	Sig : getComplex()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : 0
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+
+@enduml

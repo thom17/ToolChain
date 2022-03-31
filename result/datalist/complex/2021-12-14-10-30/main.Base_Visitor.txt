@@ -1,0 +1,20 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 0
+	extendsClassScore = 0
+	callScore = 0
+	callByScore = 0
+	methodNum = 0
+	memberNum = 0
+	constructorNum = 0
+	selfCoverage = 0
+	needCallBy = 0
+	ABS = 0
+	REL = 0
+	coverage = 0.0%
+__**<color:green>has list</color>**__
+}
+
+
+@enduml

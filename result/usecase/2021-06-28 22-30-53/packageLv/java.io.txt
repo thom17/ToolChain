@@ -1,0 +1,6 @@
+@startuml
+ left to right direction
+
+actor PrintStream as actor373182087
+
+@enduml

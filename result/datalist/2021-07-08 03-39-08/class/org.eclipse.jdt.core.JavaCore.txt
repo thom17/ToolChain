@@ -1,0 +1,20 @@
+@startuml
+class org.eclipse.jdt.core.JavaCore{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	null setComplianceOptions(java.lang.String, java.util.Map) (1263153064);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	JavaParser (775893582);
+..member..
+..method..
+	void init(java.io.File) (1120226221);
+}
+
+@enduml

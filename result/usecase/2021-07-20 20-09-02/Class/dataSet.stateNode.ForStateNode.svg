@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="739px" preserveAspectRatio="none" style="width:310px;height:739px;" version="1.1" viewBox="0 0 310 739" width="310px" zoomAndPan="magnify"><defs><filter height="300%" id="fpkvvgokphpqn" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a613d28d66ac88caaf3df7792fc429ff]
+cluster ForStateNode--><rect fill="#FFFFFF" filter="url(#fpkvvgokphpqn)" height="224" style="stroke: #000000; stroke-width: 1.5;" width="160" x="138" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="169.5" y="25.1533">ForStateNode</text><!--MD5=[ff834bb304bccc409df8506290c459be]
+cluster getForLine--><rect fill="#FFFFFF" filter="url(#fpkvvgokphpqn)" height="224" style="stroke: #000000; stroke-width: 1.5;" width="153" x="141.5" y="255"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="77" x="179.5" y="273.1533">getForLine</text><!--MD5=[80db4ded4fe429148ada482795995850]
+cluster getLastFin--><rect fill="#FFFFFF" filter="url(#fpkvvgokphpqn)" height="224" style="stroke: #000000; stroke-width: 1.5;" width="143" x="146.5" y="503"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="181" y="521.1533">getLastFin</text><ellipse cx="217.8112" cy="62.0973" fill="#FEFECE" filter="url(#fpkvvgokphpqn)" rx="63.8112" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="174.8112" y="68.2121">ForStatement</text><ellipse cx="217.9264" cy="130.0973" fill="#FEFECE" filter="url(#fpkvvgokphpqn)" rx="45.4264" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="187.9264" y="136.2121">ASTNode</text><ellipse cx="218.033" cy="198.0973" fill="#FEFECE" filter="url(#fpkvvgokphpqn)" rx="56.033" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="180.533" y="204.2121">Test_Visitor</text><ellipse cx="217.7756" cy="310.0973" fill="#FEFECE" filter="url(#fpkvvgokphpqn)" rx="60.2756" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="177.2756" y="316.2121">StringBuilder</text><ellipse cx="217.9914" cy="378.0973" fill="#FEFECE" filter="url(#fpkvvgokphpqn)" rx="31.9914" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="197.4914" y="384.2121">Object</text><ellipse cx="218.169" cy="446.0973" fill="#FEFECE" filter="url(#fpkvvgokphpqn)" rx="49.669" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="185.169" y="452.2121">StateNode</text><ellipse cx="218.098" cy="558.0973" fill="#FEFECE" filter="url(#fpkvvgokphpqn)" rx="42.598" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="190.098" y="564.2121">ArrayList</text><ellipse cx="217.8259" cy="626.0973" fill="#FEFECE" filter="url(#fpkvvgokphpqn)" rx="55.3259" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="180.8259" y="632.2121">PrintStream</text><ellipse cx="218.169" cy="694.0973" fill="#FEFECE" filter="url(#fpkvvgokphpqn)" rx="49.669" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="185.169" y="700.2121">StateNode</text><!--MD5=[f1a8f611376771cb298eb5e9b0387476]
+entity actor1842002393--><ellipse cx="50" cy="345.5" fill="#FEFECE" filter="url(#fpkvvgokphpqn)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M50,353.5 L50,380.5 M37,361.5 L63,361.5 M50,380.5 L37,395.5 M50,380.5 L63,395.5 " fill="none" filter="url(#fpkvvgokphpqn)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="6" y="417.1533">ForStateNode</text><!--MD5=[7279e75a31a57b9b358403dcd0c9e66c]
+link actor1842002393 to UC87--><path d="M51.53,335.88 C54.52,275.39 68.67,163.75 130,96 C140.01,84.94 154.06,77.44 167.96,72.36 " fill="none" id="actor1842002393-UC87" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3e1f42f136834082998b4d8983797bfe]
+link actor1842002393 to UC88--><path d="M56.14,335.93 C64.06,288.35 83.54,211.35 130,164 C142.72,151.04 160.96,142.91 177.46,137.87 " fill="none" id="actor1842002393-UC88" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[271ddcf0016e90eb456089e62d43ef94]
+link actor1842002393 to UC89--><path d="M81.38,335.91 C95.48,317.27 112.88,295.43 130,277 C151.94,253.38 179.94,228.83 198.16,213.49 " fill="none" id="actor1842002393-UC89" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[570f054ae7fbb9b83eaed79c9aef22c3]
+link actor1842002393 to UC90--><path d="M94.35,359.03 C105.9,354.06 118.4,348.76 130,344 C147.1,336.98 166.23,329.47 182.18,323.3 " fill="none" id="actor1842002393-UC90" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d3aef2715616b757bf7ca0dfbe19b080]
+link actor1842002393 to UC91--><path d="M94.18,378 C122.9,378 159.97,378 185.83,378 " fill="none" id="actor1842002393-UC91" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[91614aa897db45af5aafc70856ed417a]
+link actor1842002393 to UC92--><path d="M94.35,396.97 C105.9,401.94 118.4,407.24 130,412 C148,419.39 168.24,427.32 184.67,433.66 " fill="none" id="actor1842002393-UC92" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3a7fe8af0d942e9ee35282a720d1fbe6]
+link actor1842002393 to UC93--><path d="M81.38,420.09 C95.48,438.73 112.88,460.57 130,479 C152.22,502.91 180.65,527.8 198.85,543.09 " fill="none" id="actor1842002393-UC93" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7ce6b0076558c5fcf40ad6e13cbd03be]
+link actor1842002393 to UC94--><path d="M56.14,420.07 C64.06,467.65 83.54,544.65 130,592 C141.36,603.57 157.12,611.29 172.11,616.41 " fill="none" id="actor1842002393-UC94" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9da1fb578d3d85141676846289d5f5f8]
+link actor1842002393 to UC95--><path d="M51.53,420.12 C54.52,480.61 68.67,592.25 130,660 C141.64,672.86 158.75,680.91 174.73,685.93 " fill="none" id="actor1842002393-UC95" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[65e0711ab39d894eec3dc77b111a3b66]
+@startuml
+ left to right direction
+
+actor ForStateNode as actor1842002393
+
+	rectangle ForStateNode{
+	 usecase ForStatement as UC87
+	actor1842002393- -UC87
+	 usecase ASTNode as UC88
+	actor1842002393- -UC88
+	 usecase Test_Visitor as UC89
+	actor1842002393- -UC89
+	}
+	rectangle getForLine{
+	 usecase StringBuilder as UC90
+	actor1842002393- -UC90
+	 usecase Object as UC91
+	actor1842002393- -UC91
+	 usecase StateNode as UC92
+	actor1842002393- -UC92
+	}
+	rectangle getLastFin{
+	 usecase ArrayList as UC93
+	actor1842002393- -UC93
+	 usecase PrintStream as UC94
+	actor1842002393- -UC94
+	 usecase StateNode as UC95
+	actor1842002393- -UC95
+	}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

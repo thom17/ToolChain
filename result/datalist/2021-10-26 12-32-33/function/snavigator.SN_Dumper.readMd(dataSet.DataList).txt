@@ -1,0 +1,40 @@
+@startuml
+class "snavigator.SN_Dumper.readMd(dataSet.DataList)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.DataList list (997294994);
+	File in (1830969563);
+	String dbdumpCmd (523051393);
+	Process p (1237264838);
+	BufferedReader br (2128961136);
+	String line (4181455);
+	String className (1986581856);
+	String functionName (1177101170);
+	String returnType (309060377);
+	String parameterType (1816397102);
+	String parameterName (1547116051);
+	Class cls (1393198164);
+	Function fn (506775047);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	PrintStream (2078239671);
+	Class (1302141801);
+	DataList (1391119179);
+	BufferedReader (80756779);
+..member..
+..method..
+	null println(java.lang.String) (1197176722);
+	void addFunction(dataSet.Function) (1346197173);
+	void addFunction(dataSet.Function) (257718694);
+	null readLine() (1970779713);
+__**<color:orange>called by list</color>**__
+..class..
+	SN_Dumper (535352603);
+..member..
+..method..
+	DataList makeDataList() (369901249);
+}
+
+@enduml

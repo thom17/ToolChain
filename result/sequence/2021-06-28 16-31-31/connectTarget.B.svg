@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="228px" preserveAspectRatio="none" style="width:480px;height:228px;background:#000000;" version="1.1" viewBox="0 0 480 228" width="480px" zoomAndPan="magnify"><defs/><g><rect fill="#0E1F02" height="1" style="stroke: #0E1F02; stroke-width: 1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="5" y="17">PlantUML 1.2020.19</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="316" x="5" y="33.4824">This version of PlantUML is 258 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="317" x="11" y="49.9648">consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="24.2295" style="stroke: #33FF02; stroke-width: 1.0;" width="468" x="5" y="62.4473"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="244" x="6" y="77.4473">[From connectTarget.B.txt (line 5) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="9" y="100.6768"/><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="5" y="119.9063">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="468" x="5" y="139.1357">group void connectTarget.B.Bc(connectTarget.C, connectTarget.A)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="37" y="158.3652">Bc-&gt;C : AC()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="92" x="69" y="177.5947">AC-&gt;C : CC1()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="195" x="101" y="196.8242">connectTarget.C.CC1()&lt;--AC</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="92" x="357" y="196.8242">AC-&gt;C : CC2()</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="9" y="216.0537">Syntax Error?</text><!--MD5=[05c0335411abb1491d96bf5e68cec5c6]
+@startuml
+group void connectTarget.B.Bc(connectTarget.C, connectTarget.A)
+	Bc->C : AC()
+		AC->C : CC1()
+			connectTarget.C.CC1()<- -AC		AC->C : CC2()
+			connectTarget.C.CC2()<- -AC		connectTarget.C.AC()<- -Bc	Bc->A : Ba()
+		connectTarget.A.Ba()<- -Bc	Bc->B : BB()
+		connectTarget.B.BB()<- -Bcend
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

@@ -1,0 +1,11 @@
+@startuml
+ left to right direction
+
+actor ClassUmlMaker as actor1246807878
+
+	rectangle main{
+	 usecase Data_base as UC104
+	actor1246807878--UC104
+	}
+
+@enduml

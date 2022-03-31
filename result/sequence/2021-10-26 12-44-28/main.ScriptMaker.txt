@@ -1,0 +1,14 @@
+@startuml
+group void main(java.lang.StringBuilder)
+end
+
+group void main(java.lang.String[])
+	ScriptMaker->Runtime : exec(java.lang.String)
+		Runtime-->ScriptMaker
+	ScriptMaker->Runtime : getRuntime()
+		Runtime-->ScriptMaker
+	ScriptMaker->PrintStream : println(java.lang.String)
+		PrintStream-->ScriptMaker
+end
+
+@enduml

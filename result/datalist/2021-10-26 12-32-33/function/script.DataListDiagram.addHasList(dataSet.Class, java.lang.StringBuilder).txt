@@ -1,0 +1,37 @@
+@startuml
+class "script.DataListDiagram.addHasList(dataSet.Class, java.lang.StringBuilder)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.Class cls (594195094);
+	java.lang.StringBuilder str (1552179791);
+	DataList datalist (1661161169);
+	Function target (589309113);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	StringBuilder (2077662850);
+	Class (1302141801);
+	DataList (1391119179);
+	Var (1388849499);
+	Function (622820646);
+..member..
+..method..
+	null append(java.lang.String) (1803890702);
+	String getName() (2008159348);
+	ArrayList<Class> getClassList() (1037942373);
+	String getName() (1389432760);
+	ArrayList<Var> getVarList() (876962272);
+	String getTypeName() (1088744071);
+	String getName() (1103132232);
+	String printParameterType() (1484275564);
+	ArrayList<Function> getFunctionList() (1235635586);
+__**<color:orange>called by list</color>**__
+..class..
+	DataListDiagram (577245010);
+..member..
+..method..
+	void classDef(dataSet.Class, java.lang.StringBuilder) (1999135802);
+}
+
+@enduml

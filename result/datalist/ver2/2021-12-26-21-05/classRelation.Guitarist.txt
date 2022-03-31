@@ -1,0 +1,93 @@
+@startuml
+class "Guitarist" as cl1{
+Package classRelation
+Lib false
+HashCode : 771775563
+ABS Score : 29
+Relative Score : 9
+__**<color:green>has list</color>**__
+	<color:green>classRelation.Guitar guitar (2)
+....
+	<color:red>void buyGuitar() (7)
+	<color:red>Sound playSong(classRelation.Guitar) (8)
+__**<color:blue>calling list</color>**__
+..class..
+	classRelation.Guitar (1766505436);
+	classRelation.Instrument (762476028);
+..member..
+	classRelation.Guitarist.guitar (382750013);
+	classRelation.Guitarist.playSong(classRelation.Guitar).guitar (2044903525);
+..method..
+	 classRelation.Guitar.Guitar() (1666607455);
+	 classRelation.Instrument.play() (982757413);
+__**<color:orange>called by list</color>**__
+..class..
+	classRelation.GuitarAcademy (902478634);
+	classRelation.Guitarist (771775563);
+..member..
+	classRelation.GuitarAcademy.teacher (2114444063);
+	classRelation.GuitarAcademy.lesson(classRelation.Guitarist).student (294247762);
+..method..
+	 classRelation.GuitarAcademy.lesson(classRelation.Guitarist) (918312414);
+	 classRelation.Guitarist.buyGuitar() (1610525991);
+	 classRelation.Guitarist.playSong(classRelation.Guitar) (1164440413);
+}
+
+ package Functions{
+class "buyGuitar()" as f1610525991  
+{
+Static : false
+return Type : void
+hashCode : 1610525991
+ABS Score : 7
+Relative Score : 7
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	classRelation.Guitar (1766505436);
+..member..
+	classRelation.Guitarist.guitar (382750013);
+..method..
+	 classRelation.Guitar.Guitar() (1666607455);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+class "playSong(classRelation.Guitar)" as f1164440413  
+{
+Static : false
+return Type : Sound
+hashCode : 1164440413
+ABS Score : 8
+Relative Score : 8
+__**<color:green>has list</color>**__
+..class..
+..member..
+	classRelation.Guitarist.playSong(classRelation.Guitar).guitar (2044903525);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	classRelation.Guitar (1766505436);
+	classRelation.Instrument (762476028);
+..member..
+	classRelation.Guitarist.playSong(classRelation.Guitar).guitar (2044903525);
+..method..
+	 classRelation.Instrument.play() (982757413);
+__**<color:orange>called by list</color>**__
+..class..
+	classRelation.GuitarAcademy (902478634);
+	classRelation.Guitarist (771775563);
+..member..
+	classRelation.GuitarAcademy.teacher (2114444063);
+	classRelation.GuitarAcademy.lesson(classRelation.Guitarist).student (294247762);
+..method..
+	 classRelation.GuitarAcademy.lesson(classRelation.Guitarist) (918312414);
+	 classRelation.Guitarist.playSong(classRelation.Guitar) (1164440413);
+}
+}
+
+@enduml

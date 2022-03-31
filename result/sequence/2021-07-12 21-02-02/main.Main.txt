@@ -1,0 +1,14 @@
+@startuml
+group void main(java.lang.String[])
+	Main->Test_Visitor : addDataList(org.eclipse.jdt.core.dom.CompilationUnit, dataSet.DataList)
+		Test_Visitor->Name : getFullyQualifiedName()
+			Name-->Test_Visitor
+		Test_Visitor->PackageDeclaration : getName()
+			PackageDeclaration-->Test_Visitor
+		Test_Visitor->Test_Visitor : typeDeclaration(org.eclipse.jdt.core.dom.AbstractTypeDeclaration)
+		Test_Visitor-->Main
+	Main->PrintStream : println(java.lang.String)
+		PrintStream-->Main
+end
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+ left to right direction
+	 actor "Player" as ACTOR01#red
+rectangle "Game System" as Sys1{
+	usecase "Play Game" as UC01
+	usecase "View Score" as UC02
+	usecase "Configure Game" as UC03
+}
+
+@enduml@startuml
+ left to right direction
+	 actor "Player" as ACTOR01#red
+rectangle "Game System" as Sys1{
+	usecase "Play Game" as UC01
+	usecase "View Score" as UC02
+	usecase "Configure Game" as UC03
+}
+
+@enduml

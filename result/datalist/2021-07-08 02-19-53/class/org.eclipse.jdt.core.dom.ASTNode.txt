@@ -1,0 +1,32 @@
+@startuml
+class org.eclipse.jdt.core.dom.ASTNode{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	null toString() (1836786457);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	ForStateNode (654299840);
+	SwitchNode (625411191);
+	ForMidEx (1089579669);
+	Test_Visitor (348026124);
+..member..
+..method..
+	ForStateNode ForStateNode(org.eclipse.jdt.core.dom.ForStatement) (1316735289);
+	SwitchNode SwitchNode(org.eclipse.jdt.core.dom.SwitchStatement) (1491089257);
+	void print() (24226406);
+	String switchNodeStateMake(dataSet.stateNode.StateNode, java.lang.String, java.lang.String) (1635975151);
+	void fieldDeclaration(org.eclipse.jdt.core.dom.FieldDeclaration, dataSet.Data_base) (663317819);
+	Function makeFunction(org.eclipse.jdt.core.dom.MethodDeclaration, dataSet.Data_base) (1054334320);
+	void returnStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (859156431);
+	void expressionStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (614054257);
+	void variableDeclarationStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (483248042);
+	void switchStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (920033195);
+}
+
+@enduml

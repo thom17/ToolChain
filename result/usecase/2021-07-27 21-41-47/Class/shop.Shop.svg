@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="109px" preserveAspectRatio="none" style="width:287px;height:109px;" version="1.1" viewBox="0 0 287 109" width="287px" zoomAndPan="magnify"><defs><filter height="300%" id="fpqjuy74tcseq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[5c9f2ff3dce8366365a11f69deb0ca7c]
+cluster charge--><rect fill="#FFFFFF" filter="url(#fpqjuy74tcseq)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="124" x="83" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="49" x="120.5" y="25.1533">charge</text><ellipse cx="145.1335" cy="62.0973" fill="#FEFECE" filter="url(#fpqjuy74tcseq)" rx="46.1335" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="114.6335" y="68.2121">setMoney</text><!--MD5=[17d6008f3e53dc2d1f733da3ae739290]
+entity actor1006094903--><ellipse cx="22.5" cy="29.5" fill="#FEFECE" filter="url(#fpqjuy74tcseq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M22.5,37.5 L22.5,64.5 M9.5,45.5 L35.5,45.5 M22.5,64.5 L9.5,79.5 M22.5,64.5 L35.5,79.5 " fill="none" filter="url(#fpqjuy74tcseq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="6" y="101.1533">Shop</text><!--MD5=[7512b452335e51fe306caed992779a73]
+entity actor2030538903--><ellipse cx="265.5" cy="29.5" fill="#FEFECE" filter="url(#fpqjuy74tcseq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M265.5,37.5 L265.5,64.5 M252.5,45.5 L278.5,45.5 M265.5,64.5 L252.5,79.5 M265.5,64.5 L278.5,79.5 " fill="none" filter="url(#fpqjuy74tcseq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="251" y="101.1533">User</text><!--MD5=[b724532e4f6d351c34deb9603a0ecca6]
+link actor1006094903 to UC1293680848--><path d="M39.25,62 C54.37,62 77.94,62 98.89,62 " fill="none" id="actor1006094903-UC1293680848" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5df426511ec29e6f141618fd616f1ff0]
+link UC1293680848 to actor2030538903--><path d="M191.14,62 C212.46,62 236.37,62 250.93,62 " fill="none" id="UC1293680848-actor2030538903" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f7d07af51b87665511932c427adab2ac]
+@startuml
+ left to right direction
+
+actor Shop as actor1006094903
+
+	rectangle charge{
+	 usecase setMoney as UC1293680848
+	actor1006094903- -UC1293680848
+	}
+	actor User as actor2030538903
+	 UC1293680848 - - actor2030538903
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

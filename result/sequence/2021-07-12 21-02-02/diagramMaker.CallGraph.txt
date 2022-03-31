@@ -1,0 +1,153 @@
+@startuml
+group void main(java.lang.String[])
+	CallGraph->Runtime : exec(java.lang.String)
+		Runtime-->CallGraph
+	CallGraph->Runtime : getRuntime()
+		Runtime-->CallGraph
+	CallGraph->Process : waitFor()
+		Process-->CallGraph
+	CallGraph->PrintStream : println(java.lang.String)
+		PrintStream-->CallGraph
+end
+
+group void main(dataSet.DataList)
+	CallGraph->PrintStream : println(java.lang.String)
+		PrintStream-->CallGraph
+	CallGraph->CallGraph : makeFile(java.lang.String, java.lang.String)
+	CallGraph->Process : waitFor()
+		Process-->CallGraph
+	CallGraph->CallGraph : makeFunctionScript(dataSet.DataList)
+	CallGraph->Runtime : exec(java.lang.String)
+		Runtime-->CallGraph
+	CallGraph->Runtime : getRuntime()
+		Runtime-->CallGraph
+	CallGraph->CallGraph : makeMemberScript(dataSet.DataList)
+end
+
+group String makeMemberScript(dataSet.DataList)
+	CallGraph->StringBuilder : append(java.lang.String)
+		StringBuilder-->CallGraph
+	CallGraph->CallGraph : MemberDef(dataSet.Member, java.lang.StringBuilder)
+	CallGraph->StringBuilder : toString()
+		StringBuilder-->CallGraph
+end
+
+group void MemberDef(dataSet.Member, java.lang.StringBuilder)
+	CallGraph->StringBuilder : append(java.lang.String)
+		StringBuilder-->CallGraph
+	CallGraph->Data_base : getModifier()
+		Data_base-->CallGraph
+	CallGraph->Data_base : getSrcName()
+		Data_base-->CallGraph
+	CallGraph->Member : getOwner()
+		Member-->CallGraph
+	CallGraph->Member : getTypeName()
+		Member-->CallGraph
+	CallGraph->Object : hashCode()
+		Object-->CallGraph
+	CallGraph->Member : getImageList()
+		Member-->CallGraph
+	CallGraph->CallGraph : addList(dataSet.DataList, java.lang.StringBuilder)
+	CallGraph->Data_base : getCallList()
+		Data_base-->CallGraph
+	CallGraph->Data_base : getCallByList()
+		Data_base-->CallGraph
+end
+
+group void makeFile(java.lang.String, java.lang.String)
+	CallGraph->Writer : write(java.lang.String)
+		Writer-->CallGraph
+	CallGraph->OutputStreamWriter : close()
+		OutputStreamWriter-->CallGraph
+end
+
+group String makeClassScript(dataSet.DataList)
+	CallGraph->StringBuilder : append(java.lang.String)
+		StringBuilder-->CallGraph
+	CallGraph->CallGraph : classDef(dataSet.Data_base, java.lang.StringBuilder, java.lang.String)
+	CallGraph->HashMap : keySet()
+		HashMap-->CallGraph
+	CallGraph->CallGraph : classExtends(dataSet.DataList, java.lang.StringBuilder)
+	CallGraph->StringBuilder : toString()
+		StringBuilder-->CallGraph
+end
+
+group String makeFunctionScript(dataSet.DataList)
+	CallGraph->StringBuilder : append(java.lang.String)
+		StringBuilder-->CallGraph
+	CallGraph->CallGraph : functionDef(dataSet.Function, java.lang.StringBuilder)
+	CallGraph->StringBuilder : toString()
+		StringBuilder-->CallGraph
+end
+
+group void classExtends(dataSet.DataList, java.lang.StringBuilder)
+	CallGraph->StringBuilder : append(java.lang.String)
+		StringBuilder-->CallGraph
+	CallGraph->Class : getSrcName()
+		Class-->CallGraph
+	CallGraph->Data_base : getName()
+		Data_base-->CallGraph
+end
+
+group void classDef(dataSet.Data_base, java.lang.StringBuilder, java.lang.String)
+	CallGraph->StringBuilder : append(java.lang.String)
+		StringBuilder-->CallGraph
+	CallGraph->Class : getSrcName()
+		Class-->CallGraph
+	CallGraph->Object : hashCode()
+		Object-->CallGraph
+	CallGraph->CallGraph : addList(dataSet.DataList, java.lang.StringBuilder)
+	CallGraph->Data_base : getHasList()
+		Data_base-->CallGraph
+	CallGraph->Data_base : getCallList()
+		Data_base-->CallGraph
+	CallGraph->Data_base : getCallByList()
+		Data_base-->CallGraph
+end
+
+group void addList(dataSet.DataList, java.lang.StringBuilder)
+	CallGraph->StringBuilder : append(java.lang.String)
+		StringBuilder-->CallGraph
+	CallGraph->Data_base : getName()
+		Data_base-->CallGraph
+	CallGraph->DataList : getClassList()
+		DataList-->CallGraph
+	CallGraph->Member : getTypeName()
+		Member-->CallGraph
+	CallGraph->DataList : getMemberList()
+		DataList-->CallGraph
+	CallGraph->Function : getTypeName()
+		Function-->CallGraph
+	CallGraph->Function : getSig()
+		Function-->CallGraph
+	CallGraph->DataList : getFunctionList()
+		DataList-->CallGraph
+end
+
+group void functionDef(dataSet.Function, java.lang.StringBuilder)
+	CallGraph->StringBuilder : append(java.lang.String)
+		StringBuilder-->CallGraph
+	CallGraph->Function : getParameterName()
+		Function-->CallGraph
+	CallGraph->Data_base : getSrcName()
+		Data_base-->CallGraph
+	CallGraph->Function : getOwner()
+		Function-->CallGraph
+	CallGraph->Function : getSrcName()
+		Function->Data_base : getSrcName()
+			Data_base-->Function
+		Function-->CallGraph
+	CallGraph->Function : getSig()
+		Function-->CallGraph
+	CallGraph->Object : hashCode()
+		Object-->CallGraph
+	CallGraph->CallGraph : addList(dataSet.DataList, java.lang.StringBuilder)
+	CallGraph->Data_base : getHasList()
+		Data_base-->CallGraph
+	CallGraph->Data_base : getCallList()
+		Data_base-->CallGraph
+	CallGraph->Data_base : getCallByList()
+		Data_base-->CallGraph
+end
+
+@enduml

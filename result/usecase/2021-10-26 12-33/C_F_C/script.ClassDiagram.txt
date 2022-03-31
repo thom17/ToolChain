@@ -1,0 +1,57 @@
+@startuml
+ left to right direction
+
+actor ClassDiagram as actor2015261478
+
+	rectangle main{
+	 usecase Runtime as UC58
+	actor2015261478--UC58
+	 usecase PrintStream as UC59
+	actor2015261478--UC59
+	 usecase DataList as UC60
+	actor2015261478--UC60
+	}
+	rectangle makeFile{
+	 usecase Writer as UC61
+	actor2015261478--UC61
+	 usecase OutputStreamWriter as UC62
+	actor2015261478--UC62
+	 usecase String as UC63
+	actor2015261478--UC63
+	}
+	rectangle makeString{
+	 usecase StringBuilder as UC64
+	actor2015261478--UC64
+	 usecase DataList as UC65
+	actor2015261478--UC65
+	}
+	rectangle callByDef{
+	 usecase StringBuilder as UC66
+	actor2015261478--UC66
+	 usecase Class as UC67
+	actor2015261478--UC67
+	 usecase DataList as UC68
+	actor2015261478--UC68
+	}
+	rectangle classExtends{
+	 usecase StringBuilder as UC69
+	actor2015261478--UC69
+	 usecase Class as UC70
+	actor2015261478--UC70
+	 usecase DataList as UC71
+	actor2015261478--UC71
+	}
+	rectangle classDef{
+	 usecase StringBuilder as UC72
+	actor2015261478--UC72
+	 usecase Class as UC73
+	actor2015261478--UC73
+	 usecase Var as UC74
+	actor2015261478--UC74
+	 usecase Function as UC75
+	actor2015261478--UC75
+	 usecase DataList as UC76
+	actor2015261478--UC76
+	}
+
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+ left to right direction
+
+actor Main as actor550147359
+rectangle GameSystem{
+	usecase GameSystem as UC549496397
+		actor550147359 -- UC549496397
+	usecase playGame as UC1163619825
+		actor550147359 -- UC1163619825
+	usecase diceSetting as UC1306246648
+	usecase main as UC1063737662
+	usecase printPos as UC447767121
+	usecase choiceDice as UC68857875
+	usecase diceRoll as UC348055829
+	usecase move as UC286649365
+	usecase printResult as UC137275020
+	usecase gameEnd as UC1508181426
+}
+rectangle String[]{
+}
+@enduml

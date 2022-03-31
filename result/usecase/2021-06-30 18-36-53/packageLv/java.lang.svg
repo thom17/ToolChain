@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="332px" preserveAspectRatio="none" style="width:220px;height:332px;" version="1.1" viewBox="0 0 220 332" width="220px" zoomAndPan="magnify"><defs><filter height="300%" id="f16qnock2ljf9u" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[1bbaf3f099ceda0e48eb1b5830dadf8b]
+entity actor753816421--><ellipse cx="46.5" cy="14" fill="#FEFECE" filter="url(#f16qnock2ljf9u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M46.5,22 L46.5,49 M33.5,30 L59.5,30 M46.5,49 L33.5,64 M46.5,49 L59.5,64 " fill="none" filter="url(#f16qnock2ljf9u)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="6" y="85.6533">StringBuilder</text><!--MD5=[c29fb8ae7bed0b8eb25ae5f693a10ec2]
+entity actor2037147839--><ellipse cx="46.5" cy="133" fill="#FEFECE" filter="url(#f16qnock2ljf9u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M46.5,141 L46.5,168 M33.5,149 L59.5,149 M46.5,168 L33.5,183 M46.5,168 L59.5,183 " fill="none" filter="url(#f16qnock2ljf9u)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="26" y="204.6533">Object</text><!--MD5=[7c29adb2c0a03cf31de11206392b9c39]
+entity actor1456906673--><ellipse cx="46.5" cy="252" fill="#FEFECE" filter="url(#f16qnock2ljf9u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M46.5,260 L46.5,287 M33.5,268 L59.5,268 M46.5,287 L33.5,302 M46.5,287 L59.5,302 " fill="none" filter="url(#f16qnock2ljf9u)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="21" y="323.6533">Process</text><!--MD5=[78408c8dcbf2b05c9781b9fc1b6dfbdd]
+entity actor443638755--><ellipse cx="180" cy="14" fill="#FEFECE" filter="url(#f16qnock2ljf9u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M180,22 L180,49 M167,30 L193,30 M180,49 L167,64 M180,49 L193,64 " fill="none" filter="url(#f16qnock2ljf9u)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="147" y="85.6533">Throwable</text><!--MD5=[19821672c642203664100887d756c10d]
+entity actor1155169971--><ellipse cx="180.5" cy="133" fill="#FEFECE" filter="url(#f16qnock2ljf9u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M180.5,141 L180.5,168 M167.5,149 L193.5,149 M180.5,168 L167.5,183 M180.5,168 L193.5,183 " fill="none" filter="url(#f16qnock2ljf9u)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="162" y="204.6533">String</text><!--MD5=[5032871ce5b45bc99a0b42bd6b39d6bb]
+entity actor1583992583--><ellipse cx="180" cy="252" fill="#FEFECE" filter="url(#f16qnock2ljf9u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M180,260 L180,287 M167,268 L193,268 M180,287 L167,302 M180,287 L193,302 " fill="none" filter="url(#f16qnock2ljf9u)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="154" y="323.6533">Runtime</text><!--MD5=[b5a7d3568beb823b2a273218f75063ab]
+link actor753816421 to actor2037147839--><!--MD5=[9af0ba2fee279253cc178475de48d15f]
+link actor2037147839 to actor1456906673--><!--MD5=[b9191d3e5204f981f4f1e71ad30579fb]
+link actor753816421 to actor443638755--><!--MD5=[492c9e4a31753def9f1481df08111dce]
+link actor443638755 to actor1155169971--><!--MD5=[4f203f625c5d63c2685f445099d4fdc4]
+link actor1155169971 to actor1583992583--><!--MD5=[75bc7d39c56df0171a1bae28a6594a12]
+@startuml
+ left to right direction
+
+actor StringBuilder as actor753816421
+
+actor Object as actor2037147839
+
+actor Process as actor1456906673
+
+actor Throwable as actor443638755
+
+actor String as actor1155169971
+
+actor Runtime as actor1583992583
+
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

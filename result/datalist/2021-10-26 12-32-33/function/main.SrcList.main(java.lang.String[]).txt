@@ -1,0 +1,22 @@
+@startuml
+class "main.SrcList.main(java.lang.String[])" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	java.lang.String[] args (1721576219);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	SrcList (1002041276);
+	PrintStream (2078239671);
+..member..
+..method..
+	void makeTargetList() (508760925);
+	null println(java.lang.String) (1197176722);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

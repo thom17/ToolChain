@@ -1,0 +1,20 @@
+@startuml
+class org.eclipse.jdt.core.dom.Block{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	null statements() (1334204880);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	Test_Visitor (348026124);
+..member..
+..method..
+	ArrayList<Statement> getStmtList(org.eclipse.jdt.core.dom.Statement) (524671817);
+}
+
+@enduml

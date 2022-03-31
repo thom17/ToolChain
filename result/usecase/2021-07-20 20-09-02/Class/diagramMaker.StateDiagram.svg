@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="565px" preserveAspectRatio="none" style="width:344px;height:565px;" version="1.1" viewBox="0 0 344 565" width="344px" zoomAndPan="magnify"><defs><filter height="300%" id="f1xj7tagjv4562" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[62fbe353fb32b33842f98dffdd064b6b]
+cluster drawMain--><rect fill="#FFFFFF" filter="url(#f1xj7tagjv4562)" height="366" style="stroke: #000000; stroke-width: 1.5;" width="196" x="136" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="200" y="25.1533">drawMain</text><!--MD5=[cc8667530e47d34219c3f618868891b7]
+cluster drawNode--><rect fill="#FFFFFF" filter="url(#f1xj7tagjv4562)" height="156" style="stroke: #000000; stroke-width: 1.5;" width="153" x="157.5" y="397"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="198.5" y="415.1533">drawNode</text><ellipse cx="233.7756" cy="62.0973" fill="#FEFECE" filter="url(#f1xj7tagjv4562)" rx="60.2756" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="193.2756" y="68.2121">StringBuilder</text><ellipse cx="233.8701" cy="130.0973" fill="#FEFECE" filter="url(#f1xj7tagjv4562)" rx="29.8701" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="214.8701" y="136.2121">Writer</text><ellipse cx="234.247" cy="200.8494" fill="#FEFECE" filter="url(#f1xj7tagjv4562)" rx="82.247" ry="18.8494" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="171.247" y="206.9641">OutputStreamWriter</text><ellipse cx="233.7696" cy="272.0973" fill="#FEFECE" filter="url(#f1xj7tagjv4562)" rx="39.7696" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="207.7696" y="278.2121">Runtime</text><ellipse cx="233.8259" cy="340.0973" fill="#FEFECE" filter="url(#f1xj7tagjv4562)" rx="55.3259" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="196.8259" y="346.2121">PrintStream</text><ellipse cx="233.7756" cy="452.0973" fill="#FEFECE" filter="url(#f1xj7tagjv4562)" rx="60.2756" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="193.2756" y="458.2121">StringBuilder</text><ellipse cx="234.169" cy="520.0973" fill="#FEFECE" filter="url(#f1xj7tagjv4562)" rx="49.669" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="201.169" y="526.2121">StateNode</text><!--MD5=[44dc1c8c998bce5f9e6b0054acfd895a]
+entity actor584349634--><ellipse cx="49" cy="239.5" fill="#FEFECE" filter="url(#f1xj7tagjv4562)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M49,247.5 L49,274.5 M36,255.5 L62,255.5 M49,274.5 L36,289.5 M49,274.5 L62,289.5 " fill="none" filter="url(#f1xj7tagjv4562)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="6" y="311.1533">StateDiagram</text><!--MD5=[9003317052948164a4539445ecf47a5f]
+link actor584349634 to UC105--><path d="M58.29,229.91 C68.25,190.11 88.77,131.35 128,96 C142.52,82.92 162.14,74.86 180.49,69.91 " fill="none" id="actor584349634-UC105" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9415161369065c4fba539145b053d063]
+link actor584349634 to UC106--><path d="M71.85,229.74 C85.33,207.37 104.53,181.08 128,164 C150.93,147.31 182.44,138.55 204.95,134.14 " fill="none" id="actor584349634-UC106" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c04f570fc1afd4f6fa3d51278a1aa165]
+link actor584349634 to UC107--><path d="M92.27,252.91 C103.79,247.89 116.32,242.6 128,238 C146.97,230.53 168.14,222.94 186.47,216.59 " fill="none" id="actor584349634-UC107" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7e5be5ea6350664c379d3700a35ee1dd]
+link actor584349634 to UC108--><path d="M92.44,272 C123.06,272 164.09,272 193.91,272 " fill="none" id="actor584349634-UC108" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8dac02f475a394499a75951d09a7d17b]
+link actor584349634 to UC109--><path d="M92.2,291.29 C103.71,296.31 116.26,301.55 128,306 C149.68,314.21 174.32,322.26 194.29,328.46 " fill="none" id="actor584349634-UC109" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[17fd8a9a75c887c47ec6b25d7e2aaef9]
+link actor584349634 to UC110--><path d="M78.78,314.37 C92.6,333.28 110.03,355.25 128,373 C153.32,398.01 186.77,421.87 209.04,436.7 " fill="none" id="actor584349634-UC110" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b62de105bf2622755a6c3fd17e6db7ae]
+link actor584349634 to UC111--><path d="M54.36,314.13 C61.53,362.13 80.18,439.89 128,486 C143.93,501.36 166.86,509.78 187.23,514.4 " fill="none" id="actor584349634-UC111" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8b3974a5c56d7824889c53266f1458a9]
+@startuml
+ left to right direction
+
+actor StateDiagram as actor584349634
+
+	rectangle drawMain{
+	 usecase StringBuilder as UC105
+	actor584349634- -UC105
+	 usecase Writer as UC106
+	actor584349634- -UC106
+	 usecase OutputStreamWriter as UC107
+	actor584349634- -UC107
+	 usecase Runtime as UC108
+	actor584349634- -UC108
+	 usecase PrintStream as UC109
+	actor584349634- -UC109
+	}
+	rectangle drawNode{
+	 usecase StringBuilder as UC110
+	actor584349634- -UC110
+	 usecase StateNode as UC111
+	actor584349634- -UC111
+	}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

@@ -1,0 +1,140 @@
+@startuml
+class "Player" as cl1{
+Package gameSystem
+Lib false
+HashCode : 177140066
+ABS Score : 12
+Relative Score : 2
+__**<color:green>has list</color>**__
+	<color:green>java.lang.String name (1)
+	<color:green>int pos (1)
+....
+	<color:salmon>new Player(java.lang.String) (5)
+	<color:green>String getName() (0)
+	<color:green>int getPos() (0)
+	<color:green>void setPos(int) (3)
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	gameSystem.Player.name (787122337);
+	gameSystem.Player.pos (2059572982);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (1954985045);
+	gameSystem.Player (177140066);
+..member..
+	gameSystem.GameSystem.printPos(gameSystem.Player).player (2144838275);
+	gameSystem.GameSystem.printPos(gameSystem.Player).opponent (36657658);
+	gameSystem.GameSystem.move(int, gameSystem.Player).player (2029680286);
+..method..
+	 gameSystem.GameSystem.printPos(gameSystem.Player) (839998248);
+	 gameSystem.GameSystem.choiceDice(gameSystem.Player) (375466577);
+	 gameSystem.GameSystem.move(int, gameSystem.Player) (718571091);
+	 gameSystem.Player.Player(java.lang.String) (1423983012);
+	 gameSystem.Player.setPos(int) (746074699);
+	 gameSystem.GameSystem.GameSystem(int[][]) (1569754439);
+	 gameSystem.GameSystem.playGame(java.lang.String) (1593458942);
+}
+
+ package Functions{
+class "Player(java.lang.String)" as f1423983012  
+{
+Static : false
+return Type : new
+hashCode : 1423983012
+ABS Score : 5
+Relative Score : 5
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.Player.Player(java.lang.String).name (127791068);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	gameSystem.Player.name (787122337);
+	gameSystem.Player.pos (2059572982);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (1954985045);
+..member..
+..method..
+	 gameSystem.GameSystem.GameSystem(int[][]) (1569754439);
+	 gameSystem.GameSystem.playGame(java.lang.String) (1593458942);
+}
+class "getName()" as f405896924  #line:green
+{
+Static : false
+return Type : String
+hashCode : 405896924
+ABS Score : 0
+Relative Score : 0
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+class "getPos()" as f1309335839  #line:green
+{
+Static : false
+return Type : int
+hashCode : 1309335839
+ABS Score : 0
+Relative Score : 0
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (1954985045);
+..member..
+	gameSystem.GameSystem.printPos(gameSystem.Player).player (2144838275);
+	gameSystem.GameSystem.printPos(gameSystem.Player).opponent (36657658);
+	gameSystem.GameSystem.move(int, gameSystem.Player).player (2029680286);
+..method..
+	 gameSystem.GameSystem.printPos(gameSystem.Player) (839998248);
+	 gameSystem.GameSystem.move(int, gameSystem.Player) (718571091);
+}
+class "setPos(int)" as f746074699  #line:green
+{
+Static : false
+return Type : void
+hashCode : 746074699
+ABS Score : 3
+Relative Score : 3
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.Player.setPos(int).pos (596470015);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	gameSystem.Player.pos (2059572982);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (1954985045);
+..member..
+	gameSystem.GameSystem.move(int, gameSystem.Player).player (2029680286);
+..method..
+	 gameSystem.GameSystem.move(int, gameSystem.Player) (718571091);
+}
+}
+
+@enduml

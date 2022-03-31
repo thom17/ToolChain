@@ -1,0 +1,30 @@
+@startuml
+ left to right direction
+
+actor Barista as actor1047087935
+actor CoffeeShop as actor464887938
+actor Test as actor2020152163
+actor A as actor1104443373
+rectangle PrintStream{
+	usecase println as UC898694235
+		actor2020152163 -- UC898694235
+	usecase println as UC60292059
+		actor1104443373 -- UC60292059
+		actor2020152163 -- UC60292059
+	usecase print as UC869601985
+		actor1104443373 -- UC869601985
+}
+rectangle A{
+	usecase main as UC1365008457
+		actor2020152163 -- UC1365008457
+}
+rectangle Barista{
+	usecase makeCoffee as UC1671179293
+		actor464887938 -- UC1671179293
+	usecase getOrder as UC1609124502
+}
+rectangle Coffee{
+	usecase addShot as UC1144068272
+	usecase make as UC1985836631
+}
+@enduml

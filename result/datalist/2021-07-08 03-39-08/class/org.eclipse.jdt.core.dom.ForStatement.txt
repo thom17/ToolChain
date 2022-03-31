@@ -1,0 +1,22 @@
+@startuml
+class org.eclipse.jdt.core.dom.ForStatement{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	null initializers() (307655033);
+	null getExpression() (2135077268);
+	null getBody() (689375815);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	ForStateNode (645919967);
+..member..
+..method..
+	ForStateNode ForStateNode(org.eclipse.jdt.core.dom.ForStatement) (1489251468);
+}
+
+@enduml

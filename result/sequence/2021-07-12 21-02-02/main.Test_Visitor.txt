@@ -1,0 +1,185 @@
+@startuml
+group void addDataList(org.eclipse.jdt.core.dom.CompilationUnit, dataSet.DataList)
+	Test_Visitor->Name : getFullyQualifiedName()
+		Name-->Test_Visitor
+	Test_Visitor->PackageDeclaration : getName()
+		PackageDeclaration-->Test_Visitor
+	Test_Visitor->Test_Visitor : typeDeclaration(org.eclipse.jdt.core.dom.AbstractTypeDeclaration)
+end
+
+group ArrayList<Statement> getStmtList(org.eclipse.jdt.core.dom.Statement)
+	Test_Visitor->Block : statements()
+		Block-->Test_Visitor
+	Test_Visitor->ArrayList : add(E)
+		ArrayList-->Test_Visitor
+end
+
+group void typeDeclaration(org.eclipse.jdt.core.dom.AbstractTypeDeclaration)
+	Test_Visitor->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Test_Visitor
+	Test_Visitor->Test_Visitor : fieldDeclaration(org.eclipse.jdt.core.dom.FieldDeclaration, dataSet.Data_base)
+	Test_Visitor->Test_Visitor : methodDeclaration(org.eclipse.jdt.core.dom.MethodDeclaration, dataSet.Data_base)
+	Test_Visitor->Class : setComplex()
+		Class-->Test_Visitor
+end
+
+group void fieldDeclaration(org.eclipse.jdt.core.dom.FieldDeclaration, dataSet.Data_base)
+	Test_Visitor->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Test_Visitor
+	Test_Visitor->Data_base : getHasList()
+		Data_base-->Test_Visitor
+	Test_Visitor->Member : addImage(java.lang.String)
+		Member->ArrayList : add(E)
+			ArrayList-->Member
+		Member-->Test_Visitor
+	Test_Visitor->ASTNode : toString()
+		ASTNode-->Test_Visitor
+end
+
+group Function makeFunction(org.eclipse.jdt.core.dom.MethodDeclaration, dataSet.Data_base)
+	Test_Visitor->ASTNode : toString()
+		ASTNode-->Test_Visitor
+	Test_Visitor->PrintStream : println(java.lang.String)
+		PrintStream-->Test_Visitor
+	Test_Visitor->Function : addHas(dataSet.Data_base)
+		Function->DataList : addData(dataSet.Data_base)
+			DataList->Data_base : getSrcName()
+				Data_base-->DataList
+			DataList-->Function
+		Function-->Test_Visitor
+	Test_Visitor->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Test_Visitor
+	Test_Visitor->Function : setHeadNode(dataSet.stateNode.StateNode)
+		Function-->Test_Visitor
+	Test_Visitor->Function : setCode(java.lang.String)
+		Function-->Test_Visitor
+	Test_Visitor->Function : setName(java.lang.String)
+		Function-->Test_Visitor
+	Test_Visitor->Function : setComplex()
+		Function-->Test_Visitor
+	Test_Visitor->StateNode : setThen(dataSet.stateNode.StateNode)
+		StateNode->StateNode : setBefore(dataSet.stateNode.StateNode)
+		StateNode-->Test_Visitor
+	Test_Visitor->Data_base : getHasList()
+		Data_base-->Test_Visitor
+end
+
+group void returnStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function)
+	Test_Visitor->StateNode : init(java.lang.String, java.lang.String, java.lang.String)
+		StateNode-->Test_Visitor
+	Test_Visitor->ASTNode : toString()
+		ASTNode-->Test_Visitor
+end
+
+group void forStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function)
+	Test_Visitor->StateNode : init(java.lang.String, java.lang.String, java.lang.String, dataSet.stateNode.StateNode)
+		StateNode->StateNode : init(java.lang.String, java.lang.String, java.lang.String)
+		StateNode->StateNode : setThen(dataSet.stateNode.StateNode)
+		StateNode->StateNode : setElse(dataSet.stateNode.StateNode)
+		StateNode-->Test_Visitor
+	Test_Visitor->StateNode : setThen(dataSet.stateNode.StateNode)
+		StateNode->StateNode : setBefore(dataSet.stateNode.StateNode)
+		StateNode-->Test_Visitor
+	Test_Visitor->StateNode : init(java.lang.String, java.lang.String, java.lang.String)
+		StateNode-->Test_Visitor
+	Test_Visitor->ForStateNode : setCond(dataSet.stateNode.StateNode)
+		ForStateNode-->Test_Visitor
+	Test_Visitor->Test_Visitor : stmtParsing(org.eclipse.jdt.core.dom.Statement, dataSet.Function)
+	Test_Visitor->ArrayList : add(E)
+		ArrayList-->Test_Visitor
+	Test_Visitor->StateNode : getBefore()
+		StateNode-->Test_Visitor
+	Test_Visitor->ForStateNode : setCondElseNode(dataSet.stateNode.StateNode)
+		ForStateNode-->Test_Visitor
+	Test_Visitor->ForStateNode : setForFin(java.util.ArrayList<dataSet.stateNode.StateNode>)
+		ForStateNode-->Test_Visitor
+end
+
+group void ifStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function)
+	Test_Visitor->StateNode : init(java.lang.String, java.lang.String, java.lang.String)
+		StateNode-->Test_Visitor
+	Test_Visitor->Test_Visitor : stmtParsing(org.eclipse.jdt.core.dom.Statement, dataSet.Function)
+	Test_Visitor->StateNode : setThen(dataSet.stateNode.StateNode)
+		StateNode->StateNode : setBefore(dataSet.stateNode.StateNode)
+		StateNode-->Test_Visitor
+end
+
+group void expressionStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function)
+	Test_Visitor->StateNode : init(java.lang.String, java.lang.String, java.lang.String)
+		StateNode-->Test_Visitor
+	Test_Visitor->ASTNode : toString()
+		ASTNode-->Test_Visitor
+	Test_Visitor->StateNode : setThen(dataSet.stateNode.StateNode)
+		StateNode->StateNode : setBefore(dataSet.stateNode.StateNode)
+		StateNode-->Test_Visitor
+	Test_Visitor->Test_Visitor : assignment(org.eclipse.jdt.core.dom.Expression, dataSet.Function)
+end
+
+group void assignment(org.eclipse.jdt.core.dom.Expression, dataSet.Function)
+	Test_Visitor->Function : getOwner()
+		Function-->Test_Visitor
+	Test_Visitor->DataList : findMember(java.lang.String)
+		DataList-->Test_Visitor
+	Test_Visitor->Data_base : getSrcName()
+		Data_base-->Test_Visitor
+	Test_Visitor->Data_base : getHasList()
+		Data_base-->Test_Visitor
+	Test_Visitor->Member : addImage(java.lang.String)
+		Member->ArrayList : add(E)
+			ArrayList-->Member
+		Member-->Test_Visitor
+end
+
+group void variableDeclarationStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function)
+	Test_Visitor->StateNode : init(java.lang.String, java.lang.String, java.lang.String, dataSet.stateNode.StateNode)
+		StateNode->StateNode : init(java.lang.String, java.lang.String, java.lang.String)
+		StateNode->StateNode : setThen(dataSet.stateNode.StateNode)
+		StateNode->StateNode : setElse(dataSet.stateNode.StateNode)
+		StateNode-->Test_Visitor
+	Test_Visitor->ASTNode : toString()
+		ASTNode-->Test_Visitor
+	Test_Visitor->VariableDeclaration : getName()
+		VariableDeclaration-->Test_Visitor
+	Test_Visitor->StateNode : setThen(dataSet.stateNode.StateNode)
+		StateNode->StateNode : setBefore(dataSet.stateNode.StateNode)
+		StateNode-->Test_Visitor
+	Test_Visitor->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Test_Visitor
+	Test_Visitor->VarDecNode : setType(java.lang.String)
+		VarDecNode-->Test_Visitor
+	Test_Visitor->Member : addImage(java.lang.String)
+		Member->ArrayList : add(E)
+			ArrayList-->Member
+		Member-->Test_Visitor
+	Test_Visitor->Function : addHas(dataSet.Data_base)
+		Function->DataList : addData(dataSet.Data_base)
+			DataList->Data_base : getSrcName()
+				Data_base-->DataList
+			DataList-->Function
+		Function-->Test_Visitor
+end
+
+group void switchStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function)
+	Test_Visitor->StateNode : init(java.lang.String, java.lang.String, java.lang.String, dataSet.stateNode.StateNode)
+		StateNode->StateNode : init(java.lang.String, java.lang.String, java.lang.String)
+		StateNode->StateNode : setThen(dataSet.stateNode.StateNode)
+		StateNode->StateNode : setElse(dataSet.stateNode.StateNode)
+		StateNode-->Test_Visitor
+	Test_Visitor->ASTNode : toString()
+		ASTNode-->Test_Visitor
+	Test_Visitor->SwitchStatement : getExpression()
+		SwitchStatement-->Test_Visitor
+	Test_Visitor->StateNode : setThen(dataSet.stateNode.StateNode)
+		StateNode->StateNode : setBefore(dataSet.stateNode.StateNode)
+		StateNode-->Test_Visitor
+end
+
+@enduml

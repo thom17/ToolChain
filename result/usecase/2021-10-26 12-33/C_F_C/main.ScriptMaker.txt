@@ -1,0 +1,17 @@
+@startuml
+ left to right direction
+
+actor ScriptMaker as actor1616438581
+
+	rectangle main{
+	 usecase StringBuilder as UC128
+	actor1616438581--UC128
+	}
+	rectangle main{
+	 usecase Runtime as UC129
+	actor1616438581--UC129
+	 usecase PrintStream as UC130
+	actor1616438581--UC130
+	}
+
+@enduml

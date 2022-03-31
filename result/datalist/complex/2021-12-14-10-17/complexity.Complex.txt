@@ -1,0 +1,378 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 6
+	extendsClassScore = 0
+	callScore = 44
+	callByScore = 44
+	methodNum = 11
+	memberNum = 4
+	constructorNum = 2
+	selfCoverage = 6
+	needCallBy = 9
+	ABS = 109
+	REL = 7
+	ABS = 109
+	REL = 7
+	coverage = 40.0%
+__**<color:green>has list</color>**__
+	<color:green>int line (1)
+	<color:green>int score (1)
+	<color:green>java.lang.StringBuilder undefSize (2)
+	<color:green>java.util.Map<java.lang.String, java.lang.String> memberScore (2)
+	<color:orange>new Complex(dataSet.Function) (5)
+	<color:orange>new Complex(dataSet.Class) (5)
+	<color:green>int getScore() (0)
+	<color:green>int getLine() (0)
+	<color:orange>String getUndefSize() (5)
+	<color:green>Map<String, String> getMemberScoreMap() (0)
+	<color:red>void simpleMake(dataSet.Class) (11)
+	<color:orange>void addFunctionScore(dataSet.Class) (5)
+	<color:red>void simpleMake(dataSet.Function) (11)
+	<color:red>int getMemberScore(dataSet.Data_base) (9)
+	<color:orange>void getLineNum(dataSet.Function) (8)
+}
+
+class complexity.Complex.Complex995911260 as "Complex(dataSet.Function)" 
+{
+	pram : (dataSet.Function )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.Complex(dataSet.Function)
+	Sig : Complex(dataSet.Function)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 3
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 8.0
+	Volume : 11.609640474436812
+	Diffifculty: 2.0
+	Effort : 23.219280948873624
+	ABS Score : 5
+	Relative Score : 5
+}
+class complexity.Complex.Complex2028042905 as "Complex(dataSet.Class)" 
+{
+	pram : (dataSet.Class )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.Complex(dataSet.Class)
+	Sig : Complex(dataSet.Class)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 3
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 8.0
+	Volume : 11.609640474436812
+	Diffifculty: 2.0
+	Effort : 23.219280948873624
+	ABS Score : 5
+	Relative Score : 5
+}
+class complexity.Complex.getScore103130367 as "getScore()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.getScore()
+	Sig : getScore()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2.0
+	Volume : 4.754887502163468
+	Diffifculty: 1.0
+	Effort : 4.754887502163468
+	ABS Score : 0
+	Relative Score : 0
+}
+class complexity.Complex.getLine1104938392 as "getLine()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.getLine()
+	Sig : getLine()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2.0
+	Volume : 4.754887502163468
+	Diffifculty: 1.0
+	Effort : 4.754887502163468
+	ABS Score : 0
+	Relative Score : 0
+}
+class complexity.Complex.getUndefSize426435961 as "getUndefSize()" 
+{
+	pram : ( )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.getUndefSize()
+	Sig : getUndefSize()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 3
+	Call Score : 5
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 2
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : 4.754887502163468
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 5
+	Relative Score : 5
+}
+class complexity.Complex.getMemberScoreMap1781297535 as "getMemberScoreMap()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.getMemberScoreMap()
+	Sig : getMemberScoreMap()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2.0
+	Volume : 4.754887502163468
+	Diffifculty: 1.0
+	Effort : 4.754887502163468
+	ABS Score : 0
+	Relative Score : 0
+}
+class complexity.Complex.simpleMake1099248281 as "simpleMake(dataSet.Class)"#back:salmon 
+{
+	pram : (dataSet.Class )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.simpleMake(dataSet.Class)
+	Sig : simpleMake(dataSet.Class)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 5
+	Call Score : 9
+	CallBy Score : 0
+	memberUse Score : 2
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 5
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 0
+	State Node callListSize: 2
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 24.406371956566694
+	Volume : 46.50699332842307
+	Diffifculty: 5.833333333333333
+	Effort : 271.29079441580126
+	ABS Score : 11
+	Relative Score : 5
+}
+class complexity.Complex.addFunctionScore1624510452 as "addFunctionScore(dataSet.Class)" 
+{
+	pram : (dataSet.Class )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.addFunctionScore(dataSet.Class)
+	Sig : addFunctionScore(dataSet.Class)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 3
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 11
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 106.70907526996197
+	Volume : 288.44129532345625
+	Diffifculty: 15.0
+	Effort : 4326.619429851844
+	ABS Score : 5
+	Relative Score : 5
+}
+class complexity.Complex.simpleMake777748410 as "simpleMake(dataSet.Function)"#back:salmon 
+{
+	pram : (dataSet.Function )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.simpleMake(dataSet.Function)
+	Sig : simpleMake(dataSet.Function)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 5
+	Call Score : 9
+	CallBy Score : 0
+	memberUse Score : 2
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 5
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 0
+	State Node callListSize: 2
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 24.406371956566694
+	Volume : 46.50699332842307
+	Diffifculty: 5.833333333333333
+	Effort : 271.29079441580126
+	ABS Score : 11
+	Relative Score : 5
+}
+class complexity.Complex.getMemberScore662000775 as "getMemberScore(dataSet.Data_base)"#back:salmon 
+{
+	pram : (dataSet.Data_base )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.getMemberScore(dataSet.Data_base)
+	Sig : getMemberScore(dataSet.Data_base)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 7
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 3
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 6
+	cyclomatic : 1
+	State Node lineNum: 18
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 1
+	Calculated Estunated Program Length: 144.71062275542812
+	Volume : 461.63547152504697
+	Diffifculty: 15.157894736842104
+	Effort : 6997.421884169133
+	ABS Score : 9
+	Relative Score : 9
+}
+class complexity.Complex.getLineNum1326230282 as "getLineNum(dataSet.Function)" 
+{
+	pram : (dataSet.Function )
+	SrcOwnClassName : complexity.Complex
+	SrcSig : complexity.Complex.getLineNum(dataSet.Function)
+	Sig : getLineNum(dataSet.Function)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 6
+	CallBy Score : 5
+	memberUse Score : 1
+	localValue Score : 3
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 6
+	cyclomatic : 1
+	State Node lineNum: 6
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 1
+	Calculated Estunated Program Length: 48.0
+	Volume : 92.0
+	Diffifculty: 4.5
+	Effort : 414.0
+	ABS Score : 8
+	Relative Score : 8
+}
+
+@enduml

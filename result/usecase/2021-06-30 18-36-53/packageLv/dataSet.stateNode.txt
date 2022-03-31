@@ -1,0 +1,70 @@
+@startuml
+ left to right direction
+
+actor ForStateNode as actor1558397083
+
+	package java.lang {
+		usecase append as UC1296277943
+		usecase toString as UC30573521
+		usecase toString as UC1528099970
+	}
+	actor1558397083 -- UC1528099970
+	actor1558397083 -- UC30573521
+	actor1558397083 -- UC1296277943
+	package java.util {
+		usecase get as UC1713589007
+	}
+	actor1558397083 -- UC1713589007
+	package java.io {
+		usecase println as UC908744222
+	}
+	actor1558397083 -- UC908744222
+	package org.eclipse.jdt.core.dom {
+		usecase initializers as UC801783477
+		usecase toString as UC1559258941
+		usecase getExpression as UC1777030223
+		usecase getBody as UC2092080808
+	}
+	actor1558397083 -- UC2092080808
+	actor1558397083 -- UC1777030223
+	actor1558397083 -- UC1559258941
+	actor1558397083 -- UC801783477
+	package main {
+		usecase getStmtList as UC11913474
+	}
+	actor1558397083 -- UC11913474
+	package dataSet.stateNode {
+		usecase getCondition as UC731802107
+		usecase getCode as UC1695161087
+		usecase getThen as UC1001114349
+	}
+	actor1558397083 -- UC1001114349
+	actor1558397083 -- UC1695161087
+	actor1558397083 -- UC731802107
+actor StateNode as actor2121560119
+
+actor SwitchNode as actor1292769946
+
+	package java.util {
+		usecase add as UC1248201524
+	}
+	actor1292769946 -- UC1248201524
+	package java.io {
+		usecase println as UC908744222
+	}
+	actor1292769946 -- UC908744222
+	package org.eclipse.jdt.core.dom {
+		usecase toString as UC1559258941
+		usecase getExpression as UC1923590735
+		usecase statements as UC622955085
+	}
+	actor1292769946 -- UC622955085
+	actor1292769946 -- UC1923590735
+	actor1292769946 -- UC1559258941
+actor VarDecNode as actor200452658
+
+
+actor1558397083->actor2121560119
+actor1292769946->actor2121560119
+actor200452658->actor2121560119
+@enduml

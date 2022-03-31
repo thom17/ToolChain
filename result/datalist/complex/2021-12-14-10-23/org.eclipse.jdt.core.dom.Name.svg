@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="534px" preserveAspectRatio="none" style="width:553px;height:534px;" version="1.1" viewBox="0 0 553 534" width="553px" zoomAndPan="magnify"><defs><filter height="300%" id="fdc1516fjo5cl" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[b2b8b023ea4cfc6c94e650ba2dd42552]
+cluster org.eclipse.jdt.core.dom.Name--><polygon fill="#FFFFFF" filter="url(#fdc1516fjo5cl)" points="188,6,408,6,415,31.2295,536,31.2295,536,527,188,527,188,6" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="188" x2="415" y1="31.2295" y2="31.2295"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="214" x="192" y="24.1533">org.eclipse.jdt.core.dom.Name</text><!--MD5=[5e723902ef48f33cf94b820f23a959da]
+class org.eclipse.jdt.core.dom.Name.getFullyQualifiedName671959170--><rect codeLine="21" fill="#FEFECE" filter="url(#fdc1516fjo5cl)" height="467.0488" id="org.eclipse.jdt.core.dom.Name.getFullyQualifiedName671959170" style="stroke: #008000; stroke-width: 1.5;" width="315" x="204.5" y="44"/><ellipse cx="291.25" cy="60" fill="#ADD1B2" rx="11" ry="11" style="stroke: #008000; stroke-width: 1.0;"/><path d="M291.0781,53.4844 Q289.2031,53.4844 288.0469,55.2344 Q286.8594,57.0156 286.8594,60.0156 Q286.8594,63.3906 288.0625,65.1563 Q289.125,66.7813 290.875,66.7813 Q292.5625,66.7813 293.5156,65.875 Q294.5781,64.8594 294.7188,62.625 Q294.7188,62.2031 294.4844,61.9688 Q294.2969,61.7344 293.9531,61.7031 Q293.625,61.7031 293.3906,61.8906 Q293.125,62.125 293.125,62.5156 Q293.0938,63.9063 292.5,64.6406 Q291.9688,65.3438 291.0156,65.3438 Q289.8594,65.3438 289.1406,63.9063 Q288.4219,62.4063 288.4219,59.9844 Q288.4219,57.4375 289.3125,56.0469 Q290.0625,54.9219 291.2031,54.9219 Q291.8594,54.9219 292.3594,55.4688 Q292.9219,56.0781 293.0469,57.1406 Q293.0938,57.8438 293.9219,57.7344 Q294.7031,57.625 294.6563,56.9375 Q294.4688,55.4219 293.7031,54.5469 Q292.7656,53.4844 291.0781,53.4844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="133" x="311.75" y="65.6045">getFullyQualifiedName()</text><line style="stroke: #008000; stroke-width: 1.5;" x1="205.5" x2="518.5" y1="76" y2="76"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="44" x="210.5" y="92.6919">pram : ( )</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="249" x="210.5" y="107.8008">SrcOwnClassName : org.eclipse.jdt.core.dom.Name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="303" x="210.5" y="122.9097">SrcSig : org.eclipse.jdt.core.dom.Name.getFullyQualifiedName()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="138" x="210.5" y="138.0186">Sig : getFullyQualifiedName()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="210.5" y="172.2363">parameter Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="210.5" y="187.3452">classCall Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="210.5" y="202.4541">Call Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="210.5" y="217.563">CallBy Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="104" x="210.5" y="232.6719">memberUse Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="210.5" y="247.7808">localValue Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="210.5" y="262.8896">exp Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="210.5" y="277.9985">repeat Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="81" x="210.5" y="293.1074">brench Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="210.5" y="308.2163">callCountNum : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="210.5" y="323.3252">cyclomatic : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="210.5" y="338.4341">State Node lineNum: 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="210.5" y="353.543">State Node Num : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="122" x="210.5" y="368.6519">State Node callListSize: 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="123" x="210.5" y="383.7607">State Node repeatSize : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="117" x="210.5" y="398.8696">State Node writeSize : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="114" x="210.5" y="413.9785">State Node bifurSize : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="206" x="210.5" y="429.0874">Calculated Estunated Program Length: NaN</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="210.5" y="444.1963">Volume : NaN</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="210.5" y="459.3052">Diffifculty: NaN</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="210.5" y="474.4141">Effort : NaN</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="210.5" y="489.5229">ABS Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85" x="210.5" y="504.6318">Relative Score : 0</text><line style="stroke: #008000; stroke-width: 1.5;" x1="205.5" x2="325.5" y1="151.99" y2="151.99"/><text fill="#FFA500" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="325.5" y="156.6274">Complex Info</text><line style="stroke: #008000; stroke-width: 1.5;" x1="398.5" x2="518.5" y1="151.99" y2="151.99"/><!--MD5=[f04bc90bf33944b7fab332a83ab18852]
+class ClassComplex--><rect codeLine="1" fill="#FEFECE" filter="url(#fdc1516fjo5cl)" height="304.8511" id="ClassComplex" style="stroke: #A80036; stroke-width: 1.5;" width="162" x="7" y="125"/><ellipse cx="43.6" cy="141" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M43.4281,134.4844 Q41.5531,134.4844 40.3969,136.2344 Q39.2094,138.0156 39.2094,141.0156 Q39.2094,144.3906 40.4125,146.1563 Q41.475,147.7813 43.225,147.7813 Q44.9125,147.7813 45.8656,146.875 Q46.9281,145.8594 47.0688,143.625 Q47.0688,143.2031 46.8344,142.9688 Q46.6469,142.7344 46.3031,142.7031 Q45.975,142.7031 45.7406,142.8906 Q45.475,143.125 45.475,143.5156 Q45.4438,144.9063 44.85,145.6406 Q44.3188,146.3438 43.3656,146.3438 Q42.2094,146.3438 41.4906,144.9063 Q40.7719,143.4063 40.7719,140.9844 Q40.7719,138.4375 41.6625,137.0469 Q42.4125,135.9219 43.5531,135.9219 Q44.2094,135.9219 44.7094,136.4688 Q45.2719,137.0781 45.3969,138.1406 Q45.4438,138.8438 46.2719,138.7344 Q47.0531,138.625 47.0063,137.9375 Q46.8188,136.4219 46.0531,135.5469 Q45.1156,134.4844 43.4281,134.4844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="62.4" y="146.6045">ClassComplex</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="168" y1="157" y2="157"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="13" y="192.8008">memberScor = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="13" y="207.9097">extendsClassScore = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="13" y="223.0186">callScore = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="13" y="238.1274">callByScore = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="13" y="253.2363">methodNum = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="13" y="268.3452">memberNum = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="95" x="13" y="283.4541">constructorNum = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="13" y="298.563">selfCoverage = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="13" y="313.6719">needCallBy = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="13" y="328.7808">ABS = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="37" x="13" y="343.8896">REL = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="13" y="358.9985">ABS = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="37" x="13" y="374.1074">REL = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="13" y="389.2163">coverage = 0.0%</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="51.5" y1="172.5544" y2="172.5544"/><text fill="#FFA500" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="51.5" y="177.1919">Complex Info</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="124.5" x2="168" y1="172.5544" y2="172.5544"/><text fill="#008000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="150" x="13" y="423.4341">null getFullyQualifiedName() (0)</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="68" y1="403.1877" y2="403.1877"/><text fill="#008000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="68" y="407.8252">has list</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="108" x2="168" y1="403.1877" y2="403.1877"/><!--MD5=[84fdbe98354aaa8d419e72cffef7090e]
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 0
+	extendsClassScore = 0
+	callScore = 0
+	callByScore = 0
+	methodNum = 0
+	memberNum = 0
+	constructorNum = 0
+	selfCoverage = 0
+	needCallBy = 0
+	ABS = 0
+	REL = 0
+	ABS = 0
+	REL = 0
+	coverage = 0.0%
+__**<color:green>has list</color>**__
+	<color:green>null getFullyQualifiedName() (0)
+}
+
+class org.eclipse.jdt.core.dom.Name.getFullyQualifiedName671959170 as "getFullyQualifiedName()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.Name
+	SrcSig : org.eclipse.jdt.core.dom.Name.getFullyQualifiedName()
+	Sig : getFullyQualifiedName()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

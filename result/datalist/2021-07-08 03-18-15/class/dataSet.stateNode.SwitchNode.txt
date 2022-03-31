@@ -1,0 +1,37 @@
+@startuml
+class dataSet.stateNode.SwitchNode{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Map<String,ArrayList<Statement>> caseMap (614054257);
+	String target (920033195);
+..method..
+	SwitchNode SwitchNode(org.eclipse.jdt.core.dom.SwitchStatement) (679681385);
+	Map<String, ArrayList<Statement>> getCaseMap() (828064258);
+	String getTarget() (1491089257);
+	void print() (1518966801);
+__**<color:blue>calling list</color>**__
+..class..
+	ASTNode (866416391);
+	SwitchStatement (1783737980);
+	ArrayList (810646103);
+	PrintStream (1432599360);
+..member..
+	String target (920033195);
+..method..
+	null toString() (1253827612);
+	null getExpression() (24226406);
+	null add(E) (1037983544);
+	null statements() (1483972190);
+	null println(java.lang.String) (1862946352);
+__**<color:orange>called by list</color>**__
+..class..
+	SwitchNode (1311562833);
+	ForMidEx (5313207);
+..member..
+..method..
+	SwitchNode SwitchNode(org.eclipse.jdt.core.dom.SwitchStatement) (679681385);
+	String switchNodeStateMake(dataSet.stateNode.StateNode, java.lang.String, java.lang.String) (694790566);
+}
+
+@enduml

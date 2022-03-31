@@ -1,0 +1,23 @@
+@startuml
+ left to right direction
+
+actor SrcList as actor1002041276
+
+	rectangle makeTargetList{
+	 usecase write as UC1748097277
+	actor1002041276--UC1748097277
+	 usecase close as UC668760567
+	actor1002041276--UC668760567
+	}
+	actor OutputStreamWriter as actor740467528
+	 UC668760567 -- actor740467528
+	actor Writer as actor1290614253
+	 UC1748097277 -- actor1290614253
+	rectangle main{
+	 usecase println as UC1197176722
+	actor1002041276--UC1197176722
+	}
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+
+@enduml

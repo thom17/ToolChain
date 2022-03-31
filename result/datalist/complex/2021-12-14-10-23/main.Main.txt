@@ -1,0 +1,54 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 0
+	extendsClassScore = 0
+	callScore = 23
+	callByScore = 23
+	methodNum = 1
+	memberNum = 0
+	constructorNum = 0
+	selfCoverage = 0
+	needCallBy = 1
+	ABS = 30
+	REL = 30
+	ABS = 30
+	REL = 30
+	coverage = 0.0%
+__**<color:green>has list</color>**__
+	<color:orange>void main(java.lang.String[]) (7)
+}
+
+class main.Main.main1389810291 as "main(java.lang.String[])" 
+{
+	pram : (java.lang.String[] )
+	SrcOwnClassName : main.Main
+	SrcSig : main.Main.main(java.lang.String[])
+	Sig : main(java.lang.String[])
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 5
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 4
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 9
+	cyclomatic : 1
+	State Node lineNum: 20
+	State Node Num : 0
+	State Node callListSize: 3
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 57.219280948873624
+	Volume : 208.4962500721156
+	Diffifculty: 7.2
+	Effort : 1501.1730005192323
+	ABS Score : 7
+	Relative Score : 7
+}
+
+@enduml

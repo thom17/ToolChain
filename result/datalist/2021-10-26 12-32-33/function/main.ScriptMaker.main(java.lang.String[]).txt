@@ -1,0 +1,23 @@
+@startuml
+class "main.ScriptMaker.main(java.lang.String[])" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	java.lang.String[] args (1815025408);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Runtime (317960117);
+	PrintStream (2078239671);
+..member..
+..method..
+	null exec(java.lang.String) (1960253514);
+	null getRuntime() (1370495328);
+	null println(java.lang.String) (1197176722);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

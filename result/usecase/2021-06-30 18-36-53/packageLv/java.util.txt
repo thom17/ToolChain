@@ -1,0 +1,15 @@
+@startuml
+ left to right direction
+
+actor Scanner as actor1028728402
+
+actor ArrayList as actor741225568
+
+actor AbstractList as actor999749808
+
+actor AbstractCollection as actor722929970
+
+actor HashMap as actor532732340
+
+
+@enduml

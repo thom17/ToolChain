@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="451px" preserveAspectRatio="none" style="width:442px;height:451px;" version="1.1" viewBox="0 0 442 451" width="442px" zoomAndPan="magnify"><defs><filter height="300%" id="fkab971kgtfv7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f84b217020bdb875be7d37de79ed20c2]
+cluster SwitchNode--><rect fill="#FFFFFF" filter="url(#fkab971kgtfv7)" height="288" style="stroke: #000000; stroke-width: 1.5;" width="164" x="123" y="10.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="163.5" y="28.6533">SwitchNode</text><!--MD5=[d7cb485c184685c60a24d7d833bd66f5]
+cluster print--><rect fill="#FFFFFF" filter="url(#fkab971kgtfv7)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="94" x="158" y="335.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="188.5" y="353.6533">print</text><ellipse cx="205.6482" cy="65.5973" fill="#FEFECE" filter="url(#fkab971kgtfv7)" rx="37.6482" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="181.1482" y="71.7121">toString</text><ellipse cx="204.9325" cy="132.5973" fill="#FEFECE" filter="url(#fkab971kgtfv7)" rx="65.9325" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="160.4325" y="138.7121">getExpression</text><ellipse cx="204.9836" cy="266.5869" fill="#FEFECE" filter="url(#fkab971kgtfv7)" rx="19.9836" ry="16.5869" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="192.9836" y="272.7016">add</text><ellipse cx="204.7904" cy="199.5973" fill="#FEFECE" filter="url(#fkab971kgtfv7)" rx="51.7904" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="170.2904" y="205.7121">statements</text><ellipse cx="205.5772" cy="390.5973" fill="#FEFECE" filter="url(#fkab971kgtfv7)" rx="30.5772" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="186.0772" y="396.7121">println</text><!--MD5=[cdb2c9cb3618bb8a9519aab6193fd41d]
+entity actor908744222--><ellipse cx="42.5" cy="134" fill="#FEFECE" filter="url(#fkab971kgtfv7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M42.5,142 L42.5,169 M29.5,150 L55.5,150 M42.5,169 L29.5,184 M42.5,169 L55.5,184 " fill="none" filter="url(#fkab971kgtfv7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="73" x="6" y="205.6533">SwitchNode</text><!--MD5=[ebd05bc151ddf4d6a269c5d8df878274]
+entity actor280960713--><ellipse cx="383" cy="133" fill="#FEFECE" filter="url(#fkab971kgtfv7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M383,141 L383,168 M370,149 L396,149 M383,168 L370,183 M383,168 L396,183 " fill="none" filter="url(#fkab971kgtfv7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="104" x="331" y="204.6533">SwitchStatement</text><!--MD5=[b8cdde3df73f4298fd171ae207d79fef]
+entity actor1538456363--><ellipse cx="383" cy="252" fill="#FEFECE" filter="url(#fkab971kgtfv7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M383,260 L383,287 M370,268 L396,268 M383,287 L370,302 M383,287 L396,302 " fill="none" filter="url(#fkab971kgtfv7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="355" y="323.6533">ArrayList</text><!--MD5=[4f7de1fe7bd115482050f2b64cadc785]
+entity actor293285062--><ellipse cx="383" cy="14" fill="#FEFECE" filter="url(#fkab971kgtfv7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M383,22 L383,49 M370,30 L396,30 M383,49 L370,64 M383,49 L396,64 " fill="none" filter="url(#fkab971kgtfv7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="353" y="85.6533">ASTNode</text><!--MD5=[c6373e6f06c0704c33390c3718060f35]
+entity actor731802107--><ellipse cx="383" cy="371" fill="#FEFECE" filter="url(#fkab971kgtfv7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M383,379 L383,406 M370,387 L396,387 M383,406 L370,421 M383,406 L396,421 " fill="none" filter="url(#fkab971kgtfv7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="346" y="442.6533">PrintStream</text><!--MD5=[ea01f1ef8e59eef8636a813d87b00277]
+link actor908744222 to UC597399755--><path d="M78.7754,144.046 C89.7426,134.598 102.2558,124.347 115,116.5 C139.89,101.175 172.808,90.914 191.147,80.524 " fill="none" id="actor908744222-UC597399755" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ea01f1ef8e59eef8636a813d87b00277]
+link actor908744222 to UC597399755--><path d="M65.7225,124.396 C79.141,108.753 96.8359,92.684 115,81.5 C132.21,70.904 153.257,62.729 170.67,58.954 " fill="none" id="actor908744222-UC597399755-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[293f3621f8339ed21a646e7100a4faa1]
+link actor908744222 to UC1907517568--><path d="M78.5804,158.87 C101.1075,154.171 130.293,148.083 154.945,142.941 " fill="none" id="actor908744222-UC1907517568" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9d2dfe87d804a97c41aa9283c0a25122]
+link actor908744222 to UC2030748640--><path d="M78.7255,205.368 C89.6923,215.484 102.2177,225.716 115,233.5 C137.6,247.263 166.845,256.66 185.762,261.805 " fill="none" id="actor908744222-UC2030748640" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[54adb4205b519e77acaf827302844fc6]
+link actor908744222 to UC346125981--><path d="M78.5804,173.906 C103.0786,178.866 135.452,185.42 161.305,190.654 " fill="none" id="actor908744222-UC346125981" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[cc3a9da18edb60eff1313e4736480c0a]
+link UC346125981 to actor280960713--><path d="M249.458,191.008 C274.171,186.287 305.059,180.388 330.902,175.451 " fill="none" id="UC346125981-actor280960713" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7a3d259757281e358966309a33b62add]
+link UC2030748640 to actor1538456363--><path d="M225.073,268.53 C256.804,271.739 318.655,277.993 354.821,281.65 " fill="none" id="UC2030748640-actor1538456363" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[783659788d4e6a74890ac55127df3de4]
+link UC1907517568 to actor280960713--><path d="M257.443,142.223 C280.619,146.519 307.799,151.558 330.932,155.847 " fill="none" id="UC1907517568-actor280960713" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[90fa5d84a40df45de8cd9740651107e5]
+link UC597399755 to actor293285062--><path d="M239.32,72.146 C272.254,72.034 321.498,66.621 352.931,59.549 " fill="none" id="UC597399755-actor293285062" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[90fa5d84a40df45de8cd9740651107e5]
+link UC597399755 to actor293285062--><path d="M229.377,53.264 C261.559,44.948 318.201,38.643 352.982,39.292 " fill="none" id="UC597399755-actor293285062-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0745360e59ece3a0ab88cc37e9c4471d]
+link actor908744222 to UC1001114349--><path d="M61.6611,208.682 C75.0305,235.502 94.0495,270.349 115,298.5 C137.678,328.972 169.925,359.5436 189.031,376.6448 " fill="none" id="actor908744222-UC1001114349" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[816e5c10a07c33b9916dec33cc4780dc]
+link UC1001114349 to actor731802107--><path d="M235.599,392.7348 C266.115,394.9635 313.031,398.3899 345.708,400.7764 " fill="none" id="UC1001114349-actor731802107" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[939a3541ca787f737a7ce7e376d8d4fe]
+@startuml
+ left to right direction
+
+actor SwitchNode as actor908744222
+
+	rectangle SwitchNode{
+	 usecase toString as UC597399755
+	actor908744222- -UC597399755
+	 usecase getExpression as UC1907517568
+	actor908744222- -UC1907517568
+	 usecase add as UC2030748640
+	actor908744222- -UC2030748640
+	 usecase statements as UC346125981
+	actor908744222- -UC346125981
+	}
+	actor SwitchStatement as actor280960713
+	 UC346125981 - - actor280960713
+	actor ArrayList as actor1538456363
+	 UC2030748640 - - actor1538456363
+	actor SwitchStatement as actor280960713
+	 UC1907517568 - - actor280960713
+	actor ASTNode as actor293285062
+	 UC597399755 - - actor293285062
+	rectangle print{
+	 usecase println as UC1001114349
+	actor908744222- -UC1001114349
+	 usecase toString as UC597399755
+	actor908744222- -UC597399755
+	}
+	actor ASTNode as actor293285062
+	 UC597399755 - - actor293285062
+	actor PrintStream as actor731802107
+	 UC1001114349 - - actor731802107
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

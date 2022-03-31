@@ -1,0 +1,118 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 0
+	extendsClassScore = 0
+	callScore = 0
+	callByScore = 0
+	methodNum = 0
+	memberNum = 0
+	constructorNum = 0
+	selfCoverage = 0
+	needCallBy = 0
+	ABS = 0
+	REL = 0
+	ABS = 0
+	REL = 0
+	coverage = 0.0%
+__**<color:green>has list</color>**__
+	<color:green>null getExpression() (0)
+	<color:green>null initializers() (0)
+	<color:green>null updaters() (0)
+}
+
+class org.eclipse.jdt.core.dom.ForStatement.getExpression1295803795 as "getExpression()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.ForStatement
+	SrcSig : org.eclipse.jdt.core.dom.ForStatement.getExpression()
+	Sig : getExpression()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+class org.eclipse.jdt.core.dom.ForStatement.initializers1948689480 as "initializers()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.ForStatement
+	SrcSig : org.eclipse.jdt.core.dom.ForStatement.initializers()
+	Sig : initializers()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+class org.eclipse.jdt.core.dom.ForStatement.updaters1365533388 as "updaters()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.ForStatement
+	SrcSig : org.eclipse.jdt.core.dom.ForStatement.updaters()
+	Sig : updaters()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+
+@enduml

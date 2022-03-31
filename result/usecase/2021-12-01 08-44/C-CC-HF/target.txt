@@ -1,0 +1,15 @@
+@startuml
+ left to right direction
+
+actor Barista as actor1002021887
+actor CoffeeShop as actor1712943792
+rectangle Barista{
+	usecase makeCoffee as UC1525919705
+		actor1712943792 -- UC1525919705
+	usecase getOrder as UC842741472
+}
+rectangle Coffee{
+	usecase addShot as UC1156304131
+	usecase make as UC1766505436
+}
+@enduml

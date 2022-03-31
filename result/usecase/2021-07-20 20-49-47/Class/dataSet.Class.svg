@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="443px" preserveAspectRatio="none" style="width:304px;height:443px;" version="1.1" viewBox="0 0 304 443" width="304px" zoomAndPan="magnify"><defs><filter height="300%" id="f16baold0147yk" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[59ebf0283d772b222685dc1bf28c35d4]
+cluster Class--><rect fill="#FFFFFF" filter="url(#f16baold0147yk)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="93" x="95.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="38" x="123" y="25.1533">Class</text><!--MD5=[89e6df34a40fd0f881e4a85c208f9fb2]
+cluster addCallBy--><rect fill="#FFFFFF" filter="url(#f16baold0147yk)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="114" x="85" y="119"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="107.5" y="137.1533">addCallBy</text><!--MD5=[e72b28ea75be9a6e9901756f23061282]
+cluster addCall--><rect fill="#FFFFFF" filter="url(#f16baold0147yk)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="114" x="85" y="231"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="116" y="249.1533">addCall</text><!--MD5=[3df72e327fda6a9c75e1d3c13478bbff]
+cluster addHas--><rect fill="#FFFFFF" filter="url(#f16baold0147yk)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="114" x="85" y="343"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="116" y="361.1533">addHas</text><ellipse cx="142.0772" cy="62.0973" fill="#FEFECE" filter="url(#f16baold0147yk)" rx="30.5772" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="122.5772" y="68.2121">println</text><ellipse cx="142.1838" cy="174.0973" fill="#FEFECE" filter="url(#f16baold0147yk)" rx="41.1838" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="115.1838" y="180.2121">addData</text><ellipse cx="142.1838" cy="286.0973" fill="#FEFECE" filter="url(#f16baold0147yk)" rx="41.1838" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="115.1838" y="292.2121">addData</text><ellipse cx="142.1838" cy="398.0973" fill="#FEFECE" filter="url(#f16baold0147yk)" rx="41.1838" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="115.1838" y="404.2121">addData</text><!--MD5=[ccd92fdf9bf7911b7d49748277971cdf]
+entity actor736874772--><ellipse cx="23.5" cy="197.5" fill="#FEFECE" filter="url(#f16baold0147yk)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M23.5,205.5 L23.5,232.5 M10.5,213.5 L36.5,213.5 M23.5,232.5 L10.5,247.5 M23.5,232.5 L36.5,247.5 " fill="none" filter="url(#f16baold0147yk)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="6" y="269.1533">Class</text><!--MD5=[b7e9d3a6f28f121b3b9275e7322962cf]
+entity actor2131723476--><ellipse cx="270" cy="29.5" fill="#FEFECE" filter="url(#f16baold0147yk)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M270,37.5 L270,64.5 M257,45.5 L283,45.5 M270,64.5 L257,79.5 M270,64.5 L283,79.5 " fill="none" filter="url(#f16baold0147yk)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="250.5" y="101.1533">println</text><!--MD5=[2402d7512d9aa01d473b8fba52e12d98]
+entity actor188193734--><ellipse cx="270" cy="253.5" fill="#FEFECE" filter="url(#f16baold0147yk)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M270,261.5 L270,288.5 M257,269.5 L283,269.5 M270,288.5 L257,303.5 M270,288.5 L283,303.5 " fill="none" filter="url(#f16baold0147yk)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="243" y="325.1533">addData</text><!--MD5=[0707b5038258ec6c2a5deb4707a4f1ce]
+link actor736874772 to UC189--><path d="M41.16,199.23 C50.98,181.76 64.01,159.71 77,141 C93.21,117.66 114.34,92.43 127.8,76.92 " fill="none" id="actor736874772-UC189" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f79afc58061e43c9d5932083c091df0b]
+link UC189 to actor2131723476--><path d="M172.54,62 C196.54,62 229.68,62 250.2,62 " fill="none" id="UC189-actor2131723476" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[29018d86a723cdd6ed25205dd86867f3]
+link actor736874772 to UC190--><path d="M41.19,221.98 C60.44,212.72 92.33,197.39 114.88,186.56 " fill="none" id="actor736874772-UC190" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[aaeb33e0e180671bab5bec7221d88a91]
+link UC190 to actor188193734--><path d="M159.99,189.1 C181.22,207.97 217.77,240.46 242.64,262.57 " fill="none" id="UC190-actor188193734" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[dab0435e11c4924799448e9c7edaa295]
+link actor736874772 to UC191--><path d="M41.19,238.02 C60.44,247.28 92.33,262.61 114.88,273.44 " fill="none" id="actor736874772-UC191" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b84aead47a36dde633562b062c81e369]
+link UC191 to actor188193734--><path d="M183.21,286 C202.66,286 225.45,286 242.65,286 " fill="none" id="UC191-actor188193734" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[41754cecb76baf24089c592d7e1a4613]
+link actor736874772 to UC192--><path d="M41.16,260.77 C50.98,278.24 64.01,300.29 77,319 C93.01,342.05 113.82,366.94 127.29,382.5 " fill="none" id="actor736874772-UC192" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c226efa8ad815a0631b68b641007adff]
+link UC192 to actor188193734--><path d="M159.99,382.9 C181.22,364.03 217.77,331.54 242.64,309.43 " fill="none" id="UC192-actor188193734" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a38be00f4ffc50cb7577aa36ebea92f7]
+@startuml
+ left to right direction
+
+actor Class as actor736874772
+
+	rectangle Class{
+	 usecase println as UC189
+	actor736874772- -UC189
+	}
+actor println as actor2131723476
+UC189- -actor2131723476
+
+	rectangle addCallBy{
+	 usecase addData as UC190
+	actor736874772- -UC190
+	}
+actor addData as actor188193734
+UC190- -actor188193734
+
+	rectangle addCall{
+	 usecase addData as UC191
+	actor736874772- -UC191
+	}
+actor addData as actor188193734
+UC191- -actor188193734
+
+	rectangle addHas{
+	 usecase addData as UC192
+	actor736874772- -UC192
+	}
+actor addData as actor188193734
+UC192- -actor188193734
+
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

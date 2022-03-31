@@ -1,0 +1,138 @@
+@startuml
+group new GameSystem(int[][])
+	GameSystem->Map : Map()
+		Map-->GameSystem
+	GameSystem->Player : Player(java.lang.String)
+		Player-->GameSystem
+end
+
+group new GameSystem(int[][])
+	GameSystem->Map : Map()
+		Map-->GameSystem
+	GameSystem->Player : Player(java.lang.String)
+		Player-->GameSystem
+end
+
+group void playGame(java.lang.String)
+	GameSystem->Player : Player(java.lang.String)
+		Player-->GameSystem
+	GameSystem->GameSystem : diceSetting()
+	GameSystem->GameSystem : main()
+end
+
+group void diceSetting()
+	GameSystem->Dice : Dice(int[])
+		Dice-->GameSystem
+end
+
+group void printPos(gameSystem.Player)
+	GameSystem->Player : getPos()
+		Player-->GameSystem
+	GameSystem->Map : getSize()
+		Map-->GameSystem
+	GameSystem->PrintStream : println(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->PrintStream : print(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->PrintStream : println()
+		PrintStream-->GameSystem
+end
+
+group void printPos(gameSystem.Player)
+	GameSystem->Player : getPos()
+		Player-->GameSystem
+	GameSystem->Map : getSize()
+		Map-->GameSystem
+	GameSystem->PrintStream : println(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->PrintStream : print(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->PrintStream : println()
+		PrintStream-->GameSystem
+end
+
+group void printPos(gameSystem.Player)
+	GameSystem->Player : getPos()
+		Player-->GameSystem
+	GameSystem->Map : getSize()
+		Map-->GameSystem
+	GameSystem->PrintStream : println(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->PrintStream : print(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->PrintStream : println()
+		PrintStream-->GameSystem
+end
+
+group Dice choiceDice(gameSystem.Player)
+	GameSystem->PrintStream : println(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->GameSystem : printPos(gameSystem.Player)
+	GameSystem->PrintStream : print(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->PrintStream : println()
+		PrintStream-->GameSystem
+end
+
+group Dice choiceDice(gameSystem.Player)
+	GameSystem->PrintStream : println(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->GameSystem : printPos(gameSystem.Player)
+	GameSystem->PrintStream : print(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->PrintStream : println()
+		PrintStream-->GameSystem
+end
+
+group int diceRoll(gameSystem.Dice)
+	GameSystem->Dice : roll()
+		Dice->Random : nextInt(int)
+			Random-->Dice
+		Dice-->GameSystem
+end
+
+group void move(int, gameSystem.Player)
+	GameSystem->Player : getPos()
+		Player-->GameSystem
+	GameSystem->Map : getSize()
+		Map-->GameSystem
+	GameSystem->Map : getEvent(int)
+		Map-->GameSystem
+	GameSystem->PrintStream : println(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->Player : setPos(int)
+		Player-->GameSystem
+end
+
+group void move(int, gameSystem.Player)
+	GameSystem->Player : getPos()
+		Player-->GameSystem
+	GameSystem->Map : getSize()
+		Map-->GameSystem
+	GameSystem->Map : getEvent(int)
+		Map-->GameSystem
+	GameSystem->PrintStream : println(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->Player : setPos(int)
+		Player-->GameSystem
+end
+
+group void move(int, gameSystem.Player)
+	GameSystem->Player : getPos()
+		Player-->GameSystem
+	GameSystem->Map : getSize()
+		Map-->GameSystem
+	GameSystem->Map : getEvent(int)
+		Map-->GameSystem
+	GameSystem->PrintStream : println(java.lang.String)
+		PrintStream-->GameSystem
+	GameSystem->Player : setPos(int)
+		Player-->GameSystem
+end
+
+group void printResult()
+	GameSystem->PrintStream : println(java.lang.String)
+		PrintStream-->GameSystem
+end
+
+@enduml

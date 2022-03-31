@@ -1,0 +1,21 @@
+@startuml
+class dataSet.Member.Member(java.lang.String, dataSet.Class){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String name (1552595422);
+	Class owner (1463905865);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	String name (101319115);
+	Data_base owner (1627160387);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

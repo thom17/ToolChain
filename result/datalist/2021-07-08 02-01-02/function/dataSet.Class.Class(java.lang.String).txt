@@ -1,0 +1,23 @@
+@startuml
+class dataSet.Class.Class(java.lang.String){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String srcName (261849385);
+	String[] list (1966082314);
+	int i (1150464915);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	String name (101319115);
+	String packageSrc (976935143);
+	String modifier (1325077489);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

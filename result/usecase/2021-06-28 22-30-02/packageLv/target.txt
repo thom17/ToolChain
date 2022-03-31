@@ -1,0 +1,31 @@
+@startuml
+ left to right direction
+
+actor Americano as actor1457410641
+actor1457410641->actor1100767002actor Coffee as actor1100767002
+actor Barista as actor313540687
+actor CafeLatte as actor1990098664
+actor1990098664->actor1100767002actor CoffeeShop as actor1383524016
+	package target {
+		usecase makeCoffee as UC1907431275
+	}
+	actor1383524016 -- UC1907431275
+actor Test as actor1637061418
+	package java.io {
+		usecase println as UC1686100174
+		usecase println as UC22671767
+	}
+	actor1637061418 -- UC22671767
+	actor1637061418 -- UC1686100174
+	package target {
+		usecase main as UC2024453272
+	}
+	actor1637061418 -- UC2024453272
+actor A as actor98394724
+	package java.io {
+		usecase print as UC536765369
+		usecase println as UC22671767
+	}
+	actor98394724 -- UC22671767
+	actor98394724 -- UC536765369
+@enduml

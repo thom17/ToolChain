@@ -1,0 +1,83 @@
+@startuml
+ left to right direction
+
+actor JavaParser as actor1086811994
+
+	rectangle makeASTList{
+	 usecase size as UC650777250
+	actor1086811994--UC650777250
+	}
+	actor ArrayList as actor1538456363
+	actor1538456363 -- dataSet.Function@26ca12a2
+	rectangle makeFileList{
+	 usecase add as UC2030748640
+	actor1086811994--UC2030748640
+	}
+	actor ArrayList as actor1538456363
+	actor1538456363 -- dataSet.Function@790ac3e0
+	rectangle init{
+	 usecase printStackTrace as UC1028574311
+	actor1086811994--UC1028574311
+	 usecase append as UC1698322791
+	actor1086811994--UC1698322791
+	 usecase read as UC1625094636
+	actor1086811994--UC1625094636
+	 usecase close as UC1980153091
+	actor1086811994--UC1980153091
+	 usecase newParser as UC11529827
+	actor1086811994--UC11529827
+	 usecase setKind as UC1263085541
+	actor1086811994--UC1263085541
+	 usecase setSource as UC1281205497
+	actor1086811994--UC1281205497
+	 usecase toCharArray as UC267445972
+	actor1086811994--UC267445972
+	 usecase toString as UC1986751746
+	actor1086811994--UC1986751746
+	 usecase setStatementsRecovery as UC1892928959
+	actor1086811994--UC1892928959
+	 usecase setBindingsRecovery as UC1923590735
+	actor1086811994--UC1923590735
+	 usecase setResolveBindings as UC1400677006
+	actor1086811994--UC1400677006
+	 usecase setComplianceOptions as UC1530013811
+	actor1086811994--UC1530013811
+	 usecase setCompilerOptions as UC904050847
+	actor1086811994--UC904050847
+	}
+	actor ASTParser as actor2061011390
+	actor2061011390 -- dataSet.Function@35e2b89f
+	actor JavaCore as actor1275477177
+	actor1275477177 -- dataSet.Function@5b322873
+	actor ASTParser as actor2061011390
+	actor2061011390 -- dataSet.Function@537ca28e
+	actor ASTParser as actor2061011390
+	actor2061011390 -- dataSet.Function@72a7aa4f
+	actor ASTParser as actor2061011390
+	actor2061011390 -- dataSet.Function@70d3cdbf
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- dataSet.Function@766b6d02
+	actor String as actor104719610
+	actor104719610 -- dataSet.Function@ff0e6d4
+	actor ASTParser as actor2061011390
+	actor2061011390 -- dataSet.Function@4c5da4f9
+	actor ASTParser as actor2061011390
+	actor2061011390 -- dataSet.Function@4b4927e5
+	actor ASTParser as actor2061011390
+	actor2061011390 -- dataSet.Function@afee63
+	actor BufferedReader as actor649827042
+	actor649827042 -- dataSet.Function@7606bd03
+	actor Reader as actor412121842
+	actor412121842 -- dataSet.Function@60dcf9ec
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- dataSet.Function@653a5967
+	actor Throwable as actor1703837357
+	actor1703837357 -- dataSet.Function@3d4ecc67
+	rectangle main{
+	 usecase println as UC217930962
+	actor1086811994--UC217930962
+	}
+	actor PrintStream as actor731802107
+	actor731802107 -- dataSet.Function@cfd5cd2
+
+@enduml

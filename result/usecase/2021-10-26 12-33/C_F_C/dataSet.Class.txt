@@ -1,0 +1,63 @@
+@startuml
+ left to right direction
+
+actor Class as actor1302141801
+
+	rectangle Class{
+	 usecase String as UC33
+	actor1302141801--UC33
+	}
+	rectangle Class{
+	 usecase String as UC34
+	actor1302141801--UC34
+	}
+	rectangle Class{
+	 usecase String as UC35
+	actor1302141801--UC35
+	}
+	rectangle addClass{
+	 usecase DataList as UC36
+	actor1302141801--UC36
+	}
+	rectangle addMember{
+	 usecase DataList as UC37
+	actor1302141801--UC37
+	 usecase Var as UC38
+	actor1302141801--UC38
+	}
+	rectangle addFunction{
+	 usecase DataList as UC39
+	actor1302141801--UC39
+	 usecase Function as UC40
+	actor1302141801--UC40
+	}
+	rectangle addCallClass{
+	 usecase DataList as UC41
+	actor1302141801--UC41
+	}
+	rectangle addCallMember{
+	 usecase DataList as UC42
+	actor1302141801--UC42
+	 usecase Var as UC43
+	actor1302141801--UC43
+	}
+	rectangle addCallFunction{
+	 usecase DataList as UC44
+	actor1302141801--UC44
+	 usecase Function as UC45
+	actor1302141801--UC45
+	}
+	rectangle findFunction{
+	 usecase String as UC46
+	actor1302141801--UC46
+	}
+	rectangle getHasFunctionList{
+	 usecase DataList as UC47
+	actor1302141801--UC47
+	}
+	rectangle countRefNum{
+	 usecase DataList as UC48
+	actor1302141801--UC48
+	}
+
+@enduml

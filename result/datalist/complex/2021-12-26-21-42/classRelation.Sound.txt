@@ -1,0 +1,53 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 1
+	extendsClassScore = 0
+	callScore = 0
+	callByScore = 0
+	methodNum = 1
+	memberNum = 1
+	constructorNum = 1
+	selfCoverage = 0
+	needCallBy = 2
+	ABS = 2
+	REL = 1
+	coverage = 0.0%
+__**<color:green>has list</color>**__
+	<color:green>int volume (1)
+	<color:green>new Sound(int) (1)
+}
+
+class classRelation.Sound.Sound1199673596 as "Sound(int)"#line:green 
+{
+	pram : (int )
+	SrcOwnClassName : classRelation.Sound
+	SrcSig : classRelation.Sound.Sound(int)
+	Sig : Sound(int)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 4.7549
+	Volume : 10
+	Diffifculty: 3
+	Effort : 30
+	ABS Score : 1
+	Relative Score : 1
+}
+
+@enduml

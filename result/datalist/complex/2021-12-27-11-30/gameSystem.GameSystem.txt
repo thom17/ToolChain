@@ -1,0 +1,347 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 19
+	extendsClassScore = 0
+	callScore = 57
+	callByScore = 57
+	methodNum = 10
+	memberNum = 7
+	constructorNum = 1
+	selfCoverage = 10
+	needCallBy = 7
+	Absolute Score = 154
+	Relative Score = 9
+	coverage = 58.0%
+__**<color:green>has list</color>**__
+	<color:red>int[][] diceShapeList (4)
+	<color:green>int turnIndex (1)
+	<color:green>java.util.Scanner scan (2)
+	<color:green>java.util.Random rand (2)
+	<color:red>gameSystem.Player[] playerList (4)
+	<color:red>gameSystem.Dice[] diceList (4)
+	<color:green>gameSystem.Map map (2)
+	<color:red>new GameSystem(int[][]) (13)
+	<color:orange>void playGame(java.lang.String) (8)
+	<color:orange>void diceSetting() (7)
+	<color:orange>void main() (6)
+	<color:red>void printPos(gameSystem.Player) (11)
+	<color:red>Dice choiceDice(gameSystem.Player) (9)
+	<color:orange>int diceRoll(gameSystem.Dice) (8)
+	<color:red>void move(int, gameSystem.Player) (11)
+	<color:orange>void printResult() (5)
+	<color:green>boolean gameEnd() (0)
+}
+
+class gameSystem.GameSystem.GameSystem1148255190 as "GameSystem(int[][])"#back:salmon 
+{
+	pram : (int[][] )
+	SrcOwnClassName : gameSystem.GameSystem
+	SrcSig : gameSystem.GameSystem.GameSystem(int[][])
+	Sig : GameSystem(int[][])
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 4
+	classCall Score : 3
+	Call Score : 9
+	CallBy Score : 0
+	memberUse Score : 4
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 6
+	cyclomatic : 1
+	State Node lineNum: 3
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 3
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 27.6515
+	Volume : 58.8103
+	Diffifculty: 2.2857
+	Effort : 134.4236
+	Absolute Score : 13
+	Relative Score : 13
+}
+class gameSystem.GameSystem.playGame366252104 as "playGame(java.lang.String)" 
+{
+	pram : (java.lang.String )
+	SrcOwnClassName : gameSystem.GameSystem
+	SrcSig : gameSystem.GameSystem.playGame(java.lang.String)
+	Sig : playGame(java.lang.String)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 5
+	Call Score : 7
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 5
+	cyclomatic : 1
+	State Node lineNum: 3
+	State Node Num : 0
+	State Node callListSize: 2
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 31.2611
+	Volume : 60.9444
+	Diffifculty: 4.2
+	Effort : 255.9663
+	Absolute Score : 8
+	Relative Score : 4
+}
+class gameSystem.GameSystem.diceSetting1651162064 as "diceSetting()" 
+{
+	pram : ( )
+	SrcOwnClassName : gameSystem.GameSystem
+	SrcSig : gameSystem.GameSystem.diceSetting()
+	Sig : diceSetting()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 3
+	Call Score : 7
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 3
+	cyclomatic : 1
+	State Node lineNum: 3
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 3
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 27.1194
+	Volume : 79.5669
+	Diffifculty: 5.4167
+	Effort : 430.9875
+	Absolute Score : 7
+	Relative Score : 7
+}
+class gameSystem.GameSystem.main1541525668 as "main()" 
+{
+	pram : ( )
+	SrcOwnClassName : gameSystem.GameSystem
+	SrcSig : gameSystem.GameSystem.main()
+	Sig : main()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 2
+	Call Score : 6
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 2
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 5
+	cyclomatic : 1
+	State Node lineNum: 9
+	State Node Num : 0
+	State Node callListSize: 3
+	State Node repeatSize : 0
+	State Node writeSize : 2
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 67.7572
+	Volume : 164.2333
+	Diffifculty: 13.9286
+	Effort : 2287.5348
+	Absolute Score : 6
+	Relative Score : 2
+}
+class gameSystem.GameSystem.printPos2017797638 as "printPos(gameSystem.Player)"#back:salmon 
+{
+	pram : (gameSystem.Player )
+	SrcOwnClassName : gameSystem.GameSystem
+	SrcSig : gameSystem.GameSystem.printPos(gameSystem.Player)
+	Sig : printPos(gameSystem.Player)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 9
+	CallBy Score : 2
+	memberUse Score : 4
+	localValue Score : 6
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 11
+	cyclomatic : 1
+	State Node lineNum: 17
+	State Node Num : 0
+	State Node callListSize: 7
+	State Node repeatSize : 1
+	State Node writeSize : 3
+	State Node bifurSize : 2
+	Calculated Estunated Program Length: 184.5461
+	Volume : 560.801
+	Diffifculty: 19.5455
+	Effort : 10961.1107
+	Absolute Score : 11
+	Relative Score : 11
+}
+class gameSystem.GameSystem.choiceDice1096485705 as "choiceDice(gameSystem.Player)"#back:salmon 
+{
+	pram : (gameSystem.Player )
+	SrcOwnClassName : gameSystem.GameSystem
+	SrcSig : gameSystem.GameSystem.choiceDice(gameSystem.Player)
+	Sig : choiceDice(gameSystem.Player)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 5
+	Call Score : 7
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 2
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 7
+	cyclomatic : 1
+	State Node lineNum: 15
+	State Node Num : 0
+	State Node callListSize: 5
+	State Node repeatSize : 1
+	State Node writeSize : 0
+	State Node bifurSize : 1
+	Calculated Estunated Program Length: 106.7091
+	Volume : 326.9001
+	Diffifculty: 11.7
+	Effort : 3824.7316
+	Absolute Score : 9
+	Relative Score : 9
+}
+class gameSystem.GameSystem.diceRoll1764996806 as "diceRoll(gameSystem.Dice)" 
+{
+	pram : (gameSystem.Dice )
+	SrcOwnClassName : gameSystem.GameSystem
+	SrcSig : gameSystem.GameSystem.diceRoll(gameSystem.Dice)
+	Sig : diceRoll(gameSystem.Dice)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 6
+	CallBy Score : 5
+	memberUse Score : 1
+	localValue Score : 2
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 3
+	cyclomatic : 1
+	State Node lineNum: 3
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 20.2647
+	Volume : 31.6993
+	Diffifculty: 4
+	Effort : 126.797
+	Absolute Score : 8
+	Relative Score : 8
+}
+class gameSystem.GameSystem.move1834361038 as "move(int, gameSystem.Player)"#back:salmon 
+{
+	pram : (int gameSystem.Player )
+	SrcOwnClassName : gameSystem.GameSystem
+	SrcSig : gameSystem.GameSystem.move(int, gameSystem.Player)
+	Sig : move(int, gameSystem.Player)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 3
+	classCall Score : 3
+	Call Score : 8
+	CallBy Score : 5
+	memberUse Score : 3
+	localValue Score : 7
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 10
+	cyclomatic : 1
+	State Node lineNum: 15
+	State Node Num : 0
+	State Node callListSize: 6
+	State Node repeatSize : 0
+	State Node writeSize : 4
+	State Node bifurSize : 1
+	Calculated Estunated Program Length: 117.5926
+	Volume : 461.2477
+	Diffifculty: 13.7647
+	Effort : 6348.9391
+	Absolute Score : 11
+	Relative Score : 11
+}
+class gameSystem.GameSystem.printResult1624972302 as "printResult()" 
+{
+	pram : ( )
+	SrcOwnClassName : gameSystem.GameSystem
+	SrcSig : gameSystem.GameSystem.printResult()
+	Sig : printResult()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 3
+	Call Score : 5
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 2
+	cyclomatic : 1
+	State Node lineNum: 6
+	State Node Num : 0
+	State Node callListSize: 3
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 1
+	Calculated Estunated Program Length: 44.8289
+	Volume : 105.486
+	Diffifculty: 7
+	Effort : 738.4023
+	Absolute Score : 5
+	Relative Score : 5
+}
+class gameSystem.GameSystem.gameEnd1989811701 as "gameEnd()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : gameSystem.GameSystem
+	SrcSig : gameSystem.GameSystem.gameEnd()
+	Sig : gameEnd()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 7
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 28.7549
+	Volume : 55.3509
+	Diffifculty: 4
+	Effort : 221.4036
+	Absolute Score : 0
+	Relative Score : 0
+}
+
+@enduml

@@ -1,0 +1,31 @@
+@startuml
+ left to right direction
+
+actor Complex as actor1014135205
+
+	rectangle getUndefSize{
+	 usecase StringBuilder as UC112
+	actor1014135205--UC112
+	}
+	rectangle addFunctionScore{
+	 usecase StringBuilder as UC113
+	actor1014135205--UC113
+	 usecase Function as UC114
+	actor1014135205--UC114
+	 usecase DataList as UC115
+	actor1014135205--UC115
+	 usecase Data_base as UC116
+	actor1014135205--UC116
+	}
+	rectangle getMemberScore{
+	 usecase Member as UC117
+	actor1014135205--UC117
+	 usecase StringBuilder as UC118
+	actor1014135205--UC118
+	}
+	rectangle getLineNum{
+	 usecase Scanner as UC119
+	actor1014135205--UC119
+	}
+
+@enduml

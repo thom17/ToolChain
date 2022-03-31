@@ -1,0 +1,55 @@
+@startuml
+class "snavigator.SN_Dumper.readBy(dataSet.DataList)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.DataList list (1377160602);
+	File in (917935693);
+	String dbdumpCmd (823758059);
+	Process p (153448497);
+	BufferedReader br (1965036946);
+	String line (1999036805);
+	String[] byList (178603358);
+	String clientClName (673384643);
+	String clientMemberName (1574573264);
+	String clientMemberType (498134055);
+	String hostClName (1033880954);
+	String hostMemberName (223000346);
+	String hostMemberType (3886839);
+	String wrType (451959555);
+	String hostParameter (1502079282);
+	Class host (28145535);
+	Class client (1539038539);
+	DataList hostHasList (1133227388);
+	DataList hostCallList (623051334);
+	Function funHost (1340051218);
+	Function funClient (1250644519);
+	Var varClient (1425405511);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	PrintStream (2078239671);
+	Class (1302141801);
+	DataList (1391119179);
+	Function (622820646);
+	BufferedReader (80756779);
+..member..
+..method..
+	null println(java.lang.String) (1197176722);
+	void addCallClass(dataSet.Class) (1924966548);
+	null print(java.lang.String) (923013679);
+	String getName() (2008159348);
+	void addClass(dataSet.Class) (693345846);
+	DataList getCallList() (1657125852);
+	void addFunction(dataSet.Function) (257718694);
+	void addVar(dataSet.Var) (854989361);
+	null readLine() (1970779713);
+__**<color:orange>called by list</color>**__
+..class..
+	SN_Dumper (535352603);
+..member..
+..method..
+	DataList makeDataList() (369901249);
+}
+
+@enduml

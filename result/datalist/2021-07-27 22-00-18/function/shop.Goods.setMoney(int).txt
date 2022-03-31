@@ -1,0 +1,19 @@
+@startuml
+class shop.Goods.setMoney(int){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	int money (1792550665);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	int money (231756373);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

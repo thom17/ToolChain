@@ -1,0 +1,25 @@
+@startuml
+ left to right direction
+
+actor User as actor1714078840
+
+	rectangle buy{
+	 usecase add as UC0
+	actor1714078840--UC0
+	 usecase getMoney as UC1
+	actor1714078840--UC1
+	}
+actor getMoney as actor1199262943
+UC1--actor1199262943
+actor add as actor1051876890
+UC0--actor1051876890
+
+	rectangle chckPwd{
+	 usecase equals as UC2
+	actor1714078840--UC2
+	}
+actor equals as actor2009221452
+UC2--actor2009221452
+
+
+@enduml

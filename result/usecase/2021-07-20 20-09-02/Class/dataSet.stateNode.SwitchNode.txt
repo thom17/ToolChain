@@ -1,0 +1,21 @@
+@startuml
+ left to right direction
+
+actor SwitchNode as actor1511319053
+
+	rectangle SwitchNode{
+	 usecase ASTNode as UC120
+	actor1511319053--UC120
+	 usecase SwitchStatement as UC121
+	actor1511319053--UC121
+	 usecase ArrayList as UC122
+	actor1511319053--UC122
+	}
+	rectangle print{
+	 usecase PrintStream as UC123
+	actor1511319053--UC123
+	 usecase ASTNode as UC124
+	actor1511319053--UC124
+	}
+
+@enduml

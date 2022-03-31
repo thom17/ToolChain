@@ -1,0 +1,29 @@
+@startuml
+group void addClass(java.lang.String)
+end
+
+group void addClass(dataSet.Class)
+	DataList->Class : getName()
+		Class-->DataList
+end
+
+group void addVar(dataSet.Var)
+	DataList->Var : getName()
+		Var-->DataList
+end
+
+group void addFunction(dataSet.Function)
+	DataList->Function : getName()
+		Function-->DataList
+end
+
+group Class findClass(java.lang.String)
+end
+
+group Function findFunction(java.lang.String)
+end
+
+group Var findVar(java.lang.String)
+end
+
+@enduml

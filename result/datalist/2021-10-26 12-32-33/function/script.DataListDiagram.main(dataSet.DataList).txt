@@ -1,0 +1,29 @@
+@startuml
+class "script.DataListDiagram.main(dataSet.DataList)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.DataList list (1658785779);
+	String script (1627496281);
+	Process p (1659435106);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	DataListDiagram (577245010);
+	Process (503144273);
+	PrintStream (2078239671);
+	DataList (1391119179);
+..member..
+..method..
+	void makeFile(java.lang.String) (1513029997);
+	null waitFor() (1296928719);
+	null println(java.lang.String) (1197176722);
+__**<color:orange>called by list</color>**__
+..class..
+	Main (1862674654);
+..member..
+..method..
+	void main(java.lang.String[]) (1068232840);
+}
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+class dataSet.Class.setIsInterface(boolean){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	boolean isInterface (273077527);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	boolean isInterface (512456259);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

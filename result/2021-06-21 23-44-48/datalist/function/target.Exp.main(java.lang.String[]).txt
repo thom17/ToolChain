@@ -1,0 +1,18 @@
+@startuml
+class target.Exp.main(java.lang.String[]){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String[] args (135184888);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+class dataSet.Function.Function(java.lang.String, java.lang.String, dataSet.Data_base){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String returnType (2065718717);
+	Data_base owner (275563320);
+	String[] list (2053628870);
+	String sig (1824872646);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Data_base (1111613684);
+..member..
+	java.lang.String name (1306246648);
+	dataSet.Data_base owner (1003693033);
+	java.lang.String sig (209429254);
+	java.lang.String returnType (1341706533);
+..method..
+	void addHasFunction(dataSet.Function) (149225732);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

@@ -1,0 +1,84 @@
+@startuml
+/' Class Def'/
+state class1847008471 as Class main.A{
+	class1847008471 : package main
+	class1847008471 : hasList Size 7
+	class1847008471 : callList Size 0
+	class1847008471 : callByList Size 2
+}
+state class1932831450 as Class main.B{
+	class1932831450 : package main
+	class1932831450 : hasList Size 1
+	class1932831450 : callList Size 0
+	class1932831450 : callByList Size 0
+}
+state class1636182655 as Class main.C{
+	class1636182655 : package main
+	class1636182655 : hasList Size 1
+	class1636182655 : callList Size 2
+	class1636182655 : callByList Size 0
+}
+/' Function Def'/
+state fun230643635 as int getx()#lightblue{
+	fun230643635 : owner A
+	fun230643635 : hasList Size 0
+	fun230643635 : callList Size 0
+	fun230643635 : callByList Size 2
+}
+state fun71399214 as void test(main.B)#lightblue{
+	fun71399214 : owner C
+	fun71399214 : hasList Size 0
+	fun71399214 : callList Size 2
+	fun71399214 : callByList Size 0
+}
+state fun944427387 as boolean check(int)#lightblue{
+	fun944427387 : owner A
+	fun944427387 : hasList Size 1
+	fun944427387 : callList Size 1
+	fun944427387 : callByList Size 0
+}
+/' Member Def'/
+state member2036127838 as java.lang.String a#aliceblue{
+	member2036127838 : owner A
+	member2036127838 : imageList []
+	member2036127838 : hasList Size 0
+	member2036127838 : callList Size 0
+	member2036127838 : callByList Size 0
+}
+state member1076607567 as java.lang.String result#aliceblue{
+	member1076607567 : owner A
+	member1076607567 : imageList []
+	member1076607567 : hasList Size 0
+	member1076607567 : callList Size 0
+	member1076607567 : callByList Size 0
+}
+state member496729294 as main.C b_has_c#aliceblue{
+	member496729294 : owner B
+	member496729294 : imageList []
+	member496729294 : hasList Size 0
+	member496729294 : callList Size 0
+	member496729294 : callByList Size 0
+}
+state member306115458 as int x#aliceblue{
+	member306115458 : owner A
+	member306115458 : imageList [15, value, 0]
+	member306115458 : hasList Size 0
+	member306115458 : callList Size 0
+	member306115458 : callByList Size 0
+}
+state member257608164 as java.lang.String c#aliceblue{
+	member257608164 : owner A
+	member257608164 : imageList []
+	member257608164 : hasList Size 0
+	member257608164 : callList Size 0
+	member257608164 : callByList Size 0
+}
+state member1509791656 as java.lang.String b#aliceblue{
+	member1509791656 : owner A
+	member1509791656 : imageList []
+	member1509791656 : hasList Size 0
+	member1509791656 : callList Size 0
+	member1509791656 : callByList Size 0
+}
+
+@enduml

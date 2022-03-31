@@ -1,0 +1,29 @@
+@startuml
+class "shopTest.TestScenario" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Shop shop (1709804316);
+..method..
+	void Login() (1574598287);
+	void Buy_Product() (2056031695);
+	void Charge_Money() (606508809);
+	void Add_Product() (718187988);
+	void Registration() (615438348);
+__**<color:blue>calling list</color>**__
+..class..
+	Shop (536122141);
+..member..
+..method..
+	User login(java.lang.String, java.lang.String) (914356853);
+	boolean buy(shop.User, shop.Goods) (195228908);
+	boolean charge(shop.User, int) (471579726);
+	void addGoods(shop.Goods, java.lang.String) (1442726378);
+	boolean regist(java.lang.String, java.lang.String) (752316209);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

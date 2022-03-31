@@ -1,0 +1,35 @@
+@startuml
+ left to right direction
+
+actor SwitchNode as actor1511319053
+
+	rectangle SwitchNode{
+	 usecase toString as UC1492276401
+	actor1511319053--UC1492276401
+	 usecase getExpression as UC740120508
+	actor1511319053--UC740120508
+	 usecase add as UC293618119
+	actor1511319053--UC293618119
+	 usecase statements as UC113042195
+	actor1511319053--UC113042195
+	}
+	actor SwitchStatement as actor650608468
+	 UC113042195 -- actor650608468
+	actor ArrayList as actor170611939
+	 UC293618119 -- actor170611939
+	actor SwitchStatement as actor650608468
+	 UC740120508 -- actor650608468
+	actor ASTNode as actor1186127045
+	 UC1492276401 -- actor1186127045
+	rectangle print{
+	 usecase println as UC115297013
+	actor1511319053--UC115297013
+	 usecase toString as UC1492276401
+	actor1511319053--UC1492276401
+	}
+	actor ASTNode as actor1186127045
+	 UC1492276401 -- actor1186127045
+	actor PrintStream as actor652803980
+	 UC115297013 -- actor652803980
+
+@enduml

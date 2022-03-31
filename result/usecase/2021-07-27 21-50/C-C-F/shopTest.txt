@@ -1,0 +1,7 @@
+@startuml
+ left to right direction
+
+actor TestScenario as actor484589713
+rectangle Shop{
+}
+@enduml

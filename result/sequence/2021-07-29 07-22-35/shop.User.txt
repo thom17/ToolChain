@@ -1,0 +1,12 @@
+@startuml
+group boolean buy(shop.Goods)
+	User->Goods : getMoney()
+		Goods-->User
+end
+
+group boolean chckPwd(java.lang.String)
+	User->String : equals(java.lang.Object)
+		String-->User
+end
+
+@enduml

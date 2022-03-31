@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="343px" preserveAspectRatio="none" style="width:406px;height:343px;background:#000000;" version="1.1" viewBox="0 0 406 343" width="406px" zoomAndPan="magnify"><defs/><g><rect fill="#1B060D" height="1" style="stroke: #1B060D; stroke-width: 1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="5" y="17">PlantUML 1.2020.19</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="316" x="5" y="33.4824">This version of PlantUML is 260 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="317" x="11" y="49.9648">consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="24.2295" style="stroke: #33FF02; stroke-width: 1.0;" width="394" x="5" y="62.4473"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="392" x="6" y="77.4473">[From hongik.selab.parser.java.JavaParser.txt (line 11) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="9" y="100.6768"/><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="5" y="119.9063">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="9" y="139.1357">left to right direction</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="9" y="158.3652"/><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="259" x="5" y="177.5947">actor JavaParser as actor1086811994</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="9" y="196.8242"/><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="164" x="37" y="216.0537">rectangle makeASTList{</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="207" x="41" y="235.2832">usecase size as UC650777250</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="218" x="37" y="254.5127">actor1086811994--UC650777250</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="5" x="37" y="273.7422">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="241" x="37" y="292.9717">actor ArrayList as actor1538456363</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="331" x="37" y="312.2012">actor1538456363 -- dataSet.Function@26ca12a2</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="9" y="331.4307">Syntax Error?</text><!--MD5=[21a30eaa4a9afd26ff541266ecea5027]
+@startuml
+ left to right direction
+
+actor JavaParser as actor1086811994
+
+	rectangle makeASTList{
+	 usecase size as UC650777250
+	actor1086811994- -UC650777250
+	}
+	actor ArrayList as actor1538456363
+	actor1538456363 - - dataSet.Function@26ca12a2
+	rectangle makeFileList{
+	 usecase add as UC2030748640
+	actor1086811994- -UC2030748640
+	}
+	actor ArrayList as actor1538456363
+	actor1538456363 - - dataSet.Function@790ac3e0
+	rectangle init{
+	 usecase printStackTrace as UC1028574311
+	actor1086811994- -UC1028574311
+	 usecase append as UC1698322791
+	actor1086811994- -UC1698322791
+	 usecase read as UC1625094636
+	actor1086811994- -UC1625094636
+	 usecase close as UC1980153091
+	actor1086811994- -UC1980153091
+	 usecase newParser as UC11529827
+	actor1086811994- -UC11529827
+	 usecase setKind as UC1263085541
+	actor1086811994- -UC1263085541
+	 usecase setSource as UC1281205497
+	actor1086811994- -UC1281205497
+	 usecase toCharArray as UC267445972
+	actor1086811994- -UC267445972
+	 usecase toString as UC1986751746
+	actor1086811994- -UC1986751746
+	 usecase setStatementsRecovery as UC1892928959
+	actor1086811994- -UC1892928959
+	 usecase setBindingsRecovery as UC1923590735
+	actor1086811994- -UC1923590735
+	 usecase setResolveBindings as UC1400677006
+	actor1086811994- -UC1400677006
+	 usecase setComplianceOptions as UC1530013811
+	actor1086811994- -UC1530013811
+	 usecase setCompilerOptions as UC904050847
+	actor1086811994- -UC904050847
+	}
+	actor ASTParser as actor2061011390
+	actor2061011390 - - dataSet.Function@35e2b89f
+	actor JavaCore as actor1275477177
+	actor1275477177 - - dataSet.Function@5b322873
+	actor ASTParser as actor2061011390
+	actor2061011390 - - dataSet.Function@537ca28e
+	actor ASTParser as actor2061011390
+	actor2061011390 - - dataSet.Function@72a7aa4f
+	actor ASTParser as actor2061011390
+	actor2061011390 - - dataSet.Function@70d3cdbf
+	actor StringBuilder as actor1795804759
+	actor1795804759 - - dataSet.Function@766b6d02
+	actor String as actor104719610
+	actor104719610 - - dataSet.Function@ff0e6d4
+	actor ASTParser as actor2061011390
+	actor2061011390 - - dataSet.Function@4c5da4f9
+	actor ASTParser as actor2061011390
+	actor2061011390 - - dataSet.Function@4b4927e5
+	actor ASTParser as actor2061011390
+	actor2061011390 - - dataSet.Function@afee63
+	actor BufferedReader as actor649827042
+	actor649827042 - - dataSet.Function@7606bd03
+	actor Reader as actor412121842
+	actor412121842 - - dataSet.Function@60dcf9ec
+	actor StringBuilder as actor1795804759
+	actor1795804759 - - dataSet.Function@653a5967
+	actor Throwable as actor1703837357
+	actor1703837357 - - dataSet.Function@3d4ecc67
+	rectangle main{
+	 usecase println as UC217930962
+	actor1086811994- -UC217930962
+	}
+	actor PrintStream as actor731802107
+	actor731802107 - - dataSet.Function@cfd5cd2
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

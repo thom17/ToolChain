@@ -1,0 +1,86 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 4
+	extendsClassScore = 0
+	callScore = 7
+	callByScore = 7
+	methodNum = 2
+	memberNum = 2
+	constructorNum = 1
+	selfCoverage = 1
+	needCallBy = 3
+	ABS = 21
+	REL = 5
+	coverage = 25.0%
+__**<color:green>has list</color>**__
+	<color:green>classRelation.Guitarist teacher (2)
+	<color:green>classRelation.Guitar academyGuitar (2)
+	<color:green>new GuitarAcademy() (0)
+	<color:red>void lesson(classRelation.Guitarist) (10)
+}
+
+class classRelation.GuitarAcademy.GuitarAcademy1448061896 as "GuitarAcademy()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : classRelation.GuitarAcademy
+	SrcSig : classRelation.GuitarAcademy.GuitarAcademy()
+	Sig : GuitarAcademy()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 16
+	Volume : 33
+	Diffifculty: 2
+	Effort : 66
+	ABS Score : 0
+	Relative Score : 0
+}
+class classRelation.GuitarAcademy.lesson918312414 as "lesson(classRelation.Guitarist)"#back:salmon 
+{
+	pram : (classRelation.Guitarist )
+	SrcOwnClassName : classRelation.GuitarAcademy
+	SrcSig : classRelation.GuitarAcademy.lesson(classRelation.Guitarist)
+	Sig : lesson(classRelation.Guitarist)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 8
+	CallBy Score : 3
+	memberUse Score : 3
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 4
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 0
+	State Node callListSize: 2
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 16.3645
+	Volume : 36
+	Diffifculty: 3.3333
+	Effort : 120
+	ABS Score : 10
+	Relative Score : 10
+}
+
+@enduml

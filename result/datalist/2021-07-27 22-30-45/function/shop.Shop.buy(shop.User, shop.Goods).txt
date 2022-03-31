@@ -1,0 +1,21 @@
+@startuml
+class "shop.Shop.buy(shop.User, shop.Goods)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	User user (1421866327);
+	Goods goods (1497018177);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	TestScenario (2082781203);
+..member..
+..method..
+	void Buy_Product() (2077528955);
+}
+
+@enduml

@@ -1,0 +1,47 @@
+@startuml
+ left to right direction
+
+actor Complex as actor293749050
+
+	rectangle getUndefSize{
+	 usecase toString as UC1986751746
+	actor293749050--UC1986751746
+	}
+	actor StringBuilder as actor1795804759
+	UC1986751746 -- actor1795804759
+	rectangle addFunctionScore{
+	 usecase append as UC1698322791
+	actor293749050--UC1698322791
+	 usecase getSig as UC1142350221
+	actor293749050--UC1142350221
+	 usecase getFunctionList as UC98550436
+	actor293749050--UC98550436
+	 usecase getHasList as UC741225568
+	actor293749050--UC741225568
+	}
+	actor Data_base as actor1785570426
+	UC741225568 -- actor1785570426
+	actor DataList as actor1528099970
+	UC98550436 -- actor1528099970
+	actor Function as actor426792528
+	UC1142350221 -- actor426792528
+	actor StringBuilder as actor1795804759
+	UC1698322791 -- actor1795804759
+	rectangle getMemberScore{
+	 usecase getTypeName as UC1108374296
+	actor293749050--UC1108374296
+	 usecase append as UC1698322791
+	actor293749050--UC1698322791
+	}
+	actor StringBuilder as actor1795804759
+	UC1698322791 -- actor1795804759
+	actor Member as actor444096469
+	UC1108374296 -- actor444096469
+	rectangle getLineNum{
+	 usecase hasNext as UC863313225
+	actor293749050--UC863313225
+	}
+	actor Scanner as actor1365349839
+	UC863313225 -- actor1365349839
+
+@enduml

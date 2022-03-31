@@ -1,0 +1,374 @@
+@startuml
+class "GameSystem" as cl1{
+Package gameSystem
+Lib false
+HashCode : 629454893
+ABS : 154
+RES : 9
+__**<color:green>has list</color>**__
+	<color:red>int[][] diceShapeList (4)
+	<color:green>int turnIndex (1)
+	<color:green>java.util.Scanner scan (2)
+	<color:green>java.util.Random rand (2)
+	<color:red>gameSystem.Player[] playerList (4)
+	<color:red>gameSystem.Dice[] diceList (4)
+	<color:green>gameSystem.Map map (2)
+....
+	<color:red>new GameSystem(int[][]) (13)
+	<color:salmon>void playGame(java.lang.String) (8)
+	<color:salmon>void diceSetting() (7)
+	<color:salmon>void main() (6)
+	<color:red>void printPos(gameSystem.Player) (11)
+	<color:salmon>Dice choiceDice(gameSystem.Player) (9)
+	<color:salmon>int diceRoll(gameSystem.Dice) (8)
+	<color:red>void move(int, gameSystem.Player) (11)
+	<color:salmon>void printResult() (5)
+	<color:green>boolean gameEnd() (0)
+__**<color:blue>calling list</color>**__
+..class..
+	gameSystem.Player (704106237);
+	gameSystem.Dice (462526099);
+	gameSystem.Map (1880078449);
+	gameSystem.GameSystem (629454893);
+	java.io.PrintStream (993370665);
+..member..
+	gameSystem.GameSystem.diceShapeList (159475521);
+	gameSystem.GameSystem.map (504807594);
+	gameSystem.GameSystem.diceList (332873513);
+	gameSystem.GameSystem.turnIndex (90567568);
+	gameSystem.GameSystem.printPos(gameSystem.Player).player (131872530);
+	gameSystem.GameSystem.printPos(gameSystem.Player).opponent (795321555);
+	gameSystem.GameSystem.diceRoll(gameSystem.Dice).dice (2075952726);
+	gameSystem.GameSystem.move(int, gameSystem.Player).player (98826337);
+..method..
+	 gameSystem.Map.Map() (800088638);
+	 gameSystem.Player.Player(java.lang.String) (1236444285);
+	 gameSystem.GameSystem.diceSetting() (1651162064);
+	 gameSystem.GameSystem.main() (1541525668);
+	 gameSystem.Dice.Dice(int[]) (2101249621);
+	 gameSystem.GameSystem.choiceDice(gameSystem.Player) (1096485705);
+	 gameSystem.GameSystem.diceRoll(gameSystem.Dice) (1764996806);
+	 gameSystem.GameSystem.move(int, gameSystem.Player) (1834361038);
+	 gameSystem.Player.getPos() (823914581);
+	 gameSystem.Map.getSize() (1680503330);
+	 java.io.PrintStream.println(java.lang.String) (2100440237);
+	 java.io.PrintStream.print(java.lang.String) (566113173);
+	 java.io.PrintStream.println() (1330247343);
+	 gameSystem.GameSystem.printPos(gameSystem.Player) (2017797638);
+	 gameSystem.Dice.roll() (2113604623);
+	 gameSystem.Map.getEvent(int) (343812839);
+	 gameSystem.Player.setPos(int) (1150058854);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 gameSystem.GameSystem.GameSystem(int[][]) (1148255190);
+	 gameSystem.GameSystem.playGame(java.lang.String) (366252104);
+	 gameSystem.GameSystem.diceSetting() (1651162064);
+	 gameSystem.GameSystem.main() (1541525668);
+	 gameSystem.GameSystem.printPos(gameSystem.Player) (2017797638);
+	 gameSystem.GameSystem.choiceDice(gameSystem.Player) (1096485705);
+	 gameSystem.GameSystem.diceRoll(gameSystem.Dice) (1764996806);
+	 gameSystem.GameSystem.move(int, gameSystem.Player) (1834361038);
+}
+
+ package Functions{
+class "GameSystem(int[][])" as f1148255190  #back:salmon
+{
+Static : false
+return Type : new
+hashCode : 1148255190
+ABS : 13
+RES : 13
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.GameSystem.GameSystem(int[][]).diceShapeList (1889057031);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	gameSystem.Map (1880078449);
+	gameSystem.Player (704106237);
+..member..
+	gameSystem.GameSystem.diceShapeList (159475521);
+	gameSystem.GameSystem.map (504807594);
+..method..
+	 gameSystem.Map.Map() (800088638);
+	 gameSystem.Player.Player(java.lang.String) (1236444285);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+class "playGame(java.lang.String)" as f366252104  
+{
+Static : false
+return Type : void
+hashCode : 366252104
+ABS : 8
+RES : 4
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.GameSystem.playGame(java.lang.String).name (1346343363);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	gameSystem.Player (704106237);
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 gameSystem.Player.Player(java.lang.String) (1236444285);
+	 gameSystem.GameSystem.diceSetting() (1651162064);
+	 gameSystem.GameSystem.main() (1541525668);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+class "diceSetting()" as f1651162064  
+{
+Static : false
+return Type : void
+hashCode : 1651162064
+ABS : 7
+RES : 7
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	gameSystem.Dice (462526099);
+..member..
+	gameSystem.GameSystem.diceList (332873513);
+..method..
+	 gameSystem.Dice.Dice(int[]) (2101249621);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 gameSystem.GameSystem.playGame(java.lang.String) (366252104);
+}
+class "main()" as f1541525668  
+{
+Static : false
+return Type : void
+hashCode : 1541525668
+ABS : 6
+RES : 2
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.GameSystem.main().dice (324169305);
+	gameSystem.GameSystem.main().value (573958827);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+	gameSystem.GameSystem.turnIndex (90567568);
+..method..
+	 gameSystem.GameSystem.choiceDice(gameSystem.Player) (1096485705);
+	 gameSystem.GameSystem.diceRoll(gameSystem.Dice) (1764996806);
+	 gameSystem.GameSystem.move(int, gameSystem.Player) (1834361038);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 gameSystem.GameSystem.playGame(java.lang.String) (366252104);
+}
+class "printPos(gameSystem.Player)" as f2017797638  #back:salmon
+{
+Static : false
+return Type : void
+hashCode : 2017797638
+ABS : 11
+RES : 11
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.GameSystem.printPos(gameSystem.Player).player (131872530);
+	gameSystem.GameSystem.printPos(gameSystem.Player).opponent (795321555);
+	gameSystem.GameSystem.printPos(gameSystem.Player).pos (391135083);
+	gameSystem.GameSystem.printPos(gameSystem.Player).opponentPos (1003292107);
+	gameSystem.GameSystem.printPos(gameSystem.Player).endPos (997033037);
+	gameSystem.GameSystem.printPos(gameSystem.Player).tile (914374969);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	gameSystem.Player (704106237);
+	gameSystem.Map (1880078449);
+	java.io.PrintStream (993370665);
+..member..
+	gameSystem.GameSystem.printPos(gameSystem.Player).player (131872530);
+	gameSystem.GameSystem.printPos(gameSystem.Player).opponent (795321555);
+	gameSystem.GameSystem.map (504807594);
+..method..
+	 gameSystem.Player.getPos() (823914581);
+	 gameSystem.Map.getSize() (1680503330);
+	 java.io.PrintStream.println(java.lang.String) (2100440237);
+	 java.io.PrintStream.print(java.lang.String) (566113173);
+	 java.io.PrintStream.println() (1330247343);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 gameSystem.GameSystem.printPos(gameSystem.Player) (2017797638);
+	 gameSystem.GameSystem.choiceDice(gameSystem.Player) (1096485705);
+}
+class "choiceDice(gameSystem.Player)" as f1096485705  #back:salmon
+{
+Static : false
+return Type : Dice
+hashCode : 1096485705
+ABS : 9
+RES : 9
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.GameSystem.choiceDice(gameSystem.Player).player (549293029);
+	gameSystem.GameSystem.choiceDice(gameSystem.Player).diceIndex (1930240356);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	gameSystem.Player (704106237);
+	java.io.PrintStream (993370665);
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 java.io.PrintStream.println(java.lang.String) (2100440237);
+	 gameSystem.GameSystem.printPos(gameSystem.Player) (2017797638);
+	 java.io.PrintStream.print(java.lang.String) (566113173);
+	 java.io.PrintStream.println() (1330247343);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 gameSystem.GameSystem.main() (1541525668);
+}
+class "diceRoll(gameSystem.Dice)" as f1764996806  
+{
+Static : false
+return Type : int
+hashCode : 1764996806
+ABS : 8
+RES : 8
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.GameSystem.diceRoll(gameSystem.Dice).dice (2075952726);
+	gameSystem.GameSystem.diceRoll(gameSystem.Dice).r (613784740);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	gameSystem.Dice (462526099);
+..member..
+	gameSystem.GameSystem.diceRoll(gameSystem.Dice).dice (2075952726);
+..method..
+	 gameSystem.Dice.roll() (2113604623);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 gameSystem.GameSystem.main() (1541525668);
+	 gameSystem.GameSystem.diceRoll(gameSystem.Dice) (1764996806);
+}
+class "move(int, gameSystem.Player)" as f1834361038  #back:salmon
+{
+Static : false
+return Type : void
+hashCode : 1834361038
+ABS : 11
+RES : 11
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.GameSystem.move(int, gameSystem.Player).dice (271095942);
+	gameSystem.GameSystem.move(int, gameSystem.Player).player (98826337);
+	gameSystem.GameSystem.move(int, gameSystem.Player).before (1552341957);
+	gameSystem.GameSystem.move(int, gameSystem.Player).after (1176164144);
+	gameSystem.GameSystem.move(int, gameSystem.Player).str (1323434987);
+	gameSystem.GameSystem.move(int, gameSystem.Player).result (442125849);
+	gameSystem.GameSystem.move(int, gameSystem.Player).event (1885922916);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	gameSystem.Player (704106237);
+	gameSystem.Map (1880078449);
+	java.io.PrintStream (993370665);
+..member..
+	gameSystem.GameSystem.move(int, gameSystem.Player).player (98826337);
+	gameSystem.GameSystem.map (504807594);
+..method..
+	 gameSystem.Player.getPos() (823914581);
+	 gameSystem.Map.getSize() (1680503330);
+	 gameSystem.Map.getEvent(int) (343812839);
+	 java.io.PrintStream.println(java.lang.String) (2100440237);
+	 gameSystem.Player.setPos(int) (1150058854);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 gameSystem.GameSystem.main() (1541525668);
+	 gameSystem.GameSystem.move(int, gameSystem.Player) (1834361038);
+}
+class "printResult()" as f1624972302  
+{
+Static : false
+return Type : void
+hashCode : 1624972302
+ABS : 5
+RES : 5
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.GameSystem.printResult().score (1048098469);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	java.io.PrintStream (993370665);
+..member..
+..method..
+	 java.io.PrintStream.println(java.lang.String) (2100440237);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+class "gameEnd()" as f1989811701  #line:green
+{
+Static : false
+return Type : boolean
+hashCode : 1989811701
+ABS : 0
+RES : 0
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+}
+f366252104-->f1651162064 : call 
+f366252104-->f1541525668 : call 
+f1541525668-->f1096485705 : call 
+f1541525668-->f1764996806 : call 
+f1541525668-->f1834361038 : call 
+f1096485705-->f2017797638 : call 
+
+@enduml

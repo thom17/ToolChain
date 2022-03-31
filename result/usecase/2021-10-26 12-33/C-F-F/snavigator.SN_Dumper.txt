@@ -1,0 +1,133 @@
+@startuml
+ left to right direction
+
+actor SN_Dumper as actor535352603
+
+	rectangle readCl{
+	 usecase println as UC1197176722
+	actor535352603--UC1197176722
+	 usecase addClass as UC693345846
+	actor535352603--UC693345846
+	 usecase readLine as UC1970779713
+	actor535352603--UC1970779713
+	}
+	actor BufferedReader as actor80756779
+	 UC1970779713 -- actor80756779
+	actor DataList as actor1391119179
+	 UC693345846 -- actor1391119179
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+	rectangle readIn{
+	 usecase println as UC1197176722
+	actor535352603--UC1197176722
+	 usecase setSuperClass as UC764358458
+	actor535352603--UC764358458
+	 usecase readLine as UC1970779713
+	actor535352603--UC1970779713
+	}
+	actor BufferedReader as actor80756779
+	 UC1970779713 -- actor80756779
+	actor Class as actor1302141801
+	 UC764358458 -- actor1302141801
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+	rectangle readIv{
+	 usecase println as UC1197176722
+	actor535352603--UC1197176722
+	 usecase addMember as UC843959601
+	actor535352603--UC843959601
+	 usecase addVar as UC854989361
+	actor535352603--UC854989361
+	 usecase readLine as UC1970779713
+	actor535352603--UC1970779713
+	}
+	actor BufferedReader as actor80756779
+	 UC1970779713 -- actor80756779
+	actor DataList as actor1391119179
+	 UC854989361 -- actor1391119179
+	actor Class as actor1302141801
+	 UC843959601 -- actor1302141801
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+	rectangle readMd{
+	 usecase println as UC1197176722
+	actor535352603--UC1197176722
+	 usecase addFunction as UC1346197173
+	actor535352603--UC1346197173
+	 usecase addFunction as UC257718694
+	actor535352603--UC257718694
+	 usecase readLine as UC1970779713
+	actor535352603--UC1970779713
+	}
+	actor BufferedReader as actor80756779
+	 UC1970779713 -- actor80756779
+	actor DataList as actor1391119179
+	 UC257718694 -- actor1391119179
+	actor Class as actor1302141801
+	 UC1346197173 -- actor1302141801
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+	rectangle readBy{
+	 usecase println as UC1197176722
+	actor535352603--UC1197176722
+	 usecase addCallClass as UC1924966548
+	actor535352603--UC1924966548
+	 usecase print as UC923013679
+	actor535352603--UC923013679
+	 usecase getName as UC2008159348
+	actor535352603--UC2008159348
+	 usecase addClass as UC693345846
+	actor535352603--UC693345846
+	 usecase getCallList as UC1657125852
+	actor535352603--UC1657125852
+	 usecase addFunction as UC257718694
+	actor535352603--UC257718694
+	 usecase addVar as UC854989361
+	actor535352603--UC854989361
+	 usecase readLine as UC1970779713
+	actor535352603--UC1970779713
+	}
+	actor BufferedReader as actor80756779
+	 UC1970779713 -- actor80756779
+	actor DataList as actor1391119179
+	 UC854989361 -- actor1391119179
+	actor DataList as actor1391119179
+	 UC257718694 -- actor1391119179
+	actor Function as actor622820646
+	 UC1657125852 -- actor622820646
+	actor DataList as actor1391119179
+	 UC693345846 -- actor1391119179
+	actor Class as actor1302141801
+	 UC2008159348 -- actor1302141801
+	actor PrintStream as actor2078239671
+	 UC923013679 -- actor2078239671
+	actor Class as actor1302141801
+	 UC1924966548 -- actor1302141801
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+	rectangle checkError{
+	 usecase println as UC1197176722
+	actor535352603--UC1197176722
+	}
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+	rectangle main{
+	 usecase println as UC1197176722
+	actor535352603--UC1197176722
+	 usecase getName as UC2008159348
+	actor535352603--UC2008159348
+	 usecase get as UC827579900
+	actor535352603--UC827579900
+	 usecase size as UC1622135821
+	actor535352603--UC1622135821
+	}
+	actor ArrayList as actor49969897
+	 UC1622135821 -- actor49969897
+	actor ArrayList as actor49969897
+	 UC827579900 -- actor49969897
+	actor Class as actor1302141801
+	 UC2008159348 -- actor1302141801
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+
+@enduml

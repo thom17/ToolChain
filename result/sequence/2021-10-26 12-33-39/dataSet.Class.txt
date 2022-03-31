@@ -1,0 +1,67 @@
+@startuml
+group Class Class(java.lang.String)
+end
+
+group Class Class(java.lang.String, java.lang.String)
+end
+
+group Class Class(java.lang.String, boolean)
+end
+
+group void addClass(dataSet.Class)
+	Class->DataList : addClass(dataSet.Class)
+		DataList->Class : getName()
+			Class-->DataList
+		DataList-->Class
+end
+
+group void addMember(dataSet.Var)
+	Class->DataList : addVar(dataSet.Var)
+		DataList->Var : getName()
+			Var-->DataList
+		DataList-->Class
+end
+
+group void addFunction(dataSet.Function)
+	Class->DataList : addFunction(dataSet.Function)
+		DataList->Function : getName()
+			Function-->DataList
+		DataList-->Class
+end
+
+group void addCallClass(dataSet.Class)
+	Class->DataList : addClass(dataSet.Class)
+		DataList->Class : getName()
+			Class-->DataList
+		DataList-->Class
+end
+
+group void addCallMember(dataSet.Var)
+	Class->DataList : addVar(dataSet.Var)
+		DataList->Var : getName()
+			Var-->DataList
+		DataList-->Class
+end
+
+group void addCallFunction(dataSet.Function)
+	Class->DataList : addFunction(dataSet.Function)
+		DataList->Function : getName()
+			Function-->DataList
+		DataList-->Class
+end
+
+group Function findFunction(java.lang.String)
+	Class->Class : findFunction(java.lang.String)
+end
+
+group ArrayList<Function> getHasFunctionList()
+	Class->DataList : getFunctionList()
+		DataList-->Class
+end
+
+group int countRefNum(dataSet.Class)
+	Class->DataList : getClassList()
+		DataList-->Class
+end
+
+@enduml

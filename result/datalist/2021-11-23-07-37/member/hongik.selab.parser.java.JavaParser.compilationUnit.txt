@@ -1,0 +1,20 @@
+@startuml
+class "hongik.selab.parser.java.JavaParser.compilationUnit" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	JavaParser (945150386);
+..member..
+..method..
+	// 새방식
+CompilationUnit parsing() (924399116);
+}
+
+@enduml

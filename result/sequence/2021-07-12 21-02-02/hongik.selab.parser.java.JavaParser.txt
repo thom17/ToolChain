@@ -1,0 +1,52 @@
+@startuml
+group CompilationUnit[] makeASTList(java.lang.String)
+	JavaParser->JavaParser : makeFileList(java.io.File)
+	JavaParser->ArrayList : size()
+		ArrayList-->JavaParser
+	JavaParser->JavaParser : init(java.io.File)
+	JavaParser->JavaParser : parsing()
+end
+
+group void makeFileList(java.io.File)
+	JavaParser->JavaParser : makeFileList(java.io.File)
+	JavaParser->ArrayList : add(E)
+		ArrayList-->JavaParser
+end
+
+group void init(java.io.File)
+	JavaParser->Throwable : printStackTrace()
+		Throwable-->JavaParser
+	JavaParser->StringBuilder : append(java.lang.String)
+		StringBuilder-->JavaParser
+	JavaParser->Reader : read(char[])
+		Reader-->JavaParser
+	JavaParser->BufferedReader : close()
+		BufferedReader-->JavaParser
+	JavaParser->ASTParser : newParser(int)
+		ASTParser-->JavaParser
+	JavaParser->ASTParser : setKind(int)
+		ASTParser-->JavaParser
+	JavaParser->ASTParser : setSource(char[])
+		ASTParser-->JavaParser
+	JavaParser->String : toCharArray()
+		String-->JavaParser
+	JavaParser->StringBuilder : toString()
+		StringBuilder-->JavaParser
+	JavaParser->ASTParser : setStatementsRecovery(boolean)
+		ASTParser-->JavaParser
+	JavaParser->ASTParser : setBindingsRecovery(boolean)
+		ASTParser-->JavaParser
+	JavaParser->ASTParser : setResolveBindings(boolean)
+		ASTParser-->JavaParser
+	JavaParser->JavaCore : setComplianceOptions(java.lang.String, java.util.Map)
+		JavaCore-->JavaParser
+	JavaParser->ASTParser : setCompilerOptions(java.util.Map)
+		ASTParser-->JavaParser
+end
+
+group void main(java.lang.String[])
+	JavaParser->PrintStream : println(java.lang.Object)
+		PrintStream-->JavaParser
+end
+
+@enduml

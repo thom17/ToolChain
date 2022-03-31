@@ -1,0 +1,145 @@
+@startuml
+class "Simple" as cl1{
+Package simple
+Lib false
+HashCode : 1219273867
+ABS Score : 31
+Relative Score : 6
+__**<color:green>has list</color>**__
+	<color:green>int i (1)
+....
+	<color:green>new Simple(int) (3)
+	<color:green>int get(int) (1)
+	<color:green>void test() (4)
+	<color:red>void main(java.lang.String[]) (10)
+__**<color:blue>calling list</color>**__
+..class..
+	java.lang.String[] (335359181);
+	simple.Simple (1219273867);
+..member..
+	simple.Simple.i (194707680);
+	simple.Simple.main(java.lang.String[]).s (1349182676);
+..method..
+	 simple.Simple.get(int) (2102368942);
+	 simple.Simple.Simple(int) (120478350);
+__**<color:orange>called by list</color>**__
+..class..
+	simple.Simple (1219273867);
+..member..
+	simple.Simple.main(java.lang.String[]).s (1349182676);
+..method..
+	 simple.Simple.Simple(int) (120478350);
+	 simple.Simple.test() (1424082571);
+	 simple.Simple.main(java.lang.String[]) (1403700359);
+}
+
+ package Functions{
+class "Simple(int)" as f120478350  #line:green
+{
+Static : false
+return Type : new
+hashCode : 120478350
+ABS Score : 3
+Relative Score : 3
+__**<color:green>has list</color>**__
+..class..
+..member..
+	simple.Simple.Simple(int).x (1387380406);
+	simple.Simple.Simple(int).r (658404420);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	simple.Simple.i (194707680);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	simple.Simple (1219273867);
+..member..
+..method..
+	 simple.Simple.main(java.lang.String[]) (1403700359);
+}
+class "get(int)" as f2102368942  #line:green
+{
+Static : false
+return Type : int
+hashCode : 2102368942
+ABS Score : 1
+Relative Score : 1
+__**<color:green>has list</color>**__
+..class..
+..member..
+	simple.Simple.get(int).b (2108763062);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	simple.Simple (1219273867);
+..member..
+	simple.Simple.main(java.lang.String[]).s (1349182676);
+..method..
+	 simple.Simple.test() (1424082571);
+	 simple.Simple.main(java.lang.String[]) (1403700359);
+}
+class "test()" as f1424082571  #line:green
+{
+Static : false
+return Type : void
+hashCode : 1424082571
+ABS Score : 4
+Relative Score : 4
+__**<color:green>has list</color>**__
+..class..
+..member..
+	simple.Simple.test().d (2017085051);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	simple.Simple (1219273867);
+..member..
+..method..
+	 simple.Simple.get(int) (2102368942);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+class "main(java.lang.String[])" as f1403700359  #back:salmon
+{
+Static : true
+return Type : void
+hashCode : 1403700359
+ABS Score : 10
+Relative Score : 5
+__**<color:green>has list</color>**__
+..class..
+..member..
+	simple.Simple.main(java.lang.String[]).args (656479172);
+	simple.Simple.main(java.lang.String[]).s (1349182676);
+	simple.Simple.main(java.lang.String[]).d (1944702768);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	java.lang.String[] (335359181);
+	simple.Simple (1219273867);
+..member..
+	simple.Simple.main(java.lang.String[]).s (1349182676);
+..method..
+	 simple.Simple.Simple(int) (120478350);
+	 simple.Simple.get(int) (2102368942);
+__**<color:orange>called by list</color>**__
+..class..
+	simple.Simple (1219273867);
+..member..
+..method..
+	 simple.Simple.main(java.lang.String[]) (1403700359);
+}
+}
+f1424082571-->f2102368942 : call 
+f1403700359-->f120478350 : call 
+f1403700359-->f2102368942 : call 
+
+@enduml

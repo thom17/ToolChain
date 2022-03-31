@@ -1,0 +1,14 @@
+@startuml
+ left to right direction
+
+actor Shop as actor536122141
+actor User as actor1521083627
+rectangle String{
+}
+rectangle Goods{
+}
+rectangle User{
+	UC setMoney as UC16503286
+		actor536122141 -- UC16503286
+}
+@enduml

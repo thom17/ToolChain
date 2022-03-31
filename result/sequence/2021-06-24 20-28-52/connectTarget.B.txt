@@ -1,0 +1,10 @@
+@startuml
+group void connectTarget.B.Bc(connectTarget.C, connectTarget.A)
+	B->C : AC()
+	B->C : CC1()
+	B->C : CC2()
+	B->A : Ba()
+	B->B : BB()
+end
+
+@enduml

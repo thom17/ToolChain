@@ -1,0 +1,9 @@
+@startuml
+group int main()
+	A->PrintStream : print(java.lang.String)
+		PrintStream-->A
+	A->PrintStream : println(int)
+		PrintStream-->A
+end
+
+@enduml

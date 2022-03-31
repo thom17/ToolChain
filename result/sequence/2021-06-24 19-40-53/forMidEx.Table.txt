@@ -1,0 +1,6 @@
+@startuml
+group boolean forMidEx.Table.multiplicationTable(int, int, int)
+	Table->PrintStream : println(int)
+end
+
+@enduml

@@ -1,0 +1,47 @@
+@startuml
+ left to right direction
+
+actor DataList as actor1391119179
+actor Class as actor1302141801
+actor Var as actor1388849499
+actor Function as actor622820646
+rectangle PrintStream{
+	usecase println as UC1197176722
+		actor622820646 -- UC1197176722
+}
+rectangle DataList{
+	usecase addClass as UC693345846
+		actor1302141801 -- UC693345846
+	usecase addVar as UC854989361
+		actor1302141801 -- UC854989361
+	usecase addFunction as UC257718694
+		actor1302141801 -- UC257718694
+	usecase getClassList as UC1037942373
+		actor1302141801 -- UC1037942373
+	usecase getFunctionList as UC1235635586
+		actor1302141801 -- UC1235635586
+}
+rectangle Function{
+	usecase getName as UC1103132232
+		actor1391119179 -- UC1103132232
+}
+rectangle Var{
+	usecase getName as UC1389432760
+		actor1391119179 -- UC1389432760
+}
+rectangle Class{
+	usecase getName as UC2008159348
+		actor1388849499 -- UC2008159348
+		actor1391119179 -- UC2008159348
+	usecase findFunction as UC1487230025
+		actor1302141801 -- UC1487230025
+}
+rectangle String{
+	usecase substring as UC465909321
+		actor622820646 -- UC465909321
+	usecase length as UC143486875
+		actor622820646 -- UC143486875
+	usecase split as UC1205419533
+		actor622820646 -- UC1205419533
+}
+@enduml

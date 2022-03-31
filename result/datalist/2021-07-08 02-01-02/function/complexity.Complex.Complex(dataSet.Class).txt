@@ -1,0 +1,20 @@
+@startuml
+class complexity.Complex.Complex(dataSet.Class){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Class cls (1920199);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Complex (2068103096);
+..member..
+..method..
+	void simpleMake(dataSet.Class) (1478683866);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

@@ -1,0 +1,107 @@
+@startuml
+ left to right direction
+
+actor Test_Visitor as actor181451598
+
+	rectangle addDataList{
+	 usecase Name as UC93981118
+	actor181451598--UC93981118
+	 usecase PackageDeclaration as UC2030748640
+	actor181451598--UC2030748640
+	}
+	rectangle getStmtList{
+	 usecase Block as UC1538456363
+	actor181451598--UC1538456363
+	 usecase ArrayList as UC1001114349
+	actor181451598--UC1001114349
+	}
+	rectangle typeDeclaration{
+	 usecase DataList as UC1528099970
+	actor181451598--UC1528099970
+	 usecase Class as UC1296277943
+	actor181451598--UC1296277943
+	}
+	rectangle fieldDeclaration{
+	 usecase DataList as UC1528099970
+	actor181451598--UC1528099970
+	 usecase Data_base as UC1905699057
+	actor181451598--UC1905699057
+	 usecase Member as UC444096469
+	actor181451598--UC444096469
+	 usecase ASTNode as UC298295476
+	actor181451598--UC298295476
+	}
+	rectangle makeFunction{
+	 usecase ASTNode as UC298295476
+	actor181451598--UC298295476
+	 usecase PrintStream as UC150180388
+	actor181451598--UC150180388
+	 usecase Function as UC426792528
+	actor181451598--UC426792528
+	 usecase DataList as UC1528099970
+	actor181451598--UC1528099970
+	 usecase StateNode as UC1238292935
+	actor181451598--UC1238292935
+	 usecase Data_base as UC1905699057
+	actor181451598--UC1905699057
+	}
+	rectangle returnStatement{
+	 usecase StateNode as UC1238292935
+	actor181451598--UC1238292935
+	 usecase ASTNode as UC298295476
+	actor181451598--UC298295476
+	}
+	rectangle forStatement{
+	 usecase StateNode as UC1238292935
+	actor181451598--UC1238292935
+	 usecase ForStateNode as UC1248201524
+	actor181451598--UC1248201524
+	 usecase ArrayList as UC1001114349
+	actor181451598--UC1001114349
+	}
+	rectangle ifStatement{
+	 usecase StateNode as UC1238292935
+	actor181451598--UC1238292935
+	}
+	rectangle expressionStatement{
+	 usecase StateNode as UC1238292935
+	actor181451598--UC1238292935
+	 usecase ASTNode as UC298295476
+	actor181451598--UC298295476
+	}
+	rectangle assignment{
+	 usecase Function as UC426792528
+	actor181451598--UC426792528
+	 usecase DataList as UC1528099970
+	actor181451598--UC1528099970
+	 usecase Data_base as UC1905699057
+	actor181451598--UC1905699057
+	 usecase Member as UC444096469
+	actor181451598--UC444096469
+	}
+	rectangle variableDeclarationStatement{
+	 usecase StateNode as UC1238292935
+	actor181451598--UC1238292935
+	 usecase ASTNode as UC298295476
+	actor181451598--UC298295476
+	 usecase VariableDeclaration as UC753816421
+	actor181451598--UC753816421
+	 usecase DataList as UC1528099970
+	actor181451598--UC1528099970
+	 usecase VarDecNode as UC2037147839
+	actor181451598--UC2037147839
+	 usecase Member as UC444096469
+	actor181451598--UC444096469
+	 usecase Function as UC426792528
+	actor181451598--UC426792528
+	}
+	rectangle switchStatement{
+	 usecase StateNode as UC1238292935
+	actor181451598--UC1238292935
+	 usecase ASTNode as UC298295476
+	actor181451598--UC298295476
+	 usecase SwitchStatement as UC1698322791
+	actor181451598--UC1698322791
+	}
+
+@enduml

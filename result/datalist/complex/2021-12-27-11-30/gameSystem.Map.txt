@@ -1,0 +1,117 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 2
+	extendsClassScore = 0
+	callScore = 1
+	callByScore = 1
+	methodNum = 3
+	memberNum = 1
+	constructorNum = 1
+	selfCoverage = 1
+	needCallBy = 3
+	Absolute Score = 6
+	Relative Score = 1
+	coverage = 25.0%
+__**<color:green>has list</color>**__
+	<color:green>int[] eventList (2)
+	<color:green>new Map() (2)
+	<color:green>int getSize() (0)
+	<color:green>int getEvent(int) (1)
+}
+
+class gameSystem.Map.Map800088638 as "Map()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : gameSystem.Map
+	SrcSig : gameSystem.Map.Map()
+	Sig : Map()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 2
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 7
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 1
+	State Node writeSize : 3
+	State Node bifurSize : 1
+	Calculated Estunated Program Length: 35.1613
+	Volume : 111.0132
+	Diffifculty: 9.3333
+	Effort : 1036.1231
+	Absolute Score : 2
+	Relative Score : 2
+}
+class gameSystem.Map.getSize1680503330 as "getSize()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : gameSystem.Map
+	SrcSig : gameSystem.Map.getSize()
+	Sig : getSize()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 4
+	Volume : 8
+	Diffifculty: 1
+	Effort : 8
+	Absolute Score : 0
+	Relative Score : 0
+}
+class gameSystem.Map.getEvent343812839 as "getEvent(int)"#line:green 
+{
+	pram : (int )
+	SrcOwnClassName : gameSystem.Map
+	SrcSig : gameSystem.Map.getEvent(int)
+	Sig : getEvent(int)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 4
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 1
+	Calculated Estunated Program Length: 19.6096
+	Volume : 38.0391
+	Diffifculty: 3.2
+	Effort : 121.7251
+	Absolute Score : 1
+	Relative Score : 1
+}
+
+@enduml

@@ -1,0 +1,35 @@
+@startuml
+ left to right direction
+
+actor JavaParser as actor1585824283
+
+	rectangle makeASTList{
+	 usecase ArrayList as UC133
+	actor1585824283--UC133
+	}
+	rectangle makeFileList{
+	 usecase ArrayList as UC134
+	actor1585824283--UC134
+	}
+	rectangle init{
+	 usecase Throwable as UC135
+	actor1585824283--UC135
+	 usecase StringBuilder as UC136
+	actor1585824283--UC136
+	 usecase Reader as UC137
+	actor1585824283--UC137
+	 usecase BufferedReader as UC138
+	actor1585824283--UC138
+	 usecase ASTParser as UC139
+	actor1585824283--UC139
+	 usecase String as UC140
+	actor1585824283--UC140
+	 usecase JavaCore as UC141
+	actor1585824283--UC141
+	}
+	rectangle main{
+	 usecase PrintStream as UC142
+	actor1585824283--UC142
+	}
+
+@enduml

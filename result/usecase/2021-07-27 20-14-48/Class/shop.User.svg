@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="219px" preserveAspectRatio="none" style="width:188px;height:219px;" version="1.1" viewBox="0 0 188 219" width="188px" zoomAndPan="magnify"><defs><filter height="300%" id="fn3wwghgu3f0g" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c2e91a5afc248ef1801ed01e98408fb8]
+cluster buy--><rect fill="#FFFFFF" filter="url(#fn3wwghgu3f0g)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="97" x="79" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="115" y="25.1533">buy</text><!--MD5=[5f180a29fb049b84e12435f0625f51c9]
+cluster chckPwd--><rect fill="#FFFFFF" filter="url(#fn3wwghgu3f0g)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="90" x="82.5" y="119"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="96.5" y="137.1533">chckPwd</text><ellipse cx="127.6985" cy="62.0973" fill="#FEFECE" filter="url(#fn3wwghgu3f0g)" rx="32.6985" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="106.6985" y="68.2121">Goods</text><ellipse cx="127.663" cy="174.0973" fill="#FEFECE" filter="url(#fn3wwghgu3f0g)" rx="29.163" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="109.163" y="180.2121">String</text><!--MD5=[4dc4f922dc0ca12a9da5c43b4b15d64c]
+entity actor1153447573--><ellipse cx="20.5" cy="85.5" fill="#FEFECE" filter="url(#fn3wwghgu3f0g)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M20.5,93.5 L20.5,120.5 M7.5,101.5 L33.5,101.5 M20.5,120.5 L7.5,135.5 M20.5,120.5 L33.5,135.5 " fill="none" filter="url(#fn3wwghgu3f0g)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="6" y="157.1533">User</text><!--MD5=[ca8bed6d0e5c67e63f24a7e78c06633b]
+link actor1153447573 to UC0--><path d="M35.23,110.68 C52.79,101.31 83.44,84.96 104.34,73.82 " fill="none" id="actor1153447573-UC0" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b2c0ba3891bc0a1dcc5da9a2da724789]
+link actor1153447573 to UC1--><path d="M35.23,125.32 C53.13,134.87 84.61,151.66 105.52,162.81 " fill="none" id="actor1153447573-UC1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e1d7a55c2d039d3d9c7829064055bf88]
+@startuml
+ left to right direction
+
+actor User as actor1153447573
+
+	rectangle buy{
+	 usecase Goods as UC0
+	actor1153447573- -UC0
+	}
+	rectangle chckPwd{
+	 usecase String as UC1
+	actor1153447573- -UC1
+	}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

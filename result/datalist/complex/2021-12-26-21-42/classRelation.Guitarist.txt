@@ -1,0 +1,85 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 2
+	extendsClassScore = 0
+	callScore = 12
+	callByScore = 12
+	methodNum = 2
+	memberNum = 1
+	constructorNum = 0
+	selfCoverage = 1
+	needCallBy = 2
+	ABS = 29
+	REL = 9
+	coverage = 33.0%
+__**<color:green>has list</color>**__
+	<color:green>classRelation.Guitar guitar (2)
+	<color:orange>void buyGuitar() (7)
+	<color:orange>Sound playSong(classRelation.Guitar) (8)
+}
+
+class classRelation.Guitarist.buyGuitar1610525991 as "buyGuitar()" 
+{
+	pram : ( )
+	SrcOwnClassName : classRelation.Guitarist
+	SrcSig : classRelation.Guitarist.buyGuitar()
+	Sig : buyGuitar()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 3
+	Call Score : 7
+	CallBy Score : 0
+	memberUse Score : 2
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 3
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 13.6096
+	Volume : 19.6515
+	Diffifculty: 2.5
+	Effort : 49.1287
+	ABS Score : 7
+	Relative Score : 7
+}
+class classRelation.Guitarist.playSong1164440413 as "playSong(classRelation.Guitar)" 
+{
+	pram : (classRelation.Guitar )
+	SrcOwnClassName : classRelation.Guitarist
+	SrcSig : classRelation.Guitarist.playSong(classRelation.Guitar)
+	Sig : playSong(classRelation.Guitar)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 6
+	CallBy Score : 5
+	memberUse Score : 1
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 4
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 6.7549
+	Volume : 11.6096
+	Diffifculty: 1.5
+	Effort : 17.4145
+	ABS Score : 8
+	Relative Score : 8
+}
+
+@enduml

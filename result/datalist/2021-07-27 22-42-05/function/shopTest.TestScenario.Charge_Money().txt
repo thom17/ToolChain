@@ -1,0 +1,19 @@
+@startuml
+class "shopTest.TestScenario.Charge_Money()" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Shop (536122141);
+..member..
+..method..
+	boolean charge(shop.User, int) (471579726);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

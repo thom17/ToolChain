@@ -1,0 +1,74 @@
+@startuml
+class "hongik.selab.parser.java.JavaParser" as cl1{
+__**<color:green>has list</color>**__
+..class..
+	ASTParser (1332009419);
+	CompilationUnit (1671200668);
+	null (655183968);
+	File (1859780907);
+..member..
+	org.eclipse.jdt.core.dom.ASTParser parser (404051835);
+	org.eclipse.jdt.core.dom.CompilationUnit compilationUnit (1901494067);
+	java.util.ArrayList<java.io.File> targetList (1899404826);
+	java.io.File settingFile (1022713356);
+	int fileNum (250177638);
+..method..
+	CompilationUnit[] makeASTList(java.lang.String) (1275339119);
+	boolean isJavaFile(java.io.File) (159883451);
+	void makeFileList(java.io.File) (529832633);
+	void init(java.io.File) (1518037877);
+	// 새방식
+CompilationUnit parsing() (924399116);
+	void main(java.lang.String[]) (61852204);
+__**<color:blue>calling list</color>**__
+..class..
+	File (1859780907);
+	JavaParser (945150386);
+	ArrayList (1958814164);
+	String (374740213);
+	StringBuilder (639022616);
+	ASTParser (1332009419);
+	JavaCore (972303630);
+..member..
+	java.util.ArrayList<java.io.File> targetList (1899404826);
+	int fileNum (250177638);
+	java.io.File target (1201919338);
+	java.lang.String fileName (975214872);
+	java.io.File file (749625255);
+	org.eclipse.jdt.core.dom.ASTParser parser (404051835);
+	org.eclipse.jdt.core.dom.CompilationUnit compilationUnit (1901494067);
+..method..
+	null java.io.File.File(java.lang.String) (883592033);
+	void makeFileList(java.io.File) (529832633);
+	null get(int) (1836777499);
+	void init(java.io.File) (1518037877);
+	null getName() (1395502325);
+	null substring(int) (228627024);
+	null listFiles() (1831989510);
+	null java.lang.StringBuilder.StringBuilder() (1484738403);
+	null setKind(int) (1712003741);
+	null setSource(char[]) (1873815070);
+	null setStatementsRecovery(boolean) (225137455);
+	null setBindingsRecovery(boolean) (793575862);
+	null setResolveBindings(boolean) (288106800);
+	null getOptions() (2135059933);
+	null setComplianceOptions(java.lang.String, java.util.Map) (686275377);
+	null setCompilerOptions(java.util.Map) (1876971306);
+	CompilationUnit[] makeASTList(java.lang.String) (1275339119);
+__**<color:orange>called by list</color>**__
+..class..
+	JavaParser (945150386);
+	Main (1300016164);
+..member..
+..method..
+	CompilationUnit[] makeASTList(java.lang.String) (1275339119);
+	boolean isJavaFile(java.io.File) (159883451);
+	void makeFileList(java.io.File) (529832633);
+	void init(java.io.File) (1518037877);
+	// 새방식
+CompilationUnit parsing() (924399116);
+	void main(java.lang.String[]) (61852204);
+	void main(java.lang.String[]) (1213626151);
+}
+
+@enduml

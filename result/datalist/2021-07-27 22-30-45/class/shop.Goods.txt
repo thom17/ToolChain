@@ -1,0 +1,30 @@
+@startuml
+class "shop.Goods" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String name (710190911);
+	int money (379645464);
+..method..
+	String getName() (1030684756);
+	void setName(java.lang.String) (1348453796);
+	int getMoney() (1606286799);
+	void setMoney(int) (1325144078);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	String name (710190911);
+	int money (379645464);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	Goods (198499365);
+	User (621300254);
+..member..
+..method..
+	void setName(java.lang.String) (1348453796);
+	void setMoney(int) (1325144078);
+	boolean buy(shop.Goods) (359368949);
+}
+
+@enduml

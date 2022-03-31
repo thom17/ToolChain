@@ -1,0 +1,12 @@
+@startuml
+group void connectTarget.A.AC()
+	AC->C : AC()
+		AC->C : CC1()
+			connectTarget.C.CC1()<--AC		AC->C : CC2()
+			connectTarget.C.CC2()<--AC		connectTarget.C.AC()<--ACend
+
+group void connectTarget.A.Ab(connectTarget.B)
+	Ab->B : Ab()
+		connectTarget.B.Ab()<--Abend
+
+@enduml

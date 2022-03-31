@@ -1,0 +1,21 @@
+@startuml
+class dataSet.StateNode.StateNode(java.lang.String, java.lang.String){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String code (565839681);
+	String nextCheck (1489933928);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	java.lang.String code (1845517769);
+	java.lang.String nextCheck (2082557120);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

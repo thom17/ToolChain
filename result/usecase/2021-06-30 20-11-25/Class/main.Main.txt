@@ -1,0 +1,15 @@
+@startuml
+ left to right direction
+
+actor Main as actor1430710100
+
+	rectangle main{
+	 usecase Test_Visitor as UC181451598
+	actor1430710100--UC181451598
+	 usecase ForMidEx as UC770921565
+	actor1430710100--UC770921565
+	 usecase PrintStream as UC150180388
+	actor1430710100--UC150180388
+	}
+
+@enduml

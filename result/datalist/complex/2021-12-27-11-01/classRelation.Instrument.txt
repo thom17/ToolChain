@@ -1,0 +1,53 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 2
+	extendsClassScore = 0
+	callScore = 6
+	callByScore = 6
+	methodNum = 1
+	memberNum = 1
+	constructorNum = 0
+	selfCoverage = 1
+	needCallBy = 1
+	ABS = 15
+	REL = 7
+	coverage = 50.0%
+__**<color:green>has list</color>**__
+	<color:green>classRelation.Sound sound (2)
+	<color:orange>Sound play() (7)
+}
+
+class classRelation.Instrument.play707157673 as "play()" 
+{
+	pram : ( )
+	SrcOwnClassName : classRelation.Instrument
+	SrcSig : classRelation.Instrument.play()
+	Sig : play()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 3
+	Call Score : 7
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 3
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 16.3645
+	Volume : 27
+	Diffifculty: 3.3333
+	Effort : 90
+	ABS Score : 7
+	Relative Score : 7
+}
+
+@enduml

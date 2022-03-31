@@ -1,0 +1,44 @@
+@startuml
+group Function Function(java.lang.String, java.lang.String, dataSet.Data_base)
+	Function->Data_base : addHas(dataSet.Data_base)
+		Data_base-->Function
+end
+
+group String getSrcName()
+	Function->Data_base : getSrcName()
+		Data_base-->Function
+end
+
+group String getPackageName()
+	Function->Data_base : getPackageName()
+		Data_base-->Function
+end
+
+group void addHas(dataSet.Data_base)
+	Function->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Function
+end
+
+group void addCallBy(dataSet.Data_base)
+	Function->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Function
+	Function->Data_base : addCallBy(dataSet.Data_base)
+		Data_base-->Function
+end
+
+group void addCall(dataSet.Data_base)
+	Function->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Function
+	Function->Data_base : addCall(dataSet.Data_base)
+		Data_base-->Function
+	Function->Data_base : addCallBy(dataSet.Data_base)
+		Data_base-->Function
+end
+
+@enduml

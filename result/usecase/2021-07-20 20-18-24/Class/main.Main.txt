@@ -1,0 +1,17 @@
+@startuml
+ left to right direction
+
+actor Main as actor1105129521
+
+	rectangle main{
+	 usecase addDataList as UC366023886
+	actor1105129521--UC366023886
+	 usecase println as UC115297013
+	actor1105129521--UC115297013
+	}
+	actor PrintStream as actor652803980
+	 UC115297013 -- actor652803980
+	actor Test_Visitor as actor954742840
+	 UC366023886 -- actor954742840
+
+@enduml

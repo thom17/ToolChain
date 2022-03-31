@@ -1,0 +1,19 @@
+@startuml
+class target.CafeLatte.milk{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	CafeLatte (23211803);
+..member..
+..method..
+	CafeLatte CafeLatte() (776700275);
+}
+
+@enduml

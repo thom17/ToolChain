@@ -1,0 +1,49 @@
+@startuml
+ left to right direction
+
+actor DataList as actor1391119179
+
+	package dataSet {
+		usecase getName as UC2008159348
+		usecase getName as UC1389432760
+		usecase getName as UC1103132232
+	}
+	actor1391119179 -- UC1103132232
+	actor1391119179 -- UC1389432760
+	actor1391119179 -- UC2008159348
+actor Class as actor1302141801
+
+	package dataSet {
+		usecase addClass as UC693345846
+		usecase addVar as UC854989361
+		usecase addFunction as UC257718694
+		usecase getFunctionList as UC1235635586
+		usecase getClassList as UC1037942373
+	}
+	actor1302141801 -- UC1037942373
+	actor1302141801 -- UC1235635586
+	actor1302141801 -- UC257718694
+	actor1302141801 -- UC854989361
+	actor1302141801 -- UC693345846
+actor Var as actor1388849499
+
+	package dataSet {
+		usecase getName as UC2008159348
+	}
+	actor1388849499 -- UC2008159348
+actor Function as actor622820646
+
+	package java.lang {
+		usecase substring as UC465909321
+		usecase length as UC143486875
+		usecase split as UC1205419533
+	}
+	actor622820646 -- UC1205419533
+	actor622820646 -- UC143486875
+	actor622820646 -- UC465909321
+	package java.io {
+		usecase println as UC1197176722
+	}
+	actor622820646 -- UC1197176722
+
+@enduml

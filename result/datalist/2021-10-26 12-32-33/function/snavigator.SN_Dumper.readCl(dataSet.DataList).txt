@@ -1,0 +1,34 @@
+@startuml
+class "snavigator.SN_Dumper.readCl(dataSet.DataList)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.DataList list (2041264753);
+	File cl (1851522556);
+	String dbdumpCmd (1031968647);
+	Process p (1902455960);
+	BufferedReader br (1371400311);
+	String line (1622694817);
+	String[] info (1227867806);
+	String name (292958927);
+	String type (800493254);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	PrintStream (2078239671);
+	DataList (1391119179);
+	BufferedReader (80756779);
+..member..
+..method..
+	null println(java.lang.String) (1197176722);
+	void addClass(dataSet.Class) (693345846);
+	null readLine() (1970779713);
+__**<color:orange>called by list</color>**__
+..class..
+	SN_Dumper (535352603);
+..member..
+..method..
+	DataList makeDataList() (369901249);
+}
+
+@enduml

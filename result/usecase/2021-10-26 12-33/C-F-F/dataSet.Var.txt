@@ -1,0 +1,13 @@
+@startuml
+ left to right direction
+
+actor Var as actor1388849499
+
+	rectangle Var{
+	 usecase getName as UC2008159348
+	actor1388849499--UC2008159348
+	}
+	actor Class as actor1302141801
+	 UC2008159348 -- actor1302141801
+
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+ left to right direction
+
+actor PrintStream as actor2078239671
+
+actor BufferedReader as actor80756779
+
+actor File as actor242408359
+
+actor Writer as actor1290614253
+
+actor OutputStreamWriter as actor740467528
+
+
+@enduml

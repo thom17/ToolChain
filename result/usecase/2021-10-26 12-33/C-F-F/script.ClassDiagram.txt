@@ -1,0 +1,87 @@
+@startuml
+ left to right direction
+
+actor ClassDiagram as actor2015261478
+
+	rectangle main{
+	 usecase exec as UC1960253514
+	actor2015261478--UC1960253514
+	 usecase getRuntime as UC1370495328
+	actor2015261478--UC1370495328
+	 usecase println as UC1197176722
+	actor2015261478--UC1197176722
+	}
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+	actor Runtime as actor317960117
+	 UC1370495328 -- actor317960117
+	actor Runtime as actor317960117
+	 UC1960253514 -- actor317960117
+	rectangle makeFile{
+	 usecase write as UC1748097277
+	actor2015261478--UC1748097277
+	 usecase close as UC668760567
+	actor2015261478--UC668760567
+	}
+	actor OutputStreamWriter as actor740467528
+	 UC668760567 -- actor740467528
+	actor Writer as actor1290614253
+	 UC1748097277 -- actor1290614253
+	rectangle makeString{
+	 usecase append as UC1803890702
+	actor2015261478--UC1803890702
+	 usecase toString as UC984567559
+	actor2015261478--UC984567559
+	}
+	actor StringBuilder as actor2077662850
+	 UC984567559 -- actor2077662850
+	actor StringBuilder as actor2077662850
+	 UC1803890702 -- actor2077662850
+	rectangle callByDef{
+	 usecase append as UC1803890702
+	actor2015261478--UC1803890702
+	 usecase getName as UC2008159348
+	actor2015261478--UC2008159348
+	}
+	actor Class as actor1302141801
+	 UC2008159348 -- actor1302141801
+	actor StringBuilder as actor2077662850
+	 UC1803890702 -- actor2077662850
+	rectangle classExtends{
+	 usecase append as UC1803890702
+	actor2015261478--UC1803890702
+	 usecase getName as UC2008159348
+	actor2015261478--UC2008159348
+	}
+	actor Class as actor1302141801
+	 UC2008159348 -- actor1302141801
+	actor StringBuilder as actor2077662850
+	 UC1803890702 -- actor2077662850
+	rectangle classDef{
+	 usecase append as UC1803890702
+	actor2015261478--UC1803890702
+	 usecase getName as UC2008159348
+	actor2015261478--UC2008159348
+	 usecase getName as UC1389432760
+	actor2015261478--UC1389432760
+	 usecase getTypeName as UC1088744071
+	actor2015261478--UC1088744071
+	 usecase getName as UC1103132232
+	actor2015261478--UC1103132232
+	 usecase printParameterType as UC1484275564
+	actor2015261478--UC1484275564
+	}
+	actor Function as actor622820646
+	 UC1484275564 -- actor622820646
+	actor Function as actor622820646
+	 UC1103132232 -- actor622820646
+	actor Function as actor622820646
+	 UC1088744071 -- actor622820646
+	actor Var as actor1388849499
+	 UC1389432760 -- actor1388849499
+	actor Class as actor1302141801
+	 UC2008159348 -- actor1302141801
+	actor StringBuilder as actor2077662850
+	 UC1803890702 -- actor2077662850
+
+@enduml

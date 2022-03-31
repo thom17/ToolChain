@@ -1,0 +1,13 @@
+@startuml
+ left to right direction
+
+actor ClassUmlMaker as actor1246807878
+
+	rectangle main{
+	 usecase getHasList as UC30604162
+	actor1246807878--UC30604162
+	}
+	actor Data_base as actor517787604
+	 UC30604162 -- actor517787604
+
+@enduml

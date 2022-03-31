@@ -1,0 +1,65 @@
+@startuml
+ left to right direction
+
+actor ForStateNode as actor1248201524
+
+	rectangle ForStateNode{
+	 usecase initializers as UC1799310296
+	actor1248201524--UC1799310296
+	 usecase toString as UC597399755
+	actor1248201524--UC597399755
+	 usecase getExpression as UC1041571359
+	actor1248201524--UC1041571359
+	 usecase getStmtList as UC14093978
+	actor1248201524--UC14093978
+	 usecase getBody as UC1587020590
+	actor1248201524--UC1587020590
+	}
+	actor ForStatement as actor1340666542
+	actor1340666542 -- UC1587020590
+	actor Test_Visitor as actor181451598
+	actor181451598 -- UC14093978
+	actor ForStatement as actor1340666542
+	actor1340666542 -- UC1041571359
+	actor ASTNode as actor293285062
+	actor293285062 -- UC597399755
+	actor ForStatement as actor1340666542
+	actor1340666542 -- UC1799310296
+	rectangle getForLine{
+	 usecase append as UC1698322791
+	actor1248201524--UC1698322791
+	 usecase toString as UC1495001258
+	actor1248201524--UC1495001258
+	 usecase getCondition as UC1513945124
+	actor1248201524--UC1513945124
+	 usecase getCode as UC8000369
+	actor1248201524--UC8000369
+	 usecase toString as UC1986751746
+	actor1248201524--UC1986751746
+	}
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- UC1986751746
+	actor StateNode as actor2083220171
+	actor2083220171 -- UC8000369
+	actor StateNode as actor2083220171
+	actor2083220171 -- UC1513945124
+	actor Object as actor1548698416
+	actor1548698416 -- UC1495001258
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- UC1698322791
+	rectangle getLastFin{
+	 usecase get as UC1635815117
+	actor1248201524--UC1635815117
+	 usecase println as UC1001114349
+	actor1248201524--UC1001114349
+	 usecase getThen as UC113676940
+	actor1248201524--UC113676940
+	}
+	actor StateNode as actor2083220171
+	actor2083220171 -- UC113676940
+	actor PrintStream as actor731802107
+	actor731802107 -- UC1001114349
+	actor ArrayList as actor1538456363
+	actor1538456363 -- UC1635815117
+
+@enduml

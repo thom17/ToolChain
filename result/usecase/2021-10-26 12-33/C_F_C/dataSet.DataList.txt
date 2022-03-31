@@ -1,0 +1,35 @@
+@startuml
+ left to right direction
+
+actor DataList as actor1391119179
+
+	rectangle addClass{
+	 usecase String as UC0
+	actor1391119179--UC0
+	}
+	rectangle addClass{
+	 usecase Class as UC1
+	actor1391119179--UC1
+	}
+	rectangle addVar{
+	 usecase Var as UC2
+	actor1391119179--UC2
+	}
+	rectangle addFunction{
+	 usecase Function as UC3
+	actor1391119179--UC3
+	}
+	rectangle findClass{
+	 usecase String as UC4
+	actor1391119179--UC4
+	}
+	rectangle findFunction{
+	 usecase String as UC5
+	actor1391119179--UC5
+	}
+	rectangle findVar{
+	 usecase String as UC6
+	actor1391119179--UC6
+	}
+
+@enduml

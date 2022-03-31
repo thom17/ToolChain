@@ -1,0 +1,12 @@
+@startuml
+group void addData(dataSet.Data_base)
+	DataList->Data_base : getSrcName()
+		Data_base-->DataList
+end
+
+group Map<String, ArrayList<Class>> separatePackage()
+	DataList->ArrayList : add(E)
+		ArrayList-->DataList
+end
+
+@enduml

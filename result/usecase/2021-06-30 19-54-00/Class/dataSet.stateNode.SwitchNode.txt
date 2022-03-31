@@ -1,0 +1,35 @@
+@startuml
+ left to right direction
+
+actor SwitchNode as actor908744222
+
+	rectangle SwitchNode{
+	 usecase toString as UC597399755
+	actor908744222--UC597399755
+	 usecase getExpression as UC1907517568
+	actor908744222--UC1907517568
+	 usecase add as UC2030748640
+	actor908744222--UC2030748640
+	 usecase statements as UC346125981
+	actor908744222--UC346125981
+	}
+	actor SwitchStatement as actor280960713
+	actor280960713 -- dataSet.Function@14a1769d
+	actor ArrayList as actor1538456363
+	actor1538456363 -- dataSet.Function@790ac3e0
+	actor SwitchStatement as actor280960713
+	actor280960713 -- dataSet.Function@71b26880
+	actor ASTNode as actor293285062
+	actor293285062 -- dataSet.Function@239b98cb
+	rectangle print{
+	 usecase println as UC1001114349
+	actor908744222--UC1001114349
+	 usecase toString as UC597399755
+	actor908744222--UC597399755
+	}
+	actor ASTNode as actor293285062
+	actor293285062 -- dataSet.Function@239b98cb
+	actor PrintStream as actor731802107
+	actor731802107 -- dataSet.Function@3babcaed
+
+@enduml

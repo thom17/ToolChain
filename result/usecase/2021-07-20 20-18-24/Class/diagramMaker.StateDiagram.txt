@@ -1,0 +1,47 @@
+@startuml
+ left to right direction
+
+actor StateDiagram as actor584349634
+
+	rectangle drawMain{
+	 usecase append as UC1510333744
+	actor584349634--UC1510333744
+	 usecase write as UC38851648
+	actor584349634--UC38851648
+	 usecase toString as UC458385820
+	actor584349634--UC458385820
+	 usecase close as UC1992844647
+	actor584349634--UC1992844647
+	 usecase exec as UC964895360
+	actor584349634--UC964895360
+	 usecase getRuntime as UC1231469233
+	actor584349634--UC1231469233
+	 usecase println as UC115297013
+	actor584349634--UC115297013
+	}
+	actor PrintStream as actor652803980
+	 UC115297013 -- actor652803980
+	actor Runtime as actor1494051958
+	 UC1231469233 -- actor1494051958
+	actor Runtime as actor1494051958
+	 UC964895360 -- actor1494051958
+	actor OutputStreamWriter as actor2120154283
+	 UC1992844647 -- actor2120154283
+	actor StringBuilder as actor230610941
+	 UC458385820 -- actor230610941
+	actor Writer as actor94690722
+	 UC38851648 -- actor94690722
+	actor StringBuilder as actor230610941
+	 UC1510333744 -- actor230610941
+	rectangle drawNode{
+	 usecase append as UC1510333744
+	actor584349634--UC1510333744
+	 usecase getCode as UC79283217
+	actor584349634--UC79283217
+	}
+	actor StateNode as actor287056540
+	 UC79283217 -- actor287056540
+	actor StringBuilder as actor230610941
+	 UC1510333744 -- actor230610941
+
+@enduml

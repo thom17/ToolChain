@@ -1,0 +1,27 @@
+@startuml
+ left to right direction
+
+actor Complex as actor2030748640
+
+	package java.lang {
+		usecase toString as UC1528099970
+		usecase append as UC1296277943
+	}
+	actor2030748640 -- UC1296277943
+	actor2030748640 -- UC1528099970
+	package java.util {
+		usecase hasNext as UC1538456363
+	}
+	actor2030748640 -- UC1538456363
+	package dataSet {
+		usecase getSig as UC1785570426
+		usecase getFunctionList as UC133579455
+		usecase getHasList as UC150180388
+		usecase getTypeName as UC1430710100
+	}
+	actor2030748640 -- UC1430710100
+	actor2030748640 -- UC150180388
+	actor2030748640 -- UC133579455
+	actor2030748640 -- UC1785570426
+
+@enduml

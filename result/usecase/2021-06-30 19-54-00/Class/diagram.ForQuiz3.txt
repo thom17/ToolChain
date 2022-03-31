@@ -1,0 +1,93 @@
+@startuml
+ left to right direction
+
+actor ForQuiz3 as actor266906347
+
+	rectangle main{
+	 usecase waitFor as UC1695161087
+	actor266906347--UC1695161087
+	 usecase println as UC1001114349
+	actor266906347--UC1001114349
+	}
+	actor PrintStream as actor731802107
+	actor731802107 -- dataSet.Function@3babcaed
+	actor Process as actor431996456
+	actor431996456 -- dataSet.Function@650a1aff
+	rectangle main{
+	 usecase waitFor as UC1695161087
+	actor266906347--UC1695161087
+	 usecase println as UC1001114349
+	actor266906347--UC1001114349
+	}
+	actor PrintStream as actor731802107
+	actor731802107 -- dataSet.Function@3babcaed
+	actor Process as actor431996456
+	actor431996456 -- dataSet.Function@650a1aff
+	rectangle makeFile{
+	 usecase write as UC743936514
+	actor266906347--UC743936514
+	 usecase close as UC1238292935
+	actor266906347--UC1238292935
+	}
+	actor OutputStreamWriter as actor298295476
+	actor298295476 -- dataSet.Function@49ced9c7
+	actor Writer as actor1978471002
+	actor1978471002 -- dataSet.Function@2c579202
+	rectangle makeScript{
+	 usecase append as UC1698322791
+	actor266906347--UC1698322791
+	 usecase hashCode as UC1518712038
+	actor266906347--UC1518712038
+	 usecase toString as UC1986751746
+	actor266906347--UC1986751746
+	}
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- dataSet.Function@766b6d02
+	actor Object as actor1548698416
+	actor1548698416 -- dataSet.Function@5a85b4e6
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- dataSet.Function@653a5967
+	rectangle makeMemberInfo{
+	 usecase append as UC1698322791
+	actor266906347--UC1698322791
+	 usecase toString as UC731573979
+	actor266906347--UC731573979
+	 usecase getImageList as UC104105431
+	actor266906347--UC104105431
+	}
+	actor Member as actor444096469
+	actor444096469 -- dataSet.Function@63485d7
+	actor AbstractCollection as actor602572848
+	actor602572848 -- dataSet.Function@2b9aeedb
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- dataSet.Function@653a5967
+	rectangle makeFunctionInfo{
+	 usecase append as UC1698322791
+	actor266906347--UC1698322791
+	 usecase hashCode as UC1518712038
+	actor266906347--UC1518712038
+	 usecase getHeadNode as UC93981118
+	actor266906347--UC93981118
+	}
+	actor Function as actor426792528
+	actor426792528 -- dataSet.Function@59a09be
+	actor Object as actor1548698416
+	actor1548698416 -- dataSet.Function@5a85b4e6
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- dataSet.Function@653a5967
+	rectangle makeExpInfo{
+	 usecase add as UC2030748640
+	actor266906347--UC2030748640
+	 usecase append as UC1698322791
+	actor266906347--UC1698322791
+	 usecase hashCode as UC1518712038
+	actor266906347--UC1518712038
+	}
+	actor Object as actor1548698416
+	actor1548698416 -- dataSet.Function@5a85b4e6
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- dataSet.Function@653a5967
+	actor ArrayList as actor1538456363
+	actor1538456363 -- dataSet.Function@790ac3e0
+
+@enduml

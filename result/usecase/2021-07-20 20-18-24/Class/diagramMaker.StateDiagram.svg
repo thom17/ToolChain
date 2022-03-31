@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="689px" preserveAspectRatio="none" style="width:453px;height:689px;" version="1.1" viewBox="0 0 453 689" width="453px" zoomAndPan="magnify"><defs><filter height="300%" id="f14gue7qrgmuxp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[62fbe353fb32b33842f98dffdd064b6b]
+cluster drawMain--><rect fill="#FFFFFF" filter="url(#f14gue7qrgmuxp)" height="496" style="stroke: #000000; stroke-width: 1.5;" width="140" x="136" y="8.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="172" y="26.6533">drawMain</text><!--MD5=[cc8667530e47d34219c3f618868891b7]
+cluster drawNode--><rect fill="#FFFFFF" filter="url(#f14gue7qrgmuxp)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="114" x="149" y="557.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="170.5" y="575.6533">drawNode</text><ellipse cx="205.9411" cy="131.5973" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="36.9411" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="181.9411" y="137.7121">append</text><ellipse cx="206.0061" cy="199.5973" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="23.5061" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="191.5061" y="205.7121">write</text><ellipse cx="206.1482" cy="63.5973" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="37.6482" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="181.6482" y="69.7121">toString</text><ellipse cx="205.8345" cy="267.5973" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="26.3345" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="189.3345" y="273.7121">close</text><ellipse cx="206.0061" cy="403.5973" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="23.5061" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="191.5061" y="409.7121">exec</text><ellipse cx="205.9117" cy="335.5973" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="53.9117" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="169.9117" y="341.7121">getRuntime</text><ellipse cx="206.0772" cy="471.5973" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="30.5772" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="186.5772" y="477.7121">println</text><ellipse cx="206.1838" cy="612.5973" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="41.1838" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="179.1838" y="618.7121">getCode</text><!--MD5=[44dc1c8c998bce5f9e6b0054acfd895a]
+entity actor584349634--><ellipse cx="49" cy="235" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M49,243 L49,270 M36,251 L62,251 M49,270 L36,285 M49,270 L62,285 " fill="none" filter="url(#f14gue7qrgmuxp)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="6" y="306.6533">StateDiagram</text><!--MD5=[2699aedbcd2b1f3b132d3903ac9b60ef]
+entity actor652803980--><ellipse cx="383" cy="490" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M383,498 L383,525 M370,506 L396,506 M383,525 L370,540 M383,525 L396,540 " fill="none" filter="url(#f14gue7qrgmuxp)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="346" y="561.6533">PrintStream</text><!--MD5=[6fb069653bc4eca858f58303df485e78]
+entity actor1494051958--><ellipse cx="383" cy="371" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M383,379 L383,406 M370,387 L396,387 M383,406 L370,421 M383,406 L396,421 " fill="none" filter="url(#f14gue7qrgmuxp)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="357" y="442.6533">Runtime</text><!--MD5=[6e5b8b9080bf40386e983222e37dc0c6]
+entity actor2120154283--><ellipse cx="383" cy="252" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M383,260 L383,287 M370,268 L396,268 M383,287 L370,302 M383,287 L396,302 " fill="none" filter="url(#f14gue7qrgmuxp)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="320" y="323.6533">OutputStreamWriter</text><!--MD5=[864f7e280385d8f93481e354d7c7de74]
+entity actor230610941--><ellipse cx="383" cy="14" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M383,22 L383,49 M370,30 L396,30 M383,49 L370,64 M383,49 L396,64 " fill="none" filter="url(#f14gue7qrgmuxp)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="342.5" y="85.6533">StringBuilder</text><!--MD5=[d11812ca287f6e2b9360f0be547853e2]
+entity actor94690722--><ellipse cx="383" cy="133" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M383,141 L383,168 M370,149 L396,149 M383,168 L370,183 M383,168 L396,183 " fill="none" filter="url(#f14gue7qrgmuxp)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="364" y="204.6533">Writer</text><!--MD5=[64208daa1efe28eb808b4a514c88cab4]
+entity actor287056540--><ellipse cx="383" cy="609" fill="#FEFECE" filter="url(#f14gue7qrgmuxp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M383,617 L383,644 M370,625 L396,625 M383,644 L370,659 M383,644 L396,659 " fill="none" filter="url(#f14gue7qrgmuxp)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="350" y="680.6533">StateNode</text><!--MD5=[754bd7013d744a50e472468b2a0da69e]
+link actor584349634 to UC1510333744--><path d="M86.77,225.36 C98.55,210.48 112.59,194.63 128,182.5 C147.75,166.95 175.72,156.95 191.95,146.9 " fill="none" id="actor584349634-UC1510333744" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[754bd7013d744a50e472468b2a0da69e]
+link actor584349634 to UC1510333744--><path d="M65.81,225.25 C79.76,199.23 101.9,168.05 128,147.5 C140.75,137.47 156.91,129.74 171.14,125.68 " fill="none" id="actor584349634-UC1510333744-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3773608cbfc9779ee764d251c1a64f50]
+link actor584349634 to UC38851648--><path d="M92.35,248.92 C122.83,235.55 162.5,218.14 185.72,207.96 " fill="none" id="actor584349634-UC38851648" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c131bc79ab688946c5f8675cb643ac67]
+link actor584349634 to UC458385820--><path d="M60.11,225.5 C71.12,187.7 92.16,132.83 128,97.5 C140.38,85.29 157.89,77.09 173.09,71.8 " fill="none" id="actor584349634-UC458385820" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[19ccb9aa09bff41f4b2c7e6c6ead2fdd]
+link actor584349634 to UC1992844647--><path d="M92.35,267.5 C120.14,267.5 155.57,267.5 179.21,267.5 " fill="none" id="actor584349634-UC1992844647" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[38736f12e0f5cdefdde262e078f2df07]
+link actor584349634 to UC964895360--><path d="M75.03,309.52 C88.68,329.7 107.07,353.02 128,369.5 C144.76,382.7 167.45,391.9 183.85,397.37 " fill="none" id="actor584349634-UC964895360" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9eaaff5e199f0acd8117e1939e10c341]
+link actor584349634 to UC1231469233--><path d="M92.35,286.08 C118.17,297.41 150.58,311.63 174.01,321.9 " fill="none" id="actor584349634-UC1231469233" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7c037300f850873a833113002dba8bc7]
+link actor584349634 to UC115297013--><path d="M60.11,309.5 C71.12,347.3 92.16,402.17 128,437.5 C141.74,451.04 161.78,459.66 177.97,464.83 " fill="none" id="actor584349634-UC115297013" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[506482d4508c62cd36a898b620d47403]
+link UC115297013 to actor652803980--><path d="M233.2,479.14 C263.14,487.86 312.32,502.19 345.88,511.97 " fill="none" id="UC115297013-actor652803980" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0a8eac8db88523e21a2fdba2683bc68d]
+link UC1231469233 to actor1494051958--><path d="M240.33,348.45 C274.24,361.63 326.06,381.76 356.73,393.68 " fill="none" id="UC1231469233-actor1494051958" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ba3c77a8d1d3565e5b1cd37c72fa4b89]
+link UC964895360 to actor1494051958--><path d="M229.52,403.5 C262.2,403.5 322.58,403.5 356.74,403.5 " fill="none" id="UC964895360-actor1494051958" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b4aa1ad222d1a6b9bf23ea635d37e0bd]
+link UC1992844647 to actor2120154283--><path d="M232.45,269.97 C255.29,272.19 289.77,275.54 319.86,278.46 " fill="none" id="UC1992844647-actor2120154283" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[fe24e3c77f07c716b55f92ec959cee7d]
+link UC458385820 to actor230610941--><path d="M242.84,60.02 C271.74,57.21 312.35,53.27 342.24,50.36 " fill="none" id="UC458385820-actor230610941" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f8d3abc9378ac09243933b2d4a349a8f]
+link UC38851648 to actor94690722--><path d="M228.81,195.26 C263.72,188.48 331.5,175.31 363.9,169.02 " fill="none" id="UC38851648-actor94690722" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3ca10d0588a2cb08aa576378b8daa12c]
+link UC1510333744 to actor230610941--><path d="M243.26,132.05 C256.2,127.4 270.83,120.83 284,114.5 C303.36,105.2 324.54,94.27 342.24,83.5 " fill="none" id="UC1510333744-actor230610941" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3ca10d0588a2cb08aa576378b8daa12c]
+link UC1510333744 to actor230610941--><path d="M217.06,115.56 C231.85,103.07 260.29,90.89 284,79.5 C303.36,70.2 324.54,59.27 342.24,51.43 " fill="none" id="UC1510333744-actor230610941-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e7240f7550491d30bf4a2ef114ba59f1]
+link actor584349634 to UC79283217--><path d="M59.77,309.68 C71.95,358.28 95.23,439.77 128,504.5 C145.99,540.04 174.83,576.87 191.64,597.01 " fill="none" id="actor584349634-UC79283217" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[903409a954501c92dae701b160443c1f]
+link UC79283217 to actor287056540--><path d="M244.11,618.65 C275.52,623.85 320.06,631.23 349.93,636.19 " fill="none" id="UC79283217-actor287056540" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d1220d800ccfd8f3f77ae05ef1c57aae]
+@startuml
+ left to right direction
+
+actor StateDiagram as actor584349634
+
+	rectangle drawMain{
+	 usecase append as UC1510333744
+	actor584349634- -UC1510333744
+	 usecase write as UC38851648
+	actor584349634- -UC38851648
+	 usecase toString as UC458385820
+	actor584349634- -UC458385820
+	 usecase close as UC1992844647
+	actor584349634- -UC1992844647
+	 usecase exec as UC964895360
+	actor584349634- -UC964895360
+	 usecase getRuntime as UC1231469233
+	actor584349634- -UC1231469233
+	 usecase println as UC115297013
+	actor584349634- -UC115297013
+	}
+	actor PrintStream as actor652803980
+	 UC115297013 - - actor652803980
+	actor Runtime as actor1494051958
+	 UC1231469233 - - actor1494051958
+	actor Runtime as actor1494051958
+	 UC964895360 - - actor1494051958
+	actor OutputStreamWriter as actor2120154283
+	 UC1992844647 - - actor2120154283
+	actor StringBuilder as actor230610941
+	 UC458385820 - - actor230610941
+	actor Writer as actor94690722
+	 UC38851648 - - actor94690722
+	actor StringBuilder as actor230610941
+	 UC1510333744 - - actor230610941
+	rectangle drawNode{
+	 usecase append as UC1510333744
+	actor584349634- -UC1510333744
+	 usecase getCode as UC79283217
+	actor584349634- -UC79283217
+	}
+	actor StateNode as actor287056540
+	 UC79283217 - - actor287056540
+	actor StringBuilder as actor230610941
+	 UC1510333744 - - actor230610941
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

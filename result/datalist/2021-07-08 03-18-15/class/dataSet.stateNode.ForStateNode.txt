@@ -1,0 +1,69 @@
+@startuml
+class dataSet.stateNode.ForStateNode{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	List init (242833949);
+	ArrayList<Statement> bodyList (952172944);
+	String repeatCondition (482614135);
+	StateNode cond (712949255);
+	StateNode condElseNode (1855172839);
+	ArrayList<StateNode> forFinList (1592713508);
+..method..
+	ForStateNode ForStateNode(org.eclipse.jdt.core.dom.ForStatement) (1657624109);
+	void setCond(dataSet.stateNode.StateNode) (1025266421);
+	void setForFin(java.util.ArrayList<dataSet.stateNode.StateNode>) (1316735289);
+	void setCondElseNode(dataSet.stateNode.StateNode) (1739974163);
+	String getForLine() (1874962678);
+	StateNode getCondNode() (815125505);
+	ArrayList<StateNode> getForFinList() (540537131);
+	List getInitList() (1752829504);
+	StateNode getCond() (178163105);
+	StateNode getLastFin() (347436335);
+__**<color:blue>calling list</color>**__
+..class..
+	ForStatement (194277435);
+	ASTNode (866416391);
+	Test_Visitor (1089579669);
+	StringBuilder (1709493124);
+	Object (1294534487);
+	StateNode (1913266128);
+	ArrayList (810646103);
+	PrintStream (1432599360);
+..member..
+	List init (242833949);
+	String repeatCondition (482614135);
+	ArrayList<Statement> bodyList (952172944);
+	StateNode cond (712949255);
+	ArrayList<StateNode> forFinList (1592713508);
+	StateNode condElseNode (1855172839);
+..method..
+	null initializers() (1521986562);
+	null toString() (1253827612);
+	null getExpression() (1336758691);
+	ArrayList<Statement> getStmtList(org.eclipse.jdt.core.dom.Statement) (1836786457);
+	null getBody() (181097736);
+	null append(java.lang.String) (190182839);
+	null toString() (524671817);
+	String getCondition() (985702731);
+	String getCode() (244788961);
+	null toString() (861339480);
+	null get(int) (1579440430);
+	null println(java.lang.String) (1862946352);
+	StateNode getThen() (1358917731);
+__**<color:orange>called by list</color>**__
+..class..
+	ForStateNode (1739111611);
+	ForMidEx (5313207);
+	Test_Visitor (1089579669);
+..member..
+..method..
+	ForStateNode ForStateNode(org.eclipse.jdt.core.dom.ForStatement) (1657624109);
+	void setCond(dataSet.stateNode.StateNode) (1025266421);
+	void setForFin(java.util.ArrayList<dataSet.stateNode.StateNode>) (1316735289);
+	void setCondElseNode(dataSet.stateNode.StateNode) (1739974163);
+	StateNode forNodeMake(dataSet.stateNode.StateNode, java.lang.String, java.lang.String) (465134665);
+	void forStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (654299840);
+}
+
+@enduml

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="226px" preserveAspectRatio="none" style="width:298px;height:226px;" version="1.1" viewBox="0 0 298 226" width="298px" zoomAndPan="magnify"><defs><filter height="300%" id="f1qnycmdrrjh4i" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c2e91a5afc248ef1801ed01e98408fb8]
+cluster buy--><rect fill="#FFFFFF" filter="url(#f1qnycmdrrjh4i)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="126" x="79" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="129.5" y="25.1533">buy</text><!--MD5=[5f180a29fb049b84e12435f0625f51c9]
+cluster chckPwd--><rect fill="#FFFFFF" filter="url(#f1qnycmdrrjh4i)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="97" x="93.5" y="122"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="111" y="140.1533">chckPwd</text><ellipse cx="141.8406" cy="62.0973" fill="#FEFECE" filter="url(#f1qnycmdrrjh4i)" rx="46.8406" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="110.8406" y="68.2121">getMoney</text><ellipse cx="142.1985" cy="177.0973" fill="#FEFECE" filter="url(#f1qnycmdrrjh4i)" rx="32.6985" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="121.1985" y="183.2121">equals</text><!--MD5=[61ab0789025e803b4ab60e17fb7451c4]
+entity actor1786294176--><ellipse cx="20.5" cy="87.5" fill="#FEFECE" filter="url(#f1qnycmdrrjh4i)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M20.5,95.5 L20.5,122.5 M7.5,103.5 L33.5,103.5 M20.5,122.5 L7.5,137.5 M20.5,122.5 L33.5,137.5 " fill="none" filter="url(#f1qnycmdrrjh4i)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="6" y="159.1533">User</text><!--MD5=[e5b0874d3a84af736bbf9b0fd98fa8ae]
+entity actor1261153343--><ellipse cx="270" cy="27.5" fill="#FEFECE" filter="url(#f1qnycmdrrjh4i)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M270,35.5 L270,62.5 M257,43.5 L283,43.5 M270,62.5 L257,77.5 M270,62.5 L283,77.5 " fill="none" filter="url(#f1qnycmdrrjh4i)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="249" y="99.1533">Goods</text><!--MD5=[6f0824a7a10e90f9828df6e0b53afd0b]
+entity actor1309176095--><ellipse cx="270" cy="146.5" fill="#FEFECE" filter="url(#f1qnycmdrrjh4i)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M270,154.5 L270,181.5 M257,162.5 L283,162.5 M270,181.5 L257,196.5 M270,181.5 L283,196.5 " fill="none" filter="url(#f1qnycmdrrjh4i)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="251.5" y="218.1533">String</text><!--MD5=[f3631bda7fd4c209b66b360ae5d41494]
+link actor1786294176 to UC807752428--><path d="M35.21,113.35 C54.21,104.12 88.99,87.24 113.47,75.36 " fill="none" id="actor1786294176-UC807752428" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[607c3c1b3e913a35e60b2f8b8c2f14d4]
+link UC807752428 to actor1261153343--><path d="M189.2,61.27 C209.71,60.94 232.78,60.57 248.82,60.32 " fill="none" id="UC807752428-actor1261153343" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c7f33ceb64d4fab0d3aa028e63840628]
+link actor1786294176 to UC1026055550--><path d="M35.21,126.54 C55.32,136.13 93.08,154.14 117.62,165.85 " fill="none" id="actor1786294176-UC1026055550" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[28e6f4b9adbdde5b4038158a8ba6ae80]
+link UC1026055550 to actor1309176095--><path d="M174.8,177.5 C199,177.89 231.42,178.4 251.23,178.72 " fill="none" id="UC1026055550-actor1309176095" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d3e225019c77b65f41fa499e57bb7d9b]
+@startuml
+ left to right direction
+
+actor User as actor1786294176
+
+	rectangle buy{
+	 usecase getMoney as UC807752428
+	actor1786294176- -UC807752428
+	}
+	actor Goods as actor1261153343
+	 UC807752428 - - actor1261153343
+	rectangle chckPwd{
+	 usecase equals as UC1026055550
+	actor1786294176- -UC1026055550
+	}
+	actor String as actor1309176095
+	 UC1026055550 - - actor1309176095
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

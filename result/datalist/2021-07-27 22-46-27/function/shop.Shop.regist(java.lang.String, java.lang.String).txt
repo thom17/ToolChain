@@ -1,0 +1,23 @@
+@startuml
+class "shop.Shop.regist(java.lang.String, java.lang.String)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String id (925308434);
+	String pwd (249034932);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	TestCase (689745064);
+	TestScenario (945722724);
+..member..
+..method..
+	void Registration() (2129144075);
+	void Registration() (1955920234);
+}
+
+@enduml

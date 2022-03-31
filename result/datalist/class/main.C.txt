@@ -1,0 +1,20 @@
+@startuml
+class main.C{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	void test(main.B) (1632413663);
+__**<color:blue>calling list</color>**__
+..class..
+	A (2122049087);
+..member..
+..method..
+	int getx() (27362884);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

@@ -1,0 +1,82 @@
+@startuml
+ left to right direction
+
+actor SN_Dumper as actor535352603
+actor Parser as actor681747431
+rectangle Thread{
+	usecase sleep as UC1628289406
+		actor681747431 -- UC1628289406
+}
+rectangle Process{
+	usecase waitFor as UC1296928719
+		actor681747431 -- UC1296928719
+}
+rectangle Throwable{
+	usecase printStackTrace as UC985487390
+		actor681747431 -- UC985487390
+}
+rectangle File{
+	usecase delete as UC612716569
+		actor681747431 -- UC612716569
+}
+rectangle Parser{
+	usecase deleteFiles as UC245530164
+		actor681747431 -- UC245530164
+	usecase parsing as UC866273692
+		actor681747431 -- UC866273692
+}
+rectangle ArrayList{
+	usecase get as UC827579900
+		actor535352603 -- UC827579900
+	usecase size as UC1622135821
+		actor535352603 -- UC1622135821
+}
+rectangle Function{
+	usecase getCallList as UC1657125852
+		actor535352603 -- UC1657125852
+}
+rectangle Class{
+	usecase addMember as UC843959601
+		actor535352603 -- UC843959601
+	usecase addFunction as UC1346197173
+		actor535352603 -- UC1346197173
+	usecase addCallClass as UC1924966548
+		actor535352603 -- UC1924966548
+	usecase setSuperClass as UC764358458
+		actor535352603 -- UC764358458
+	usecase getName as UC2008159348
+		actor535352603 -- UC2008159348
+}
+rectangle BufferedReader{
+	usecase readLine as UC1970779713
+		actor535352603 -- UC1970779713
+}
+rectangle DataList{
+	usecase addClass as UC693345846
+		actor535352603 -- UC693345846
+	usecase addVar as UC854989361
+		actor535352603 -- UC854989361
+	usecase addFunction as UC257718694
+		actor535352603 -- UC257718694
+}
+rectangle PrintStream{
+	usecase println as UC1197176722
+		actor681747431 -- UC1197176722
+		actor535352603 -- UC1197176722
+	usecase print as UC923013679
+		actor681747431 -- UC923013679
+		actor535352603 -- UC923013679
+}
+rectangle SN_Dumper{
+	usecase readCl as UC248487859
+		actor535352603 -- UC248487859
+	usecase readIn as UC758465579
+		actor535352603 -- UC758465579
+	usecase readIv as UC670689666
+		actor535352603 -- UC670689666
+	usecase readMd as UC1167327028
+		actor535352603 -- UC1167327028
+	usecase readBy as UC936628786
+		actor535352603 -- UC936628786
+}
+@enduml

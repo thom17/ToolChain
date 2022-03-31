@@ -1,0 +1,13 @@
+@startuml
+ left to right direction
+
+actor Shop as actor536122141
+
+	rectangle charge{
+	 usecase setMoney as UC16503286
+	actor536122141--UC16503286
+	}
+	actor User as actor1521083627
+	 UC16503286 -- actor1521083627
+
+@enduml

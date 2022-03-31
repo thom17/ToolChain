@@ -1,0 +1,21 @@
+@startuml
+class shop.User.User(java.lang.String, java.lang.String){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String id (131206411);
+	String pwd (2012330741);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	String id (978508707);
+	String pw (710708543);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

@@ -1,0 +1,90 @@
+@startuml
+class "Dice" as cl1{
+Package gameSystem
+Lib false
+HashCode : 1267149311
+ABS Score : 22
+Relative Score : 5
+__**<color:green>has list</color>**__
+	<color:green>int[] shapeList (2)
+	<color:green>java.util.Random rand (2)
+....
+	<color:green>new Dice(int[]) (4)
+	<color:red>int roll() (7)
+__**<color:blue>calling list</color>**__
+..class..
+	java.util.Random (102174918);
+..member..
+	gameSystem.Dice.shapeList (52514534);
+	gameSystem.Dice.rand (943573036);
+..method..
+	 java.util.Random.nextInt(int) (1242027525);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (1954985045);
+	gameSystem.Dice (1267149311);
+..member..
+	gameSystem.GameSystem.diceRoll(gameSystem.Dice).dice (1948810915);
+..method..
+	 gameSystem.GameSystem.diceRoll(gameSystem.Dice) (2104973502);
+	 gameSystem.Dice.Dice(int[]) (735937428);
+	 gameSystem.Dice.roll() (1604247316);
+	 gameSystem.GameSystem.diceSetting() (1752461090);
+}
+
+ package Functions{
+class "Dice(int[])" as f735937428  #line:green
+{
+Static : false
+return Type : new
+hashCode : 735937428
+ABS Score : 4
+Relative Score : 4
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.Dice.Dice(int[]).list (788625466);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	gameSystem.Dice.shapeList (52514534);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (1954985045);
+..member..
+..method..
+	 gameSystem.GameSystem.diceSetting() (1752461090);
+}
+class "roll()" as f1604247316  
+{
+Static : false
+return Type : int
+hashCode : 1604247316
+ABS Score : 7
+Relative Score : 7
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.Dice.roll().size (1753714541);
+	gameSystem.Dice.roll().r (1095273238);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	java.util.Random (102174918);
+..member..
+	gameSystem.Dice.rand (943573036);
+..method..
+	 java.util.Random.nextInt(int) (1242027525);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (1954985045);
+..member..
+	gameSystem.GameSystem.diceRoll(gameSystem.Dice).dice (1948810915);
+..method..
+	 gameSystem.GameSystem.diceRoll(gameSystem.Dice) (2104973502);
+}
+}
+
+@enduml

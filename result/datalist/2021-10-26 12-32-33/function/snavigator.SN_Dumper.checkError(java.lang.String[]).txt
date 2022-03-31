@@ -1,0 +1,21 @@
+@startuml
+class "snavigator.SN_Dumper.checkError(java.lang.String[])" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	java.lang.String[] list (1769598893);
+	String str (1517116047);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	PrintStream (2078239671);
+..member..
+..method..
+	null println(java.lang.String) (1197176722);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

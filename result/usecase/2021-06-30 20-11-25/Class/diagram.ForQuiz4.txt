@@ -1,0 +1,67 @@
+@startuml
+ left to right direction
+
+actor ForQuiz4 as actor1805031342
+
+	rectangle main{
+	 usecase Process as UC1785570426
+	actor1805031342--UC1785570426
+	 usecase PrintStream as UC150180388
+	actor1805031342--UC150180388
+	}
+	rectangle main{
+	 usecase Process as UC1785570426
+	actor1805031342--UC1785570426
+	 usecase PrintStream as UC150180388
+	actor1805031342--UC150180388
+	}
+	rectangle makeFile{
+	 usecase Writer as UC133579455
+	actor1805031342--UC133579455
+	 usecase OutputStreamWriter as UC1138992016
+	actor1805031342--UC1138992016
+	}
+	rectangle makeScript{
+	 usecase StringBuilder as UC1152029154
+	actor1805031342--UC1152029154
+	 usecase Object as UC1356614113
+	actor1805031342--UC1356614113
+	}
+	rectangle makeMemberInfo{
+	 usecase StringBuilder as UC1152029154
+	actor1805031342--UC1152029154
+	 usecase AbstractCollection as UC1695161087
+	actor1805031342--UC1695161087
+	 usecase Member as UC444096469
+	actor1805031342--UC444096469
+	}
+	rectangle makeFunctionInfo{
+	 usecase StringBuilder as UC1152029154
+	actor1805031342--UC1152029154
+	 usecase Object as UC1356614113
+	actor1805031342--UC1356614113
+	 usecase Function as UC426792528
+	actor1805031342--UC426792528
+	}
+	rectangle nextThen{
+	 usecase StateNode as UC1238292935
+	actor1805031342--UC1238292935
+	}
+	rectangle nextElse{
+	 usecase StateNode as UC1238292935
+	actor1805031342--UC1238292935
+	}
+	rectangle makeExpInfo{
+	 usecase ArrayList as UC1001114349
+	actor1805031342--UC1001114349
+	 usecase PrintStream as UC150180388
+	actor1805031342--UC150180388
+	 usecase StringBuilder as UC1152029154
+	actor1805031342--UC1152029154
+	 usecase StateNode as UC1238292935
+	actor1805031342--UC1238292935
+	 usecase Object as UC1356614113
+	actor1805031342--UC1356614113
+	}
+
+@enduml

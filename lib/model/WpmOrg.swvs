@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<sWVS:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sWVS="http://www.example.org/sWVS" projectName="프로그래밍 타자 연습">
+  <requirement reqId="R1" contents=" 학생들이 cmd 환경과 코드에  친숙해지기 위한 프로그래밍 타자 연습 프로그램을 제작한다"/>
+  <requirement reqId="R2" contents=" 프로그램은 jar 파일로 배포한다."/>
+  <requirement reqId="R3" contents="파라미터로 연습할 소스코드의 경로를 입력하여 실행한다."/>
+  <requirement reqId="R4" contents="만약 파라미터를 입력하지 않을시 임의의 무작위 소스코드를 생성하여 실행한다."/>
+  <requirement reqId="R5" contents=" 이름을 입력하면 빈라인을 제외한 라인들을 대상으로 순차적으로 타자연습을 진행한다."/>
+  <requirement reqId="R6" contents="파이썬과 같은 언어나 코딩룰을  고려하여 들여쓰기 또한 정확도의 체크에 고려한다. "/>
+  <requirement reqId="R7" contents="모든 입력을 마치면 정확도, WPM, 시작시간, 이름을 프로그램이 있는 위치의 record.log파일에 기록한다."/>
+  <requirement reqId="R8" contents=" 만약 record.log파일이 없다면 생성한다."/>
+  <requirement reqId="R9" contents="기록이 끝나면 해당파일을 열고 프로그램을 종료한다."/>
+  <system id="Sys1" objectType="" objectName="" systemName="Programming Typing Practice System" systemType="MainControlSystem" defClass="MainClass">
+    <usecase id="UC01" usecaseName="Typing Practice" context="jar 파일의 실행을 의미하며 파라미터와 함께 타자 연습 프로그램이 시작됨" actActors="//@actor.0">
+      <extend id="UC01E1" usecaseName="Code Make" context="소스코드를 자동생성하여 타겟화">
+        <beforeCondition preCondition="argument == null" postCondition=""/>
+      </extend>
+      <include id="UC01_1" usecaseName="Save Record" context="로그 파일에 점수를 기록">
+        <flow id="UC01_1_1" objectType="method" objectName="saveRecord(String line)" flowId="2" host="//@system.0/@usecase.0 " client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="타겟파일을 불러옴" result="String[] 읽은 파일의 내용을 줄단위로 반환"/>
+      </include>
+      <flow id="UC01-FL1" objectType="method" objectName="check(argument)" flowId="1" host="//@system.0/@usecase.0 " client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="타겟 파일을 설정함" result="File 생성 및 읽은 파일을 반환">
+        <detailFlow id="UC01-FL1-1" objectType="method" objectName="makeTargetFile()" flowId="1.1" host="check(argument)" client="check(argument)" requirement="//@requirement.0 //@requirement.1 //@requirement.3" context="UC01E1을 실행함" result="File 생성 후 반환">
+          <condition preCondition="argument == null"/>
+        </detailFlow>
+      </flow>
+      <flow id="UC01-FL2" objectType="method" objectName="readFile(file)" flowId="2" host="//@system.0/@usecase.0 " client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="타겟파일을 불러옴" result="String[] 읽은 파일의 내용을 줄단위로 반환"/>
+      <flow id="UC01-FL3" objectType="method" objectName="readName()" flowId="3" host="//@system.0/@usecase.0 " client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="플레이어의 이름 입력을 대기" result="String 이름을 읽어 반환"/>
+      <flow id="UC01-FL4" objectType="method" objectName="setStartTim()" flowId="4" host="//@system.0/@usecase.0 " client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="플레이어의 이름 입력을 대기" result="타이핑의 시작 시간 설정"/>
+      <flow id="UC01-FL5" objectType="method" objectName="typing()" flowId="5" host="//@system.0/@usecase.0 " client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="타이핑이 끝날때 까지 타이핑" result="타이핑의 종료">
+        <detailFlow id="UC01-FL5-1" objectType="loop" objectName="while( not end)" flowId="5.1" host="//@system.0/@usecase.0 typing() " client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3 //@requirement.4" context="타이핑이 끝날때 까지 타이핑" result="파일을 모두 다 타이핑했다면 다음 단계로 넘어감.">
+          <detailFlow id="UC01-FL5-2" objectType="method" objectName="typeLine()" flowId="5.2" host="//@system.0/@usecase.0 typing() " client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="다음 라인출력" result="라인 출력 및 입력"/>
+          <detailFlow id="UC01-FL5-3" objectType="method" objectName="checkAns()" flowId="5.3" host="//@system.0/@usecase.0 typing() " client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="틀린 글자수, 입력된 글자수 체크" result="틀린 글자수, 입력된 글자수 체크"/>
+          <detailFlow id="UC01-FL5-4" objectType="method" objectName="findNextLine()" flowId="5.4" host="//@system.0/@usecase.0 typing() " client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="다음 라인수를 찾음" result="line 다음 타이핑할 라인"/>
+        </detailFlow>
+      </flow>
+      <flow id="UC01-FL6" objectType="method" objectName="setEndTime()" flowId="6" host="//@system.0/@usecase.0 MainClass" client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="플레이어의 기록을 측정" result="타이핑의 종료 시간 설정, 분당 입력키 측정"/>
+      <flow id="UC01-FL7" objectType="method" objectName="saveRecord(String line)" flowId="7" host="//@system.0/@usecase.0" client="//@actor.0 //@system.0/@usecase.0" requirement="//@requirement.0 //@requirement.1 //@requirement.2 //@requirement.3" context="UC01-1 실행. 플레이어 기록 저장" result="log파일에 기록 및 실행. 타이핑 프로그램 종료"/>
+    </usecase>
+  </system>
+  <actor id="Actor01" actorName="Student" actUsecases="//@system.0/@usecase.0"/>
+  <class id="Sys1" data_base_SrcName="typing.MainClass" objectType="mainClass" filePath="D:\WorkSpace\modeling\SWVS\autoGen\src\typing" implementName="MainClass.java" objectName="MainClass" package="typing">
+    <field typeName="File" name="target"/>
+    <field typeName="String" name="name"/>
+    <field objectType="String[]" name="codeLineList"/>
+    <field typeName="String[]" name="ansLineList"/>
+    <method id="UC01" objectType="mainMethod" objectName="main(String args[])" flow="check(argument) makeTargetFile() readFile(file) readName() setStartTim() typing() setEndTime()" returnType="void" isStatic="true" usecase="//@system.0/@usecase.0"/>
+    <method id="UC01-FL1" objectType="" objectName="fileSet(args)" flow="check(argument)" returnType="File" isStatic="true"/>
+    <method id="UC01-FL2" objectName="load(file)" flow="readFile(file)" returnType="String[]" isStatic="true"/>
+    <method id="UC01-FL3" objectName="readName()" flow="readName()" returnType="String[]" isStatic="true"/>
+    <method id="UC01-FL4" objectName="setStartTime()" flow="setStartTim()" returnType="String[]" isStatic="true"/>
+    <method id="UC01-FL5" objectName="main()" flow="typing()" returnType="" isStatic="true"/>
+    <method id="UC01-FL6" objectName="setEndTime()" flow="setEndTime()" returnType="" isStatic="true"/>
+  </class>
+  <class id="UC01_1" data_base_SrcName="typing.LogManager" objectType="UsecaseClass" objectName="LogManager" package="typing">
+    <field objectName="" typeName="File" name="saveFile"/>
+    <method id="UC01_1_1"/>
+  </class>
+</sWVS:Project>

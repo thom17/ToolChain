@@ -1,0 +1,31 @@
+@startuml
+class "main.Main" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	void test() (61304908);
+	void main(java.lang.String[]) (1068232840);
+__**<color:blue>calling list</color>**__
+..class..
+	PrintStream (2078239671);
+	Parser (681747431);
+	ClassDiagram (2015261478);
+	CodeStateDiagram (1624788833);
+	DataListDiagram (577245010);
+	Object (1733619456);
+..member..
+..method..
+	null println(java.lang.String) (1197176722);
+	void parsing() (866273692);
+	void main(dataSet.DataList) (817941759);
+	void main(dataSet.DataList) (1017792343);
+	void main(dataSet.DataList) (701166114);
+	null toString() (1637601612);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

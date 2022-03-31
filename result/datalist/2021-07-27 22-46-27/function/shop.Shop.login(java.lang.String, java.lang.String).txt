@@ -1,0 +1,24 @@
+@startuml
+class "shop.Shop.login(java.lang.String, java.lang.String)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String id (1278254413);
+	String pwd (940584193);
+	User tryUser (931675031);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	TestCase (689745064);
+	TestScenario (945722724);
+..member..
+..method..
+	void Login() (1536471117);
+	void Login() (525968792);
+}
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+class "dataSet.Function.getOwnClass()" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	DataListDiagram (577245010);
+..member..
+..method..
+	void addCallList(dataSet.Class, java.lang.StringBuilder) (49547843);
+}
+
+@enduml

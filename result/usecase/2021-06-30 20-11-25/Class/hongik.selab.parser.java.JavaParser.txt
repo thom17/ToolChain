@@ -1,0 +1,35 @@
+@startuml
+ left to right direction
+
+actor JavaParser as actor1086811994
+
+	rectangle makeASTList{
+	 usecase ArrayList as UC1001114349
+	actor1086811994--UC1001114349
+	}
+	rectangle makeFileList{
+	 usecase ArrayList as UC1001114349
+	actor1086811994--UC1001114349
+	}
+	rectangle init{
+	 usecase Throwable as UC1986751746
+	actor1086811994--UC1986751746
+	 usecase StringBuilder as UC1152029154
+	actor1086811994--UC1152029154
+	 usecase Reader as UC1795804759
+	actor1086811994--UC1795804759
+	 usecase BufferedReader as UC1548698416
+	actor1086811994--UC1548698416
+	 usecase ASTParser as UC731573979
+	actor1086811994--UC731573979
+	 usecase String as UC104105431
+	actor1086811994--UC104105431
+	 usecase JavaCore as UC602572848
+	actor1086811994--UC602572848
+	}
+	rectangle main{
+	 usecase PrintStream as UC150180388
+	actor1086811994--UC150180388
+	}
+
+@enduml

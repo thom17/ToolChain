@@ -1,0 +1,19 @@
+@startuml
+class "shop.Goods.setName(java.lang.String)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String name (279593458);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	String name (612097453);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

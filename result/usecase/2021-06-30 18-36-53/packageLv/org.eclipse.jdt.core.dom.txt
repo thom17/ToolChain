@@ -1,0 +1,21 @@
+@startuml
+ left to right direction
+
+actor ForStatement as actor293285062
+
+actor ASTNode as actor1844381234
+
+actor SwitchStatement as actor1224970135
+
+actor ASTParser as actor908139452
+
+actor Name as actor2129927330
+
+actor PackageDeclaration as actor1799310296
+
+actor Block as actor1041571359
+
+actor VariableDeclaration as actor14093978
+
+
+@enduml

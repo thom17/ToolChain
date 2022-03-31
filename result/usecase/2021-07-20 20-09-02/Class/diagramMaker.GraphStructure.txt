@@ -1,0 +1,67 @@
+@startuml
+ left to right direction
+
+actor GraphStructure as actor2045560071
+
+	rectangle main{
+	 usecase Runtime as UC18
+	actor2045560071--UC18
+	 usecase Process as UC19
+	actor2045560071--UC19
+	 usecase PrintStream as UC20
+	actor2045560071--UC20
+	}
+	rectangle main{
+	 usecase PrintStream as UC21
+	actor2045560071--UC21
+	 usecase Process as UC22
+	actor2045560071--UC22
+	}
+	rectangle makeFile{
+	 usecase Writer as UC23
+	actor2045560071--UC23
+	 usecase OutputStreamWriter as UC24
+	actor2045560071--UC24
+	}
+	rectangle makeGraphScript{
+	 usecase StringBuilder as UC25
+	actor2045560071--UC25
+	 usecase DataList as UC26
+	actor2045560071--UC26
+	}
+	rectangle classExtends{
+	 usecase StringBuilder as UC27
+	actor2045560071--UC27
+	 usecase Data_base as UC28
+	actor2045560071--UC28
+	}
+	rectangle addListSize{
+	 usecase StringBuilder as UC29
+	actor2045560071--UC29
+	}
+	rectangle classDef{
+	 usecase StringBuilder as UC30
+	actor2045560071--UC30
+	}
+	rectangle addList{
+	 usecase StringBuilder as UC31
+	actor2045560071--UC31
+	 usecase DataList as UC32
+	actor2045560071--UC32
+	}
+	rectangle functionDef{
+	 usecase StringBuilder as UC33
+	actor2045560071--UC33
+	 usecase Data_base as UC34
+	actor2045560071--UC34
+	}
+	rectangle memberDef{
+	 usecase StringBuilder as UC35
+	actor2045560071--UC35
+	 usecase Data_base as UC36
+	actor2045560071--UC36
+	 usecase Member as UC37
+	actor2045560071--UC37
+	}
+
+@enduml

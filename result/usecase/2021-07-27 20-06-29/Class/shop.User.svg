@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="332px" preserveAspectRatio="none" style="width:318px;height:332px;" version="1.1" viewBox="0 0 318 332" width="318px" zoomAndPan="magnify"><defs><filter height="300%" id="f10yw6f8hsspqz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c2e91a5afc248ef1801ed01e98408fb8]
+cluster buy--><rect fill="#FFFFFF" filter="url(#f10yw6f8hsspqz)" height="156" style="stroke: #000000; stroke-width: 1.5;" width="126" x="79" y="42.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="129.5" y="60.6533">buy</text><!--MD5=[5f180a29fb049b84e12435f0625f51c9]
+cluster chckPwd--><rect fill="#FFFFFF" filter="url(#f10yw6f8hsspqz)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="97" x="93.5" y="226.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="111" y="244.6533">chckPwd</text><ellipse cx="141.9836" cy="97.5869" fill="#FEFECE" filter="url(#f10yw6f8hsspqz)" rx="19.9836" ry="16.5869" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="129.9836" y="103.7016">add</text><ellipse cx="141.8406" cy="165.5973" fill="#FEFECE" filter="url(#f10yw6f8hsspqz)" rx="46.8406" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="110.8406" y="171.7121">getMoney</text><ellipse cx="142.1985" cy="281.5973" fill="#FEFECE" filter="url(#f10yw6f8hsspqz)" rx="32.6985" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="121.1985" y="287.7121">equals</text><!--MD5=[885db6052bea71ac53296842b51fcc2f]
+entity actor1714078840--><ellipse cx="20.5" cy="133" fill="#FEFECE" filter="url(#f10yw6f8hsspqz)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M20.5,141 L20.5,168 M7.5,149 L33.5,149 M20.5,168 L7.5,183 M20.5,168 L33.5,183 " fill="none" filter="url(#f10yw6f8hsspqz)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="6" y="204.6533">User</text><!--MD5=[807d5755b27bb55790ae86067c47a3f2]
+entity actor1199262943--><ellipse cx="280" cy="133" fill="#FEFECE" filter="url(#f10yw6f8hsspqz)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M280,141 L280,168 M267,149 L293,149 M280,168 L267,183 M280,168 L293,183 " fill="none" filter="url(#f10yw6f8hsspqz)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="249" y="204.6533">getMoney</text><!--MD5=[82b2166e688fc2c075dea2153eae74c0]
+entity actor1051876890--><ellipse cx="280" cy="14" fill="#FEFECE" filter="url(#f10yw6f8hsspqz)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M280,22 L280,49 M267,30 L293,30 M280,49 L267,64 M280,49 L293,64 " fill="none" filter="url(#f10yw6f8hsspqz)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="268" y="85.6533">add</text><!--MD5=[410cff2c644adc8639adbd665b7210bf]
+entity actor2009221452--><ellipse cx="280" cy="252" fill="#FEFECE" filter="url(#f10yw6f8hsspqz)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M280,260 L280,287 M267,268 L293,268 M280,287 L267,302 M280,287 L293,302 " fill="none" filter="url(#f10yw6f8hsspqz)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="259" y="323.6533">equals</text><!--MD5=[1e86c6c7dcdd8abeb18e34b46a738359]
+link actor1714078840 to UC0--><path d="M35.01,155.41 C44.76,148.32 58.38,138.84 71,131.5 C88.52,121.31 109.54,111.39 123.94,104.92 " fill="none" id="actor1714078840-UC0" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d0e88fbfb18a3ff7cde738ffd4e7800d]
+link actor1714078840 to UC1--><path d="M35.21,165.5 C49.74,165.5 73.48,165.5 94.8,165.5 " fill="none" id="actor1714078840-UC1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ab15429266880b04b4650e09fac782c0]
+link UC1 to actor1199262943--><path d="M189.04,165.5 C208.77,165.5 231.26,165.5 248.82,165.5 " fill="none" id="UC1-actor1199262943" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c6d6034fe8769bb520804cf65c6ab8c2]
+link UC0 to actor1051876890--><path d="M160.5,90.94 C187.91,80.66 240.38,60.98 265.26,51.65 " fill="none" id="UC0-actor1051876890" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1d979100c07d9b85fa9065b319451df8]
+link actor1714078840 to UC2--><path d="M35.21,178.81 C57.77,200.71 102.55,244.18 125.96,266.9 " fill="none" id="actor1714078840-UC2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[21fbfea8a73b4915b0914378b36c9c83]
+link UC2 to actor2009221452--><path d="M174.54,282.2 C200.44,282.77 236.35,283.56 258.6,284.05 " fill="none" id="UC2-actor2009221452" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1cbf6c6dfd7230e8e88d9defc3ea87ed]
+@startuml
+ left to right direction
+
+actor User as actor1714078840
+
+	rectangle buy{
+	 usecase add as UC0
+	actor1714078840- -UC0
+	 usecase getMoney as UC1
+	actor1714078840- -UC1
+	}
+actor getMoney as actor1199262943
+UC1- -actor1199262943
+actor add as actor1051876890
+UC0- -actor1051876890
+
+	rectangle chckPwd{
+	 usecase equals as UC2
+	actor1714078840- -UC2
+	}
+actor equals as actor2009221452
+UC2- -actor2009221452
+
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

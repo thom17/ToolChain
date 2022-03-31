@@ -1,0 +1,7 @@
+@startuml
+group boolean charge(shop.User, int)
+	Shop->User : setMoney(int)
+		User-->Shop
+end
+
+@enduml

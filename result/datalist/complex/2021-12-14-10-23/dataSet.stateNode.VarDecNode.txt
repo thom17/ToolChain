@@ -1,0 +1,87 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 1
+	extendsClassScore = 1
+	callScore = 1
+	callByScore = 1
+	methodNum = 2
+	memberNum = 1
+	constructorNum = 1
+	selfCoverage = 1
+	needCallBy = 2
+	ABS = 6
+	REL = 2
+	ABS = 6
+	REL = 2
+	coverage = 33.0%
+__**<color:green>has list</color>**__
+	<color:green>java.lang.String type (1)
+	<color:green>void setType(java.lang.String) (3)
+	<color:green>new dataSet.stateNode.VarDecNode.VarDecNode() (0)
+}
+
+class dataSet.stateNode.VarDecNode.setType1225554563 as "setType(java.lang.String)"#line:green 
+{
+	pram : (java.lang.String )
+	SrcOwnClassName : dataSet.stateNode.VarDecNode
+	SrcSig : dataSet.stateNode.VarDecNode.setType(java.lang.String)
+	Sig : setType(java.lang.String)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 2
+	CallBy Score : 0
+	memberUse Score : 2
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 10.0
+	Volume : 20.67970000576925
+	Diffifculty: 4.0
+	Effort : 82.718800023077
+	ABS Score : 3
+	Relative Score : 3
+}
+class dataSet.stateNode.VarDecNode.dataSet.stateNode.VarDecNode.VarDecNode2121443020 as "dataSet.stateNode.VarDecNode.VarDecNode()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.stateNode.VarDecNode
+	SrcSig : dataSet.stateNode.VarDecNode.dataSet.stateNode.VarDecNode.VarDecNode()
+	Sig : dataSet.stateNode.VarDecNode.VarDecNode()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+
+@enduml

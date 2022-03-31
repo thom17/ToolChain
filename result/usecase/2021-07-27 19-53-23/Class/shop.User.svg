@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="332px" preserveAspectRatio="none" style="width:318px;height:332px;" version="1.1" viewBox="0 0 318 332" width="318px" zoomAndPan="magnify"><defs><filter height="300%" id="fy48pbverjsl1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c2e91a5afc248ef1801ed01e98408fb8]
+cluster buy--><rect fill="#FFFFFF" filter="url(#fy48pbverjsl1)" height="156" style="stroke: #000000; stroke-width: 1.5;" width="126" x="79" y="42.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="129.5" y="60.6533">buy</text><!--MD5=[5f180a29fb049b84e12435f0625f51c9]
+cluster chckPwd--><rect fill="#FFFFFF" filter="url(#fy48pbverjsl1)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="97" x="93.5" y="225.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="111" y="243.6533">chckPwd</text><ellipse cx="141.9836" cy="97.5869" fill="#FEFECE" filter="url(#fy48pbverjsl1)" rx="19.9836" ry="16.5869" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="129.9836" y="103.7016">add</text><ellipse cx="141.8406" cy="165.5973" fill="#FEFECE" filter="url(#fy48pbverjsl1)" rx="46.8406" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="110.8406" y="171.7121">getMoney</text><ellipse cx="142.1985" cy="280.5973" fill="#FEFECE" filter="url(#fy48pbverjsl1)" rx="32.6985" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="121.1985" y="286.7121">equals</text><!--MD5=[86eb3c2b45ef626813003d4d940f7492]
+entity actor1671179293--><ellipse cx="20.5" cy="133" fill="#FEFECE" filter="url(#fy48pbverjsl1)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M20.5,141 L20.5,168 M7.5,149 L33.5,149 M20.5,168 L7.5,183 M20.5,168 L33.5,183 " fill="none" filter="url(#fy48pbverjsl1)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="6" y="204.6533">User</text><!--MD5=[2a71c260c09c42fc87c738304d3d05c6]
+entity actor1144068272--><ellipse cx="280" cy="133" fill="#FEFECE" filter="url(#fy48pbverjsl1)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M280,141 L280,168 M267,149 L293,149 M280,168 L267,183 M280,168 L293,183 " fill="none" filter="url(#fy48pbverjsl1)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="249" y="204.6533">getMoney</text><!--MD5=[78b95a3a57e9f47e814696f5c09527ef]
+entity actor1609124502--><ellipse cx="280" cy="14" fill="#FEFECE" filter="url(#fy48pbverjsl1)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M280,22 L280,49 M267,30 L293,30 M280,49 L267,64 M280,49 L293,64 " fill="none" filter="url(#fy48pbverjsl1)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="268" y="85.6533">add</text><!--MD5=[c2083c89cbc9172a4881dd259195b45b]
+entity actor1985836631--><ellipse cx="280" cy="252" fill="#FEFECE" filter="url(#fy48pbverjsl1)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M280,260 L280,287 M267,268 L293,268 M280,287 L267,302 M280,287 L293,302 " fill="none" filter="url(#fy48pbverjsl1)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="259" y="323.6533">equals</text><!--MD5=[05361d8f8822e1a162bd07ebec333706]
+link actor1671179293 to UC0--><path d="M35.01,155.41 C44.76,148.32 58.38,138.84 71,131.5 C88.52,121.31 109.54,111.39 123.94,104.92 " fill="none" id="actor1671179293-UC0" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[272cc12c8dcb9345552bb6cfcc974ca8]
+link actor1671179293 to UC1--><path d="M35.21,165.5 C49.74,165.5 73.48,165.5 94.8,165.5 " fill="none" id="actor1671179293-UC1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[fd4613a32d8e78d091df2573d6cae8d7]
+link UC1 to actor1144068272--><path d="M189.04,165.5 C208.77,165.5 231.26,165.5 248.82,165.5 " fill="none" id="UC1-actor1144068272" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[55cbf5780f8f3c45e48ab3752ffe1ccf]
+link UC0 to actor1609124502--><path d="M160.5,90.94 C187.91,80.66 240.38,60.98 265.26,51.65 " fill="none" id="UC0-actor1609124502" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[05fcf12e2e9298d6a1d7bae2abc2eddb]
+link actor1671179293 to UC2--><path d="M35.21,178.69 C57.77,200.4 102.55,243.5 125.96,266.02 " fill="none" id="actor1671179293-UC2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3e1136fc828b19cdf66e5808a266e664]
+link UC2 to actor1985836631--><path d="M174.54,281.43 C200.44,282.19 236.35,283.25 258.6,283.9 " fill="none" id="UC2-actor1985836631" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4157b35bbe1ad78eade11c91f4393f7f]
+@startuml
+ left to right direction
+
+actor User as actor1671179293
+
+	rectangle buy{
+	 usecase add as UC0
+	actor1671179293- -UC0
+	 usecase getMoney as UC1
+	actor1671179293- -UC1
+	}
+actor getMoney as actor1144068272
+UC1- -actor1144068272
+actor add as actor1609124502
+UC0- -actor1609124502
+
+	rectangle chckPwd{
+	 usecase equals as UC2
+	actor1671179293- -UC2
+	}
+actor equals as actor1985836631
+UC2- -actor1985836631
+
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

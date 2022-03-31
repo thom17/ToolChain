@@ -1,0 +1,20 @@
+@startuml
+class shop.User.chckPwd(java.lang.String){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String pwd (2079179914);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	String (690339675);
+..member..
+..method..
+	null equals(java.lang.Object) (1896828359);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

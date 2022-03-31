@@ -1,0 +1,24 @@
+@startuml
+class dataSet.stateNode.VarDecNode{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String type (347645777);
+..method..
+	void setType(java.lang.String) (1933965693);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	String type (347645777);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	VarDecNode (1430611624);
+	Test_Visitor (775300103);
+..member..
+..method..
+	void setType(java.lang.String) (1933965693);
+	void variableDeclarationStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (1570578713);
+}
+
+@enduml

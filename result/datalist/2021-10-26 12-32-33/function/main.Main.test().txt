@@ -1,0 +1,25 @@
+@startuml
+class "main.Main.test()" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String a (1914615775);
+	String b (514453513);
+	String c (1565713391);
+	String d (1385750189);
+	String[] list (1430207342);
+	int i (80191608);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	PrintStream (2078239671);
+..member..
+..method..
+	null println(java.lang.String) (1197176722);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

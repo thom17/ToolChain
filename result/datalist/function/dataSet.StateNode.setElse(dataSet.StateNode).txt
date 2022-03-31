@@ -1,0 +1,21 @@
+@startuml
+class dataSet.StateNode.setElse(dataSet.StateNode){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	StateNode node (1449605932);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	StateNode (1163619825);
+..member..
+	dataSet.StateNode elseNode (895599632);
+..method..
+	void setBefore(dataSet.StateNode) (466853180);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

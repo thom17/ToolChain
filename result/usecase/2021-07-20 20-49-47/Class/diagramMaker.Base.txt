@@ -1,0 +1,48 @@
+@startuml
+ left to right direction
+
+actor Base as actor260580453
+
+	rectangle makeDateFolder{
+	 usecase mkdir as UC53
+	actor260580453--UC53
+	}
+actor mkdir as actor115297013
+UC53--actor115297013
+
+	rectangle makeFile{
+	 usecase println as UC54
+	actor260580453--UC54
+	 usecase write as UC55
+	actor260580453--UC55
+	 usecase close as UC56
+	actor260580453--UC56
+	}
+actor close as actor1494051958
+UC56--actor1494051958
+actor write as actor1520921298
+UC55--actor1520921298
+actor println as actor2131723476
+UC54--actor2131723476
+
+	rectangle printLog{
+	 usecase getInputStream as UC57
+	actor260580453--UC57
+	 usecase getOutputStream as UC58
+	actor260580453--UC58
+	 usecase println as UC59
+	actor260580453--UC59
+	 usecase readLine as UC60
+	actor260580453--UC60
+	}
+actor readLine as actor990994954
+UC60--actor990994954
+actor println as actor2131723476
+UC59--actor2131723476
+actor getOutputStream as actor1231469233
+UC58--actor1231469233
+actor getInputStream as actor1231469233
+UC57--actor1231469233
+
+
+@enduml

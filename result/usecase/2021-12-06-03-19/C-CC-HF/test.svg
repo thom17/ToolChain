@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="379px" preserveAspectRatio="none" style="width:603px;height:379px;" version="1.1" viewBox="0 0 603 379" width="603px" zoomAndPan="magnify"><defs><filter height="300%" id="fr2wmp5q1suey" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0972a9ad5a37b79112fb90609a2a1468]
+cluster GameSystem--><rect fill="#FFFFFF" filter="url(#fr2wmp5q1suey)" height="360" style="stroke: #000000; stroke-width: 1.5;" width="483" x="108" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="304.5" y="25.1533">GameSystem</text><ellipse cx="186.397" cy="266.0973" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="62.397" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="144.397" y="272.2121">GameSystem</text><ellipse cx="186.2548" cy="334.0973" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="48.2548" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="154.2548" y="340.2121">playGame</text><ellipse cx="186.4975" cy="198.0973" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="52.4975" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="151.4975" y="204.2121">diceSetting</text><ellipse cx="186.7132" cy="130.0973" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="24.2132" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="171.7132" y="136.2121">main</text><ellipse cx="186.2696" cy="62.0973" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="39.7696" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="160.2696" y="68.2121">printPos</text><ellipse cx="360.7904" cy="198.0973" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="51.7904" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="326.2904" y="204.2121">choiceDice</text><ellipse cx="360.8553" cy="130.0973" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="38.3553" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="335.8553" y="136.2121">diceRoll</text><ellipse cx="361.0416" cy="62.0973" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="27.0416" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="344.0416" y="68.2121">move</text><ellipse cx="524.0833" cy="198.0973" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="51.0833" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="490.0833" y="204.2121">printResult</text><ellipse cx="523.9264" cy="130.0973" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="45.4264" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="493.9264" y="136.2121">gameEnd</text><!--MD5=[e19dfc557d2795730913e6f91308ddb5]
+entity String--><rect fill="#FFFFFF" filter="url(#fr2wmp5q1suey)" height="39.2295" style="stroke: #000000; stroke-width: 1.5;" width="57" x="7" y="183.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="17" y="209.6533">String</text><!--MD5=[a6442613da88f74e1f54abe7f2a8b4a5]
+entity actor1729779847--><ellipse cx="35.5" cy="267.5" fill="#FEFECE" filter="url(#fr2wmp5q1suey)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M35.5,275.5 L35.5,302.5 M22.5,283.5 L48.5,283.5 M35.5,302.5 L22.5,317.5 M35.5,302.5 L48.5,317.5 " fill="none" filter="url(#fr2wmp5q1suey)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="20.5" y="339.1533">Main</text><!--MD5=[d8ac9d3aba0fae1cff68084d37791fff]
+link actor1729779847 to UC495702238--><path d="M50.52,296.8 C70.51,292.24 108.17,283.64 138.65,276.69 " fill="none" id="actor1729779847-UC495702238" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6d3c43ae84f317932ff6f8cb9b7e8ee1]
+link actor1729779847 to UC73181251--><path d="M50.52,303.2 C72.11,308.12 114.29,317.75 145.78,324.94 " fill="none" id="actor1729779847-UC73181251" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c07b7311be575441b32d067cb1494891]
+link UC298430307 to UC1970982267--><!--MD5=[55e7be0aeeec8c3b9222584278de56e7]
+link UC1970982267 to UC917831210--><!--MD5=[15cf9ebeaedbad235660829701e3dd02]
+link UC298430307 to UC1464555023--><!--MD5=[e0fec0539232910394822ca72547c320]
+link UC1464555023 to UC195381554--><!--MD5=[94006cb898011761a511b5e6d02862e9]
+link UC195381554 to UC681008168--><!--MD5=[eedab8d44e529711d92ca44ec38d1e22]
+link UC1464555023 to UC960733886--><!--MD5=[9fcf6824349ed8b46cb2a9fe7578b9cd]
+link UC960733886 to UC875917495--><!--MD5=[8de98bb5b5f94dc0d7943f48ab3736c5]
+@startuml
+ left to right direction
+
+actor Main as actor1729779847
+rectangle GameSystem{
+	usecase GameSystem as UC495702238
+		actor1729779847 - - UC495702238
+	usecase playGame as UC73181251
+		actor1729779847 - - UC73181251
+	usecase diceSetting as UC298430307
+	usecase main as UC1970982267
+	usecase printPos as UC917831210
+	usecase choiceDice as UC1464555023
+	usecase diceRoll as UC195381554
+	usecase move as UC681008168
+	usecase printResult as UC960733886
+	usecase gameEnd as UC875917495
+}
+rectangle String{
+}
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

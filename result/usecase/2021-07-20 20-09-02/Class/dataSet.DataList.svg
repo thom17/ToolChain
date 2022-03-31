@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="219px" preserveAspectRatio="none" style="width:250px;height:219px;" version="1.1" viewBox="0 0 250 219" width="250px" zoomAndPan="magnify"><defs><filter height="300%" id="f1vfq411p0b82z" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3c85da630ea6d6506c7d441fb15e9b8e]
+cluster addData--><rect fill="#FFFFFF" filter="url(#f1vfq411p0b82z)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="136" x="102" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="141.5" y="25.1533">addData</text><!--MD5=[49dd47f5e3ec16b4879e14778365b69d]
+cluster separatePackage--><rect fill="#FFFFFF" filter="url(#f1vfq411p0b82z)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="137" x="101.5" y="119"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="109.5" y="137.1533">separatePackage</text><ellipse cx="169.7904" cy="62.0973" fill="#FEFECE" filter="url(#f1vfq411p0b82z)" rx="51.7904" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="135.2904" y="68.2121">Data_base</text><ellipse cx="170.098" cy="174.0973" fill="#FEFECE" filter="url(#f1vfq411p0b82z)" rx="42.598" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="142.098" y="180.2121">ArrayList</text><!--MD5=[2402d7512d9aa01d473b8fba52e12d98]
+entity actor188193734--><ellipse cx="32" cy="85.5" fill="#FEFECE" filter="url(#f1vfq411p0b82z)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M32,93.5 L32,120.5 M19,101.5 L45,101.5 M32,120.5 L19,135.5 M32,120.5 L45,135.5 " fill="none" filter="url(#f1vfq411p0b82z)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="6" y="157.1533">DataList</text><!--MD5=[b8f10037dca7a1beb9c187fc12343b8a]
+link actor188193734 to UC85--><path d="M58.26,107.6 C80.54,98.43 113.11,85.01 137.16,75.11 " fill="none" id="actor188193734-UC85" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[96ed605e46dadbfa270021c73c0c5392]
+link actor188193734 to UC86--><path d="M58.26,128.4 C81.46,137.95 115.82,152.1 140.1,162.1 " fill="none" id="actor188193734-UC86" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[469b6c2df071f4eb97fd70b708a2dda6]
+@startuml
+ left to right direction
+
+actor DataList as actor188193734
+
+	rectangle addData{
+	 usecase Data_base as UC85
+	actor188193734- -UC85
+	}
+	rectangle separatePackage{
+	 usecase ArrayList as UC86
+	actor188193734- -UC86
+	}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

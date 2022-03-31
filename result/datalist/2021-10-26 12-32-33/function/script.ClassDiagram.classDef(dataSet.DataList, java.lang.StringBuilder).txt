@@ -1,0 +1,39 @@
+@startuml
+class "script.ClassDiagram.classDef(dataSet.DataList, java.lang.StringBuilder)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.DataList list (1542856295);
+	java.lang.StringBuilder str (46259342);
+	ArrayList<Class> classList (187120217);
+	DataList hasList (1316001196);
+	ArrayList<Var> varList (622772003);
+	Var value (699871906);
+	ArrayList<Function> functionList (460333119);
+	Function fun (1365711624);
+	Class cls (22040992);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	StringBuilder (2077662850);
+	Class (1302141801);
+	Var (1388849499);
+	Function (622820646);
+	DataList (1391119179);
+..member..
+..method..
+	null append(java.lang.String) (1803890702);
+	String getName() (2008159348);
+	String getName() (1389432760);
+	String getTypeName() (1088744071);
+	String getName() (1103132232);
+	String printParameterType() (1484275564);
+__**<color:orange>called by list</color>**__
+..class..
+	ClassDiagram (2015261478);
+..member..
+..method..
+	String makeString(dataSet.DataList) (1478334108);
+}
+
+@enduml

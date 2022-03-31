@@ -1,0 +1,149 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 1
+	extendsClassScore = 0
+	callScore = 12
+	callByScore = 12
+	methodNum = 4
+	memberNum = 1
+	constructorNum = 1
+	selfCoverage = 3
+	needCallBy = 2
+	Absolute Score = 31
+	Relative Score = 6
+	coverage = 60.0%
+__**<color:green>has list</color>**__
+	<color:green>int i (1)
+	<color:green>new Simple(int) (3)
+	<color:green>int get(int) (1)
+	<color:green>void test() (4)
+	<color:red>void main(java.lang.String[]) (10)
+}
+
+class simple.Simple.Simple120478350 as "Simple(int)"#line:green 
+{
+	pram : (int )
+	SrcOwnClassName : simple.Simple
+	SrcSig : simple.Simple.Simple(int)
+	Sig : Simple(int)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 2
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 2
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 5
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 23.5098
+	Volume : 59.7947
+	Diffifculty: 6
+	Effort : 358.7682
+	Absolute Score : 3
+	Relative Score : 3
+}
+class simple.Simple.get2102368942 as "get(int)"#line:green 
+{
+	pram : (int )
+	SrcOwnClassName : simple.Simple
+	SrcSig : simple.Simple.get(int)
+	Sig : get(int)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 8
+	Volume : 16.2535
+	Diffifculty: 6
+	Effort : 97.521
+	Absolute Score : 1
+	Relative Score : 1
+}
+class simple.Simple.test1424082571 as "test()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : simple.Simple
+	SrcSig : simple.Simple.test()
+	Sig : test()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 2
+	Call Score : 4
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 2
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 17.5098
+	Volume : 24
+	Diffifculty: 3
+	Effort : 72
+	Absolute Score : 4
+	Relative Score : 4
+}
+class simple.Simple.main1403700359 as "main(java.lang.String[])"#back:salmon 
+{
+	pram : (java.lang.String[] )
+	SrcOwnClassName : simple.Simple
+	SrcSig : simple.Simple.main(java.lang.String[])
+	Sig : main(java.lang.String[])
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 5
+	Call Score : 8
+	CallBy Score : 3
+	memberUse Score : 1
+	localValue Score : 3
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 5
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 35.1613
+	Volume : 59.207
+	Diffifculty: 3.4286
+	Effort : 202.9956
+	Absolute Score : 10
+	Relative Score : 5
+}
+
+@enduml

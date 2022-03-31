@@ -1,0 +1,52 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 0
+	extendsClassScore = 1
+	callScore = 0
+	callByScore = 0
+	methodNum = 1
+	memberNum = 0
+	constructorNum = 1
+	selfCoverage = 0
+	needCallBy = 1
+	ABS = 1
+	REL = 1
+	coverage = 0.0%
+__**<color:green>has list</color>**__
+	<color:green>new Guitar() (0)
+}
+
+class classRelation.Guitar.Guitar609962972 as "Guitar()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : classRelation.Guitar
+	SrcSig : classRelation.Guitar.Guitar()
+	Sig : Guitar()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : 0
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+
+@enduml

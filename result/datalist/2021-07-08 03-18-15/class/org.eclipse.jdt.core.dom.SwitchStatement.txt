@@ -1,0 +1,23 @@
+@startuml
+class org.eclipse.jdt.core.dom.SwitchStatement{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	null getExpression() (24226406);
+	null statements() (1483972190);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	SwitchNode (1311562833);
+	Test_Visitor (1089579669);
+..member..
+..method..
+	SwitchNode SwitchNode(org.eclipse.jdt.core.dom.SwitchStatement) (679681385);
+	void switchStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (1771965424);
+}
+
+@enduml

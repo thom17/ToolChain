@@ -1,0 +1,141 @@
+@startuml
+ left to right direction
+
+actor GraphStructure as actor2045560071
+
+	rectangle main{
+	 usecase exec as UC27
+	actor2045560071--UC27
+	 usecase getRuntime as UC28
+	actor2045560071--UC28
+	 usecase waitFor as UC29
+	actor2045560071--UC29
+	 usecase println as UC30
+	actor2045560071--UC30
+	}
+actor println as actor2045560071
+UC30--actor2045560071
+actor waitFor as actor2045560071
+UC29--actor2045560071
+actor getRuntime as actor2045560071
+UC28--actor2045560071
+actor exec as actor2045560071
+UC27--actor2045560071
+
+	rectangle main{
+	 usecase println as UC31
+	actor2045560071--UC31
+	 usecase waitFor as UC32
+	actor2045560071--UC32
+	}
+actor waitFor as actor2045560071
+UC32--actor2045560071
+actor println as actor2045560071
+UC31--actor2045560071
+
+	rectangle makeFile{
+	 usecase write as UC33
+	actor2045560071--UC33
+	 usecase close as UC34
+	actor2045560071--UC34
+	}
+actor close as actor2045560071
+UC34--actor2045560071
+actor write as actor2045560071
+UC33--actor2045560071
+
+	rectangle makeGraphScript{
+	 usecase append as UC35
+	actor2045560071--UC35
+	 usecase getClassList as UC36
+	actor2045560071--UC36
+	 usecase getFunctionList as UC37
+	actor2045560071--UC37
+	 usecase getMemberList as UC38
+	actor2045560071--UC38
+	 usecase toString as UC39
+	actor2045560071--UC39
+	}
+actor toString as actor2045560071
+UC39--actor2045560071
+actor getMemberList as actor2045560071
+UC38--actor2045560071
+actor getFunctionList as actor2045560071
+UC37--actor2045560071
+actor getClassList as actor2045560071
+UC36--actor2045560071
+actor append as actor2045560071
+UC35--actor2045560071
+
+	rectangle classExtends{
+	 usecase append as UC40
+	actor2045560071--UC40
+	 usecase getName as UC41
+	actor2045560071--UC41
+	}
+actor getName as actor2045560071
+UC41--actor2045560071
+actor append as actor2045560071
+UC40--actor2045560071
+
+	rectangle addListSize{
+	 usecase append as UC42
+	actor2045560071--UC42
+	}
+actor append as actor2045560071
+UC42--actor2045560071
+
+	rectangle classDef{
+	 usecase append as UC43
+	actor2045560071--UC43
+	}
+actor append as actor2045560071
+UC43--actor2045560071
+
+	rectangle addList{
+	 usecase append as UC44
+	actor2045560071--UC44
+	 usecase getClassList as UC45
+	actor2045560071--UC45
+	 usecase getMemberList as UC46
+	actor2045560071--UC46
+	 usecase getFunctionList as UC47
+	actor2045560071--UC47
+	}
+actor getFunctionList as actor2045560071
+UC47--actor2045560071
+actor getMemberList as actor2045560071
+UC46--actor2045560071
+actor getClassList as actor2045560071
+UC45--actor2045560071
+actor append as actor2045560071
+UC44--actor2045560071
+
+	rectangle functionDef{
+	 usecase append as UC48
+	actor2045560071--UC48
+	 usecase getName as UC49
+	actor2045560071--UC49
+	}
+actor getName as actor2045560071
+UC49--actor2045560071
+actor append as actor2045560071
+UC48--actor2045560071
+
+	rectangle memberDef{
+	 usecase append as UC50
+	actor2045560071--UC50
+	 usecase getName as UC51
+	actor2045560071--UC51
+	 usecase getImageList as UC52
+	actor2045560071--UC52
+	}
+actor getImageList as actor2045560071
+UC52--actor2045560071
+actor getName as actor2045560071
+UC51--actor2045560071
+actor append as actor2045560071
+UC50--actor2045560071
+
+
+@enduml

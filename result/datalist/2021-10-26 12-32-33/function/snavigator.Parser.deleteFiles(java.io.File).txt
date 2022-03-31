@@ -1,0 +1,28 @@
+@startuml
+class "snavigator.Parser.deleteFiles(java.io.File)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	java.io.File folder (953528583);
+	File[] fileList (1716551994);
+	File file (1156210828);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Parser (681747431);
+	File (242408359);
+..member..
+..method..
+	void deleteFiles(java.io.File) (245530164);
+	null delete() (612716569);
+__**<color:orange>called by list</color>**__
+..class..
+	Parser (681747431);
+..member..
+..method..
+	void main(java.lang.String[]) (280223635);
+	void deleteFiles(java.io.File) (245530164);
+	void parsing() (866273692);
+}
+
+@enduml

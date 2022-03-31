@@ -1,0 +1,39 @@
+@startuml
+ left to right direction
+
+actor NodeClassDg as actor1559258941
+
+	rectangle main{
+	 usecase Process as UC1785570426
+	actor1559258941--UC1785570426
+	 usecase PrintStream as UC150180388
+	actor1559258941--UC150180388
+	}
+	rectangle makeFile{
+	 usecase Writer as UC133579455
+	actor1559258941--UC133579455
+	 usecase OutputStreamWriter as UC1138992016
+	actor1559258941--UC1138992016
+	}
+	rectangle makeScript{
+	 usecase StringBuilder as UC1152029154
+	actor1559258941--UC1152029154
+	}
+	rectangle switchNodeInfo{
+	 usecase ArrayList as UC1001114349
+	actor1559258941--UC1001114349
+	 usecase StringBuilder as UC1152029154
+	actor1559258941--UC1152029154
+	 usecase StateNode as UC1238292935
+	actor1559258941--UC1238292935
+	}
+	rectangle stateNodeInfo{
+	 usecase ArrayList as UC1001114349
+	actor1559258941--UC1001114349
+	 usecase StringBuilder as UC1152029154
+	actor1559258941--UC1152029154
+	 usecase StateNode as UC1238292935
+	actor1559258941--UC1238292935
+	}
+
+@enduml

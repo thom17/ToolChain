@@ -1,0 +1,83 @@
+@startuml
+ left to right direction
+
+actor JavaParser as actor1086811994
+
+	rectangle makeASTList{
+	 usecase size as UC650777250
+	actor1086811994--UC650777250
+	}
+	actor ArrayList as actor1538456363
+	actor1538456363 -- UC650777250
+	rectangle makeFileList{
+	 usecase add as UC2030748640
+	actor1086811994--UC2030748640
+	}
+	actor ArrayList as actor1538456363
+	actor1538456363 -- UC2030748640
+	rectangle init{
+	 usecase printStackTrace as UC1028574311
+	actor1086811994--UC1028574311
+	 usecase append as UC1698322791
+	actor1086811994--UC1698322791
+	 usecase read as UC1625094636
+	actor1086811994--UC1625094636
+	 usecase close as UC1980153091
+	actor1086811994--UC1980153091
+	 usecase newParser as UC11529827
+	actor1086811994--UC11529827
+	 usecase setKind as UC1263085541
+	actor1086811994--UC1263085541
+	 usecase setSource as UC1281205497
+	actor1086811994--UC1281205497
+	 usecase toCharArray as UC267445972
+	actor1086811994--UC267445972
+	 usecase toString as UC1986751746
+	actor1086811994--UC1986751746
+	 usecase setStatementsRecovery as UC1892928959
+	actor1086811994--UC1892928959
+	 usecase setBindingsRecovery as UC1923590735
+	actor1086811994--UC1923590735
+	 usecase setResolveBindings as UC1400677006
+	actor1086811994--UC1400677006
+	 usecase setComplianceOptions as UC1530013811
+	actor1086811994--UC1530013811
+	 usecase setCompilerOptions as UC904050847
+	actor1086811994--UC904050847
+	}
+	actor ASTParser as actor2061011390
+	actor2061011390 -- UC904050847
+	actor JavaCore as actor1275477177
+	actor1275477177 -- UC1530013811
+	actor ASTParser as actor2061011390
+	actor2061011390 -- UC1400677006
+	actor ASTParser as actor2061011390
+	actor2061011390 -- UC1923590735
+	actor ASTParser as actor2061011390
+	actor2061011390 -- UC1892928959
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- UC1986751746
+	actor String as actor104719610
+	actor104719610 -- UC267445972
+	actor ASTParser as actor2061011390
+	actor2061011390 -- UC1281205497
+	actor ASTParser as actor2061011390
+	actor2061011390 -- UC1263085541
+	actor ASTParser as actor2061011390
+	actor2061011390 -- UC11529827
+	actor BufferedReader as actor649827042
+	actor649827042 -- UC1980153091
+	actor Reader as actor412121842
+	actor412121842 -- UC1625094636
+	actor StringBuilder as actor1795804759
+	actor1795804759 -- UC1698322791
+	actor Throwable as actor1703837357
+	actor1703837357 -- UC1028574311
+	rectangle main{
+	 usecase println as UC217930962
+	actor1086811994--UC217930962
+	}
+	actor PrintStream as actor731802107
+	actor731802107 -- UC217930962
+
+@enduml

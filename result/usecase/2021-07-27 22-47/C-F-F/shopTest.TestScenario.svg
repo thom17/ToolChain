@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="555px" preserveAspectRatio="none" style="width:349px;height:555px;" version="1.1" viewBox="0 0 349 555" width="349px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ae8r0bdkeu7t" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d2cd6fee76e454991c3d563487ecf6f3]
+cluster Login--><rect fill="#FFFFFF" filter="url(#f1ae8r0bdkeu7t)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="80" x="159.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="39" x="180" y="25.1533">Login</text><!--MD5=[ec265cd1f244dcd81d4bc5fe7f56faea]
+cluster Buy_Product--><rect fill="#FFFFFF" filter="url(#f1ae8r0bdkeu7t)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="105" x="147" y="119"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="155" y="137.1533">Buy_Product</text><!--MD5=[ec6dd2969a00f0eb3d2c0f5d37b1942f]
+cluster Charge_Money--><rect fill="#FFFFFF" filter="url(#f1ae8r0bdkeu7t)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="122" x="138.5" y="231"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="146.5" y="249.1533">Charge_Money</text><!--MD5=[c6e569c8623c3f884bb129b86da154ed]
+cluster Add_Product--><rect fill="#FFFFFF" filter="url(#f1ae8r0bdkeu7t)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="131" x="134" y="343"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="154.5" y="361.1533">Add_Product</text><!--MD5=[7f5e0441b00afcd8fa9ae108c086a015]
+cluster Registration--><rect fill="#FFFFFF" filter="url(#f1ae8r0bdkeu7t)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="102" x="149" y="455"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="157" y="473.1533">Registration</text><ellipse cx="199.7132" cy="62.0973" fill="#FEFECE" filter="url(#f1ae8r0bdkeu7t)" rx="24.2132" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="184.7132" y="68.2121">login</text><ellipse cx="199.6341" cy="173.8073" fill="#FEFECE" filter="url(#f1ae8r0bdkeu7t)" rx="19.6341" ry="16.3073" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="23" x="188.1341" y="179.922">buy</text><ellipse cx="199.6127" cy="286.0973" fill="#FEFECE" filter="url(#f1ae8r0bdkeu7t)" rx="34.1127" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="177.6127" y="292.2121">charge</text><ellipse cx="199.669" cy="398.0973" fill="#FEFECE" filter="url(#f1ae8r0bdkeu7t)" rx="49.669" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="166.669" y="404.2121">addGoods</text><ellipse cx="199.7487" cy="510.0973" fill="#FEFECE" filter="url(#f1ae8r0bdkeu7t)" rx="27.7487" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="182.2487" y="516.2121">regist</text><!--MD5=[20d94156559fff7094ac250015787626]
+entity actor945722724--><ellipse cx="48" cy="253.5" fill="#FEFECE" filter="url(#f1ae8r0bdkeu7t)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M48,261.5 L48,288.5 M35,269.5 L61,269.5 M48,288.5 L35,303.5 M48,288.5 L61,303.5 " fill="none" filter="url(#f1ae8r0bdkeu7t)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="6" y="325.1533">TestScenario</text><!--MD5=[31be9830bef4e4d640e858e3fe8f2e29]
+entity actor239372207--><ellipse cx="325.5" cy="253.5" fill="#FEFECE" filter="url(#f1ae8r0bdkeu7t)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M325.5,261.5 L325.5,288.5 M312.5,269.5 L338.5,269.5 M325.5,288.5 L312.5,303.5 M325.5,288.5 L338.5,303.5 " fill="none" filter="url(#f1ae8r0bdkeu7t)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="309" y="325.1533">Shop</text><!--MD5=[4999fe7174001ca2c6f1e7a5711537a6]
+link actor945722724 to UC1977310713--><path d="M67.91,243.74 C82.1,213.9 102.97,173.58 126,141 C143.84,115.77 169.03,90.04 184.53,75.07 " fill="none" id="actor945722724-UC1977310713" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8865126121e3135df3566338d74dbff0]
+link UC1977310713 to actor239372207--><path d="M215.17,74.61 C231.31,89.17 257.06,114.53 273,141 C292.36,173.16 305.98,213.69 314.33,243.72 " fill="none" id="UC1977310713-actor239372207" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[52f3f81a77d7379a55d44d2ddc1f31dc]
+link actor945722724 to UC294658058--><path d="M90.25,255.1 C121.53,231.66 162.69,200.82 184.13,184.77 " fill="none" id="actor945722724-UC294658058" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2398c4b4edf05b567c8001355ab5ba30]
+link UC294658058 to actor239372207--><path d="M213.77,185.99 C236.76,206.75 283.91,249.33 308.61,271.64 " fill="none" id="UC294658058-actor239372207" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2a68f3ad0b778cb0b429c53ddecd34a3]
+link actor945722724 to UC1781493632--><path d="M90.25,286 C113.93,286 143.27,286 165.42,286 " fill="none" id="actor945722724-UC1781493632" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a21a0f794bbfbb4ab7d583c99bf9dd85]
+link UC1781493632 to actor239372207--><path d="M233.73,286 C258.12,286 290.15,286 308.91,286 " fill="none" id="UC1781493632-actor239372207" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[20de866913029f02dac569cac1ce1386]
+link actor945722724 to UC1169474473--><path d="M90.25,316.9 C118.94,338.4 155.94,366.12 178.41,382.95 " fill="none" id="actor945722724-UC1169474473" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[376540f98c844c35cec4a64926436e07]
+link UC1169474473 to actor239372207--><path d="M217.74,382.43 C241.96,360.55 285.7,321.04 308.97,300.03 " fill="none" id="UC1169474473-actor239372207" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a418ccef2ec3aa2ba1f03220ac3202fd]
+link actor945722724 to UC868815265--><path d="M67.91,328.26 C82.1,358.1 102.97,398.42 126,431 C143.62,455.93 168.42,481.34 183.97,496.38 " fill="none" id="actor945722724-UC868815265" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1b73ba6ab999d3e77cf91c72270e13d4]
+link UC868815265 to actor239372207--><path d="M216.06,496.59 C232.24,481.92 257.35,457 273,431 C292.36,398.84 305.98,358.31 314.33,328.28 " fill="none" id="UC868815265-actor239372207" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[094f02f6c20e39ccb23f342e87ba50ff]
+@startuml
+ left to right direction
+
+actor TestScenario as actor945722724
+
+	rectangle Login{
+	 usecase login as UC1977310713
+	actor945722724- -UC1977310713
+	}
+	actor Shop as actor239372207
+	 UC1977310713 - - actor239372207
+	rectangle Buy_Product{
+	 usecase buy as UC294658058
+	actor945722724- -UC294658058
+	}
+	actor Shop as actor239372207
+	 UC294658058 - - actor239372207
+	rectangle Charge_Money{
+	 usecase charge as UC1781493632
+	actor945722724- -UC1781493632
+	}
+	actor Shop as actor239372207
+	 UC1781493632 - - actor239372207
+	rectangle Add_Product{
+	 usecase addGoods as UC1169474473
+	actor945722724- -UC1169474473
+	}
+	actor Shop as actor239372207
+	 UC1169474473 - - actor239372207
+	rectangle Registration{
+	 usecase regist as UC868815265
+	actor945722724- -UC868815265
+	}
+	actor Shop as actor239372207
+	 UC868815265 - - actor239372207
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

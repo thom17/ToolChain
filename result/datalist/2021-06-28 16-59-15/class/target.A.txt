@@ -1,0 +1,23 @@
+@startuml
+class target.A{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	int main() (1472682156);
+__**<color:blue>calling list</color>**__
+..class..
+	PrintStream (1738674023);
+..member..
+..method..
+	null print(java.lang.String) (1691185247);
+	null println(int) (333683827);
+__**<color:orange>called by list</color>**__
+..class..
+	Test (153245266);
+..member..
+..method..
+	void main(java.lang.String[]) (283383329);
+}
+
+@enduml

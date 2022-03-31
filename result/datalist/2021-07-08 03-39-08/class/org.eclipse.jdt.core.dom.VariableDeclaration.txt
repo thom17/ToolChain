@@ -1,0 +1,20 @@
+@startuml
+class org.eclipse.jdt.core.dom.VariableDeclaration{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	null getName() (1472633143);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	Test_Visitor (775300103);
+..member..
+..method..
+	void variableDeclarationStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (1570578713);
+}
+
+@enduml

@@ -1,0 +1,94 @@
+@startuml
+class "dataSet.Class" as cl1{
+__**<color:green>has list</color>**__
+..class..
+	Class (1302141801);
+	String (917277283);
+	DataList (1391119179);
+..member..
+	Class superClass (981487964);
+	String className (1417554340);
+	DataList hasList (478182173);
+	DataList callList (596333086);
+	boolean isLib (456785282);
+	boolean isInterface (1043317832);
+	boolean isAbstract (560465923);
+..method..
+	Class Class(java.lang.String) (1485485458);
+	Class Class(java.lang.String, java.lang.String) (210474732);
+	Class Class(java.lang.String, boolean) (1288052401);
+	void addClass(dataSet.Class) (968957548);
+	void addMember(dataSet.Var) (843959601);
+	void addFunction(dataSet.Function) (1346197173);
+	void addCallClass(dataSet.Class) (1924966548);
+	void addCallMember(dataSet.Var) (1128266449);
+	void addCallFunction(dataSet.Function) (533173186);
+	void setSuperClass(dataSet.Class) (764358458);
+	Class getSuperClass() (539240764);
+	DataList getHasList() (1883830050);
+	DataList getCallList() (201804812);
+	String getName() (2008159348);
+	Function findFunction(java.lang.String) (1487230025);
+	ArrayList<Function> getHasFunctionList() (628487793);
+	int countRefNum(dataSet.Class) (848958019);
+	boolean isInterface() (1498016680);
+	boolean isAbstract() (1846539844);
+	boolean isLib() (1490985125);
+__**<color:blue>calling list</color>**__
+..class..
+	String (917277283);
+	DataList (1391119179);
+	Class (1302141801);
+	Var (1388849499);
+	Function (622820646);
+..member..
+	String className (1417554340);
+	boolean isInterface (1043317832);
+	boolean isAbstract (560465923);
+	boolean isLib (456785282);
+	Class superClass (981487964);
+..method..
+	void addClass(dataSet.Class) (693345846);
+	void addVar(dataSet.Var) (854989361);
+	void addFunction(dataSet.Function) (257718694);
+	Function findFunction(java.lang.String) (1487230025);
+	ArrayList<Function> getFunctionList() (1235635586);
+	ArrayList<Class> getClassList() (1037942373);
+__**<color:orange>called by list</color>**__
+..class..
+	DataList (1391119179);
+	Class (1302141801);
+	Var (1388849499);
+	Function (622820646);
+	SN_Dumper (535352603);
+	ClassDiagram (2015261478);
+	DataListDiagram (577245010);
+..member..
+..method..
+	void addClass(dataSet.Class) (693345846);
+	Class Class(java.lang.String) (1485485458);
+	Class Class(java.lang.String, java.lang.String) (210474732);
+	Class Class(java.lang.String, boolean) (1288052401);
+	void addClass(dataSet.Class) (968957548);
+	void addCallClass(dataSet.Class) (1924966548);
+	void setSuperClass(dataSet.Class) (764358458);
+	Function findFunction(java.lang.String) (1487230025);
+	int countRefNum(dataSet.Class) (848958019);
+	Var Var(dataSet.Class, java.lang.String) (707506411);
+	Function Function(dataSet.Class, java.lang.String) (1009326765);
+	Function Function(dataSet.Class, java.lang.String, java.lang.String, java.lang.String, java.lang.String) (755328698);
+	void readIn(dataSet.DataList) (758465579);
+	void readIv(dataSet.DataList) (670689666);
+	void readMd(dataSet.DataList) (1167327028);
+	void readBy(dataSet.DataList) (936628786);
+	void main(java.lang.String[]) (7548983);
+	void callByDef(dataSet.DataList, java.lang.StringBuilder) (36550900);
+	void classExtends(dataSet.DataList, java.lang.StringBuilder) (726051009);
+	void classDef(dataSet.DataList, java.lang.StringBuilder) (492252770);
+	void classExtends(dataSet.DataList, java.lang.StringBuilder) (1481751887);
+	void classDef(dataSet.Class, java.lang.StringBuilder) (1999135802);
+	void addHasList(dataSet.Class, java.lang.StringBuilder) (2094115865);
+	void addCallList(dataSet.Class, java.lang.StringBuilder) (49547843);
+}
+
+@enduml

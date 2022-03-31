@@ -1,0 +1,17 @@
+@startuml
+ left to right direction
+
+actor TestScenario as actor1026055550
+rectangle Shop{
+	usecase regist as UC1073763441
+		actor1026055550 -- UC1073763441
+	usecase login as UC752316209
+		actor1026055550 -- UC752316209
+	usecase buy as UC914356853
+		actor1026055550 -- UC914356853
+	usecase charge as UC1229161065
+		actor1026055550 -- UC1229161065
+	usecase addGoods as UC195228908
+		actor1026055550 -- UC195228908
+}
+@enduml

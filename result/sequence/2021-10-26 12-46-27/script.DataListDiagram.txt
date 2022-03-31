@@ -1,0 +1,96 @@
+@startuml
+group void main(java.lang.String[])
+	DataListDiagram->Runtime : exec(java.lang.String)
+		Runtime-->DataListDiagram
+	DataListDiagram->Runtime : getRuntime()
+		Runtime-->DataListDiagram
+	DataListDiagram->Process : waitFor()
+		Process-->DataListDiagram
+	DataListDiagram->PrintStream : println(java.lang.String)
+		PrintStream-->DataListDiagram
+end
+
+group void main(dataSet.DataList)
+	DataListDiagram->DataListDiagram : makeFile(java.lang.String)
+	DataListDiagram->Process : waitFor()
+		Process-->DataListDiagram
+	DataListDiagram->PrintStream : println(java.lang.String)
+		PrintStream-->DataListDiagram
+end
+
+group void makeFile(java.lang.String)
+	DataListDiagram->Writer : write(java.lang.String)
+		Writer-->DataListDiagram
+	DataListDiagram->OutputStreamWriter : close()
+		OutputStreamWriter-->DataListDiagram
+end
+
+group String makeString(dataSet.DataList)
+	DataListDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->DataListDiagram
+	DataListDiagram->DataListDiagram : classDef(dataSet.Class, java.lang.StringBuilder)
+	DataListDiagram->DataListDiagram : classExtends(dataSet.DataList, java.lang.StringBuilder)
+	DataListDiagram->StringBuilder : toString()
+		StringBuilder-->DataListDiagram
+end
+
+group void classExtends(dataSet.DataList, java.lang.StringBuilder)
+	DataListDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->DataListDiagram
+	DataListDiagram->Class : getName()
+		Class-->DataListDiagram
+end
+
+group boolean is_skip_package(java.lang.String[], java.lang.String)
+end
+
+group void classDef(dataSet.Class, java.lang.StringBuilder)
+	DataListDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->DataListDiagram
+	DataListDiagram->DataListDiagram : addHasList(dataSet.Class, java.lang.StringBuilder)
+	DataListDiagram->DataListDiagram : addCallList(dataSet.Class, java.lang.StringBuilder)
+end
+
+group void addHasList(dataSet.Class, java.lang.StringBuilder)
+	DataListDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->DataListDiagram
+	DataListDiagram->Class : getName()
+		Class-->DataListDiagram
+	DataListDiagram->DataList : getClassList()
+		DataList-->DataListDiagram
+	DataListDiagram->Var : getName()
+		Var-->DataListDiagram
+	DataListDiagram->DataList : getVarList()
+		DataList-->DataListDiagram
+	DataListDiagram->Function : getTypeName()
+		Function-->DataListDiagram
+	DataListDiagram->Function : getName()
+		Function-->DataListDiagram
+	DataListDiagram->Function : printParameterType()
+		Function-->DataListDiagram
+	DataListDiagram->DataList : getFunctionList()
+		DataList-->DataListDiagram
+end
+
+group void addCallList(dataSet.Class, java.lang.StringBuilder)
+	DataListDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->DataListDiagram
+	DataListDiagram->Class : getName()
+		Class-->DataListDiagram
+	DataListDiagram->DataList : getClassList()
+		DataList-->DataListDiagram
+	DataListDiagram->Var : getName()
+		Var-->DataListDiagram
+	DataListDiagram->DataList : getVarList()
+		DataList-->DataListDiagram
+	DataListDiagram->Function : getOwnClass()
+		Function-->DataListDiagram
+	DataListDiagram->Function : getName()
+		Function-->DataListDiagram
+	DataListDiagram->Function : printParameterType()
+		Function-->DataListDiagram
+	DataListDiagram->DataList : getFunctionList()
+		DataList-->DataListDiagram
+end
+
+@enduml

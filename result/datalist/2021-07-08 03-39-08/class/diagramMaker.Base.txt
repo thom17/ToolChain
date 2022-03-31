@@ -1,0 +1,38 @@
+@startuml
+class diagramMaker.Base{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	String makeDateFolder(java.lang.String) (1711410537);
+	void makeFile(java.lang.String, java.lang.String) (928099543);
+	void printLog(java.lang.Process) (1803756881);
+	String getHash(java.lang.Object, java.lang.String) (353201839);
+__**<color:blue>calling list</color>**__
+..class..
+	File (1662140450);
+	PrintStream (1409215177);
+	Writer (1495232387);
+	OutputStreamWriter (725901404);
+	Base (1430395789);
+	Process (614482519);
+	BufferedReader (107041335);
+..member..
+..method..
+	null mkdir() (246383655);
+	null println(java.lang.String) (1414042262);
+	null write(java.lang.String) (1274308620);
+	null close() (1835022815);
+	void printLog(java.lang.Process) (1803756881);
+	null getInputStream() (1629241006);
+	null getOutputStream() (333447190);
+	null readLine() (2067578478);
+__**<color:orange>called by list</color>**__
+..class..
+	Base (1430395789);
+..member..
+..method..
+	void makeFile(java.lang.String, java.lang.String) (928099543);
+}
+
+@enduml

@@ -1,0 +1,63 @@
+@startuml
+class "Main" as cl1{
+Package test
+Lib false
+HashCode : 502848122
+ABS Score : 23
+Relative Score : 7
+__**<color:green>has list</color>**__
+	<color:green>int[] dice1 (2)
+	<color:green>int[] dice2 (2)
+....
+	<color:red>void main(java.lang.String[]) (8)
+__**<color:blue>calling list</color>**__
+..class..
+	java.lang.String[] (596910004);
+	gameSystem.GameSystem (1954985045);
+..member..
+	test.Main.main(java.lang.String[]).game (106999035);
+..method..
+	 gameSystem.GameSystem.GameSystem(int[][]) (1569754439);
+	 gameSystem.GameSystem.playGame(java.lang.String) (1593458942);
+__**<color:orange>called by list</color>**__
+..class..
+	test.Main (502848122);
+..member..
+..method..
+	 test.Main.main(java.lang.String[]) (530539368);
+}
+
+ package Functions{
+class "main(java.lang.String[])" as f530539368  
+{
+Static : true
+return Type : void
+hashCode : 530539368
+ABS Score : 8
+Relative Score : 8
+__**<color:green>has list</color>**__
+..class..
+..member..
+	test.Main.main(java.lang.String[]).args (479920916);
+	test.Main.main(java.lang.String[]).diceList (1161322357);
+	test.Main.main(java.lang.String[]).game (106999035);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	java.lang.String[] (596910004);
+	gameSystem.GameSystem (1954985045);
+..member..
+	test.Main.main(java.lang.String[]).game (106999035);
+..method..
+	 gameSystem.GameSystem.GameSystem(int[][]) (1569754439);
+	 gameSystem.GameSystem.playGame(java.lang.String) (1593458942);
+__**<color:orange>called by list</color>**__
+..class..
+	test.Main (502848122);
+..member..
+..method..
+	 test.Main.main(java.lang.String[]) (530539368);
+}
+}
+
+@enduml

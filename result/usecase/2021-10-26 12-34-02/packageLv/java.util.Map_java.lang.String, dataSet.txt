@@ -1,0 +1,11 @@
+@startuml
+ left to right direction
+
+actor Class> as actor1428726828
+
+actor Function> as actor710220387
+
+actor Var> as actor443502884
+
+
+@enduml

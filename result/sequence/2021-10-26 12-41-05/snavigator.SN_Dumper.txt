@@ -1,0 +1,103 @@
+@startuml
+group void readCl(dataSet.DataList)
+	SN_Dumper->PrintStream : println(java.lang.String)
+		PrintStream-->SN_Dumper
+	SN_Dumper->DataList : addClass(dataSet.Class)
+		DataList->Class : getName()
+			Class-->DataList
+		DataList-->SN_Dumper
+	SN_Dumper->BufferedReader : readLine()
+		BufferedReader-->SN_Dumper
+end
+
+group void readIn(dataSet.DataList)
+	SN_Dumper->PrintStream : println(java.lang.String)
+		PrintStream-->SN_Dumper
+	SN_Dumper->Class : setSuperClass(dataSet.Class)
+		Class-->SN_Dumper
+	SN_Dumper->BufferedReader : readLine()
+		BufferedReader-->SN_Dumper
+end
+
+group void readIv(dataSet.DataList)
+	SN_Dumper->PrintStream : println(java.lang.String)
+		PrintStream-->SN_Dumper
+	SN_Dumper->Class : addMember(dataSet.Var)
+		Class->DataList : addVar(dataSet.Var)
+			DataList->Var : getName()
+				Var-->DataList
+			DataList-->Class
+		Class-->SN_Dumper
+	SN_Dumper->DataList : addVar(dataSet.Var)
+		DataList->Var : getName()
+			Var-->DataList
+		DataList-->SN_Dumper
+	SN_Dumper->BufferedReader : readLine()
+		BufferedReader-->SN_Dumper
+end
+
+group void readMd(dataSet.DataList)
+	SN_Dumper->PrintStream : println(java.lang.String)
+		PrintStream-->SN_Dumper
+	SN_Dumper->Class : addFunction(dataSet.Function)
+		Class->DataList : addFunction(dataSet.Function)
+			DataList->Function : getName()
+				Function-->DataList
+			DataList-->Class
+		Class-->SN_Dumper
+	SN_Dumper->DataList : addFunction(dataSet.Function)
+		DataList->Function : getName()
+			Function-->DataList
+		DataList-->SN_Dumper
+	SN_Dumper->BufferedReader : readLine()
+		BufferedReader-->SN_Dumper
+end
+
+group void readBy(dataSet.DataList)
+	SN_Dumper->PrintStream : println(java.lang.String)
+		PrintStream-->SN_Dumper
+	SN_Dumper->Class : addCallClass(dataSet.Class)
+		Class->DataList : addClass(dataSet.Class)
+			DataList->Class : getName()
+				Class-->DataList
+			DataList-->Class
+		Class-->SN_Dumper
+	SN_Dumper->PrintStream : print(java.lang.String)
+		PrintStream-->SN_Dumper
+	SN_Dumper->Class : getName()
+		Class-->SN_Dumper
+	SN_Dumper->DataList : addClass(dataSet.Class)
+		DataList->Class : getName()
+			Class-->DataList
+		DataList-->SN_Dumper
+	SN_Dumper->Function : getCallList()
+		Function-->SN_Dumper
+	SN_Dumper->DataList : addFunction(dataSet.Function)
+		DataList->Function : getName()
+			Function-->DataList
+		DataList-->SN_Dumper
+	SN_Dumper->DataList : addVar(dataSet.Var)
+		DataList->Var : getName()
+			Var-->DataList
+		DataList-->SN_Dumper
+	SN_Dumper->BufferedReader : readLine()
+		BufferedReader-->SN_Dumper
+end
+
+group boolean checkError(java.lang.String[])
+	SN_Dumper->PrintStream : println(java.lang.String)
+		PrintStream-->SN_Dumper
+end
+
+group void main(java.lang.String[])
+	SN_Dumper->PrintStream : println(java.lang.String)
+		PrintStream-->SN_Dumper
+	SN_Dumper->Class : getName()
+		Class-->SN_Dumper
+	SN_Dumper->ArrayList : get(int)
+		ArrayList-->SN_Dumper
+	SN_Dumper->ArrayList : size()
+		ArrayList-->SN_Dumper
+end
+
+@enduml

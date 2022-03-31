@@ -1,0 +1,29 @@
+@startuml
+class "script.DataListDiagram.makeString(dataSet.DataList)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.DataList list (1951500432);
+	StringBuilder str (1280443567);
+	ArrayList<Class> cls (1061018585);
+	String clsName (348148678);
+	Class target (1814908102);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	StringBuilder (2077662850);
+	DataListDiagram (577245010);
+	DataList (1391119179);
+..member..
+..method..
+	null append(java.lang.String) (1803890702);
+	void classDef(dataSet.Class, java.lang.StringBuilder) (1999135802);
+	void classExtends(dataSet.DataList, java.lang.StringBuilder) (1481751887);
+	null toString() (984567559);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

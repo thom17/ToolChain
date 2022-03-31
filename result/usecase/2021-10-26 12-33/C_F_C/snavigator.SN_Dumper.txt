@@ -1,0 +1,69 @@
+@startuml
+ left to right direction
+
+actor SN_Dumper as actor535352603
+
+	rectangle readCl{
+	 usecase PrintStream as UC9
+	actor535352603--UC9
+	 usecase DataList as UC10
+	actor535352603--UC10
+	 usecase BufferedReader as UC11
+	actor535352603--UC11
+	}
+	rectangle readIn{
+	 usecase PrintStream as UC12
+	actor535352603--UC12
+	 usecase Class as UC13
+	actor535352603--UC13
+	 usecase BufferedReader as UC14
+	actor535352603--UC14
+	 usecase DataList as UC15
+	actor535352603--UC15
+	}
+	rectangle readIv{
+	 usecase PrintStream as UC16
+	actor535352603--UC16
+	 usecase Class as UC17
+	actor535352603--UC17
+	 usecase DataList as UC18
+	actor535352603--UC18
+	 usecase BufferedReader as UC19
+	actor535352603--UC19
+	}
+	rectangle readMd{
+	 usecase PrintStream as UC20
+	actor535352603--UC20
+	 usecase Class as UC21
+	actor535352603--UC21
+	 usecase DataList as UC22
+	actor535352603--UC22
+	 usecase BufferedReader as UC23
+	actor535352603--UC23
+	}
+	rectangle readBy{
+	 usecase PrintStream as UC24
+	actor535352603--UC24
+	 usecase Class as UC25
+	actor535352603--UC25
+	 usecase DataList as UC26
+	actor535352603--UC26
+	 usecase Function as UC27
+	actor535352603--UC27
+	 usecase BufferedReader as UC28
+	actor535352603--UC28
+	}
+	rectangle checkError{
+	 usecase PrintStream as UC29
+	actor535352603--UC29
+	}
+	rectangle main{
+	 usecase PrintStream as UC30
+	actor535352603--UC30
+	 usecase Class as UC31
+	actor535352603--UC31
+	 usecase ArrayList as UC32
+	actor535352603--UC32
+	}
+
+@enduml

@@ -1,0 +1,41 @@
+@startuml
+ left to right direction
+	 actor "Player" as ACTOR01#red
+rectangle "Game System" as Sys1{
+	usecase "Play Game" as UC01 #red
+		usecase "gameSystem.GameSystem.playGame(java.lang.String)" as UC01_FL01
+			UC01--UC01_FL01 : implement 
+		usecase "gameSystem.GameSystem.diceSetting()" as UC01_FL02
+			UC01--UC01_FL02 : implement 
+		usecase "gameSystem.GameSystem.main()" as UC01_FL03
+			UC01--UC01_FL03 : implement 
+		usecase "gameSystem.GameSystem.gameEnd()" as UC01_FL04
+			UC01--UC01_FL04 : implement 
+		ACTOR01--UC01
+	usecase "View Score" as UC02 #red
+		ACTOR01--UC02
+	usecase "Configure Game" as UC03 #red
+		ACTOR01--UC03
+}
+
+@enduml@startuml
+ left to right direction
+	 actor "Player" as ACTOR01#red
+rectangle "Game System" as Sys1{
+	usecase "Play Game" as UC01 #red
+		usecase "gameSystem.GameSystem.playGame(java.lang.String)" as UC01_FL01
+			UC01--UC01_FL01 : implement 
+		usecase "gameSystem.GameSystem.diceSetting()" as UC01_FL02
+			UC01--UC01_FL02 : implement 
+		usecase "gameSystem.GameSystem.main()" as UC01_FL03
+			UC01--UC01_FL03 : implement 
+		usecase "gameSystem.GameSystem.gameEnd()" as UC01_FL04
+			UC01--UC01_FL04 : implement 
+		ACTOR01--UC01
+	usecase "View Score" as UC02 #red
+		ACTOR01--UC02
+	usecase "Configure Game" as UC03 #red
+		ACTOR01--UC03
+}
+
+@enduml

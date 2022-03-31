@@ -1,0 +1,20 @@
+@startuml
+group void main(java.lang.String[])
+	Test->A : main()
+		A->PrintStream : print(java.lang.String)
+			PrintStream-->A
+		A->PrintStream : println(int)
+			PrintStream-->A
+		A-->Test
+	Test->PrintStream : println(java.lang.String)
+		PrintStream-->Test
+	Test->PrintStream : println(int)
+		PrintStream-->Test
+end
+
+group void test()
+	Test->PrintStream : println(int)
+		PrintStream-->Test
+end
+
+@enduml

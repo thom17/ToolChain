@@ -1,0 +1,23 @@
+@startuml
+class dataSet.Function.Function(java.lang.String, dataSet.Class){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String sig (1919584041);
+	Class owner (438772947);
+	String[] list (2111381500);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	Data_base owner (374845463);
+	String sig (1149650230);
+	String name (101319115);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

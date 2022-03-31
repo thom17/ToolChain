@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="96px" preserveAspectRatio="none" style="width:51px;height:96px;" version="1.1" viewBox="0 0 51 96" width="51px" zoomAndPan="magnify"><defs><filter height="300%" id="f1xva4zi2brvft" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c2083c89cbc9172a4881dd259195b45b]
+entity actor1985836631--><ellipse cx="25.5" cy="16.5" fill="#FEFECE" filter="url(#f1xva4zi2brvft)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M25.5,24.5 L25.5,51.5 M12.5,32.5 L38.5,32.5 M25.5,51.5 L12.5,66.5 M25.5,51.5 L38.5,66.5 " fill="none" filter="url(#f1xva4zi2brvft)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="7" y="88.1533">String</text><!--MD5=[91243344fd0fe05b3979092ecd046da4]
+@startuml
+ left to right direction
+
+actor String as actor1985836631
+
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

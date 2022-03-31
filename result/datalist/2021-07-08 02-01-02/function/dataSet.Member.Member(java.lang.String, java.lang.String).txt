@@ -1,0 +1,21 @@
+@startuml
+class dataSet.Member.Member(java.lang.String, java.lang.String){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	String typeName (201213864);
+	String name (790598933);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	String typeName (1959219756);
+	String name (101319115);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

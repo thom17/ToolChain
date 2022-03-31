@@ -1,0 +1,101 @@
+@startuml
+ left to right direction
+
+actor Dice as actor90767234
+actor null as actor1016363973
+actor GameSystem as actor1355457888
+actor Player as actor1620948027
+actor Map as actor1442191055
+actor String as actor324457684
+actor Main as actor1729779847
+actor Random as actor201576232
+actor PrintStream as actor20094719
+	rectangle "nextInt" as fun142247393{
+	}
+	rectangle "Map" as fun360207322{
+	}
+	rectangle "Player" as fun231786897{
+	}
+	rectangle "diceSetting" as fun298430307{
+	usecase "Dice" as UC0
+		actor1355457888--UC0
+		actor90767234--UC0
+	}
+	rectangle "main" as fun1970982267{
+	usecase "GameSystem" as UC1
+		actor1355457888--UC1
+		actor1729779847--UC1
+	}
+	rectangle "Dice" as fun1019298652{
+	}
+	rectangle "choiceDice" as fun1464555023{
+	usecase "Player" as UC2
+		actor1355457888--UC2
+		actor1620948027--UC2
+	usecase "PrintStream" as UC3
+		actor1355457888--UC3
+	usecase "GameSystem" as UC4
+		actor1355457888--UC4
+		actor1729779847--UC4
+	}
+	rectangle "diceRoll" as fun195381554{
+	usecase "Dice" as UC5
+		actor1355457888--UC5
+		actor90767234--UC5
+	}
+	rectangle "move" as fun681008168{
+	usecase "Player" as UC6
+		actor1355457888--UC6
+		actor1620948027--UC6
+	usecase "Map" as UC7
+		actor1355457888--UC7
+		actor1442191055--UC7
+	usecase "PrintStream" as UC8
+		actor1355457888--UC8
+	}
+	rectangle "getPos" as fun1778081847{
+	}
+	rectangle "getSize" as fun119290689{
+	}
+	rectangle "println" as fun707161353{
+	}
+	rectangle "print" as fun1522132780{
+	}
+	rectangle "println" as fun409962262{
+	}
+	rectangle "printPos" as fun917831210{
+	usecase "Player" as UC9
+		actor1355457888--UC9
+		actor1620948027--UC9
+	usecase "Map" as UC10
+		actor1355457888--UC10
+		actor1442191055--UC10
+	usecase "PrintStream" as UC11
+		actor1355457888--UC11
+	}
+	rectangle "roll" as fun1810899357{
+	usecase "Random" as UC12
+		actor90767234--UC12
+	}
+	rectangle "getEvent" as fun594427726{
+	}
+	rectangle "setPos" as fun57497692{
+	}
+	rectangle "GameSystem" as fun495702238{
+	usecase "Map" as UC13
+		actor1355457888--UC13
+		actor1442191055--UC13
+	usecase "Player" as UC14
+		actor1355457888--UC14
+		actor1620948027--UC14
+	}
+	rectangle "playGame" as fun73181251{
+	usecase "Player" as UC15
+		actor1355457888--UC15
+		actor1620948027--UC15
+	usecase "GameSystem" as UC16
+		actor1355457888--UC16
+		actor1729779847--UC16
+	}
+
+@enduml

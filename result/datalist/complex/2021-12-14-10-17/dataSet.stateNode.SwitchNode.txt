@@ -1,0 +1,152 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 3
+	extendsClassScore = 1
+	callScore = 8
+	callByScore = 8
+	methodNum = 4
+	memberNum = 2
+	constructorNum = 1
+	selfCoverage = 0
+	needCallBy = 6
+	ABS = 22
+	REL = 3
+	ABS = 22
+	REL = 3
+	coverage = 0.0%
+__**<color:green>has list</color>**__
+	<color:green>java.util.Map<java.lang.String, java.util.ArrayList<org.eclipse.jdt.core.dom.Statement>> caseMap (2)
+	<color:green>java.lang.String target (1)
+	<color:orange>new SwitchNode(org.eclipse.jdt.core.dom.SwitchStatement) (5)
+	<color:green>Map<String, ArrayList<Statement>> getCaseMap() (0)
+	<color:green>String getTarget() (0)
+	<color:orange>void print() (5)
+}
+
+class dataSet.stateNode.SwitchNode.SwitchNode1661690256 as "SwitchNode(org.eclipse.jdt.core.dom.SwitchStatement)" 
+{
+	pram : (org.eclipse.jdt.core.dom.SwitchStatement )
+	SrcOwnClassName : dataSet.stateNode.SwitchNode
+	SrcSig : dataSet.stateNode.SwitchNode.SwitchNode(org.eclipse.jdt.core.dom.SwitchStatement)
+	Sig : SwitchNode(org.eclipse.jdt.core.dom.SwitchStatement)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 3
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 13
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 61.74860596185444
+	Volume : 229.3880857259536
+	Diffifculty: 10.555555555555555
+	Effort : 2421.3186826628435
+	ABS Score : 5
+	Relative Score : 5
+}
+class dataSet.stateNode.SwitchNode.getCaseMap1395533739 as "getCaseMap()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.stateNode.SwitchNode
+	SrcSig : dataSet.stateNode.SwitchNode.getCaseMap()
+	Sig : getCaseMap()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2.0
+	Volume : 4.754887502163468
+	Diffifculty: 1.0
+	Effort : 4.754887502163468
+	ABS Score : 0
+	Relative Score : 0
+}
+class dataSet.stateNode.SwitchNode.getTarget484187068 as "getTarget()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.stateNode.SwitchNode
+	SrcSig : dataSet.stateNode.SwitchNode.getTarget()
+	Sig : getTarget()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2.0
+	Volume : 4.754887502163468
+	Diffifculty: 1.0
+	Effort : 4.754887502163468
+	ABS Score : 0
+	Relative Score : 0
+}
+class dataSet.stateNode.SwitchNode.print1603662305 as "print()" 
+{
+	pram : ( )
+	SrcOwnClassName : dataSet.stateNode.SwitchNode
+	SrcSig : dataSet.stateNode.SwitchNode.print()
+	Sig : print()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 3
+	Call Score : 5
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 2
+	cyclomatic : 1
+	State Node lineNum: 7
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 52.529325012980806
+	Volume : 134.88627376126118
+	Diffifculty: 5.625
+	Effort : 758.7352899070942
+	ABS Score : 5
+	Relative Score : 5
+}
+
+@enduml

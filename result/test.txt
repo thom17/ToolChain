@@ -1,0 +1,51 @@
+@startuml
+/'do Class Define (클래스 정의)'/
+class shop.Goods 
+{
+	String name
+	int money
+	+String getName();
+	+void setName(java.lang.String);
+	+int getMoney();
+	+void setMoney(int);
+}
+
+class shop.Shop 
+{
+	Map<String,Goods> goodsSet
+	Map<String,User> userSet
+	+boolean regist(java.lang.String, java.lang.String);
+	+User login(java.lang.String, java.lang.String);
+	+boolean buy(shop.User, shop.Goods);
+	+boolean charge(shop.User, int);
+	+void addGoods(shop.Goods, java.lang.String);
+	-boolean check(shop.User, shop.Goods);
+}
+
+class shop.User 
+{
+	String id
+	String pw
+	int money
+	+User User(java.lang.String, java.lang.String);
+	+boolean buy(shop.Goods);
+	+int getMoney();
+	+boolean chckPwd(java.lang.String);
+	+void setMoney(int);
+}
+
+/'Class Define (클래스 정의) end'/
+
+/'do Extends Define (상속 관계 정의)'/
+/'Extends Define (상속 관계 정의) end'/
+
+/'do call By Define-Class (클래스-클래스 호출 관계 정의)'/
+	shop.Shop o-- shop.User : call shop.User
+	shop.Shop o-- shop.Goods : call shop.Goods
+	shop.User o-- shop.Goods : call shop.Goods
+
+
+/'call By Define-Class (클래스-클래스 호출 관계 정의)' end/
+
+
+@enduml

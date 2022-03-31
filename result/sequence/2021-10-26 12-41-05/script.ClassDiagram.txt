@@ -1,0 +1,59 @@
+@startuml
+group void main(dataSet.DataList)
+	ClassDiagram->ClassDiagram : makeFile(java.lang.String)
+	ClassDiagram->ClassDiagram : makeString(dataSet.DataList)
+	ClassDiagram->Runtime : exec(java.lang.String)
+		Runtime-->ClassDiagram
+	ClassDiagram->Runtime : getRuntime()
+		Runtime-->ClassDiagram
+	ClassDiagram->PrintStream : println(java.lang.String)
+		PrintStream-->ClassDiagram
+end
+
+group void makeFile(java.lang.String)
+	ClassDiagram->Writer : write(java.lang.String)
+		Writer-->ClassDiagram
+	ClassDiagram->OutputStreamWriter : close()
+		OutputStreamWriter-->ClassDiagram
+end
+
+group String makeString(dataSet.DataList)
+	ClassDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->ClassDiagram
+	ClassDiagram->ClassDiagram : classDef(dataSet.DataList, java.lang.StringBuilder)
+	ClassDiagram->ClassDiagram : classExtends(dataSet.DataList, java.lang.StringBuilder)
+	ClassDiagram->ClassDiagram : callByDef(dataSet.DataList, java.lang.StringBuilder)
+	ClassDiagram->StringBuilder : toString()
+		StringBuilder-->ClassDiagram
+end
+
+group void callByDef(dataSet.DataList, java.lang.StringBuilder)
+	ClassDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->ClassDiagram
+	ClassDiagram->Class : getName()
+		Class-->ClassDiagram
+end
+
+group void classExtends(dataSet.DataList, java.lang.StringBuilder)
+	ClassDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->ClassDiagram
+	ClassDiagram->Class : getName()
+		Class-->ClassDiagram
+end
+
+group void classDef(dataSet.DataList, java.lang.StringBuilder)
+	ClassDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->ClassDiagram
+	ClassDiagram->Class : getName()
+		Class-->ClassDiagram
+	ClassDiagram->Var : getName()
+		Var-->ClassDiagram
+	ClassDiagram->Function : getTypeName()
+		Function-->ClassDiagram
+	ClassDiagram->Function : getName()
+		Function-->ClassDiagram
+	ClassDiagram->Function : printParameterType()
+		Function-->ClassDiagram
+end
+
+@enduml

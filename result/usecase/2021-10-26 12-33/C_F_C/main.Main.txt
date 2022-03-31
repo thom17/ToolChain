@@ -1,0 +1,25 @@
+@startuml
+ left to right direction
+
+actor Main as actor1862674654
+
+	rectangle test{
+	 usecase PrintStream as UC77
+	actor1862674654--UC77
+	}
+	rectangle main{
+	 usecase PrintStream as UC78
+	actor1862674654--UC78
+	 usecase Parser as UC79
+	actor1862674654--UC79
+	 usecase ClassDiagram as UC80
+	actor1862674654--UC80
+	 usecase CodeStateDiagram as UC81
+	actor1862674654--UC81
+	 usecase DataListDiagram as UC82
+	actor1862674654--UC82
+	 usecase Object as UC83
+	actor1862674654--UC83
+	}
+
+@enduml

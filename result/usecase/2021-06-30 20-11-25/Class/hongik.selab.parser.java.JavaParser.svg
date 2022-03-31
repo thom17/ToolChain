@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="732px" preserveAspectRatio="none" style="width:340px;height:732px;" version="1.1" viewBox="0 0 340 732" width="340px" zoomAndPan="magnify"><defs><filter height="300%" id="f1p8p1dao34nrq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f6cc7c11640e1aa40840472fadf01e77]
+cluster makeASTList--><rect fill="#FFFFFF" filter="url(#f1p8p1dao34nrq)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="118" x="180" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="195" y="25.1533">makeASTList</text><!--MD5=[62e981aedead5d296a0ed090cac6c220]
+cluster init--><rect fill="#FFFFFF" filter="url(#f1p8p1dao34nrq)" height="491" style="stroke: #000000; stroke-width: 1.5;" width="178" x="150" y="118"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="22" x="228" y="136.1533">init</text><!--MD5=[a70b0d373322012744ecc119c63f921b]
+cluster main--><rect fill="#FFFFFF" filter="url(#f1p8p1dao34nrq)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="144" x="167" y="633"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="222.5" y="651.1533">main</text><ellipse cx="239.598" cy="62.0973" fill="#FEFECE" filter="url(#f1p8p1dao34nrq)" rx="42.598" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="211.598" y="68.2121">ArrayList</text><!--MD5=[081a0902ccfd499d90de087f42ed19b4]
+entity makeFileList--><rect fill="#FFFFFF" filter="url(#f1p8p1dao34nrq)" height="39.2295" style="stroke: #000000; stroke-width: 1.5;" width="99" x="7" y="417.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="17" y="443.6533">makeFileList</text><ellipse cx="239.669" cy="173.0973" fill="#FEFECE" filter="url(#f1p8p1dao34nrq)" rx="49.669" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="206.669" y="179.2121">Throwable</text><ellipse cx="239.2756" cy="240.0973" fill="#FEFECE" filter="url(#f1p8p1dao34nrq)" rx="60.2756" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="198.7756" y="246.2121">StringBuilder</text><ellipse cx="239.234" cy="307.0973" fill="#FEFECE" filter="url(#f1p8p1dao34nrq)" rx="36.234" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="215.734" y="313.2121">Reader</text><ellipse cx="239.7233" cy="374.9447" fill="#FEFECE" filter="url(#f1p8p1dao34nrq)" rx="72.7233" ry="16.9447" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="189.2233" y="381.0594">BufferedReader</text><ellipse cx="238.7904" cy="443.0973" fill="#FEFECE" filter="url(#f1p8p1dao34nrq)" rx="51.7904" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="204.2904" y="449.2121">ASTParser</text><ellipse cx="239.163" cy="510.0973" fill="#FEFECE" filter="url(#f1p8p1dao34nrq)" rx="29.163" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="220.663" y="516.2121">String</text><ellipse cx="239.4264" cy="577.0973" fill="#FEFECE" filter="url(#f1p8p1dao34nrq)" rx="45.4264" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="209.4264" y="583.2121">JavaCore</text><ellipse cx="239.3259" cy="688.0973" fill="#FEFECE" filter="url(#f1p8p1dao34nrq)" rx="55.3259" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="202.3259" y="694.2121">PrintStream</text><!--MD5=[38a616191589cc27bc33f7b3ffcdfbba]
+entity actor1086811994--><ellipse cx="56.5" cy="308.5" fill="#FEFECE" filter="url(#f1p8p1dao34nrq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M56.5,316.5 L56.5,343.5 M43.5,324.5 L69.5,324.5 M56.5,343.5 L43.5,358.5 M56.5,343.5 L69.5,358.5 " fill="none" filter="url(#f1p8p1dao34nrq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="21" y="380.1533">JavaParser</text><!--MD5=[8a5d391b8c5501e41620d3e3a3c6e76f]
+link actor1086811994 to UC1001114349--><path d="M72.0028,298.977 C85.9327,259.69 109.091,201.587 142,158 C167.258,124.547 209.564,96.633 228.857,77.636 " fill="none" id="actor1086811994-UC1001114349" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8a5d391b8c5501e41620d3e3a3c6e76f]
+link actor1086811994 to UC1001114349--><path d="M63.9983,298.819 C76.0089,251.56 101.689,176.39 142,123 C158.359,101.334 181.869,81.991 201.646,69.963 " fill="none" id="actor1086811994-UC1001114349-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f9d2f64c407ea14e17a7b0e77f0516f1]
+link actor1086811994 to UC1986751746--><path d="M73.6634,298.715 C88.0627,268.97 111.075,230.287 142,206 C157.528,193.805 177.827,185.981 195.84,181.03 " fill="none" id="actor1086811994-UC1986751746" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[72161d462fc3c29d8edb77126650d66f]
+link actor1086811994 to UC1152029154--><path d="M91.7249,308.256 C106.489,295.962 124.279,282.646 142,273 C158.717,263.9 178.405,256.642 195.661,251.276 " fill="none" id="actor1086811994-UC1152029154" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d455bbbde5161a0a3abfaa8000aa4eda]
+link actor1086811994 to UC1795804759--><path d="M91.7187,334.364 C124.692,328.238 173.293,319.208 205.531,313.218 " fill="none" id="actor1086811994-UC1795804759" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[37dfd3497b218e7afd566dd21e4b3a5a]
+link actor1086811994 to UC1548698416--><path d="M91.7187,347.636 C117.411,352.41 152.591,358.946 182.125,364.433 " fill="none" id="actor1086811994-UC1548698416" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0dbb7260bf449d3d0beaf7cc6475293f]
+link actor1086811994 to UC731573979--><path d="M91.7709,373.66 C106.541,385.942 124.324,399.272 142,409 C159.979,418.894 181.379,426.76 199.499,432.424 " fill="none" id="actor1086811994-UC731573979" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f16e030f1ddf50cb3acf2617b06854c6]
+link actor1086811994 to UC104105431--><path d="M91.6306,380.215 C96.7374,386.62 101.7073,393.342 106,400 C126.254,431.412 114.218,450.998 142,476 C161.101,493.189 189.405,501.799 210.514,506.041 " fill="none" id="actor1086811994-UC104105431" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2f0fd6fe03194de6e4de8ed79a06f46b]
+link actor1086811994 to UC602572848--><path d="M91.5581,377.885 C96.9822,384.849 102.0715,392.358 106,400 C135.963,458.288 97.8012,494.608 142,543 C155.96,558.284 177.185,566.698 196.225,571.33 " fill="none" id="actor1086811994-UC602572848" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[87487a0c54c720f1b929e537738a1bf9]
+link actor1086811994 to UC150180388--><path d="M91.5486,376.988 C97.1121,384.16 102.2512,391.97 106,400 C145.874,485.407 94.4358,527.624 142,609 C158.768,637.6885 190.141,660.3035 212.672,673.8574 " fill="none" id="actor1086811994-UC150180388" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[25f9f851e59417c963c527ee10b9b927]
+@startuml
+ left to right direction
+
+actor JavaParser as actor1086811994
+
+	rectangle makeASTList{
+	 usecase ArrayList as UC1001114349
+	actor1086811994- -UC1001114349
+	}
+	rectangle makeFileList{
+	 usecase ArrayList as UC1001114349
+	actor1086811994- -UC1001114349
+	}
+	rectangle init{
+	 usecase Throwable as UC1986751746
+	actor1086811994- -UC1986751746
+	 usecase StringBuilder as UC1152029154
+	actor1086811994- -UC1152029154
+	 usecase Reader as UC1795804759
+	actor1086811994- -UC1795804759
+	 usecase BufferedReader as UC1548698416
+	actor1086811994- -UC1548698416
+	 usecase ASTParser as UC731573979
+	actor1086811994- -UC731573979
+	 usecase String as UC104105431
+	actor1086811994- -UC104105431
+	 usecase JavaCore as UC602572848
+	actor1086811994- -UC602572848
+	}
+	rectangle main{
+	 usecase PrintStream as UC150180388
+	actor1086811994- -UC150180388
+	}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

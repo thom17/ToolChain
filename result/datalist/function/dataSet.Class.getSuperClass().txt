@@ -1,0 +1,20 @@
+@startuml
+class dataSet.Class.getSuperClass(){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Class[] superList (1814827909);
+	int extendSize (1597328335);
+	int i (1034909474);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

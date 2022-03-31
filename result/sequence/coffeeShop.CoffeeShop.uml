@@ -1,0 +1,3 @@
+@startuml
+coffeeShop.Barista ->coffeeShop.Resource : makeCoffee(coffeeShop.Coffee, coffeeShop.Resource)
+@enduml

@@ -1,0 +1,89 @@
+@startuml
+/'do Class Define (클래스 정의)'/
+class dataSet.StateNode  
+{
+	java.lang.String code;
+	int id;
+	dataSet.StateNode thenNode;
+	dataSet.StateNode elseNode;
+	java.lang.String key;
+	java.lang.String nextCheck;
+	dataSet.StateNode before;
+}
+
+abstract dataSet.Data_base #back:salmon 
+{
+	java.lang.String name;
+	dataSet.DataList callList;
+	boolean isStatic;
+	dataSet.DataList callByList;
+	dataSet.DataList hasList;
+	java.lang.String modifier;
+	boolean isAbstract;
+}
+
+class dataSet.Class  
+{
+	dataSet.Class[] extendClass;
+	java.lang.String[] extendSrcName;
+	java.lang.String packageSrc;
+	boolean isInterface;
+	java.lang.String[] implementSrcName;
+	boolean isLib;
+	boolean isimplement;
+	dataSet.Class[] implementClass;
+}
+
+class dataSet.DataList #back:salmon 
+{
+	java.util.Map<java.lang.String, dataSet.Member> memberList;
+	java.util.Map<java.lang.String, dataSet.Function> functionList;
+	java.util.Map<java.lang.String, dataSet.Class> classList;
+}
+
+class dataSet.Function  
+{
+	boolean isStatic;
+	dataSet.Data_base owner;
+	java.lang.String[] parameterType;
+	java.lang.String sig;
+	java.lang.String returnType;
+	java.lang.String[] parameterName;
+	dataSet.StateNode headNode;
+}
+
+class dataSet.Member  
+{
+	dataSet.Data_base owner;
+	boolean superMember;
+	java.util.ArrayList<java.lang.String> imageList;
+	java.lang.String typeName;
+	dataSet.Data_base typedef;
+}
+
+/'Class Define (클래스 정의) end'/
+
+/'do Extends Define (상속 관계 정의)'/
+	dataSet.Class-->dataSet.Data_base: dataSet.Class is dataSet.Data_base
+	dataSet.Function-->dataSet.Data_base: dataSet.Function is dataSet.Data_base
+	dataSet.Member-->dataSet.Data_base: dataSet.Member is dataSet.Data_base
+/'Extends Define (상속 관계 정의) end'/
+
+/'do call By Define-Class (클래스-클래스 호출 관계 정의)'/
+	dataSet.StateNode o-- dataSet.StateNode : ref dataSet.StateNode
+	dataSet.Data_base o-- dataSet.Data_base : ref dataSet.Data_base
+	dataSet.Data_base o-- dataSet.Function : ref dataSet.Function
+	dataSet.DataList o-- dataSet.Member : ref dataSet.Member
+	dataSet.DataList o-- dataSet.DataList : ref dataSet.DataList
+	dataSet.DataList o-- dataSet.Function : ref dataSet.Function
+	dataSet.DataList o-- dataSet.Class : ref dataSet.Class
+	dataSet.Function o-- dataSet.Data_base : ref dataSet.Data_base
+	dataSet.Function o-- dataSet.Function : ref dataSet.Function
+	dataSet.Member o-- dataSet.Data_base : ref dataSet.Data_base
+	dataSet.Member o-- dataSet.Class : ref dataSet.Class
+
+
+/'call By Define-Class (클래스-클래스 호출 관계 정의)' end/
+
+
+@enduml

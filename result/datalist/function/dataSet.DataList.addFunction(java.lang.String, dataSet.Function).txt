@@ -1,0 +1,19 @@
+@startuml
+class dataSet.DataList.addFunction(java.lang.String, dataSet.Function){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Function fn (1435229983);
+	String key (139947936);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

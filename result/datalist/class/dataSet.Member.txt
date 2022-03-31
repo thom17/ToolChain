@@ -1,0 +1,55 @@
+@startuml
+class dataSet.Member{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.Data_base owner (1237740254);
+	boolean superMember (1647946662);
+	java.util.ArrayList<java.lang.String> imageList (1046545660);
+	java.lang.String typeName (305502850);
+	dataSet.Data_base typedef (1759482496);
+..method..
+	void setOwner(dataSet.Data_base) (1200906406);
+	void setSuperMember() (1902430796);
+	boolean isSuperMember() (1329315688);
+	void addImage(java.lang.String) (1541697437);
+	String getSrcName() (1611373863);
+	Member Member(java.lang.String, java.lang.String) (945834881);
+	Member Member(java.lang.String, dataSet.Class) (507819576);
+	Member Member(java.lang.String, java.lang.String, dataSet.Data_base) (1939022383);
+	String getTypeName() (1066513687);
+	Data_base getOwner() (1752182275);
+	Member Member(java.lang.String) (833474933);
+	ArrayList<String> getImageList() (2049051802);
+__**<color:blue>calling list</color>**__
+..class..
+	PrintStream (384617262);
+	Data_base (1111613684);
+	Class (157168588);
+	ArrayList (37887172);
+..member..
+	java.lang.String name (1306246648);
+	dataSet.Data_base owner (1237740254);
+	boolean superMember (1647946662);
+	java.lang.String typeName (305502850);
+..method..
+	null add(E) (818493590);
+	null println(java.lang.String) (1503660218);
+	String getName() (71016405);
+	String getSrcName() (2694936);
+__**<color:orange>called by list</color>**__
+..class..
+	DataList (225909961);
+	Member (1154821602);
+..member..
+..method..
+	void setOwner(dataSet.Data_base) (1200906406);
+	void setSuperMember() (1902430796);
+	void addMember(dataSet.Member) (360936478);
+	Member Member(java.lang.String, java.lang.String) (945834881);
+	Member Member(java.lang.String, dataSet.Class) (507819576);
+	Member Member(java.lang.String, java.lang.String, dataSet.Data_base) (1939022383);
+	Member Member(java.lang.String) (833474933);
+}
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+ left to right direction
+
+actor Goods as actor1609124502
+
+actor Shop as actor1144068272
+
+	package shop {
+		usecase setMoney as UC1985836631
+	}
+	actor1144068272 -- UC1985836631
+actor User as actor1948471365
+
+	package java.util {
+		usecase add as UC1636506029
+	}
+	actor1948471365 -- UC1636506029
+	package java.lang {
+		usecase equals as UC758348212
+	}
+	actor1948471365 -- UC758348212
+	package shop {
+		usecase getMoney as UC817978763
+	}
+	actor1948471365 -- UC817978763
+
+@enduml

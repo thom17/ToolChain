@@ -1,0 +1,41 @@
+@startuml
+ left to right direction
+
+actor Parser as actor681747431
+
+	rectangle main{
+	 usecase println as UC1197176722
+	actor681747431--UC1197176722
+	}
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+	rectangle deleteFiles{
+	 usecase delete as UC612716569
+	actor681747431--UC612716569
+	}
+	actor File as actor242408359
+	 UC612716569 -- actor242408359
+	rectangle parsing{
+	 usecase println as UC1197176722
+	actor681747431--UC1197176722
+	 usecase printStackTrace as UC985487390
+	actor681747431--UC985487390
+	 usecase print as UC923013679
+	actor681747431--UC923013679
+	 usecase waitFor as UC1296928719
+	actor681747431--UC1296928719
+	 usecase sleep as UC1628289406
+	actor681747431--UC1628289406
+	}
+	actor Thread as actor1009916891
+	 UC1628289406 -- actor1009916891
+	actor Process as actor503144273
+	 UC1296928719 -- actor503144273
+	actor PrintStream as actor2078239671
+	 UC923013679 -- actor2078239671
+	actor Throwable as actor3392189
+	 UC985487390 -- actor3392189
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+
+@enduml

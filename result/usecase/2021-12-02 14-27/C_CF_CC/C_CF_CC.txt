@@ -1,0 +1,101 @@
+@startuml
+ left to right direction
+
+actor Main as actor550147359
+actor Map as actor1932536213
+actor Dice as actor1863953433
+actor null as actor406375608
+actor Player as actor1815007437
+actor String as actor2107543287
+actor GameSystem as actor295485334
+actor Random as actor252738640
+actor PrintStream as actor1360215046
+	rectangle "GameSystem" as fun549496397{
+	usecase "Map" as UC0
+		actor1932536213--UC0
+		actor295485334--UC0
+	usecase "Player" as UC1
+		actor295485334--UC1
+		actor1815007437--UC1
+	}
+	rectangle "playGame" as fun1163619825{
+	usecase "Player" as UC2
+		actor295485334--UC2
+		actor1815007437--UC2
+	usecase "GameSystem" as UC3
+		actor550147359--UC3
+		actor295485334--UC3
+	}
+	rectangle "nextInt" as fun1667305539{
+	}
+	rectangle "Map" as fun988850650{
+	}
+	rectangle "Player" as fun1870209957{
+	}
+	rectangle "diceSetting" as fun1306246648{
+	usecase "Dice" as UC4
+		actor295485334--UC4
+		actor1863953433--UC4
+	}
+	rectangle "main" as fun1063737662{
+	usecase "GameSystem" as UC5
+		actor550147359--UC5
+		actor295485334--UC5
+	}
+	rectangle "Dice" as fun149225732{
+	}
+	rectangle "choiceDice" as fun68857875{
+	usecase "Player" as UC6
+		actor295485334--UC6
+		actor1815007437--UC6
+	usecase "PrintStream" as UC7
+		actor295485334--UC7
+	usecase "GameSystem" as UC8
+		actor550147359--UC8
+		actor295485334--UC8
+	}
+	rectangle "diceRoll" as fun348055829{
+	usecase "Dice" as UC9
+		actor295485334--UC9
+		actor1863953433--UC9
+	}
+	rectangle "move" as fun286649365{
+	usecase "Player" as UC10
+		actor295485334--UC10
+		actor1815007437--UC10
+	usecase "Map" as UC11
+		actor1932536213--UC11
+		actor295485334--UC11
+	usecase "PrintStream" as UC12
+		actor295485334--UC12
+	}
+	rectangle "getPos" as fun1424698224{
+	}
+	rectangle "getSize" as fun71016405{
+	}
+	rectangle "println" as fun1899141525{
+	}
+	rectangle "print" as fun1989132530{
+	}
+	rectangle "println" as fun1414845278{
+	}
+	rectangle "printPos" as fun447767121{
+	usecase "Player" as UC13
+		actor295485334--UC13
+		actor1815007437--UC13
+	usecase "Map" as UC14
+		actor1932536213--UC14
+		actor295485334--UC14
+	usecase "PrintStream" as UC15
+		actor295485334--UC15
+	}
+	rectangle "roll" as fun937744315{
+	usecase "Random" as UC16
+		actor1863953433--UC16
+	}
+	rectangle "getEvent" as fun2044482328{
+	}
+	rectangle "setPos" as fun1168340825{
+	}
+
+@enduml

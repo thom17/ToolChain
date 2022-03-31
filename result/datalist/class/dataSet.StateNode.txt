@@ -1,0 +1,56 @@
+@startuml
+class dataSet.StateNode{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	java.lang.String code (1845517769);
+	int id (2095788421);
+	dataSet.StateNode thenNode (1131184547);
+	dataSet.StateNode elseNode (895599632);
+	java.lang.String key (1508059488);
+	java.lang.String nextCheck (2082557120);
+	dataSet.StateNode before (1533524862);
+..method..
+	String getObjectKey() (1620948294);
+	StateNode setThen(dataSet.StateNode) (552937500);
+	StateNode StateNode(java.lang.String, java.lang.String) (1455695758);
+	StateNode setElse(dataSet.StateNode) (807328355);
+	String getCode() (1025797795);
+	StateNode init(java.lang.String, java.lang.String, java.lang.String) (873993427);
+	StateNode StateNode() (1134013833);
+	StateNode StateNode(java.lang.String) (94157402);
+	void setBefore(dataSet.StateNode) (466853180);
+	StateNode getBefore() (1863953433);
+	String getKey() (295485334);
+	String getCondition() (1899141525);
+	StateNode StateNode(java.lang.String, java.lang.String, java.lang.String) (1989132530);
+	StateNode getElse() (1414845278);
+	StateNode getThen() (549496397);
+__**<color:blue>calling list</color>**__
+..class..
+	StateNode (1163619825);
+..member..
+	java.lang.String code (1845517769);
+	dataSet.StateNode thenNode (1131184547);
+	dataSet.StateNode elseNode (895599632);
+	java.lang.String key (1508059488);
+	java.lang.String nextCheck (2082557120);
+	dataSet.StateNode before (1533524862);
+..method..
+	void setBefore(dataSet.StateNode) (466853180);
+__**<color:orange>called by list</color>**__
+..class..
+	StateNode (1163619825);
+..member..
+..method..
+	StateNode init(java.lang.String, java.lang.String, java.lang.String) (873993427);
+	StateNode setThen(dataSet.StateNode) (552937500);
+	StateNode StateNode() (1134013833);
+	StateNode StateNode(java.lang.String, java.lang.String) (1455695758);
+	void setBefore(dataSet.StateNode) (466853180);
+	StateNode StateNode(java.lang.String) (94157402);
+	StateNode setElse(dataSet.StateNode) (807328355);
+	StateNode StateNode(java.lang.String, java.lang.String, java.lang.String) (1989132530);
+}
+
+@enduml

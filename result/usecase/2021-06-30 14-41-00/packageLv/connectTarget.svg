@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="335px" preserveAspectRatio="none" style="width:205px;height:335px;" version="1.1" viewBox="0 0 205 335" width="205px" zoomAndPan="magnify"><defs><filter height="300%" id="fhzu8y3gpkbtm" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[96cb5ba73e1a787dabda12a2bbaf8f21]
+cluster connectTarget--><polygon fill="#FFFFFF" filter="url(#fhzu8y3gpkbtm)" points="69.5,108.5,177.5,108.5,184.5,133.7295,188.5,133.7295,188.5,323.5,69.5,323.5,69.5,108.5" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="69.5" x2="184.5" y1="133.7295" y2="133.7295"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="102" x="73.5" y="126.6533">connectTarget</text><ellipse cx="128.8197" cy="227.2557" fill="#FEFECE" filter="url(#fhzu8y3gpkbtm)" rx="18.3197" ry="15.2557" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="19" x="119.3197" y="233.3705">AC</text><ellipse cx="129.2205" cy="162.2764" fill="#FEFECE" filter="url(#fhzu8y3gpkbtm)" rx="17.7205" ry="14.7764" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="17" x="120.7205" y="168.3911">Ab</text><ellipse cx="129.2205" cy="292.2764" fill="#FEFECE" filter="url(#fhzu8y3gpkbtm)" rx="17.7205" ry="14.7764" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="17" x="120.7205" y="298.3911">Ba</text><!--MD5=[0f6c8bf22f39dcb5de44ee4630179fe0]
+entity actor222511810--><ellipse cx="19" cy="133" fill="#FEFECE" filter="url(#fhzu8y3gpkbtm)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M19,141 L19,168 M6,149 L32,149 M19,168 L6,183 M19,168 L32,183 " fill="none" filter="url(#fhzu8y3gpkbtm)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="9" x="14.5" y="204.6533">A</text><!--MD5=[239f29b0c64d61796a01382954594817]
+entity actor1457410641--><ellipse cx="19" cy="255" fill="#FEFECE" filter="url(#fhzu8y3gpkbtm)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M19,263 L19,290 M6,271 L32,271 M19,290 L6,305 M19,290 L32,305 " fill="none" filter="url(#fhzu8y3gpkbtm)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="9" x="14.5" y="326.6533">B</text><!--MD5=[60df17a35ab7ebfe883bd3dd00a123e7]
+entity actor313540687--><ellipse cx="19" cy="14" fill="#FEFECE" filter="url(#fhzu8y3gpkbtm)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M19,22 L19,49 M6,30 L32,30 M19,49 L6,64 M19,49 L32,64 " fill="none" filter="url(#fhzu8y3gpkbtm)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="10" x="14" y="85.6533">C</text><!--MD5=[2e35badb00407b642ec528d41f0297b8]
+link actor222511810 to UC373182087--><path d="M33.3351,165.095 C53.5083,164.545 89.5327,163.563 111.002,162.977 " fill="none" id="actor222511810-UC373182087" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[af0c374098e23edef26f9d8de7242e73]
+link actor222511810 to UC733943822--><path d="M33.2279,176.672 C41.3529,182.603 51.7463,189.82 61.5,195.5 C78.0973,205.166 98.0713,214.421 111.869,220.468 " fill="none" id="actor222511810-UC733943822" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6324d7ceccabb8b119a473f62e53400d]
+link actor1457410641 to UC1100767002--><path d="M33.3351,288.1743 C53.5083,289.0913 89.5327,290.7288 111.002,291.7046 " fill="none" id="actor1457410641-UC1100767002" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[03accf6d2397cbb521be6154d6d24bd1]
+link actor1457410641 to UC733943822--><path d="M33.0014,277.8721 C41.2339,272.5394 51.8021,265.9141 61.5,260.5 C78.4823,251.0192 98.5661,241.3191 112.286,234.912 " fill="none" id="actor1457410641-UC733943822" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6caff412b06965f484baaff7537f542f]
+@startuml
+ left to right direction
+
+actor A as actor222511810
+
+	package connectTarget {
+		usecase AC as UC733943822
+		usecase Ab as UC373182087
+	}
+	actor222511810 - - UC373182087
+	actor222511810 - - UC733943822
+actor B as actor1457410641
+
+	package connectTarget {
+		usecase AC as UC733943822
+		usecase Ba as UC1100767002
+	}
+	actor1457410641 - - UC1100767002
+	actor1457410641 - - UC733943822
+actor C as actor313540687
+
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

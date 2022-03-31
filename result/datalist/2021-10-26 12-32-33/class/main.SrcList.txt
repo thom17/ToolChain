@@ -1,0 +1,37 @@
+@startuml
+class "main.SrcList" as cl1{
+__**<color:green>has list</color>**__
+..class..
+	String (917277283);
+..member..
+	String path (485475507);
+	String snavigator (724028528);
+	String dbdump (1869247587);
+	String sndb (467313213);
+	String plantuml (2045913001);
+	String filelist (1822630059);
+	String snProject (1356236848);
+..method..
+	void makeTargetList() (508760925);
+	void main(java.lang.String[]) (1987354705);
+__**<color:blue>calling list</color>**__
+..class..
+	Writer (1290614253);
+	OutputStreamWriter (740467528);
+	SrcList (1002041276);
+	PrintStream (2078239671);
+..member..
+..method..
+	null write(java.lang.String) (1748097277);
+	null close() (668760567);
+	void makeTargetList() (508760925);
+	null println(java.lang.String) (1197176722);
+__**<color:orange>called by list</color>**__
+..class..
+	SrcList (1002041276);
+..member..
+..method..
+	void main(java.lang.String[]) (1987354705);
+}
+
+@enduml

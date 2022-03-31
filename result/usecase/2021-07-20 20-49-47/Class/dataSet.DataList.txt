@@ -1,0 +1,21 @@
+@startuml
+ left to right direction
+
+actor DataList as actor188193734
+
+	rectangle addData{
+	 usecase getSrcName as UC115
+	actor188193734--UC115
+	}
+actor getSrcName as actor628694336
+UC115--actor628694336
+
+	rectangle separatePackage{
+	 usecase add as UC116
+	actor188193734--UC116
+	}
+actor add as actor1479446866
+UC116--actor1479446866
+
+
+@enduml

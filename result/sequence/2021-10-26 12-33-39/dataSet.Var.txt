@@ -1,0 +1,7 @@
+@startuml
+group Var Var(dataSet.Class, java.lang.String)
+	Var->Class : getName()
+		Class-->Var
+end
+
+@enduml

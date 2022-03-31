@@ -1,0 +1,379 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 9
+	extendsClassScore = 0
+	callScore = 113
+	callByScore = 113
+	methodNum = 11
+	memberNum = 5
+	constructorNum = 0
+	selfCoverage = 7
+	needCallBy = 9
+	ABS = 220
+	REL = 13
+	ABS = 220
+	REL = 13
+	coverage = 43.0%
+__**<color:green>has list</color>**__
+	<color:green>java.lang.String[] skipMember (2)
+	<color:green>java.lang.String[] skipClass (2)
+	<color:green>java.lang.String[] skipKey (2)
+	<color:green>int funNum (1)
+	<color:green>java.util.ArrayList<dataSet.stateNode.StateNode> nodelist (2)
+	<color:orange>void main(java.lang.String[]) (8)
+	<color:red>void main(dataSet.DataList) (10)
+	<color:orange>void makeFile(java.lang.String, java.lang.String) (8)
+	<color:orange>boolean checkSkipList(java.lang.String, java.lang.String[]) (6)
+	<color:red>String makeScript(dataSet.DataList) (9)
+	<color:red>void makeMemberInfo(dataSet.Class, java.lang.StringBuilder) (10)
+	<color:red>void makeFunctionInfo(dataSet.Class, java.lang.StringBuilder) (9)
+	<color:orange>String getColor(dataSet.stateNode.StateNode) (8)
+	<color:orange>StateNode nextThen(java.lang.String[], dataSet.stateNode.StateNode) (7)
+	<color:red>StateNode nextElse(java.lang.String[], dataSet.stateNode.StateNode) (10)
+	<color:red>void makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder) (13)
+}
+
+class diagram.ForQuiz4.main1091233196 as "main(java.lang.String[])" 
+{
+	pram : (java.lang.String[] )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.main(java.lang.String[])
+	Sig : main(java.lang.String[])
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 6
+	CallBy Score : 3
+	memberUse Score : 1
+	localValue Score : 2
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 8
+	cyclomatic : 1
+	State Node lineNum: 3
+	State Node Num : 0
+	State Node callListSize: 3
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 35.161259458730164
+	Volume : 66.60791492653966
+	Diffifculty: 3.5
+	Effort : 233.12770224288883
+	ABS Score : 8
+	Relative Score : 8
+}
+class diagram.ForQuiz4.main445509811 as "main(dataSet.DataList)"#back:salmon 
+{
+	pram : (dataSet.DataList )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.main(dataSet.DataList)
+	Sig : main(dataSet.DataList)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 8
+	CallBy Score : 3
+	memberUse Score : 3
+	localValue Score : 3
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 14
+	cyclomatic : 1
+	State Node lineNum: 7
+	State Node Num : 0
+	State Node callListSize: 5
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 81.07329781366415
+	Volume : 176.41891628622352
+	Diffifculty: 6.416666666666667
+	Effort : 1132.0213795032676
+	ABS Score : 10
+	Relative Score : 5
+}
+class diagram.ForQuiz4.makeFile2081501023 as "makeFile(java.lang.String, java.lang.String)" 
+{
+	pram : (java.lang.String java.lang.String )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.makeFile(java.lang.String, java.lang.String)
+	Sig : makeFile(java.lang.String, java.lang.String)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 6
+	CallBy Score : 5
+	memberUse Score : 1
+	localValue Score : 4
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 9
+	cyclomatic : 1
+	State Node lineNum: 4
+	State Node Num : 0
+	State Node callListSize: 2
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 39.302968908806456
+	Volume : 98.9912279734977
+	Diffifculty: 6.5
+	Effort : 643.442981827735
+	ABS Score : 8
+	Relative Score : 8
+}
+class diagram.ForQuiz4.checkSkipList1499588909 as "checkSkipList(java.lang.String, java.lang.String[])" 
+{
+	pram : (java.lang.String java.lang.String[] )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.checkSkipList(java.lang.String, java.lang.String[])
+	Sig : checkSkipList(java.lang.String, java.lang.String[])
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 3
+	classCall Score : 3
+	Call Score : 3
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 2
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 5
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 12.754887502163468
+	Volume : 36.49561398674886
+	Diffifculty: 3.0
+	Effort : 109.48684196024658
+	ABS Score : 6
+	Relative Score : 6
+}
+class diagram.ForQuiz4.makeScript1339052072 as "makeScript(dataSet.DataList)"#back:salmon 
+{
+	pram : (dataSet.DataList )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.makeScript(dataSet.DataList)
+	Sig : makeScript(dataSet.DataList)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 7
+	CallBy Score : 5
+	memberUse Score : 2
+	localValue Score : 3
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 8
+	cyclomatic : 1
+	State Node lineNum: 13
+	State Node Num : 0
+	State Node callListSize: 3
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 122.78983721006222
+	Volume : 331.93115279592064
+	Diffifculty: 10.294117647058824
+	Effort : 3416.9383376050655
+	ABS Score : 9
+	Relative Score : 9
+}
+class diagram.ForQuiz4.makeMemberInfo976042249 as "makeMemberInfo(dataSet.Class, java.lang.StringBuilder)"#back:salmon 
+{
+	pram : (dataSet.Class java.lang.StringBuilder )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.makeMemberInfo(dataSet.Class, java.lang.StringBuilder)
+	Sig : makeMemberInfo(dataSet.Class, java.lang.StringBuilder)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 4
+	classCall Score : 3
+	Call Score : 6
+	CallBy Score : 3
+	memberUse Score : 1
+	localValue Score : 5
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 8
+	cyclomatic : 1
+	State Node lineNum: 19
+	State Node Num : 0
+	State Node callListSize: 4
+	State Node repeatSize : 0
+	State Node writeSize : 3
+	State Node bifurSize : 1
+	Calculated Estunated Program Length: 223.0669539232489
+	Volume : 636.6857250822118
+	Diffifculty: 13.435483870967742
+	Effort : 8554.180790217459
+	ABS Score : 10
+	Relative Score : 10
+}
+class diagram.ForQuiz4.makeFunctionInfo1337168580 as "makeFunctionInfo(dataSet.Class, java.lang.StringBuilder)"#back:salmon 
+{
+	pram : (dataSet.Class java.lang.StringBuilder )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.makeFunctionInfo(dataSet.Class, java.lang.StringBuilder)
+	Sig : makeFunctionInfo(dataSet.Class, java.lang.StringBuilder)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 4
+	classCall Score : 3
+	Call Score : 5
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 3
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 4
+	cyclomatic : 1
+	State Node lineNum: 9
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 112.10571633583419
+	Volume : 296.3368407027819
+	Diffifculty: 8.9375
+	Effort : 2648.5105137811133
+	ABS Score : 9
+	Relative Score : 9
+}
+class diagram.ForQuiz4.getColor424489630 as "getColor(dataSet.stateNode.StateNode)" 
+{
+	pram : (dataSet.stateNode.StateNode )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.getColor(dataSet.stateNode.StateNode)
+	Sig : getColor(dataSet.stateNode.StateNode)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 6
+	CallBy Score : 2
+	memberUse Score : 1
+	localValue Score : 3
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 3
+	cyclomatic : 1
+	State Node lineNum: 18
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 6
+	State Node bifurSize : 6
+	Calculated Estunated Program Length: 88.0
+	Volume : 233.83308753677895
+	Diffifculty: 6.75
+	Effort : 1578.3733408732578
+	ABS Score : 8
+	Relative Score : 8
+}
+class diagram.ForQuiz4.nextThen1423007887 as "nextThen(java.lang.String[], dataSet.stateNode.StateNode)" 
+{
+	pram : (java.lang.String[] dataSet.stateNode.StateNode )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.nextThen(java.lang.String[], dataSet.stateNode.StateNode)
+	Sig : nextThen(java.lang.String[], dataSet.stateNode.StateNode)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 4
+	classCall Score : 3
+	Call Score : 3
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 2
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 2
+	cyclomatic : 1
+	State Node lineNum: 4
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 41.219280948873624
+	Volume : 76.14709844115208
+	Diffifculty: 10.0
+	Effort : 761.4709844115208
+	ABS Score : 7
+	Relative Score : 7
+}
+class diagram.ForQuiz4.nextElse132644461 as "nextElse(java.lang.String[], dataSet.stateNode.StateNode)"#back:salmon 
+{
+	pram : (java.lang.String[] dataSet.stateNode.StateNode )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.nextElse(java.lang.String[], dataSet.stateNode.StateNode)
+	Sig : nextElse(java.lang.String[], dataSet.stateNode.StateNode)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 4
+	classCall Score : 3
+	Call Score : 6
+	CallBy Score : 2
+	memberUse Score : 1
+	localValue Score : 2
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 5
+	cyclomatic : 1
+	State Node lineNum: 5
+	State Node Num : 0
+	State Node callListSize: 2
+	State Node repeatSize : 0
+	State Node writeSize : 2
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 46.053747805010275
+	Volume : 97.67226489021297
+	Diffifculty: 12.375
+	Effort : 1208.6942780163856
+	ABS Score : 10
+	Relative Score : 10
+}
+class diagram.ForQuiz4.makeExpInfo1410431463 as "makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder)"#back:salmon 
+{
+	pram : (dataSet.stateNode.StateNode java.lang.StringBuilder )
+	SrcOwnClassName : diagram.ForQuiz4
+	SrcSig : diagram.ForQuiz4.makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder)
+	Sig : makeExpInfo(dataSet.stateNode.StateNode, java.lang.StringBuilder)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 4
+	classCall Score : 3
+	Call Score : 9
+	CallBy Score : 3
+	memberUse Score : 4
+	localValue Score : 8
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 17
+	cyclomatic : 1
+	State Node lineNum: 24
+	State Node Num : 0
+	State Node callListSize: 12
+	State Node repeatSize : 0
+	State Node writeSize : 2
+	State Node bifurSize : 4
+	Calculated Estunated Program Length: 190.48048688705853
+	Volume : 813.9397132053147
+	Diffifculty: 24.347826086956523
+	Effort : 19817.662582390272
+	ABS Score : 13
+	Relative Score : 3
+}
+
+@enduml

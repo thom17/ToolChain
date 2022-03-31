@@ -1,0 +1,93 @@
+@startuml
+group void main(java.lang.String[])
+	GraphStructure->Runtime : exec(java.lang.String)
+		Runtime-->GraphStructure
+	GraphStructure->Runtime : getRuntime()
+		Runtime-->GraphStructure
+	GraphStructure->Process : waitFor()
+		Process-->GraphStructure
+	GraphStructure->PrintStream : println(java.lang.String)
+		PrintStream-->GraphStructure
+end
+
+group void main(dataSet.DataList)
+	GraphStructure->PrintStream : println(java.lang.String)
+		PrintStream-->GraphStructure
+	GraphStructure->GraphStructure : makeFile(java.lang.String, java.lang.String)
+	GraphStructure->Process : waitFor()
+		Process-->GraphStructure
+end
+
+group void makeFile(java.lang.String, java.lang.String)
+	GraphStructure->Writer : write(java.lang.String)
+		Writer-->GraphStructure
+	GraphStructure->OutputStreamWriter : close()
+		OutputStreamWriter-->GraphStructure
+end
+
+group String makeGraphScript(dataSet.DataList)
+	GraphStructure->StringBuilder : append(java.lang.String)
+		StringBuilder-->GraphStructure
+	GraphStructure->GraphStructure : classDef(dataSet.Class, java.lang.StringBuilder)
+	GraphStructure->DataList : getClassList()
+		DataList-->GraphStructure
+	GraphStructure->GraphStructure : functionDef(dataSet.Function, java.lang.StringBuilder)
+	GraphStructure->DataList : getFunctionList()
+		DataList-->GraphStructure
+	GraphStructure->GraphStructure : memberDef(dataSet.Member, java.lang.StringBuilder)
+	GraphStructure->DataList : getMemberList()
+		DataList-->GraphStructure
+	GraphStructure->GraphStructure : classExtends(dataSet.Class, java.lang.StringBuilder)
+	GraphStructure->StringBuilder : toString()
+		StringBuilder-->GraphStructure
+end
+
+group void classExtends(dataSet.Class, java.lang.StringBuilder)
+	GraphStructure->StringBuilder : append(java.lang.String)
+		StringBuilder-->GraphStructure
+	GraphStructure->Data_base : getName()
+		Data_base-->GraphStructure
+end
+
+group void addListSize(dataSet.Data_base, java.lang.String, java.lang.StringBuilder)
+	GraphStructure->StringBuilder : append(java.lang.String)
+		StringBuilder-->GraphStructure
+end
+
+group void classDef(dataSet.Class, java.lang.StringBuilder)
+	GraphStructure->StringBuilder : append(java.lang.String)
+		StringBuilder-->GraphStructure
+	GraphStructure->GraphStructure : addListSize(dataSet.Data_base, java.lang.String, java.lang.StringBuilder)
+end
+
+group int addList(java.lang.String, java.lang.String, java.lang.String, dataSet.DataList, java.lang.StringBuilder)
+	GraphStructure->StringBuilder : append(java.lang.String)
+		StringBuilder-->GraphStructure
+	GraphStructure->GraphStructure : getHash(dataSet.Data_base)
+	GraphStructure->DataList : getClassList()
+		DataList-->GraphStructure
+	GraphStructure->DataList : getMemberList()
+		DataList-->GraphStructure
+	GraphStructure->DataList : getFunctionList()
+		DataList-->GraphStructure
+end
+
+group void functionDef(dataSet.Function, java.lang.StringBuilder)
+	GraphStructure->StringBuilder : append(java.lang.String)
+		StringBuilder-->GraphStructure
+	GraphStructure->Data_base : getName()
+		Data_base-->GraphStructure
+	GraphStructure->GraphStructure : addListSize(dataSet.Data_base, java.lang.String, java.lang.StringBuilder)
+end
+
+group void memberDef(dataSet.Member, java.lang.StringBuilder)
+	GraphStructure->StringBuilder : append(java.lang.String)
+		StringBuilder-->GraphStructure
+	GraphStructure->Data_base : getName()
+		Data_base-->GraphStructure
+	GraphStructure->Member : getImageList()
+		Member-->GraphStructure
+	GraphStructure->GraphStructure : addListSize(dataSet.Data_base, java.lang.String, java.lang.StringBuilder)
+end
+
+@enduml

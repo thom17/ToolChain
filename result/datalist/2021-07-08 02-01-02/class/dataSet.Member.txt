@@ -1,0 +1,74 @@
+@startuml
+class dataSet.Member{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Data_base owner (1627160387);
+	ArrayList<String> imageList (383882703);
+	Data_base typedef (840095827);
+	String typeName (1959219756);
+	boolean superMember (2009218448);
+..method..
+	Member Member(java.lang.String) (1153152966);
+	Member Member(java.lang.String, java.lang.String) (591589887);
+	Member Member(java.lang.String, dataSet.Class) (855894174);
+	Member Member(java.lang.String, java.lang.String, dataSet.Data_base) (216815884);
+	void addHas(dataSet.Data_base) (1914684131);
+	void addCallBy(dataSet.Data_base) (359713488);
+	void addCall(dataSet.Data_base) (554241160);
+	int getMemberScore(dataSet.Member) (1830261066);
+	void setSuperMember() (1231232251);
+	boolean isSuperMember() (125530569);
+	ArrayList<String> getImageList() (1630790155);
+	void addImage(java.lang.String) (822063782);
+	String getTypeName() (1218734863);
+	String getSrcName() (224544559);
+	Data_base getOwner() (1630205062);
+	String getPackageName() (1671973814);
+	Complex getComplex() (1023620179);
+__**<color:blue>calling list</color>**__
+..class..
+	DataList (1258120701);
+	Data_base (337295973);
+	ArrayList (2041386868);
+..member..
+	String name (101319115);
+	boolean superMember (2009218448);
+	String typeName (1959219756);
+	Data_base owner (1627160387);
+..method..
+	void addData(dataSet.Data_base) (5313207);
+	void addCallBy(dataSet.Data_base) (1182725120);
+	void addCall(dataSet.Data_base) (335436727);
+	null add(E) (105856166);
+	String getSrcName() (589423746);
+	String getPackageName() (1374688565);
+__**<color:orange>called by list</color>**__
+..class..
+	Complex (2068103096);
+	Member (861339480);
+	ForMidEx (1089579669);
+	ForQuiz2 (955581180);
+	ForQuiz3 (108798399);
+	ForQuiz4 (1739581705);
+	DataListDiagram (477239455);
+	Test_Visitor (348026124);
+..member..
+..method..
+	int getMemberScore(dataSet.Data_base) (711964207);
+	Member Member(java.lang.String) (1153152966);
+	Member Member(java.lang.String, java.lang.String) (591589887);
+	Member Member(java.lang.String, dataSet.Class) (855894174);
+	Member Member(java.lang.String, java.lang.String, dataSet.Data_base) (216815884);
+	void setSuperMember() (1231232251);
+	void print(dataSet.DataList) (1485318803);
+	void makeMemberInfo(dataSet.Class, java.lang.StringBuilder) (1138670146);
+	void makeMemberInfo(dataSet.Class, java.lang.StringBuilder) (242833949);
+	void makeMemberInfo(dataSet.Class, java.lang.StringBuilder) (952172944);
+	void addList(dataSet.DataList, java.lang.StringBuilder) (429462686);
+	void fieldDeclaration(org.eclipse.jdt.core.dom.FieldDeclaration, dataSet.Data_base) (663317819);
+	void assignment(org.eclipse.jdt.core.dom.Expression, dataSet.Function) (1866142672);
+	void variableDeclarationStatement(org.eclipse.jdt.core.dom.Statement, dataSet.Function) (483248042);
+}
+
+@enduml

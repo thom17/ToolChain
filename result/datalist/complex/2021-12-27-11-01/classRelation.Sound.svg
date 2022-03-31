@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="534px" preserveAspectRatio="none" style="width:431px;height:534px;" version="1.1" viewBox="0 0 431 534" width="431px" zoomAndPan="magnify"><defs><filter height="300%" id="f1nqsw7y0iie25" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3da3e1310c06d3896651774eb3dd7aca]
+cluster classRelation.Sound--><polygon fill="#FFFFFF" filter="url(#f1nqsw7y0iie25)" points="150.5,6,299.5,6,306.5,31.2295,414.5,31.2295,414.5,527,150.5,527,150.5,6" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="150.5" x2="306.5" y1="31.2295" y2="31.2295"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="154.5" y="24.1533">classRelation.Sound</text><!--MD5=[a4cdfc7dc4194248326c23851d9f447f]
+class classRelation.Sound.Sound1422238463--><rect codeLine="20" fill="#FEFECE" filter="url(#f1nqsw7y0iie25)" height="467.0488" id="classRelation.Sound.Sound1422238463" style="stroke: #008000; stroke-width: 1.5;" width="231" x="167" y="44"/><ellipse cx="249.75" cy="60" fill="#ADD1B2" rx="11" ry="11" style="stroke: #008000; stroke-width: 1.0;"/><path d="M249.5781,53.4844 Q247.7031,53.4844 246.5469,55.2344 Q245.3594,57.0156 245.3594,60.0156 Q245.3594,63.3906 246.5625,65.1563 Q247.625,66.7813 249.375,66.7813 Q251.0625,66.7813 252.0156,65.875 Q253.0781,64.8594 253.2188,62.625 Q253.2188,62.2031 252.9844,61.9688 Q252.7969,61.7344 252.4531,61.7031 Q252.125,61.7031 251.8906,61.8906 Q251.625,62.125 251.625,62.5156 Q251.5938,63.9063 251,64.6406 Q250.4688,65.3438 249.5156,65.3438 Q248.3594,65.3438 247.6406,63.9063 Q246.9219,62.4063 246.9219,59.9844 Q246.9219,57.4375 247.8125,56.0469 Q248.5625,54.9219 249.7031,54.9219 Q250.3594,54.9219 250.8594,55.4688 Q251.4219,56.0781 251.5469,57.1406 Q251.5938,57.8438 252.4219,57.7344 Q253.2031,57.625 253.1563,56.9375 Q252.9688,55.4219 252.2031,54.5469 Q251.2656,53.4844 249.5781,53.4844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="270.25" y="65.6045">Sound(int)</text><line style="stroke: #008000; stroke-width: 1.5;" x1="168" x2="397" y1="76" y2="76"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="55" x="173" y="92.6919">pram : (int )</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="202" x="173" y="107.8008">SrcOwnClassName : classRelation.Sound</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="192" x="173" y="122.9097">SrcSig : classRelation.Sound.Sound(int)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="173" y="138.0186">Sig : Sound(int)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="173" y="172.2363">parameter Score : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="173" y="187.3452">classCall Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="173" y="202.4541">Call Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="173" y="217.563">CallBy Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="104" x="173" y="232.6719">memberUse Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="173" y="247.7808">localValue Score : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="173" y="262.8896">exp Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="173" y="277.9985">repeat Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="81" x="173" y="293.1074">brench Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="173" y="308.2163">callCountNum : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="173" y="323.3252">cyclomatic : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="173" y="338.4341">State Node lineNum: 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="173" y="353.543">State Node Num : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="122" x="173" y="368.6519">State Node callListSize: 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="123" x="173" y="383.7607">State Node repeatSize : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="117" x="173" y="398.8696">State Node writeSize : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="114" x="173" y="413.9785">State Node bifurSize : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="219" x="173" y="429.0874">Calculated Estunated Program Length: 4.7549</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="173" y="444.1963">Volume : 10</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="173" y="459.3052">Diffifculty: 3</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="48" x="173" y="474.4141">Effort : 30</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="173" y="489.5229">ABS Score : 3</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85" x="173" y="504.6318">Relative Score : 3</text><line style="stroke: #008000; stroke-width: 1.5;" x1="168" x2="246" y1="151.99" y2="151.99"/><text fill="#FFA500" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="246" y="156.6274">Complex Info</text><line style="stroke: #008000; stroke-width: 1.5;" x1="319" x2="397" y1="151.99" y2="151.99"/><!--MD5=[f04bc90bf33944b7fab332a83ab18852]
+class ClassComplex--><rect codeLine="1" fill="#FEFECE" filter="url(#f1nqsw7y0iie25)" height="289.7422" id="ClassComplex" style="stroke: #A80036; stroke-width: 1.5;" width="125" x="7" y="132.5"/><ellipse cx="26.95" cy="148.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M26.7781,141.9844 Q24.9031,141.9844 23.7469,143.7344 Q22.5594,145.5156 22.5594,148.5156 Q22.5594,151.8906 23.7625,153.6563 Q24.825,155.2813 26.575,155.2813 Q28.2625,155.2813 29.2156,154.375 Q30.2781,153.3594 30.4188,151.125 Q30.4188,150.7031 30.1844,150.4688 Q29.9969,150.2344 29.6531,150.2031 Q29.325,150.2031 29.0906,150.3906 Q28.825,150.625 28.825,151.0156 Q28.7938,152.4063 28.2,153.1406 Q27.6688,153.8438 26.7156,153.8438 Q25.5594,153.8438 24.8406,152.4063 Q24.1219,150.9063 24.1219,148.4844 Q24.1219,145.9375 25.0125,144.5469 Q25.7625,143.4219 26.9031,143.4219 Q27.5594,143.4219 28.0594,143.9688 Q28.6219,144.5781 28.7469,145.6406 Q28.7938,146.3438 29.6219,146.2344 Q30.4031,146.125 30.3563,145.4375 Q30.1688,143.9219 29.4031,143.0469 Q28.4656,141.9844 26.7781,141.9844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="42.05" y="154.1045">ClassComplex</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="131" y1="164.5" y2="164.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="13" y="200.3008">memberScor = 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="13" y="215.4097">extendsClassScore = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="13" y="230.5186">callScore = 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="13" y="245.6274">callByScore = 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="13" y="260.7363">methodNum = 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="13" y="275.8452">memberNum = 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="95" x="13" y="290.9541">constructorNum = 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="13" y="306.063">selfCoverage = 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="13" y="321.1719">needCallBy = 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="13" y="336.2808">ABS = 5</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="37" x="13" y="351.3896">REL = 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="13" y="366.4985">coverage = 50.0%</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="33" y1="180.0544" y2="180.0544"/><text fill="#FFA500" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="33" y="184.6919">Complex Info</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="106" x2="131" y1="180.0544" y2="180.0544"/><text fill="#008000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="13" y="400.7163">int volume (1)</text><text fill="#008000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="13" y="415.8252">new Sound(int) (3)</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="49.5" y1="380.47" y2="380.47"/><text fill="#008000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="49.5" y="385.1074">has list</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="89.5" x2="131" y1="380.47" y2="380.47"/><!--MD5=[71f3ecab5bb0174465e5f8ecabc4a470]
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 1
+	extendsClassScore = 0
+	callScore = 1
+	callByScore = 1
+	methodNum = 1
+	memberNum = 1
+	constructorNum = 1
+	selfCoverage = 1
+	needCallBy = 1
+	ABS = 5
+	REL = 2
+	coverage = 50.0%
+__**<color:green>has list</color>**__
+	<color:green>int volume (1)
+	<color:green>new Sound(int) (3)
+}
+
+class classRelation.Sound.Sound1422238463 as "Sound(int)"#line:green 
+{
+	pram : (int )
+	SrcOwnClassName : classRelation.Sound
+	SrcSig : classRelation.Sound.Sound(int)
+	Sig : Sound(int)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 2
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 4.7549
+	Volume : 10
+	Diffifculty: 3
+	Effort : 30
+	ABS Score : 3
+	Relative Score : 3
+}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

@@ -1,0 +1,59 @@
+@startuml
+ left to right direction
+
+actor Dice as actor90767234
+actor GameSystem as actor1355457888
+rectangle PrintStream{
+	usecase println as UC707161353
+		actor1355457888 -- UC707161353
+	usecase print as UC1522132780
+		actor1355457888 -- UC1522132780
+	usecase println as UC409962262
+		actor1355457888 -- UC409962262
+}
+rectangle GameSystem{
+	usecase GameSystem as UC495702238
+	usecase playGame as UC73181251
+	usecase diceSetting as UC298430307
+		actor1355457888 -- UC298430307
+	usecase main as UC1970982267
+		actor1355457888 -- UC1970982267
+	usecase printPos as UC917831210
+		actor1355457888 -- UC917831210
+	usecase choiceDice as UC1464555023
+		actor1355457888 -- UC1464555023
+	usecase diceRoll as UC195381554
+		actor1355457888 -- UC195381554
+	usecase move as UC681008168
+		actor1355457888 -- UC681008168
+	usecase printResult as UC960733886
+	usecase gameEnd as UC875917495
+}
+rectangle Map{
+	usecase Map as UC360207322
+		actor1355457888 -- UC360207322
+	usecase getSize as UC119290689
+		actor1355457888 -- UC119290689
+	usecase getEvent as UC594427726
+		actor1355457888 -- UC594427726
+}
+rectangle Dice{
+	usecase Dice as UC1019298652
+		actor1355457888 -- UC1019298652
+	usecase roll as UC1810899357
+		actor1355457888 -- UC1810899357
+}
+rectangle Player{
+	usecase Player as UC231786897
+		actor1355457888 -- UC231786897
+	usecase getName as UC1595282218
+	usecase getPos as UC1778081847
+		actor1355457888 -- UC1778081847
+	usecase setPos as UC57497692
+		actor1355457888 -- UC57497692
+}
+rectangle Random{
+	usecase nextInt as UC142247393
+		actor90767234 -- UC142247393
+}
+@enduml

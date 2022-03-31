@@ -1,0 +1,25 @@
+@startuml
+class "hongik.selab.parser.java.JavaParser.parser" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+	null setKind(int) (1712003741);
+	null setSource(char[]) (1873815070);
+	null setStatementsRecovery(boolean) (225137455);
+	null setBindingsRecovery(boolean) (793575862);
+	null setResolveBindings(boolean) (288106800);
+	null setCompilerOptions(java.util.Map) (1876971306);
+__**<color:orange>called by list</color>**__
+..class..
+	JavaParser (945150386);
+..member..
+..method..
+	void init(java.io.File) (1518037877);
+}
+
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+group boolean buy(shop.User, shop.Goods)
+	Shop->User : buy(shop.Goods)
+		User->Goods : getMoney()
+			Goods-->User
+		User-->Shop
+end
+
+group boolean charge(shop.User, int)
+	Shop->User : setMoney(int)
+		User-->Shop
+end
+
+group void addGoods(shop.Goods, java.lang.String)
+end
+
+group boolean check(shop.User, shop.Goods)
+end
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+ left to right direction
+
+actor Actor as actor132577100
+
+	package shop {
+		usecase login as UC1521083627
+		usecase buy as UC1770642014
+		usecase charge as UC945591847
+		usecase addGoods as UC328827614
+	}
+	actor132577100 -- UC328827614
+	actor132577100 -- UC945591847
+	actor132577100 -- UC1770642014
+	actor132577100 -- UC1521083627
+
+@enduml

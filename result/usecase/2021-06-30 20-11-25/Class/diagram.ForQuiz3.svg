@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="939px" preserveAspectRatio="none" style="width:316px;height:939px;" version="1.1" viewBox="0 0 316 939" width="316px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ti43k6f6fs8x" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a70b0d373322012744ecc119c63f921b]
+cluster main--><rect fill="#FFFFFF" filter="url(#f1ti43k6f6fs8x)" height="154" style="stroke: #000000; stroke-width: 1.5;" width="144" x="134" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="189.5" y="25.1533">main</text><!--MD5=[1e829f21a74d4de467c1b519aceec237]
+cluster makeFile--><rect fill="#FFFFFF" filter="url(#f1ti43k6f6fs8x)" height="160" style="stroke: #000000; stroke-width: 1.5;" width="196" x="108" y="185"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="174.5" y="203.1533">makeFile</text><!--MD5=[1cc943b86f50fda51864bd79c3035393]
+cluster makeScript--><rect fill="#FFFFFF" filter="url(#f1ti43k6f6fs8x)" height="154" style="stroke: #000000; stroke-width: 1.5;" width="154" x="129" y="369"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="167" y="387.1533">makeScript</text><!--MD5=[25e01daf03fc02f3d0ae647926ef4273]
+cluster makeMemberInfo--><rect fill="#FFFFFF" filter="url(#f1ti43k6f6fs8x)" height="158" style="stroke: #000000; stroke-width: 1.5;" width="188" x="112" y="547"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="145" y="565.1533">makeMemberInfo</text><!--MD5=[00f16b784483aebc7df27d93db3e9ac8]
+cluster makeFunctionInfo--><rect fill="#FFFFFF" filter="url(#f1ti43k6f6fs8x)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="143" x="135" y="729"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="143.5" y="747.1533">makeFunctionInfo</text><!--MD5=[1b8ffe1225e9a60f44b59857f1cb006c]
+cluster makeExpInfo--><rect fill="#FFFFFF" filter="url(#f1ti43k6f6fs8x)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="118" x="147" y="840"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="161" y="858.1533">makeExpInfo</text><ellipse cx="206.0624" cy="62.0973" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="39.0624" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="180.5624" y="68.2121">Process</text><ellipse cx="206.3259" cy="129.0973" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="55.3259" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="169.3259" y="135.2121">PrintStream</text><ellipse cx="205.8701" cy="240.0973" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="29.8701" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="186.8701" y="246.2121">Writer</text><ellipse cx="206.247" cy="309.8494" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="82.247" ry="18.8494" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="143.247" y="315.9641">OutputStreamWriter</text><ellipse cx="206.2756" cy="424.0973" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="60.2756" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="165.7756" y="430.2121">StringBuilder</text><ellipse cx="205.9914" cy="491.0973" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="31.9914" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="185.4914" y="497.2121">Object</text><ellipse cx="206.566" cy="603.9132" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="77.566" ry="17.9132" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="114" x="149.566" y="610.0279">AbstractCollection</text><ellipse cx="206.0624" cy="673.0973" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="39.0624" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="180.5624" y="679.2121">Member</text><ellipse cx="205.8909" cy="784.0973" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="41.8909" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="178.3909" y="790.2121">Function</text><ellipse cx="206.598" cy="895.0973" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="42.598" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="178.598" y="901.2121">ArrayList</text><!--MD5=[54bbf3ed438555e2f53524471cefdcec]
+entity actor266906347--><ellipse cx="35" cy="391.5" fill="#FEFECE" filter="url(#f1ti43k6f6fs8x)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M35,399.5 L35,426.5 M22,407.5 L48,407.5 M35,426.5 L22,441.5 M35,426.5 L48,441.5 " fill="none" filter="url(#f1ti43k6f6fs8x)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="58" x="6" y="463.1533">ForQuiz3</text><!--MD5=[ca355ac6c3b94cba124f6075a9957c7a]
+link actor266906347 to UC1785570426--><path d="M38.9197,381.946 C46.0886,306.035 64.0044,152.059 100,112 C121.127,88.488 158.687,81.558 182.955,75.143 " fill="none" id="actor266906347-UC1785570426" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ca355ac6c3b94cba124f6075a9957c7a]
+link actor266906347 to UC1785570426--><path d="M37.2961,381.707 C43.1249,298.52 60.8912,120.524 100,77 C120.869,53.775 157.774,46.729 182.062,49.248 " fill="none" id="actor266906347-UC1785570426-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d3058aeb927aa13a0ee0d9dfebf8ee9e]
+link actor266906347 to UC150180388--><path d="M41.8628,381.891 C49.7643,338.993 66.2856,273.103 100,225 C125.16,189.102 171.782,162.795 193.835,144.689 " fill="none" id="actor266906347-UC150180388" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d3058aeb927aa13a0ee0d9dfebf8ee9e]
+link actor266906347 to UC150180388--><path d="M38.0877,381.711 C43.8435,331.061 59.5427,247.724 100,190 C115.346,168.104 138.677,149.776 159.547,138 " fill="none" id="actor266906347-UC150180388-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[fbfa329f2b85737cf7c7fa06d473c135]
+link actor266906347 to UC133579455--><path d="M43.0111,381.827 C51.5629,347.94 68.3976,301.456 100,273 C121.055,254.041 152.881,245.974 176.165,242.542 " fill="none" id="actor266906347-UC133579455" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a0c0ff2ce43ed76fe7a8db1fcefe9a5c]
+link actor266906347 to UC1138992016--><path d="M64.0078,404.661 C96.1196,383.254 147.475,349.017 178.829,328.114 " fill="none" id="actor266906347-UC1138992016" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2ac1c52d1289716799f065462af2e298]
+link actor266906347 to UC1152029154--><path d="M64.0078,454.143 C105.1719,469.579 177.958,464.839 199.698,439.92 " fill="none" id="actor266906347-UC1152029154" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2ac1c52d1289716799f065462af2e298]
+link actor266906347 to UC1152029154--><path d="M64.0078,433.854 C91.0694,437.172 131.797,437.639 162.704,435.255 " fill="none" id="actor266906347-UC1152029154-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2ac1c52d1289716799f065462af2e298]
+link actor266906347 to UC1152029154--><path d="M64.0078,413.566 C91.6411,409.979 133.524,409.539 164.65,412.247 " fill="none" id="actor266906347-UC1152029154-2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2ac1c52d1289716799f065462af2e298]
+link actor266906347 to UC1152029154--><path d="M64.0078,393.278 C105.1719,377.544 177.958,382.376 199.698,407.774 " fill="none" id="actor266906347-UC1152029154-3" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0627f1c940430052ef3b50fc921b8e21]
+link actor266906347 to UC1356614113--><path d="M55.9708,466.245 C68.5136,477.461 84.9005,485.792 100,492 C136.285,506.919 181.677,519.556 198.917,506.698 " fill="none" id="actor266906347-UC1356614113" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0627f1c940430052ef3b50fc921b8e21]
+link actor266906347 to UC1356614113--><path d="M64.3047,440.129 C75.3168,445.855 88.0609,452.091 100,457 C125.739,467.583 156.061,477.018 177.666,483.248 " fill="none" id="actor266906347-UC1356614113-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0627f1c940430052ef3b50fc921b8e21]
+link actor266906347 to UC1356614113--><path d="M64.3047,407.343 C75.3168,410.855 88.0609,417.091 100,422 C138.073,437.654 186.171,450.796 201.255,474.929 " fill="none" id="actor266906347-UC1356614113-2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0abbfa3add3852e207673c82765dc93f]
+link actor266906347 to UC1695161087--><path d="M58.3676,466.243 C69.6492,484.712 84.169,505.994 100,523 C123.672,548.428 155.995,571.867 178.705,586.917 " fill="none" id="actor266906347-UC1695161087" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[faf0eaccd46ccfa4e93f3481f4cc79b7]
+link actor266906347 to UC444096469--><path d="M42.9315,466.226 C54.1165,521.561 75.8716,614.463 100,639 C117.819,657.121 145.301,665.596 167.817,669.555 " fill="none" id="actor266906347-UC444096469" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[836723c0ad0a0f3cea283c43f85e2c2a]
+link actor266906347 to UC426792528--><path d="M41.1232,466.244 C51.6333,534.64 74.4573,665.913 100,705 C119.712,735.164 155.114,758.043 179.547,771.227 " fill="none" id="actor266906347-UC426792528" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0485113ecd08d6b045118c3b2e30ba1d]
+link actor266906347 to UC1001114349--><path d="M38.0246,466.267 C45.0122,555.078 64.4592,757.681 100,816 C118.752,846.7701 154.372,869.5117 179.117,882.4993 " fill="none" id="actor266906347-UC1001114349" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[277e2d761dccaabc98bbc79579da14d5]
+@startuml
+ left to right direction
+
+actor ForQuiz3 as actor266906347
+
+	rectangle main{
+	 usecase Process as UC1785570426
+	actor266906347- -UC1785570426
+	 usecase PrintStream as UC150180388
+	actor266906347- -UC150180388
+	}
+	rectangle main{
+	 usecase Process as UC1785570426
+	actor266906347- -UC1785570426
+	 usecase PrintStream as UC150180388
+	actor266906347- -UC150180388
+	}
+	rectangle makeFile{
+	 usecase Writer as UC133579455
+	actor266906347- -UC133579455
+	 usecase OutputStreamWriter as UC1138992016
+	actor266906347- -UC1138992016
+	}
+	rectangle makeScript{
+	 usecase StringBuilder as UC1152029154
+	actor266906347- -UC1152029154
+	 usecase Object as UC1356614113
+	actor266906347- -UC1356614113
+	}
+	rectangle makeMemberInfo{
+	 usecase StringBuilder as UC1152029154
+	actor266906347- -UC1152029154
+	 usecase AbstractCollection as UC1695161087
+	actor266906347- -UC1695161087
+	 usecase Member as UC444096469
+	actor266906347- -UC444096469
+	}
+	rectangle makeFunctionInfo{
+	 usecase StringBuilder as UC1152029154
+	actor266906347- -UC1152029154
+	 usecase Object as UC1356614113
+	actor266906347- -UC1356614113
+	 usecase Function as UC426792528
+	actor266906347- -UC426792528
+	}
+	rectangle makeExpInfo{
+	 usecase ArrayList as UC1001114349
+	actor266906347- -UC1001114349
+	 usecase StringBuilder as UC1152029154
+	actor266906347- -UC1152029154
+	 usecase Object as UC1356614113
+	actor266906347- -UC1356614113
+	}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

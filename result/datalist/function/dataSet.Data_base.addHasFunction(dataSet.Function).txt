@@ -1,0 +1,23 @@
+@startuml
+class dataSet.Data_base.addHasFunction(dataSet.Function){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Function fun (1192672907);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Function (1321203216);
+..member..
+..method..
+	String getSig() (100929741);
+__**<color:orange>called by list</color>**__
+..class..
+	Function (1321203216);
+..member..
+..method..
+	Function Function(java.lang.String, java.lang.String, dataSet.Data_base) (182670350);
+	Function Function(java.lang.String, dataSet.Data_base) (1165791284);
+}
+
+@enduml

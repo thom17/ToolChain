@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1351px" preserveAspectRatio="none" style="width:490px;height:1351px;" version="1.1" viewBox="0 0 490 1351" width="490px" zoomAndPan="magnify"><defs><filter height="300%" id="f4w5eiei51tf0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f6cc7c11640e1aa40840472fadf01e77]
+cluster makeASTList--><rect fill="#FFFFFF" filter="url(#f4w5eiei51tf0)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="105" x="177" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="185.5" y="25.1533">makeASTList</text><!--MD5=[e5dd8a5917535f46f5bc2692b2c9a989]
+cluster makeFileList--><rect fill="#FFFFFF" filter="url(#f4w5eiei51tf0)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="105" x="177" y="118"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="185.5" y="136.1533">makeFileList</text><!--MD5=[62e981aedead5d296a0ed090cac6c220]
+cluster init--><rect fill="#FFFFFF" filter="url(#f4w5eiei51tf0)" height="992" style="stroke: #000000; stroke-width: 1.5;" width="216" x="121" y="229"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="22" x="218" y="247.1533">init</text><!--MD5=[a70b0d373322012744ecc119c63f921b]
+cluster main--><rect fill="#FFFFFF" filter="url(#f4w5eiei51tf0)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="94" x="182" y="1247"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="212.5" y="1265.1533">main</text><ellipse cx="228.9836" cy="62.0869" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="19.9836" ry="16.5869" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="216.9836" y="68.2016">size</text><ellipse cx="228.9836" cy="173.0869" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="19.9836" ry="16.5869" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="216.9836" y="179.2016">add</text><ellipse cx="229.362" cy="284.8724" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="72.362" ry="16.8724" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="179.362" y="290.9871">printStackTrace</text><ellipse cx="228.9411" cy="353.0973" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="36.9411" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="204.9411" y="359.2121">append</text><ellipse cx="229.5061" cy="487.0973" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="23.5061" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="215.0061" y="493.2121">read</text><ellipse cx="229.3345" cy="554.0973" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="26.3345" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="212.8345" y="560.2121">close</text><ellipse cx="229.3762" cy="1047.0973" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="50.3762" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="195.8762" y="1053.2121">newParser</text><ellipse cx="229.234" cy="621.0973" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="36.234" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="205.734" y="627.2121">setKind</text><ellipse cx="229.2548" cy="688.0973" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="48.2548" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="197.2548" y="694.2121">setSource</text><ellipse cx="229.4472" cy="1114.0973" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="57.4472" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="190.9472" y="1120.2121">toCharArray</text><ellipse cx="229.6482" cy="420.0973" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="37.6482" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="205.1482" y="426.2121">toString</text><ellipse cx="229.0847" cy="830.8169" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="92.0847" ry="20.8169" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="154.0847" y="836.9317">setStatementsRecovery</text><ellipse cx="229.0569" cy="905.9114" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="85.0569" ry="19.4114" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="162.5569" y="912.0261">setBindingsRecovery</text><ellipse cx="229.4543" cy="978.1909" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="81.4543" ry="18.6909" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="167.4543" y="984.3056">setResolveBindings</text><ellipse cx="229.7443" cy="1185.1489" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="88.7443" ry="20.1489" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="158.7443" y="1191.2636">setComplianceOptions</text><ellipse cx="229.4543" cy="757.1909" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="81.4543" ry="18.6909" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="167.4543" y="763.3056">setCompilerOptions</text><ellipse cx="229.5772" cy="1302.0973" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="30.5772" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="210.0772" y="1308.2121">println</text><!--MD5=[38a616191589cc27bc33f7b3ffcdfbba]
+entity actor1086811994--><ellipse cx="41.5" cy="655.5" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M41.5,663.5 L41.5,690.5 M28.5,671.5 L54.5,671.5 M41.5,690.5 L28.5,705.5 M41.5,690.5 L54.5,705.5 " fill="none" filter="url(#f4w5eiei51tf0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="6" y="727.1533">JavaParser</text><!--MD5=[b8cdde3df73f4298fd171ae207d79fef]
+entity actor1538456363--><ellipse cx="432" cy="63.5" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M432,71.5 L432,98.5 M419,79.5 L445,79.5 M432,98.5 L419,113.5 M432,98.5 L445,113.5 " fill="none" filter="url(#f4w5eiei51tf0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="404" y="135.1533">ArrayList</text><!--MD5=[968218a0f1c08d1f53623fbcc0b7021f]
+entity actor2061011390--><ellipse cx="432.5" cy="798.5" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M432.5,806.5 L432.5,833.5 M419.5,814.5 L445.5,814.5 M432.5,833.5 L419.5,848.5 M432.5,833.5 L445.5,848.5 " fill="none" filter="url(#f4w5eiei51tf0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="398" y="870.1533">ASTParser</text><!--MD5=[ef3f0a6dc01fcb7ead27f5ec726ae519]
+entity actor1275477177--><ellipse cx="432" cy="1152.5" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M432,1160.5 L432,1187.5 M419,1168.5 L445,1168.5 M432,1187.5 L419,1202.5 M432,1187.5 L445,1202.5 " fill="none" filter="url(#f4w5eiei51tf0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="402" y="1224.1533">JavaCore</text><!--MD5=[b2b17946780437d3e03a3618b26c4aa9]
+entity actor1795804759--><ellipse cx="432.5" cy="335.5" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M432.5,343.5 L432.5,370.5 M419.5,351.5 L445.5,351.5 M432.5,370.5 L419.5,385.5 M432.5,370.5 L445.5,385.5 " fill="none" filter="url(#f4w5eiei51tf0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="392" y="407.1533">StringBuilder</text><!--MD5=[43af427d097d1e0f1ee46994e1f1c770]
+entity actor104719610--><ellipse cx="432.5" cy="1033.5" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M432.5,1041.5 L432.5,1068.5 M419.5,1049.5 L445.5,1049.5 M432.5,1068.5 L419.5,1083.5 M432.5,1068.5 L445.5,1083.5 " fill="none" filter="url(#f4w5eiei51tf0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="414" y="1105.1533">String</text><!--MD5=[4bb1f97e487d2c8e50b6062ff8f4350b]
+entity actor649827042--><ellipse cx="432.5" cy="573.5" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M432.5,581.5 L432.5,608.5 M419.5,589.5 L445.5,589.5 M432.5,608.5 L419.5,623.5 M432.5,608.5 L445.5,623.5 " fill="none" filter="url(#f4w5eiei51tf0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="382" y="645.1533">BufferedReader</text><!--MD5=[9b3b251c906be43ba83dc4fe6427f5b6]
+entity actor412121842--><ellipse cx="432.5" cy="454.5" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M432.5,462.5 L432.5,489.5 M419.5,470.5 L445.5,470.5 M432.5,489.5 L419.5,504.5 M432.5,489.5 L445.5,504.5 " fill="none" filter="url(#f4w5eiei51tf0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="409" y="526.1533">Reader</text><!--MD5=[8dcd431d2309f2598769e515c12b4b0a]
+entity actor1703837357--><ellipse cx="432" cy="216.5" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M432,224.5 L432,251.5 M419,232.5 L445,232.5 M432,251.5 L419,266.5 M432,251.5 L445,266.5 " fill="none" filter="url(#f4w5eiei51tf0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="399" y="288.1533">Throwable</text><!--MD5=[c6373e6f06c0704c33390c3718060f35]
+entity actor731802107--><ellipse cx="432" cy="1271.5" fill="#FEFECE" filter="url(#f4w5eiei51tf0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M432,1279.5 L432,1306.5 M419,1287.5 L445,1287.5 M432,1306.5 L419,1321.5 M432,1306.5 L445,1321.5 " fill="none" filter="url(#f4w5eiei51tf0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="395" y="1343.1533">PrintStream</text><!--MD5=[87007330c695fae5c8671a2492422fe9]
+link actor1086811994 to UC650777250--><path d="M42.1633,645.651 C45.9548,532.435 60.8969,225.62 113,141 C135.995,103.65 184.002,79.77 210.479,68.88 " fill="none" id="actor1086811994-UC650777250" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6946ffa03f0bb084eeba51b22d1d1e53]
+link UC650777250 to actor1538456363--><path d="M248.834,65.32 C285.049,71.39 361.982,84.27 403.693,91.26 " fill="none" id="UC650777250-actor1538456363" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7c9ee61ae30412b991ac9526760a7657]
+link actor1086811994 to UC2030748640--><path d="M43.7441,645.99 C50.6808,549.858 71.4007,317.15 113,252 C136.604,215.04 184.363,191 210.64,179.98 " fill="none" id="actor1086811994-UC2030748640" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7a3d259757281e358966309a33b62add]
+link UC2030748640 to actor1538456363--><path d="M247.373,166.03 C282.996,152.52 361.658,122.68 403.891,106.66 " fill="none" id="UC2030748640-actor1538456363" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2c79c702965ff92f6b3431799a007fcb]
+link actor1086811994 to UC1028574311--><path d="M43.8085,645.806 C50.3988,559.414 69.6875,366.512 113,319 C125.795,304.96 144.04,296.6 162.284,291.66 " fill="none" id="actor1086811994-UC1028574311" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f370fef8fc5a73789ef8c6c87ceedfda]
+link actor1086811994 to UC1698322791--><path d="M45.8387,645.963 C55.143,572.266 77.7793,424.039 113,387 C133.318,365.633 166.275,357.478 191.877,354.469 " fill="none" id="actor1086811994-UC1698322791" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1e8128e9be9fa418ae99710f70100063]
+link actor1086811994 to UC1625094636--><path d="M48.6647,645.672 C57.6873,607.811 76.3514,553.432 113,521 C138.932,498.052 179.624,490.561 205.278,488.135 " fill="none" id="actor1086811994-UC1625094636" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[28b6c9955c9c5a13468421d0ab5925fe]
+link actor1086811994 to UC1980153091--><path d="M62.6294,645.876 C74.9163,625.731 92.0462,602.831 113,588 C139.893,568.965 177.429,560.49 202.439,556.781 " fill="none" id="actor1086811994-UC1980153091" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[deffeceea458559820a237d56722e895]
+link actor1086811994 to UC11529827--><path d="M44.9675,730.115 C53.2014,808.671 74.6496,973.285 113,1014 C129.94,1031.985 155.91,1040.401 178.985,1044.249 " fill="none" id="actor1086811994-UC11529827" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3a23412810e1bb40c7fbd8a54b4a8746]
+link actor1086811994 to UC1263085541--><path d="M76.8276,670.343 C88.2426,665.053 101.0204,659.474 113,655 C141.113,644.5 174.014,635.122 197.581,628.888 " fill="none" id="actor1086811994-UC1263085541" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[146211435ac8746902b6cfadf15bef2d]
+link actor1086811994 to UC1281205497--><path d="M76.8039,688 C106.101,688 147.833,688 180.191,688 " fill="none" id="actor1086811994-UC1281205497" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[933144455184d70704331a5bd58ba27c]
+link actor1086811994 to UC267445972--><path d="M43.217,730.176 C48.8278,820.775 66.5939,1029.912 113,1081 C128.204,1097.738 151.226,1106.227 172.762,1110.448 " fill="none" id="actor1086811994-UC267445972" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f9d2f64c407ea14e17a7b0e77f0516f1]
+link actor1086811994 to UC1986751746--><path d="M48.9685,645.976 C61.1001,586.222 85.6942,480.943 113,454 C133.839,433.438 166.412,425.189 191.742,421.94 " fill="none" id="actor1086811994-UC1986751746" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[86776cb67934efc32f24f045ae8e28d9]
+link actor1086811994 to UC1892928959--><path d="M61.3426,730.111 C73.6316,751.617 91.1562,776.629 113,793 C127.075,803.549 144.217,811.252 160.958,816.845 " fill="none" id="actor1086811994-UC1892928959" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a9b178d1aea69b7734dc7176ac5b99cf]
+link actor1086811994 to UC1923590735--><path d="M47.0353,730.38 C55.0841,771.573 73.2518,833.156 113,870 C125.758,881.826 142.341,889.769 158.957,895.103 " fill="none" id="actor1086811994-UC1923590735" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[95ddfb06029c9b20b7ca774ae2f5c84d]
+link actor1086811994 to UC1400677006--><path d="M47.8444,730.002 C59.1223,794.284 83.3424,912.808 113,943 C125.309,955.53 141.929,963.61 158.739,968.81 " fill="none" id="actor1086811994-UC1400677006" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[282adae8f35e11be51187b34262b2a0c]
+link actor1086811994 to UC1530013811--><path d="M42.0887,730.225 C45.5485,831.713 59.4724,1085.554 113,1148 C123.662,1160.438 138.499,1168.736 154.007,1174.261 " fill="none" id="actor1086811994-UC1530013811" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[58cfb27fddd78e5f3b6f8f592eafce2f]
+link actor1086811994 to UC904050847--><path d="M76.8036,706.187 C88.2175,711.637 101.0006,717.386 113,722 C133.616,729.928 156.835,737.24 177.053,743.108 " fill="none" id="actor1086811994-UC904050847" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5456c643b6ef78c81e9e10862bf51647]
+link UC904050847 to actor2061011390--><path d="M279.083,771.218 C299.677,777.406 323.657,785.055 345,793 C362.455,799.498 381.451,807.663 397.227,814.758 " fill="none" id="UC904050847-actor2061011390" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[57515f2046fc203a6be5c7859e14519e]
+link UC1530013811 to actor1275477177--><path d="M317.743,1185 C347.829,1185 379.435,1185 401.759,1185 " fill="none" id="UC1530013811-actor1275477177" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a5337eca0a445d5666246b71c09b86a2]
+link UC1400677006 to actor2061011390--><path d="M292.082,966.541 C310.212,961.307 329.306,953.776 345,943 C371.184,925.021 393.07,896.723 408.342,873.07 " fill="none" id="UC1400677006-actor2061011390" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7bbbce7bb2bb244e88d9da12f8cd96aa]
+link UC1923590735 to actor2061011390--><path d="M282.004,891.018 C301.936,885.002 324.682,877.675 345,870 C362.497,863.391 381.499,855.017 397.268,847.725 " fill="none" id="UC1923590735-actor2061011390" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ce5ae65e123168679f93f67fc3dabbda]
+link UC1892928959 to actor2061011390--><path d="M321.293,831 C348.315,831 376.215,831 397.246,831 " fill="none" id="UC1892928959-actor2061011390" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d38bbcde15f3bbbea2f924710b14161f]
+link UC1986751746 to actor1795804759--><path d="M261.166,411.76 C296.382,402.74 352.929,388.255 391.23,378.444 " fill="none" id="UC1986751746-actor1795804759" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c42edd0dca811f8fe9bd946d1cfa066f]
+link UC267445972 to actor104719610--><path d="M273.048,1103.585 C316.776,1093.245 381.718,1077.889 413.341,1070.412 " fill="none" id="UC267445972-actor104719610" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[76cfda090ab7f34639162d25ca944bf0]
+link UC1281205497 to actor2061011390--><path d="M273.602,694.466 C296.4,699.34 323.742,707.731 345,722 C370.532,739.137 392.143,766.097 407.439,788.916 " fill="none" id="UC1281205497-actor2061011390" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0c15ae82d348001351878276c5a5c807]
+link UC1263085541 to actor2061011390--><path d="M264.475,623.9 C289.45,627.591 322.338,635.973 345,655 C386.375,689.738 409.867,748.927 421.759,788.974 " fill="none" id="UC1263085541-actor2061011390" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[81039c83f85242078d8cbeb7be6ffce6]
+link UC11529827 to actor2061011390--><path d="M277.627,1042.426 C300.238,1038.144 326.216,1029.888 345,1014 C388.108,977.537 411.36,914.863 422.709,873.177 " fill="none" id="UC11529827-actor2061011390" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3e16c7e847ad70b4b49aebdb07a9f223]
+link UC1980153091 to actor649827042--><path d="M253.487,560.272 C285.017,568.349 340.601,582.587 381.391,593.036 " fill="none" id="UC1980153091-actor649827042" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[871b383f49e437437b432141fde3faa5]
+link UC1625094636 to actor412121842--><path d="M252.684,487 C291.8,487 369.45,487 408.467,487 " fill="none" id="UC1625094636-actor412121842" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[69bd8bc59a152daaf90aabbb532079af]
+link UC1698322791 to actor1795804759--><path d="M265.762,355.716 C301.181,358.334 354.652,362.285 391.33,364.995 " fill="none" id="UC1698322791-actor1795804759" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[75f49b6968e40741b057feca5de0b488]
+link UC1028574311 to actor1703837357--><path d="M286.9,274.73 C323.112,268.31 368.465,260.27 398.736,254.9 " fill="none" id="UC1028574311-actor1703837357" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bd04fd102e7f3a1fc7865748e79e7abc]
+link actor1086811994 to UC217930962--><path d="M42.3721,730.038 C46.6582,840.928 62.6713,1138.496 113,1221 C134.362,1256.0185 177.217,1279.8186 204.433,1292.1345 " fill="none" id="actor1086811994-UC217930962" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b4357d6a1025e64666652b5e45ae8532]
+link UC217930962 to actor731802107--><path d="M259.831,1302.3038 C295.99,1302.66 355.902,1303.2503 394.66,1303.6321 " fill="none" id="UC217930962-actor731802107" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ebb2ffa2f293b19920b5459cd70a25b1]
+@startuml
+ left to right direction
+
+actor JavaParser as actor1086811994
+
+	rectangle makeASTList{
+	 usecase size as UC650777250
+	actor1086811994- -UC650777250
+	}
+	actor ArrayList as actor1538456363
+	UC650777250 - - actor1538456363
+	rectangle makeFileList{
+	 usecase add as UC2030748640
+	actor1086811994- -UC2030748640
+	}
+	actor ArrayList as actor1538456363
+	UC2030748640 - - actor1538456363
+	rectangle init{
+	 usecase printStackTrace as UC1028574311
+	actor1086811994- -UC1028574311
+	 usecase append as UC1698322791
+	actor1086811994- -UC1698322791
+	 usecase read as UC1625094636
+	actor1086811994- -UC1625094636
+	 usecase close as UC1980153091
+	actor1086811994- -UC1980153091
+	 usecase newParser as UC11529827
+	actor1086811994- -UC11529827
+	 usecase setKind as UC1263085541
+	actor1086811994- -UC1263085541
+	 usecase setSource as UC1281205497
+	actor1086811994- -UC1281205497
+	 usecase toCharArray as UC267445972
+	actor1086811994- -UC267445972
+	 usecase toString as UC1986751746
+	actor1086811994- -UC1986751746
+	 usecase setStatementsRecovery as UC1892928959
+	actor1086811994- -UC1892928959
+	 usecase setBindingsRecovery as UC1923590735
+	actor1086811994- -UC1923590735
+	 usecase setResolveBindings as UC1400677006
+	actor1086811994- -UC1400677006
+	 usecase setComplianceOptions as UC1530013811
+	actor1086811994- -UC1530013811
+	 usecase setCompilerOptions as UC904050847
+	actor1086811994- -UC904050847
+	}
+	actor ASTParser as actor2061011390
+	UC904050847 - - actor2061011390
+	actor JavaCore as actor1275477177
+	UC1530013811 - - actor1275477177
+	actor ASTParser as actor2061011390
+	UC1400677006 - - actor2061011390
+	actor ASTParser as actor2061011390
+	UC1923590735 - - actor2061011390
+	actor ASTParser as actor2061011390
+	UC1892928959 - - actor2061011390
+	actor StringBuilder as actor1795804759
+	UC1986751746 - - actor1795804759
+	actor String as actor104719610
+	UC267445972 - - actor104719610
+	actor ASTParser as actor2061011390
+	UC1281205497 - - actor2061011390
+	actor ASTParser as actor2061011390
+	UC1263085541 - - actor2061011390
+	actor ASTParser as actor2061011390
+	UC11529827 - - actor2061011390
+	actor BufferedReader as actor649827042
+	UC1980153091 - - actor649827042
+	actor Reader as actor412121842
+	UC1625094636 - - actor412121842
+	actor StringBuilder as actor1795804759
+	UC1698322791 - - actor1795804759
+	actor Throwable as actor1703837357
+	UC1028574311 - - actor1703837357
+	rectangle main{
+	 usecase println as UC217930962
+	actor1086811994- -UC217930962
+	}
+	actor PrintStream as actor731802107
+	UC217930962 - - actor731802107
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

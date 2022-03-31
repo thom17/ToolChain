@@ -1,0 +1,8 @@
+@startuml
+group void main(java.lang.String[])
+	Main->GameSystem : GameSystem(int[][])
+	Main->GameSystem : playGame(java.lang.String)
+	Main-->Main
+end
+
+@enduml

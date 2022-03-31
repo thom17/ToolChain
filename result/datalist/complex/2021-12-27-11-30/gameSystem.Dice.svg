@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="534px" preserveAspectRatio="none" style="width:711px;height:534px;" version="1.1" viewBox="0 0 711 534" width="711px" zoomAndPan="magnify"><defs><filter height="300%" id="f1alqa8r8qfwj1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8c147d5b633d7992dce8d2a7e248653e]
+cluster gameSystem.Dice--><polygon fill="#FFFFFF" filter="url(#f1alqa8r8qfwj1)" points="158,6,287,6,294,31.2295,694,31.2295,694,527,158,527,158,6" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="158" x2="294" y1="31.2295" y2="31.2295"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="162" y="24.1533">gameSystem.Dice</text><!--MD5=[4126700b41864b1364c6fefc1f7dade9]
+class gameSystem.Dice.Dice2101249621--><rect codeLine="22" fill="#FEFECE" filter="url(#f1alqa8r8qfwj1)" height="467.0488" id="gameSystem.Dice.Dice2101249621" style="stroke: #008000; stroke-width: 1.5;" width="231" x="446.5" y="44"/><ellipse cx="531.75" cy="60" fill="#ADD1B2" rx="11" ry="11" style="stroke: #008000; stroke-width: 1.0;"/><path d="M531.5781,53.4844 Q529.7031,53.4844 528.5469,55.2344 Q527.3594,57.0156 527.3594,60.0156 Q527.3594,63.3906 528.5625,65.1563 Q529.625,66.7813 531.375,66.7813 Q533.0625,66.7813 534.0156,65.875 Q535.0781,64.8594 535.2188,62.625 Q535.2188,62.2031 534.9844,61.9688 Q534.7969,61.7344 534.4531,61.7031 Q534.125,61.7031 533.8906,61.8906 Q533.625,62.125 533.625,62.5156 Q533.5938,63.9063 533,64.6406 Q532.4688,65.3438 531.5156,65.3438 Q530.3594,65.3438 529.6406,63.9063 Q528.9219,62.4063 528.9219,59.9844 Q528.9219,57.4375 529.8125,56.0469 Q530.5625,54.9219 531.7031,54.9219 Q532.3594,54.9219 532.8594,55.4688 Q533.4219,56.0781 533.5469,57.1406 Q533.5938,57.8438 534.4219,57.7344 Q535.2031,57.625 535.1563,56.9375 Q534.9688,55.4219 534.2031,54.5469 Q533.2656,53.4844 531.5781,53.4844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="52" x="552.25" y="65.6045">Dice(int[])</text><line style="stroke: #008000; stroke-width: 1.5;" x1="447.5" x2="676.5" y1="76" y2="76"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="452.5" y="92.6919">pram : (int[] )</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="190" x="452.5" y="107.8008">SrcOwnClassName : gameSystem.Dice</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="176" x="452.5" y="122.9097">SrcSig : gameSystem.Dice.Dice(int[])</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="452.5" y="138.0186">Sig : Dice(int[])</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="452.5" y="172.2363">parameter Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="452.5" y="187.3452">classCall Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="452.5" y="202.4541">Call Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="452.5" y="217.563">CallBy Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="104" x="452.5" y="232.6719">memberUse Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="452.5" y="247.7808">localValue Score : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="452.5" y="262.8896">exp Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="452.5" y="277.9985">repeat Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="81" x="452.5" y="293.1074">brench Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="452.5" y="308.2163">callCountNum : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="452.5" y="323.3252">cyclomatic : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="452.5" y="338.4341">State Node lineNum: 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="452.5" y="353.543">State Node Num : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="122" x="452.5" y="368.6519">State Node callListSize: 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="123" x="452.5" y="383.7607">State Node repeatSize : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="117" x="452.5" y="398.8696">State Node writeSize : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="114" x="452.5" y="413.9785">State Node bifurSize : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="219" x="452.5" y="429.0874">Calculated Estunated Program Length: 6.7549</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="452.5" y="444.1963">Volume : 11.6096</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="452.5" y="459.3052">Diffifculty: 1.5</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="452.5" y="474.4141">Effort : 17.4145</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="452.5" y="489.5229">Absolute Score : 4</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85" x="452.5" y="504.6318">Relative Score : 4</text><line style="stroke: #008000; stroke-width: 1.5;" x1="447.5" x2="525.5" y1="151.99" y2="151.99"/><text fill="#FFA500" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="525.5" y="156.6274">Complex Info</text><line style="stroke: #008000; stroke-width: 1.5;" x1="598.5" x2="676.5" y1="151.99" y2="151.99"/><!--MD5=[2f46eafb797a3192a71ab89ad6321e6a]
+class gameSystem.Dice.roll2113604623--><rect codeLine="53" fill="#FEFECE" filter="url(#f1alqa8r8qfwj1)" height="467.0488" id="gameSystem.Dice.roll2113604623" style="stroke: #A80036; stroke-width: 1.5;" width="237" x="174.5" y="44"/><ellipse cx="276.25" cy="60" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M276.0781,53.4844 Q274.2031,53.4844 273.0469,55.2344 Q271.8594,57.0156 271.8594,60.0156 Q271.8594,63.3906 273.0625,65.1563 Q274.125,66.7813 275.875,66.7813 Q277.5625,66.7813 278.5156,65.875 Q279.5781,64.8594 279.7188,62.625 Q279.7188,62.2031 279.4844,61.9688 Q279.2969,61.7344 278.9531,61.7031 Q278.625,61.7031 278.3906,61.8906 Q278.125,62.125 278.125,62.5156 Q278.0938,63.9063 277.5,64.6406 Q276.9688,65.3438 276.0156,65.3438 Q274.8594,65.3438 274.1406,63.9063 Q273.4219,62.4063 273.4219,59.9844 Q273.4219,57.4375 274.3125,56.0469 Q275.0625,54.9219 276.2031,54.9219 Q276.8594,54.9219 277.3594,55.4688 Q277.9219,56.0781 278.0469,57.1406 Q278.0938,57.8438 278.9219,57.7344 Q279.7031,57.625 279.6563,56.9375 Q279.4688,55.4219 278.7031,54.5469 Q277.7656,53.4844 276.0781,53.4844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="25" x="296.75" y="65.6045">roll()</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="175.5" x2="410.5" y1="76" y2="76"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="44" x="180.5" y="92.6919">pram : ( )</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="190" x="180.5" y="107.8008">SrcOwnClassName : gameSystem.Dice</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="152" x="180.5" y="122.9097">SrcSig : gameSystem.Dice.roll()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="46" x="180.5" y="138.0186">Sig : roll()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="180.5" y="172.2363">parameter Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="180.5" y="187.3452">classCall Score : 3</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="180.5" y="202.4541">Call Score : 7</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="180.5" y="217.563">CallBy Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="104" x="180.5" y="232.6719">memberUse Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="180.5" y="247.7808">localValue Score : 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="180.5" y="262.8896">exp Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="180.5" y="277.9985">repeat Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="81" x="180.5" y="293.1074">brench Score : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="180.5" y="308.2163">callCountNum : 3</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="180.5" y="323.3252">cyclomatic : 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="180.5" y="338.4341">State Node lineNum: 3</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="180.5" y="353.543">State Node Num : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="122" x="180.5" y="368.6519">State Node callListSize: 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="123" x="180.5" y="383.7607">State Node repeatSize : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="117" x="180.5" y="398.8696">State Node writeSize : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="114" x="180.5" y="413.9785">State Node bifurSize : 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="225" x="180.5" y="429.0874">Calculated Estunated Program Length: 23.5098</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="180.5" y="444.1963">Volume : 49.8289</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="180.5" y="459.3052">Diffifculty: 5.25</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="81" x="180.5" y="474.4141">Effort : 261.6018</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="180.5" y="489.5229">Absolute Score : 7</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85" x="180.5" y="504.6318">Relative Score : 7</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="175.5" x2="256.5" y1="151.99" y2="151.99"/><text fill="#FFA500" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="256.5" y="156.6274">Complex Info</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="329.5" x2="410.5" y1="151.99" y2="151.99"/><!--MD5=[f04bc90bf33944b7fab332a83ab18852]
+class ClassComplex--><rect codeLine="1" fill="#FEFECE" filter="url(#f1alqa8r8qfwj1)" height="319.96" id="ClassComplex" style="stroke: #A80036; stroke-width: 1.5;" width="132" x="7" y="117.5"/><ellipse cx="30.1" cy="133.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M29.9281,126.9844 Q28.0531,126.9844 26.8969,128.7344 Q25.7094,130.5156 25.7094,133.5156 Q25.7094,136.8906 26.9125,138.6563 Q27.975,140.2813 29.725,140.2813 Q31.4125,140.2813 32.3656,139.375 Q33.4281,138.3594 33.5688,136.125 Q33.5688,135.7031 33.3344,135.4688 Q33.1469,135.2344 32.8031,135.2031 Q32.475,135.2031 32.2406,135.3906 Q31.975,135.625 31.975,136.0156 Q31.9438,137.4063 31.35,138.1406 Q30.8188,138.8438 29.8656,138.8438 Q28.7094,138.8438 27.9906,137.4063 Q27.2719,135.9063 27.2719,133.4844 Q27.2719,130.9375 28.1625,129.5469 Q28.9125,128.4219 30.0531,128.4219 Q30.7094,128.4219 31.2094,128.9688 Q31.7719,129.5781 31.8969,130.6406 Q31.9438,131.3438 32.7719,131.2344 Q33.5531,131.125 33.5063,130.4375 Q33.3188,128.9219 32.5531,128.0469 Q31.6156,126.9844 29.9281,126.9844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="45.9" y="139.1045">ClassComplex</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="138" y1="149.5" y2="149.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="13" y="185.3008">memberScor = 4</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="13" y="200.4097">extendsClassScore = 0</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="13" y="215.5186">callScore = 7</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="13" y="230.6274">callByScore = 7</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="13" y="245.7363">methodNum = 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="13" y="260.8452">memberNum = 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="95" x="13" y="275.9541">constructorNum = 1</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="13" y="291.063">selfCoverage = 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="13" y="306.1719">needCallBy = 2</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="13" y="321.2808">Absolute Score = 22</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="88" x="13" y="336.3896">Relative Score = 5</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="13" y="351.4985">coverage = 50.0%</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="36.5" y1="165.0544" y2="165.0544"/><text fill="#FFA500" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="36.5" y="169.6919">Complex Info</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="109.5" x2="138" y1="165.0544" y2="165.0544"/><text fill="#008000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="13" y="385.7163">int[] shapeList (2)</text><text fill="#008000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120" x="13" y="400.8252">java.util.Random rand (2)</text><text fill="#008000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="88" x="13" y="415.9341">new Dice(int[]) (4)</text><text fill="#FFA500" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="53" x="13" y="431.043">int roll() (7)</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="53" y1="365.47" y2="365.47"/><text fill="#008000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="53" y="370.1074">has list</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="93" x2="138" y1="365.47" y2="365.47"/><!--MD5=[162d4be5813af1b3ba8252394564a330]
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 4
+	extendsClassScore = 0
+	callScore = 7
+	callByScore = 7
+	methodNum = 2
+	memberNum = 2
+	constructorNum = 1
+	selfCoverage = 2
+	needCallBy = 2
+	Absolute Score = 22
+	Relative Score = 5
+	coverage = 50.0%
+__**<color:green>has list</color>**__
+	<color:green>int[] shapeList (2)
+	<color:green>java.util.Random rand (2)
+	<color:green>new Dice(int[]) (4)
+	<color:orange>int roll() (7)
+}
+
+class gameSystem.Dice.Dice2101249621 as "Dice(int[])"#line:green 
+{
+	pram : (int[] )
+	SrcOwnClassName : gameSystem.Dice
+	SrcSig : gameSystem.Dice.Dice(int[])
+	Sig : Dice(int[])
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 0
+	Call Score : 2
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 6.7549
+	Volume : 11.6096
+	Diffifculty: 1.5
+	Effort : 17.4145
+	Absolute Score : 4
+	Relative Score : 4
+}
+class gameSystem.Dice.roll2113604623 as "roll()" 
+{
+	pram : ( )
+	SrcOwnClassName : gameSystem.Dice
+	SrcSig : gameSystem.Dice.roll()
+	Sig : roll()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 3
+	Call Score : 7
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 2
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 3
+	cyclomatic : 1
+	State Node lineNum: 3
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 23.5098
+	Volume : 49.8289
+	Diffifculty: 5.25
+	Effort : 261.6018
+	Absolute Score : 7
+	Relative Score : 7
+}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

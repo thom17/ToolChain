@@ -1,0 +1,53 @@
+@startuml
+ left to right direction
+
+actor ScriptMaker as actor1616438581
+actor SrcList as actor1002041276
+actor Main as actor1862674654
+rectangle Object{
+	usecase toString as UC1637601612
+		actor1862674654 -- UC1637601612
+}
+rectangle DataListDiagram{
+	usecase main as UC701166114
+		actor1862674654 -- UC701166114
+}
+rectangle CodeStateDiagram{
+	usecase main as UC1017792343
+		actor1862674654 -- UC1017792343
+}
+rectangle ClassDiagram{
+	usecase main as UC817941759
+		actor1862674654 -- UC817941759
+}
+rectangle Parser{
+	usecase parsing as UC866273692
+		actor1862674654 -- UC866273692
+}
+rectangle SrcList{
+	usecase makeTargetList as UC508760925
+		actor1002041276 -- UC508760925
+}
+rectangle OutputStreamWriter{
+	usecase close as UC668760567
+		actor1002041276 -- UC668760567
+}
+rectangle Writer{
+	usecase write as UC1748097277
+		actor1002041276 -- UC1748097277
+}
+rectangle PrintStream{
+	usecase println as UC1197176722
+		actor1862674654 -- UC1197176722
+		actor1002041276 -- UC1197176722
+		actor1616438581 -- UC1197176722
+}
+rectangle Runtime{
+	usecase exec as UC1960253514
+		actor1616438581 -- UC1960253514
+	usecase getRuntime as UC1370495328
+		actor1616438581 -- UC1370495328
+}
+rectangle StringBuilder{
+}
+@enduml

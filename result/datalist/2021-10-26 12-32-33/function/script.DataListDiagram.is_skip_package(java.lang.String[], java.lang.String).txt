@@ -1,0 +1,21 @@
+@startuml
+class "script.DataListDiagram.is_skip_package(java.lang.String[], java.lang.String)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	java.lang.String[] list (930317866);
+	java.lang.String target (611502040);
+	String skip (1486553742);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	String (917277283);
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

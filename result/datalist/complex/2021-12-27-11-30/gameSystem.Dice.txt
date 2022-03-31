@@ -1,0 +1,86 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 4
+	extendsClassScore = 0
+	callScore = 7
+	callByScore = 7
+	methodNum = 2
+	memberNum = 2
+	constructorNum = 1
+	selfCoverage = 2
+	needCallBy = 2
+	Absolute Score = 22
+	Relative Score = 5
+	coverage = 50.0%
+__**<color:green>has list</color>**__
+	<color:green>int[] shapeList (2)
+	<color:green>java.util.Random rand (2)
+	<color:green>new Dice(int[]) (4)
+	<color:orange>int roll() (7)
+}
+
+class gameSystem.Dice.Dice2101249621 as "Dice(int[])"#line:green 
+{
+	pram : (int[] )
+	SrcOwnClassName : gameSystem.Dice
+	SrcSig : gameSystem.Dice.Dice(int[])
+	Sig : Dice(int[])
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 0
+	Call Score : 2
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 6.7549
+	Volume : 11.6096
+	Diffifculty: 1.5
+	Effort : 17.4145
+	Absolute Score : 4
+	Relative Score : 4
+}
+class gameSystem.Dice.roll2113604623 as "roll()" 
+{
+	pram : ( )
+	SrcOwnClassName : gameSystem.Dice
+	SrcSig : gameSystem.Dice.roll()
+	Sig : roll()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 3
+	Call Score : 7
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 2
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 3
+	cyclomatic : 1
+	State Node lineNum: 3
+	State Node Num : 0
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 23.5098
+	Volume : 49.8289
+	Diffifculty: 5.25
+	Effort : 261.6018
+	Absolute Score : 7
+	Relative Score : 7
+}
+
+@enduml

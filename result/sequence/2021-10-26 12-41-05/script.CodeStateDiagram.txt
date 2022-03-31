@@ -1,0 +1,43 @@
+@startuml
+group void main(dataSet.DataList)
+	CodeStateDiagram->CodeStateDiagram : makeFile(java.lang.String)
+	CodeStateDiagram->CodeStateDiagram : makeString(dataSet.DataList)
+	CodeStateDiagram->Runtime : exec(java.lang.String)
+		Runtime-->CodeStateDiagram
+	CodeStateDiagram->Runtime : getRuntime()
+		Runtime-->CodeStateDiagram
+	CodeStateDiagram->PrintStream : println(java.lang.String)
+		PrintStream-->CodeStateDiagram
+end
+
+group void makeFile(java.lang.String)
+	CodeStateDiagram->Writer : write(java.lang.String)
+		Writer-->CodeStateDiagram
+	CodeStateDiagram->OutputStreamWriter : close()
+		OutputStreamWriter-->CodeStateDiagram
+end
+
+group String makeString(dataSet.DataList)
+	CodeStateDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->CodeStateDiagram
+	CodeStateDiagram->CodeStateDiagram : connectDef(dataSet.DataList, java.lang.StringBuilder)
+	CodeStateDiagram->StringBuilder : toString()
+		StringBuilder-->CodeStateDiagram
+end
+
+group String makeOneState(dataSet.Function, boolean)
+	CodeStateDiagram->Function : getTypeName()
+		Function-->CodeStateDiagram
+	CodeStateDiagram->Function : printParameterType()
+		Function-->CodeStateDiagram
+end
+
+group void connectDef(dataSet.DataList, java.lang.StringBuilder)
+	CodeStateDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->CodeStateDiagram
+	CodeStateDiagram->CodeStateDiagram : makeOneState(dataSet.Function, boolean)
+	CodeStateDiagram->ArrayList : size()
+		ArrayList-->CodeStateDiagram
+end
+
+@enduml

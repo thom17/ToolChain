@@ -1,0 +1,25 @@
+@startuml
+class "dataSet.Var.Var(dataSet.Class, java.lang.String)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.Class ownClass (238431319);
+	java.lang.String image (474933596);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Class (1302141801);
+	String (917277283);
+..member..
+	Class ownClass (683718244);
+	String name (52487168);
+	String ownClassName (742672280);
+..method..
+	String getName() (2008159348);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

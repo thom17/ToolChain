@@ -1,0 +1,23 @@
+@startuml
+ left to right direction
+
+actor Class as actor736874772
+
+	rectangle Class{
+	 usecase PrintStream as UC143
+	actor736874772--UC143
+	}
+	rectangle addCallBy{
+	 usecase DataList as UC144
+	actor736874772--UC144
+	}
+	rectangle addCall{
+	 usecase DataList as UC145
+	actor736874772--UC145
+	}
+	rectangle addHas{
+	 usecase DataList as UC146
+	actor736874772--UC146
+	}
+
+@enduml

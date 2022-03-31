@@ -1,0 +1,68 @@
+@startuml
+ left to right direction
+
+actor ForStateNode as actor1842002393
+
+	rectangle ForStateNode{
+	 usecase initializers as UC117
+	actor1842002393--UC117
+	 usecase toString as UC118
+	actor1842002393--UC118
+	 usecase getExpression as UC119
+	actor1842002393--UC119
+	 usecase getStmtList as UC120
+	actor1842002393--UC120
+	 usecase getBody as UC121
+	actor1842002393--UC121
+	}
+actor getBody as actor1842002393
+UC121--actor1842002393
+actor getStmtList as actor1842002393
+UC120--actor1842002393
+actor getExpression as actor1842002393
+UC119--actor1842002393
+actor toString as actor1842002393
+UC118--actor1842002393
+actor initializers as actor1842002393
+UC117--actor1842002393
+
+	rectangle getForLine{
+	 usecase append as UC122
+	actor1842002393--UC122
+	 usecase toString as UC123
+	actor1842002393--UC123
+	 usecase getCondition as UC124
+	actor1842002393--UC124
+	 usecase getCode as UC125
+	actor1842002393--UC125
+	 usecase toString as UC126
+	actor1842002393--UC126
+	}
+actor toString as actor1842002393
+UC126--actor1842002393
+actor getCode as actor1842002393
+UC125--actor1842002393
+actor getCondition as actor1842002393
+UC124--actor1842002393
+actor toString as actor1842002393
+UC123--actor1842002393
+actor append as actor1842002393
+UC122--actor1842002393
+
+	rectangle getLastFin{
+	 usecase get as UC127
+	actor1842002393--UC127
+	 usecase println as UC128
+	actor1842002393--UC128
+	 usecase getThen as UC129
+	actor1842002393--UC129
+	}
+actor getThen as actor1842002393
+UC129--actor1842002393
+actor println as actor1842002393
+UC128--actor1842002393
+actor get as actor1842002393
+UC127--actor1842002393
+
+
+@enduml

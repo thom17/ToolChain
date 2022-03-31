@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="109px" preserveAspectRatio="none" style="width:319px;height:109px;" version="1.1" viewBox="0 0 319 109" width="319px" zoomAndPan="magnify"><defs><filter height="300%" id="f5grf0g4a6zya" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[5c9f2ff3dce8366365a11f69deb0ca7c]
+cluster charge--><rect fill="#FFFFFF" filter="url(#f5grf0g4a6zya)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="124" x="83" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="49" x="120.5" y="25.1533">charge</text><ellipse cx="145.1335" cy="62.0973" fill="#FEFECE" filter="url(#f5grf0g4a6zya)" rx="46.1335" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="114.6335" y="68.2121">setMoney</text><!--MD5=[7f0d6b0239150a02ff608ae8a19a649b]
+entity actor1293680848--><ellipse cx="22.5" cy="29.5" fill="#FEFECE" filter="url(#f5grf0g4a6zya)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M22.5,37.5 L22.5,64.5 M9.5,45.5 L35.5,45.5 M22.5,64.5 L9.5,79.5 M22.5,64.5 L35.5,79.5 " fill="none" filter="url(#f5grf0g4a6zya)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="6" y="101.1533">Shop</text><!--MD5=[e5b0874d3a84af736bbf9b0fd98fa8ae]
+entity actor1261153343--><ellipse cx="281.5" cy="29.5" fill="#FEFECE" filter="url(#f5grf0g4a6zya)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M281.5,37.5 L281.5,64.5 M268.5,45.5 L294.5,45.5 M281.5,64.5 L268.5,79.5 M281.5,64.5 L294.5,79.5 " fill="none" filter="url(#f5grf0g4a6zya)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="251" y="101.1533">setMoney</text><!--MD5=[529c73e15de590c133c01ca49f9102f2]
+link actor1293680848 to UC7--><path d="M39.25,62 C54.37,62 77.94,62 98.89,62 " fill="none" id="actor1293680848-UC7" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e06a4c45add1768425f5954e4710a221]
+link UC7 to actor1261153343--><path d="M191.16,62 C210.85,62 233.38,62 250.89,62 " fill="none" id="UC7-actor1261153343" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e861dd710e7d3f42d95c91a4d87430ab]
+@startuml
+ left to right direction
+
+actor Shop as actor1293680848
+
+	rectangle charge{
+	 usecase setMoney as UC7
+	actor1293680848- -UC7
+	}
+actor setMoney as actor1261153343
+UC7- -actor1261153343
+
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

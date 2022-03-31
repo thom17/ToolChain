@@ -1,0 +1,28 @@
+@startuml
+group void drawMain(dataSet.Class, java.lang.String)
+	StateDiagram->StateDiagram : draw(dataSet.Function, dataSet.Member)
+	StateDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->StateDiagram
+	StateDiagram->Writer : write(java.lang.String)
+		Writer-->StateDiagram
+	StateDiagram->StringBuilder : toString()
+		StringBuilder-->StateDiagram
+	StateDiagram->OutputStreamWriter : close()
+		OutputStreamWriter-->StateDiagram
+	StateDiagram->Runtime : exec(java.lang.String)
+		Runtime-->StateDiagram
+	StateDiagram->Runtime : getRuntime()
+		Runtime-->StateDiagram
+	StateDiagram->PrintStream : println(java.lang.String)
+		PrintStream-->StateDiagram
+end
+
+group void drawNode(dataSet.stateNode.StateNode, java.lang.String)
+	StateDiagram->StringBuilder : append(java.lang.String)
+		StringBuilder-->StateDiagram
+	StateDiagram->StateNode : getCode()
+		StateNode-->StateDiagram
+	StateDiagram->StateDiagram : drawNode(dataSet.stateNode.StateNode, java.lang.String)
+end
+
+@enduml

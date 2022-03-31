@@ -1,0 +1,67 @@
+@startuml
+class hongik.selab.parser.java.JavaParser{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	ASTParser parser (96172633);
+	CompilationUnit compilationUnit (1274699449);
+	ArrayList<File> targetList (707492405);
+	File settingFile (1477996447);
+	int fileNum (103788407);
+..method..
+	CompilationUnit[] makeASTList(java.lang.String) (523839133);
+	boolean isJavaFile(java.io.File) (1848778141);
+	void makeFileList(java.io.File) (1968038739);
+	void init(java.io.File) (249736858);
+	// 새방식
+CompilationUnit parsing() (1488550933);
+	void main(java.lang.String[]) (647580778);
+__**<color:blue>calling list</color>**__
+..class..
+	JavaParser (1020552337);
+	ArrayList (810646103);
+	Throwable (668568559);
+	StringBuilder (1709493124);
+	Reader (882053845);
+	BufferedReader (1485169201);
+	ASTParser (1206580572);
+	String (738695357);
+	JavaCore (3027538);
+	PrintStream (1432599360);
+..member..
+	ArrayList<File> targetList (707492405);
+	int fileNum (103788407);
+	ASTParser parser (96172633);
+..method..
+	void makeFileList(java.io.File) (1968038739);
+	null size() (2009979916);
+	void init(java.io.File) (249736858);
+	// 새방식
+CompilationUnit parsing() (1488550933);
+	null add(E) (1037983544);
+	null printStackTrace() (1729992636);
+	null append(java.lang.String) (190182839);
+	null read(char[]) (2001676690);
+	null close() (100805003);
+	null newParser(int) (532068603);
+	null setKind(int) (345865414);
+	null setSource(char[]) (437306494);
+	null toCharArray() (222947526);
+	null toString() (861339480);
+	null setStatementsRecovery(boolean) (655550708);
+	null setBindingsRecovery(boolean) (1486277532);
+	null setResolveBindings(boolean) (1153025988);
+	null setComplianceOptions(java.lang.String, java.util.Map) (108271693);
+	null setCompilerOptions(java.util.Map) (907089215);
+	null println(java.lang.Object) (1479926346);
+__**<color:orange>called by list</color>**__
+..class..
+	JavaParser (1020552337);
+..member..
+..method..
+	CompilationUnit[] makeASTList(java.lang.String) (523839133);
+	void makeFileList(java.io.File) (1968038739);
+	void init(java.io.File) (249736858);
+}
+
+@enduml

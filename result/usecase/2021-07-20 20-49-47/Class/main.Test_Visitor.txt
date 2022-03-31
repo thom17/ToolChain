@@ -1,0 +1,251 @@
+@startuml
+ left to right direction
+
+actor Test_Visitor as actor954742840
+
+	rectangle addDataList{
+	 usecase getFullyQualifiedName as UC63
+	actor954742840--UC63
+	 usecase getName as UC64
+	actor954742840--UC64
+	}
+actor getName as actor897541009
+UC64--actor897541009
+actor getFullyQualifiedName as actor802270602
+UC63--actor802270602
+
+	rectangle getStmtList{
+	 usecase statements as UC65
+	actor954742840--UC65
+	 usecase add as UC66
+	actor954742840--UC66
+	}
+actor add as actor1479446866
+UC66--actor1479446866
+actor statements as actor1755295609
+UC65--actor1755295609
+
+	rectangle typeDeclaration{
+	 usecase addData as UC67
+	actor954742840--UC67
+	 usecase setComplex as UC68
+	actor954742840--UC68
+	}
+actor setComplex as actor736874772
+UC68--actor736874772
+actor addData as actor188193734
+UC67--actor188193734
+
+	rectangle fieldDeclaration{
+	 usecase addData as UC69
+	actor954742840--UC69
+	 usecase getHasList as UC70
+	actor954742840--UC70
+	 usecase addImage as UC71
+	actor954742840--UC71
+	 usecase toString as UC72
+	actor954742840--UC72
+	}
+actor toString as actor2050083360
+UC72--actor2050083360
+actor addImage as actor417118375
+UC71--actor417118375
+actor getHasList as actor628694336
+UC70--actor628694336
+actor addData as actor188193734
+UC69--actor188193734
+
+	rectangle makeFunction{
+	 usecase toString as UC73
+	actor954742840--UC73
+	 usecase println as UC74
+	actor954742840--UC74
+	 usecase addHas as UC75
+	actor954742840--UC75
+	 usecase addData as UC76
+	actor954742840--UC76
+	 usecase setHeadNode as UC77
+	actor954742840--UC77
+	 usecase setCode as UC78
+	actor954742840--UC78
+	 usecase setName as UC79
+	actor954742840--UC79
+	 usecase setComplex as UC80
+	actor954742840--UC80
+	 usecase setThen as UC81
+	actor954742840--UC81
+	 usecase getHasList as UC82
+	actor954742840--UC82
+	}
+actor getHasList as actor628694336
+UC82--actor628694336
+actor setThen as actor882658588
+UC81--actor882658588
+actor setComplex as actor927744186
+UC80--actor927744186
+actor setName as actor927744186
+UC79--actor927744186
+actor setCode as actor927744186
+UC78--actor927744186
+actor setHeadNode as actor927744186
+UC77--actor927744186
+actor addData as actor188193734
+UC76--actor188193734
+actor addHas as actor927744186
+UC75--actor927744186
+actor println as actor2131723476
+UC74--actor2131723476
+actor toString as actor2050083360
+UC73--actor2050083360
+
+	rectangle returnStatement{
+	 usecase init as UC83
+	actor954742840--UC83
+	 usecase toString as UC84
+	actor954742840--UC84
+	}
+actor toString as actor2050083360
+UC84--actor2050083360
+actor init as actor882658588
+UC83--actor882658588
+
+	rectangle forStatement{
+	 usecase init as UC85
+	actor954742840--UC85
+	 usecase setThen as UC86
+	actor954742840--UC86
+	 usecase init as UC87
+	actor954742840--UC87
+	 usecase setCond as UC88
+	actor954742840--UC88
+	 usecase add as UC89
+	actor954742840--UC89
+	 usecase getBefore as UC90
+	actor954742840--UC90
+	 usecase setCondElseNode as UC91
+	actor954742840--UC91
+	 usecase setForFin as UC92
+	actor954742840--UC92
+	}
+actor setForFin as actor1842002393
+UC92--actor1842002393
+actor setCondElseNode as actor1842002393
+UC91--actor1842002393
+actor getBefore as actor882658588
+UC90--actor882658588
+actor add as actor1479446866
+UC89--actor1479446866
+actor setCond as actor1842002393
+UC88--actor1842002393
+actor init as actor882658588
+UC87--actor882658588
+actor setThen as actor882658588
+UC86--actor882658588
+actor init as actor882658588
+UC85--actor882658588
+
+	rectangle ifStatement{
+	 usecase init as UC93
+	actor954742840--UC93
+	 usecase setThen as UC94
+	actor954742840--UC94
+	}
+actor setThen as actor882658588
+UC94--actor882658588
+actor init as actor882658588
+UC93--actor882658588
+
+	rectangle expressionStatement{
+	 usecase init as UC95
+	actor954742840--UC95
+	 usecase toString as UC96
+	actor954742840--UC96
+	 usecase setThen as UC97
+	actor954742840--UC97
+	}
+actor setThen as actor882658588
+UC97--actor882658588
+actor toString as actor2050083360
+UC96--actor2050083360
+actor init as actor882658588
+UC95--actor882658588
+
+	rectangle assignment{
+	 usecase getOwner as UC98
+	actor954742840--UC98
+	 usecase findMember as UC99
+	actor954742840--UC99
+	 usecase getSrcName as UC100
+	actor954742840--UC100
+	 usecase getHasList as UC101
+	actor954742840--UC101
+	 usecase addImage as UC102
+	actor954742840--UC102
+	}
+actor addImage as actor417118375
+UC102--actor417118375
+actor getHasList as actor628694336
+UC101--actor628694336
+actor getSrcName as actor628694336
+UC100--actor628694336
+actor findMember as actor188193734
+UC99--actor188193734
+actor getOwner as actor927744186
+UC98--actor927744186
+
+	rectangle variableDeclarationStatement{
+	 usecase init as UC103
+	actor954742840--UC103
+	 usecase toString as UC104
+	actor954742840--UC104
+	 usecase getName as UC105
+	actor954742840--UC105
+	 usecase setThen as UC106
+	actor954742840--UC106
+	 usecase addData as UC107
+	actor954742840--UC107
+	 usecase setType as UC108
+	actor954742840--UC108
+	 usecase addImage as UC109
+	actor954742840--UC109
+	 usecase addHas as UC110
+	actor954742840--UC110
+	}
+actor addHas as actor927744186
+UC110--actor927744186
+actor addImage as actor417118375
+UC109--actor417118375
+actor setType as actor233142783
+UC108--actor233142783
+actor addData as actor188193734
+UC107--actor188193734
+actor setThen as actor882658588
+UC106--actor882658588
+actor getName as actor569235601
+UC105--actor569235601
+actor toString as actor2050083360
+UC104--actor2050083360
+actor init as actor882658588
+UC103--actor882658588
+
+	rectangle switchStatement{
+	 usecase init as UC111
+	actor954742840--UC111
+	 usecase toString as UC112
+	actor954742840--UC112
+	 usecase getExpression as UC113
+	actor954742840--UC113
+	 usecase setThen as UC114
+	actor954742840--UC114
+	}
+actor setThen as actor882658588
+UC114--actor882658588
+actor getExpression as actor2037498537
+UC113--actor2037498537
+actor toString as actor2050083360
+UC112--actor2050083360
+actor init as actor882658588
+UC111--actor882658588
+
+
+@enduml

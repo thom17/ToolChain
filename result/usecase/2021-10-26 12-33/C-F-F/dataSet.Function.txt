@@ -1,0 +1,29 @@
+@startuml
+ left to right direction
+
+actor Function as actor622820646
+
+	rectangle Function{
+	}
+	rectangle Function{
+	 usecase substring as UC465909321
+	actor622820646--UC465909321
+	 usecase length as UC143486875
+	actor622820646--UC143486875
+	 usecase split as UC1205419533
+	actor622820646--UC1205419533
+	}
+	actor String as actor917277283
+	 UC1205419533 -- actor917277283
+	actor String as actor917277283
+	 UC143486875 -- actor917277283
+	actor String as actor917277283
+	 UC465909321 -- actor917277283
+	rectangle forTest{
+	 usecase println as UC1197176722
+	actor622820646--UC1197176722
+	}
+	actor PrintStream as actor2078239671
+	 UC1197176722 -- actor2078239671
+
+@enduml

@@ -1,0 +1,45 @@
+@startuml
+ left to right direction
+
+actor Base as actor260580453
+
+	rectangle makeDateFolder{
+	 usecase mkdir as UC398468940
+	actor260580453--UC398468940
+	}
+	actor File as actor2059316201
+	 UC53 -- actor2059316201
+	rectangle makeFile{
+	 usecase println as UC115297013
+	actor260580453--UC115297013
+	 usecase write as UC38851648
+	actor260580453--UC38851648
+	 usecase close as UC1992844647
+	actor260580453--UC1992844647
+	}
+	actor OutputStreamWriter as actor2120154283
+	 UC54 -- actor2120154283
+	actor Writer as actor94690722
+	 UC55 -- actor94690722
+	actor PrintStream as actor652803980
+	 UC56 -- actor652803980
+	rectangle printLog{
+	 usecase getInputStream as UC95476731
+	actor260580453--UC95476731
+	 usecase getOutputStream as UC1268629255
+	actor260580453--UC1268629255
+	 usecase println as UC115297013
+	actor260580453--UC115297013
+	 usecase readLine as UC127401209
+	actor260580453--UC127401209
+	}
+	actor BufferedReader as actor381516513
+	 UC57 -- actor381516513
+	actor PrintStream as actor652803980
+	 UC58 -- actor652803980
+	actor Process as actor1520921298
+	 UC59 -- actor1520921298
+	actor Process as actor1520921298
+	 UC60 -- actor1520921298
+
+@enduml

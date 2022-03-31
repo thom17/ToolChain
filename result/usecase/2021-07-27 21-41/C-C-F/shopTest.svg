@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="175px" preserveAspectRatio="none" style="width:97px;height:175px;" version="1.1" viewBox="0 0 97 175" width="97px" zoomAndPan="magnify"><defs><filter height="300%" id="f1kupaepdo9xje" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d56d8d71d59ac9914f8d2abea51af7e5]
+entity Shop--><rect fill="#FFFFFF" filter="url(#f1kupaepdo9xje)" height="39.2295" style="stroke: #000000; stroke-width: 1.5;" width="53" x="21.5" y="124"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="31.5" y="150.1533">Shop</text><!--MD5=[e5b0874d3a84af736bbf9b0fd98fa8ae]
+entity actor1261153343--><ellipse cx="48" cy="14" fill="#FEFECE" filter="url(#f1kupaepdo9xje)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M48,22 L48,49 M35,30 L61,30 M48,49 L35,64 M48,49 L61,64 " fill="none" filter="url(#f1kupaepdo9xje)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="6" y="85.6533">TestScenario</text><!--MD5=[98a09bc9a35bb1edecf7a4ee119dd01a]
+@startuml
+ left to right direction
+
+actor TestScenario as actor1261153343
+rectangle Shop{
+}
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

@@ -1,0 +1,35 @@
+@startuml
+ left to right direction
+
+actor Actor as actor1732502545
+
+	rectangle login{
+	 usecase login as UC3
+	actor1732502545--UC3
+	}
+actor login as actor823723302
+UC3--actor823723302
+
+	rectangle buy{
+	 usecase buy as UC4
+	actor1732502545--UC4
+	}
+actor buy as actor823723302
+UC4--actor823723302
+
+	rectangle charge{
+	 usecase charge as UC5
+	actor1732502545--UC5
+	}
+actor charge as actor823723302
+UC5--actor823723302
+
+	rectangle addGoods{
+	 usecase addGoods as UC6
+	actor1732502545--UC6
+	}
+actor addGoods as actor823723302
+UC6--actor823723302
+
+
+@enduml

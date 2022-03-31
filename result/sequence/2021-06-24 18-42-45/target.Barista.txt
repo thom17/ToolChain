@@ -1,0 +1,6 @@
+@startuml
+group Coffee target.Barista.makeCoffee(target.Coffee, boolean)
+	Barista->Coffee : addShot()
+end
+
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+ left to right direction
+
+actor Barista
+actor CoffeeShop
+rectangle r1 as "Barista"{
+	usecase makeCoffee
+		Barista -- makeCoffee
+		CoffeeShop --makeCoffee
+	usecase getOrder
+		CoffeeShop -- getOrder
+		
+}
+rectangle Coffee{
+	usecase addShot
+		Barista -- addShot
+	usecase make
+		Barista -- make
+}
+@enduml

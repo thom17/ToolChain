@@ -1,0 +1,32 @@
+@startuml
+class "dataSet.Function.Function(dataSet.Class, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.Class ownClass (1699265405);
+	java.lang.String returnType (237484673);
+	java.lang.String name (1412656257);
+	java.lang.String ptype (358019805);
+	java.lang.String pname (904208473);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	String (917277283);
+	Class (1302141801);
+..member..
+	Class ownClass (1829966070);
+	String returnType (841537936);
+	String name (1424439581);
+	String[] parameterType (1354280589);
+	String[] parameterName (626626764);
+..method..
+	null substring(int, int) (465909321);
+	null length() (143486875);
+	null split(java.lang.String) (1205419533);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

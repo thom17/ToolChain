@@ -1,0 +1,41 @@
+@startuml
+group ForStateNode ForStateNode(org.eclipse.jdt.core.dom.ForStatement)
+	ForStateNode->ForStatement : initializers()
+		ForStatement-->ForStateNode
+	ForStateNode->ASTNode : toString()
+		ASTNode-->ForStateNode
+	ForStateNode->ForStatement : getExpression()
+		ForStatement-->ForStateNode
+	ForStateNode->Test_Visitor : getStmtList(org.eclipse.jdt.core.dom.Statement)
+		Test_Visitor->Block : statements()
+			Block-->Test_Visitor
+		Test_Visitor->ArrayList : add(E)
+			ArrayList-->Test_Visitor
+		Test_Visitor-->ForStateNode
+	ForStateNode->ForStatement : getBody()
+		ForStatement-->ForStateNode
+end
+
+group String getForLine()
+	ForStateNode->StringBuilder : append(java.lang.String)
+		StringBuilder-->ForStateNode
+	ForStateNode->Object : toString()
+		Object-->ForStateNode
+	ForStateNode->StateNode : getCondition()
+		StateNode-->ForStateNode
+	ForStateNode->StateNode : getCode()
+		StateNode-->ForStateNode
+	ForStateNode->StringBuilder : toString()
+		StringBuilder-->ForStateNode
+end
+
+group StateNode getLastFin()
+	ForStateNode->ArrayList : get(int)
+		ArrayList-->ForStateNode
+	ForStateNode->PrintStream : println(java.lang.String)
+		PrintStream-->ForStateNode
+	ForStateNode->StateNode : getThen()
+		StateNode-->ForStateNode
+end
+
+@enduml

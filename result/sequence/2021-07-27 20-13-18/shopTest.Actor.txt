@@ -1,0 +1,24 @@
+@startuml
+group void login()
+	Actor->Shop : login(java.lang.String, java.lang.String)
+		Shop-->Actor
+end
+
+group void buy()
+	Actor->Shop : buy(shop.User, shop.Goods)
+		Shop-->Actor
+end
+
+group void charge()
+	Actor->Shop : charge(shop.User, int)
+		Shop->User : setMoney(int)
+			User-->Shop
+		Shop-->Actor
+end
+
+group void addGoods()
+	Actor->Shop : addGoods(shop.Goods, java.lang.String)
+		Shop-->Actor
+end
+
+@enduml

@@ -1,0 +1,31 @@
+@startuml
+ left to right direction
+
+actor ForStateNode as actor1842002393
+
+	rectangle ForStateNode{
+	 usecase ForStatement as UC87
+	actor1842002393--UC87
+	 usecase ASTNode as UC88
+	actor1842002393--UC88
+	 usecase Test_Visitor as UC89
+	actor1842002393--UC89
+	}
+	rectangle getForLine{
+	 usecase StringBuilder as UC90
+	actor1842002393--UC90
+	 usecase Object as UC91
+	actor1842002393--UC91
+	 usecase StateNode as UC92
+	actor1842002393--UC92
+	}
+	rectangle getLastFin{
+	 usecase ArrayList as UC93
+	actor1842002393--UC93
+	 usecase PrintStream as UC94
+	actor1842002393--UC94
+	 usecase StateNode as UC95
+	actor1842002393--UC95
+	}
+
+@enduml

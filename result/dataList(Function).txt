@@ -1,0 +1,9 @@
+@startuml
+/'do Class Define (클래스 정의)'/
+/'Class Define (클래스 정의) end'/
+
+/'do Extends Define (상속 관계 정의)'/
+/'Extends Define (상속 관계 정의) end'/
+
+
+@enduml

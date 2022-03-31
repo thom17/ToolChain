@@ -1,0 +1,20 @@
+@startuml
+group SwitchNode SwitchNode(org.eclipse.jdt.core.dom.SwitchStatement)
+	SwitchNode->ASTNode : toString()
+		ASTNode-->SwitchNode
+	SwitchNode->SwitchStatement : getExpression()
+		SwitchStatement-->SwitchNode
+	SwitchNode->ArrayList : add(E)
+		ArrayList-->SwitchNode
+	SwitchNode->SwitchStatement : statements()
+		SwitchStatement-->SwitchNode
+end
+
+group void print()
+	SwitchNode->PrintStream : println(java.lang.String)
+		PrintStream-->SwitchNode
+	SwitchNode->ASTNode : toString()
+		ASTNode-->SwitchNode
+end
+
+@enduml

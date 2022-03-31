@@ -1,0 +1,19 @@
+@startuml
+class dataSet.Data_base.setStatic(boolean){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	boolean isStatic (1075803699);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	boolean isStatic (447767121);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

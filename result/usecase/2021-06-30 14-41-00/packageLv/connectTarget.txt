@@ -1,0 +1,23 @@
+@startuml
+ left to right direction
+
+actor A as actor222511810
+
+	package connectTarget {
+		usecase AC as UC733943822
+		usecase Ab as UC373182087
+	}
+	actor222511810 -- UC373182087
+	actor222511810 -- UC733943822
+actor B as actor1457410641
+
+	package connectTarget {
+		usecase AC as UC733943822
+		usecase Ba as UC1100767002
+	}
+	actor1457410641 -- UC1100767002
+	actor1457410641 -- UC733943822
+actor C as actor313540687
+
+
+@enduml

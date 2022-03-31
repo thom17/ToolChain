@@ -1,0 +1,28 @@
+@startuml
+group String makeDateFolder(java.lang.String)
+	Base->File : mkdir()
+		File-->Base
+end
+
+group void makeFile(java.lang.String, java.lang.String)
+	Base->PrintStream : println(java.lang.String)
+		PrintStream-->Base
+	Base->Writer : write(java.lang.String)
+		Writer-->Base
+	Base->OutputStreamWriter : close()
+		OutputStreamWriter-->Base
+	Base->Base : printLog(java.lang.Process)
+end
+
+group void printLog(java.lang.Process)
+	Base->Process : getInputStream()
+		Process-->Base
+	Base->Process : getOutputStream()
+		Process-->Base
+	Base->PrintStream : println(java.lang.String)
+		PrintStream-->Base
+	Base->BufferedReader : readLine()
+		BufferedReader-->Base
+end
+
+@enduml

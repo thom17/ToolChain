@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<sWVS:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sWVS="http://www.example.org/sWVS" projectName="Dice Game">
+  <requirement reqId="1" contents="플레이어는 주사위 기반 게임을 한다."/>
+  <requirement reqId="2" contents="플레이어는 점수를 조회한다."/>
+  <requirement reqId="3" contents="플레이어는 맵을 설정한다."/>
+  <system id="Sys1" objectType="Class" objectName="GameSystem" systemName="Game System" systemType="MainControlSystem" systemRequirement="//@requirement.0">
+    <usecase id="UC01" usecaseName="Play Game" context="플레이어가 게임을 하기 위해 시스템을 사용" actActors="test()">
+      <flow id="UC01_FL01" objectType="Function" objectName="playGame(name)" flowId="1" host="GameSystem" client="test()" requirement="//@requirement.0" context="플레이어는 자신의 이름을 입력하고 게임을 시작"/>
+      <flow id="UC01_FL02" objectType="Function" objectName="diceSetting()" flowId="2" host="GameSystem GameSystem" client="GameSystem GameSystem" requirement="//@requirement.0" context="시스템은 주사위 두개를 준비한다." result="세팅된 주사위 두개를 반환/초기화"/>
+      <flow id="UC01_FL03" objectType="Function" objectName="main()" flowId="3" host="GameSystem GameSystem" client="GameSystem GameSystem" requirement="//@requirement.0" context="게임이 종료될때까지 세부사항을 반복한다." result="게임의 종료">
+        <detailFlow id="UC01_FL03_01" objectType="Function" objectName="diceRoll(dice)" flowId="1" host="GameSystem GameSystem" client="GameSystem GameSystem" requirement="//@requirement.0" context="플레이어가 주사위를 선택하고 던진다." result="주사위의 결과값을 반환한다.">
+          <detailFlow id="UC01_FL03_01_01" data_base_SrcName="" objectType="Function" objectName="roll()" flowId="1" host="Dice Dice" client="GameSystem diceRoll(dice) GameSystem //@system.0/@usecase.0" requirement="//@requirement.0" context="선택된 주사위를 굴린다."/>
+        </detailFlow>
+        <detailFlow id="UC01_FL03_03" objectType="Function" objectName="move(dice,player)" flowId="2" host="GameSystem GameSystem" client="GameSystem GameSystem" requirement="//@requirement.0" context="플레이어가 주사위 값 만큼 이동한다." result="해당 플레이어의 말이 해당 값 만큼 이동한다."/>
+      </flow>
+      <flow id="UC01_FL04" objectType="Function" objectName="gameEnd()" flowId="4" host="GameSystem GameSystem" client="GameSystem GameSystem" requirement="//@requirement.0" context="시스템의 승자를 알려주고 플레이어의 스코어를 기록한다." result="게임 스코어 기록 및 결과 출력"/>
+    </usecase>
+    <usecase id="UC02" usecaseName="View Score" context="플레이어는 스코어를 조회하기 위해 시스템을 사용한다." actActors="test()"/>
+    <usecase id="UC03" usecaseName="Configure Game" context="맵을 원하는 대로 세팅한다." actActors="test()"/>
+  </system>
+  <actor id="ACTOR01" objectType="Function" objectName="test()" actorName="Player" actorType="main Function" actUsecases="//@system.0/@usecase.0 //@system.0/@usecase.1 //@system.0/@usecase.2"/>
+  <class id="Sys1" data_base_SrcName="diceProject.GameSystem" objectType="Class" objectName="GameSystem" package="gameSystem" hasClass="Dice Map Player">
+    <field typeName="Player[]" name="playerList" isClass="true"/>
+    <field typeName="Dice[]" name="diceList" isClass="true"/>
+    <field typeName="Map" name="map" isClass="true"/>
+    <method id="UC01_FL01" objectName="playGame(String name)" flow="playGame(name)" returnType="void"/>
+    <method id="UC01_FL02" objectName="diceSetting()" flow="diceSetting()" returnType="void"/>
+    <method id="UC01_FL03" objectName="main()" flow="main()" returnType="void"/>
+    <method id="UC01_FL04" objectName="gameEnd()" flow="gameEnd()" returnType="boolean"/>
+    <method id="UC01_FL03_01" objectName="diceRoll(Dice dice)" flow="diceRoll(dice)" returnType="void"/>
+    <method id="UC01_FL03_03" objectName="move(Dice dice, Player player)" flow="move(dice,player)" returnType="void"/>
+  </class>
+  <class id="Player" objectType="Class" objectName="Player" package="gameSystem">
+    <field typeName="String" name="name"/>
+    <field typeName="int" name="pos"/>
+  </class>
+  <class id="Dice" objectType="Class" objectName="Dice" package="gameSystem">
+    <field typeName="int[]" name="shapeList"/>
+    <method id="UC01_FL03_01_01" objectType="method" objectName="roll()" flow="roll()" returnType="int"/>
+  </class>
+  <class objectType="Class" objectName="Map" package="gameSystem">
+    <field typeName="int[]" name="eventList"/>
+  </class>
+  <object xsi:type="sWVS:Class" objectName="Main" package="test"/>
+  <object id="Dice" objectType="Class" objectName="Dice"/>
+</sWVS:Project>

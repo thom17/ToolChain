@@ -1,0 +1,26 @@
+@startuml
+class "dataSet.DataList.addVar(dataSet.Var)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	dataSet.Var var (828241083);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Var (1388849499);
+..member..
+..method..
+	String getName() (1389432760);
+__**<color:orange>called by list</color>**__
+..class..
+	Class (1302141801);
+	SN_Dumper (535352603);
+..member..
+..method..
+	void addMember(dataSet.Var) (843959601);
+	void addCallMember(dataSet.Var) (1128266449);
+	void readIv(dataSet.DataList) (670689666);
+	void readBy(dataSet.DataList) (936628786);
+}
+
+@enduml

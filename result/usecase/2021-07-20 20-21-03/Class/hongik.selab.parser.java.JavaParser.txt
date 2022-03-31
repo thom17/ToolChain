@@ -1,0 +1,83 @@
+@startuml
+ left to right direction
+
+actor JavaParser as actor1585824283
+
+	rectangle makeASTList{
+	 usecase size as UC958817283
+	actor1585824283--UC958817283
+	}
+	actor ArrayList as actor170611939
+	 UC172 -- actor170611939
+	rectangle makeFileList{
+	 usecase add as UC293618119
+	actor1585824283--UC293618119
+	}
+	actor ArrayList as actor170611939
+	 UC173 -- actor170611939
+	rectangle init{
+	 usecase printStackTrace as UC1957691975
+	actor1585824283--UC1957691975
+	 usecase append as UC1510333744
+	actor1585824283--UC1510333744
+	 usecase read as UC715213542
+	actor1585824283--UC715213542
+	 usecase close as UC1273270490
+	actor1585824283--UC1273270490
+	 usecase newParser as UC1097397209
+	actor1585824283--UC1097397209
+	 usecase setKind as UC893281161
+	actor1585824283--UC893281161
+	 usecase setSource as UC367589810
+	actor1585824283--UC367589810
+	 usecase toCharArray as UC2053491093
+	actor1585824283--UC2053491093
+	 usecase toString as UC458385820
+	actor1585824283--UC458385820
+	 usecase setStatementsRecovery as UC2090142523
+	actor1585824283--UC2090142523
+	 usecase setBindingsRecovery as UC988876043
+	actor1585824283--UC988876043
+	 usecase setResolveBindings as UC1745241742
+	actor1585824283--UC1745241742
+	 usecase setComplianceOptions as UC1014698874
+	actor1585824283--UC1014698874
+	 usecase setCompilerOptions as UC1751325469
+	actor1585824283--UC1751325469
+	}
+	actor ASTParser as actor1514723919
+	 UC174 -- actor1514723919
+	actor JavaCore as actor10536382
+	 UC175 -- actor10536382
+	actor ASTParser as actor1514723919
+	 UC176 -- actor1514723919
+	actor ASTParser as actor1514723919
+	 UC177 -- actor1514723919
+	actor ASTParser as actor1514723919
+	 UC178 -- actor1514723919
+	actor StringBuilder as actor230610941
+	 UC179 -- actor230610941
+	actor String as actor1680139795
+	 UC180 -- actor1680139795
+	actor ASTParser as actor1514723919
+	 UC181 -- actor1514723919
+	actor ASTParser as actor1514723919
+	 UC182 -- actor1514723919
+	actor ASTParser as actor1514723919
+	 UC183 -- actor1514723919
+	actor BufferedReader as actor381516513
+	 UC184 -- actor381516513
+	actor Reader as actor351249017
+	 UC185 -- actor351249017
+	actor StringBuilder as actor230610941
+	 UC186 -- actor230610941
+	actor Throwable as actor149526537
+	 UC187 -- actor149526537
+	rectangle main{
+	 usecase println as UC241316255
+	actor1585824283--UC241316255
+	}
+	actor PrintStream as actor652803980
+	 UC188 -- actor652803980
+
+@enduml

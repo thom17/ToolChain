@@ -1,0 +1,7 @@
+@startuml
+ left to right direction
+
+actor JavaCore as actor1108374296
+
+
+@enduml

@@ -1,0 +1,31 @@
+@startuml
+ left to right direction
+
+actor ForStateNode as actor1248201524
+
+	rectangle ForStateNode{
+	 usecase ForStatement as UC1978471002
+	actor1248201524--UC1978471002
+	 usecase ASTNode as UC298295476
+	actor1248201524--UC298295476
+	 usecase Test_Visitor as UC181451598
+	actor1248201524--UC181451598
+	}
+	rectangle getForLine{
+	 usecase StringBuilder as UC1152029154
+	actor1248201524--UC1152029154
+	 usecase Object as UC1356614113
+	actor1248201524--UC1356614113
+	 usecase StateNode as UC1238292935
+	actor1248201524--UC1238292935
+	}
+	rectangle getLastFin{
+	 usecase ArrayList as UC1001114349
+	actor1248201524--UC1001114349
+	 usecase PrintStream as UC150180388
+	actor1248201524--UC150180388
+	 usecase StateNode as UC1238292935
+	actor1248201524--UC1238292935
+	}
+
+@enduml

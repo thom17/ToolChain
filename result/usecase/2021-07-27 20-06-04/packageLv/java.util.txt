@@ -1,0 +1,7 @@
+@startuml
+ left to right direction
+
+actor ArrayList as actor1609124502
+
+
+@enduml

@@ -1,0 +1,30 @@
+@startuml
+class forMidEx.Game{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	java.util.Random rand (782505238);
+	int winCount (977552154);
+	java.lang.String player (1014982340);
+	int gameCount (424398527);
+..method..
+	boolean diceBattle(int) (390689829);
+	boolean diecLotto(int[]) (252553541);
+__**<color:blue>calling list</color>**__
+..class..
+	Game (1208203046);
+..member..
+	int winCount (977552154);
+	int gameCount (424398527);
+..method..
+	boolean diceBattle(int) (390689829);
+__**<color:orange>called by list</color>**__
+..class..
+	Game (1208203046);
+..member..
+..method..
+	boolean diceBattle(int) (390689829);
+	boolean diecLotto(int[]) (252553541);
+}
+
+@enduml

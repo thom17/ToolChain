@@ -1,0 +1,17 @@
+@startuml
+ left to right direction
+
+actor Americano as actor1804379080
+actor Coffee as actor1757880885
+actor Barista as actor931496835
+actor CafeLatte as actor278240974
+actor CoffeeShop as actor1311146128
+	rectangle "makeCoffee" as fun464676531{
+	usecase "Coffee" as UC0
+		actor1804379080--UC0
+		actor931496835--UC0
+		actor278240974--UC0
+		actor1757880885--UC0
+	}
+
+@enduml

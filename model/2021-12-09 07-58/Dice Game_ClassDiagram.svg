@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="298px" preserveAspectRatio="none" style="width:316px;height:298px;" version="1.1" viewBox="0 0 316 298" width="316px" zoomAndPan="magnify"><defs><filter height="300%" id="f1hj00myw1ua9t" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9052447a28513dc27dd79eab56d3b0fe]
+class GameSystem--><rect codeLine="1" fill="#FEFECE" filter="url(#f1hj00myw1ua9t)" height="138.6533" id="GameSystem" style="stroke: #A80036; stroke-width: 1.5;" width="159" x="80" y="7"/><ellipse cx="118.4" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M118.2281,16.4844 Q116.3531,16.4844 115.1969,18.2344 Q114.0094,20.0156 114.0094,23.0156 Q114.0094,26.3906 115.2125,28.1563 Q116.275,29.7813 118.025,29.7813 Q119.7125,29.7813 120.6656,28.875 Q121.7281,27.8594 121.8688,25.625 Q121.8688,25.2031 121.6344,24.9688 Q121.4469,24.7344 121.1031,24.7031 Q120.775,24.7031 120.5406,24.8906 Q120.275,25.125 120.275,25.5156 Q120.2438,26.9063 119.65,27.6406 Q119.1188,28.3438 118.1656,28.3438 Q117.0094,28.3438 116.2906,26.9063 Q115.5719,25.4063 115.5719,22.9844 Q115.5719,20.4375 116.4625,19.0469 Q117.2125,17.9219 118.3531,17.9219 Q119.0094,17.9219 119.5094,18.4688 Q120.0719,19.0781 120.1969,20.1406 Q120.2438,20.8438 121.0719,20.7344 Q121.8531,20.625 121.8063,19.9375 Q121.6188,18.4219 120.8531,17.5469 Q119.9156,16.4844 118.2281,16.4844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="75" x="137.6" y="28.6045">GameSystem</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="81" x2="238" y1="39" y2="39"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="81" x2="238" y1="47" y2="47"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="86" y="63.6919">playGame(String name)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="86" y="78.8008">diceSetting()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="30" x="86" y="93.9097">main()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="86" y="109.0186">gameEnd()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="86" y="124.1274">diceRoll(Dice dice)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="147" x="86" y="139.2363">move(Dice dice, Player player)</text><!--MD5=[f7a9ae25cb0ac60c5f03b7bfd778cce3]
+class Dice--><rect codeLine="24" fill="#FEFECE" filter="url(#f1hj00myw1ua9t)" height="78.2178" id="Dice" style="stroke: #A80036; stroke-width: 1.5;" width="79" x="7" y="206"/><ellipse cx="31.9" cy="222" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M31.7281,215.4844 Q29.8531,215.4844 28.6969,217.2344 Q27.5094,219.0156 27.5094,222.0156 Q27.5094,225.3906 28.7125,227.1563 Q29.775,228.7813 31.525,228.7813 Q33.2125,228.7813 34.1656,227.875 Q35.2281,226.8594 35.3688,224.625 Q35.3688,224.2031 35.1344,223.9688 Q34.9469,223.7344 34.6031,223.7031 Q34.275,223.7031 34.0406,223.8906 Q33.775,224.125 33.775,224.5156 Q33.7438,225.9063 33.15,226.6406 Q32.6188,227.3438 31.6656,227.3438 Q30.5094,227.3438 29.7906,225.9063 Q29.0719,224.4063 29.0719,221.9844 Q29.0719,219.4375 29.9625,218.0469 Q30.7125,216.9219 31.8531,216.9219 Q32.5094,216.9219 33.0094,217.4688 Q33.5719,218.0781 33.6969,219.1406 Q33.7438,219.8438 34.5719,219.7344 Q35.3531,219.625 35.3063,218.9375 Q35.1188,217.4219 34.3531,216.5469 Q33.4156,215.4844 31.7281,215.4844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="25" x="48.1" y="227.6045">Dice</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="85" y1="238" y2="238"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="13" y="254.6919">int[] shapeList</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="85" y1="261.1089" y2="261.1089"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="22" x="13" y="277.8008">roll()</text><!--MD5=[4dfc6a72b8dd60daa1b635d583ff79da]
+class Map--><rect codeLine="32" fill="#FEFECE" filter="url(#f1hj00myw1ua9t)" height="63.1089" id="Map" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="121.5" y="213.5"/><ellipse cx="145.95" cy="229.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M145.7781,222.9844 Q143.9031,222.9844 142.7469,224.7344 Q141.5594,226.5156 141.5594,229.5156 Q141.5594,232.8906 142.7625,234.6563 Q143.825,236.2813 145.575,236.2813 Q147.2625,236.2813 148.2156,235.375 Q149.2781,234.3594 149.4188,232.125 Q149.4188,231.7031 149.1844,231.4688 Q148.9969,231.2344 148.6531,231.2031 Q148.325,231.2031 148.0906,231.3906 Q147.825,231.625 147.825,232.0156 Q147.7938,233.4063 147.2,234.1406 Q146.6688,234.8438 145.7156,234.8438 Q144.5594,234.8438 143.8406,233.4063 Q143.1219,231.9063 143.1219,229.4844 Q143.1219,226.9375 144.0125,225.5469 Q144.7625,224.4219 145.9031,224.4219 Q146.5594,224.4219 147.0594,224.9688 Q147.6219,225.5781 147.7469,226.6406 Q147.7938,227.3438 148.6219,227.2344 Q149.4031,227.125 149.3563,226.4375 Q149.1688,224.9219 148.4031,224.0469 Q147.4656,222.9844 145.7781,222.9844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="23" x="162.05" y="235.1045">Map</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="122.5" x2="196.5" y1="245.5" y2="245.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="127.5" y="262.1919">int[] eventList</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="122.5" x2="196.5" y1="268.6089" y2="268.6089"/><!--MD5=[2cb47ba637a0d19583e6199456f6ad0b]
+class Player--><rect codeLine="16" fill="#FEFECE" filter="url(#f1hj00myw1ua9t)" height="78.2178" id="Player" style="stroke: #A80036; stroke-width: 1.5;" width="69" x="233" y="206"/><ellipse cx="249.35" cy="222" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M249.1781,215.4844 Q247.3031,215.4844 246.1469,217.2344 Q244.9594,219.0156 244.9594,222.0156 Q244.9594,225.3906 246.1625,227.1563 Q247.225,228.7813 248.975,228.7813 Q250.6625,228.7813 251.6156,227.875 Q252.6781,226.8594 252.8188,224.625 Q252.8188,224.2031 252.5844,223.9688 Q252.3969,223.7344 252.0531,223.7031 Q251.725,223.7031 251.4906,223.8906 Q251.225,224.125 251.225,224.5156 Q251.1938,225.9063 250.6,226.6406 Q250.0688,227.3438 249.1156,227.3438 Q247.9594,227.3438 247.2406,225.9063 Q246.5219,224.4063 246.5219,221.9844 Q246.5219,219.4375 247.4125,218.0469 Q248.1625,216.9219 249.3031,216.9219 Q249.9594,216.9219 250.4594,217.4688 Q251.0219,218.0781 251.1469,219.1406 Q251.1938,219.8438 252.0219,219.7344 Q252.8031,219.625 252.7563,218.9375 Q252.5688,217.4219 251.8031,216.5469 Q250.8656,215.4844 249.1781,215.4844 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="263.65" y="227.6045">Player</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="234" x2="301" y1="238" y2="238"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="239" y="254.6919">String name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="32" x="239" y="269.8008">int pos</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="234" x2="301" y1="276.2178" y2="276.2178"/><!--MD5=[4937c2f62d2ee5534486323d880f3c98]
+reverse link GameSystem to Dice--><path codeLine="12" d="M105.35,157.28 C93.83,174.25 82.18,191.42 72.32,205.95 " fill="none" id="GameSystem-backto-Dice" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="112.89,146.18,106.211,148.8986,106.1517,156.1095,112.8307,153.3909,112.89,146.18" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1bbe9902c71b407c827fe2e1c9f440c7]
+reverse link GameSystem to Map--><path codeLine="13" d="M159.5,159.4 C159.5,178.58 159.5,197.86 159.5,213.16 " fill="none" id="GameSystem-backto-Map" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="159.5,146.18,155.5,152.18,159.5,158.18,163.5,152.18,159.5,146.18" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[cc67d49812b13ac8f6329b8f976cab76]
+reverse link GameSystem to Player--><path codeLine="14" d="M211.25,157.28 C222.26,174.25 233.39,191.42 242.82,205.95 " fill="none" id="GameSystem-backto-Player" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="204.05,146.18,203.9665,153.3906,210.5903,156.241,210.6738,149.0304,204.05,146.18" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e84400da18d1a979785fdfe56d8cb136]
+@startuml
+class GameSystem 
+{
+
+	playGame(String name)
+	diceSetting()
+	main()
+	gameEnd()
+	diceRoll(Dice dice)
+	move(Dice dice, Player player)
+
+}
+ GameSystem *- - Dice
+ GameSystem *- - Map
+ GameSystem *- - Player
+
+class Player 
+{
+	 String name
+	 int pos
+
+
+}
+
+class Dice 
+{
+	 int[] shapeList
+
+	roll()
+
+}
+
+class Map 
+{
+	 int[] eventList
+
+
+}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

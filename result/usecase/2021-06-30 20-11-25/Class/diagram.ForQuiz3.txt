@@ -1,0 +1,55 @@
+@startuml
+ left to right direction
+
+actor ForQuiz3 as actor266906347
+
+	rectangle main{
+	 usecase Process as UC1785570426
+	actor266906347--UC1785570426
+	 usecase PrintStream as UC150180388
+	actor266906347--UC150180388
+	}
+	rectangle main{
+	 usecase Process as UC1785570426
+	actor266906347--UC1785570426
+	 usecase PrintStream as UC150180388
+	actor266906347--UC150180388
+	}
+	rectangle makeFile{
+	 usecase Writer as UC133579455
+	actor266906347--UC133579455
+	 usecase OutputStreamWriter as UC1138992016
+	actor266906347--UC1138992016
+	}
+	rectangle makeScript{
+	 usecase StringBuilder as UC1152029154
+	actor266906347--UC1152029154
+	 usecase Object as UC1356614113
+	actor266906347--UC1356614113
+	}
+	rectangle makeMemberInfo{
+	 usecase StringBuilder as UC1152029154
+	actor266906347--UC1152029154
+	 usecase AbstractCollection as UC1695161087
+	actor266906347--UC1695161087
+	 usecase Member as UC444096469
+	actor266906347--UC444096469
+	}
+	rectangle makeFunctionInfo{
+	 usecase StringBuilder as UC1152029154
+	actor266906347--UC1152029154
+	 usecase Object as UC1356614113
+	actor266906347--UC1356614113
+	 usecase Function as UC426792528
+	actor266906347--UC426792528
+	}
+	rectangle makeExpInfo{
+	 usecase ArrayList as UC1001114349
+	actor266906347--UC1001114349
+	 usecase StringBuilder as UC1152029154
+	actor266906347--UC1152029154
+	 usecase Object as UC1356614113
+	actor266906347--UC1356614113
+	}
+
+@enduml

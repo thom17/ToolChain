@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="425px" preserveAspectRatio="none" style="width:315px;height:425px;" version="1.1" viewBox="0 0 315 425" width="315px" zoomAndPan="magnify"><defs><filter height="300%" id="f1acsyn7kk7zb0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f84b217020bdb875be7d37de79ed20c2]
+cluster SwitchNode--><rect fill="#FFFFFF" filter="url(#f1acsyn7kk7zb0)" height="226" style="stroke: #000000; stroke-width: 1.5;" width="180" x="123" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="171.5" y="25.1533">SwitchNode</text><!--MD5=[d7cb485c184685c60a24d7d833bd66f5]
+cluster print--><rect fill="#FFFFFF" filter="url(#f1acsyn7kk7zb0)" height="156" style="stroke: #000000; stroke-width: 1.5;" width="143" x="141.5" y="257"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="196.5" y="275.1533">print</text><ellipse cx="212.9264" cy="62.0973" fill="#FEFECE" filter="url(#f1acsyn7kk7zb0)" rx="45.4264" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="182.9264" y="68.2121">ASTNode</text><ellipse cx="212.8173" cy="131.1635" fill="#FEFECE" filter="url(#f1acsyn7kk7zb0)" rx="73.8173" ry="17.1635" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="104" x="160.8173" y="137.2782">SwitchStatement</text><ellipse cx="213.098" cy="200.0973" fill="#FEFECE" filter="url(#f1acsyn7kk7zb0)" rx="42.598" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="185.098" y="206.2121">ArrayList</text><ellipse cx="212.8259" cy="312.0973" fill="#FEFECE" filter="url(#f1acsyn7kk7zb0)" rx="55.3259" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="175.8259" y="318.2121">PrintStream</text><ellipse cx="212.9264" cy="380.0973" fill="#FEFECE" filter="url(#f1acsyn7kk7zb0)" rx="45.4264" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="182.9264" y="386.2121">ASTNode</text><!--MD5=[72a9bcd9c8f6b0523487f87d1c5e2444]
+entity actor1511319053--><ellipse cx="42.5" cy="167.5" fill="#FEFECE" filter="url(#f1acsyn7kk7zb0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M42.5,175.5 L42.5,202.5 M29.5,183.5 L55.5,183.5 M42.5,202.5 L29.5,217.5 M42.5,202.5 L55.5,217.5 " fill="none" filter="url(#f1acsyn7kk7zb0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="73" x="6" y="239.1533">SwitchNode</text><!--MD5=[21d66a2c6632ad912130e605993a2fcc]
+link actor1511319053 to UC120--><path d="M64.16,157.95 C76.39,136.82 93.68,112.3 115,96 C131.73,83.21 153.64,74.99 172.41,69.84 " fill="none" id="actor1511319053-UC120" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[40a2c795d4244eabe6a13bb9aaff3708]
+link actor1511319053 to UC121--><path d="M79.2,182.18 C90.54,176.75 103.2,170.92 115,166 C133.01,158.49 153.27,151.03 170.6,144.94 " fill="none" id="actor1511319053-UC121" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c256536f6acd9a13ff2180c15020c642]
+link actor1511319053 to UC122--><path d="M79.23,200 C105.9,200 142.39,200 170.38,200 " fill="none" id="actor1511319053-UC122" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[fbf42e8be0f0459c62688184d635347c]
+link actor1511319053 to UC123--><path d="M79.23,223.75 C112.47,245.84 160.98,278.08 189.23,296.87 " fill="none" id="actor1511319053-UC123" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[503171299b34bc47827046ff2bfde00a]
+link actor1511319053 to UC124--><path d="M54.59,242.21 C65.14,274.7 84.09,318.54 115,346 C130.61,359.87 152.21,368.16 171.07,373.08 " fill="none" id="actor1511319053-UC124" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0503daab16aa3c9991c43be0edf04e10]
+@startuml
+ left to right direction
+
+actor SwitchNode as actor1511319053
+
+	rectangle SwitchNode{
+	 usecase ASTNode as UC120
+	actor1511319053- -UC120
+	 usecase SwitchStatement as UC121
+	actor1511319053- -UC121
+	 usecase ArrayList as UC122
+	actor1511319053- -UC122
+	}
+	rectangle print{
+	 usecase PrintStream as UC123
+	actor1511319053- -UC123
+	 usecase ASTNode as UC124
+	actor1511319053- -UC124
+	}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

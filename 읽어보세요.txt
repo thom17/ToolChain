@@ -1,0 +1,15 @@
+DiagramRecover 사용법
+
+1. 프로젝트 디렉토리에 "target_project.info" 파일 열기
+2. 분석대상 JAVA 프로젝트 정보 입력
+	2-1. 분석대상 JAVA 프로젝트의 "src 디렉토리" 경로 입력
+	2-2. 분석대상 JAVA 프로젝트에서 사용되는 jar 파일들 경로 입력
+3. "target_project.info" 파일 저장 후 실행
+4. 콘솔에 "Successfully finished!" 메시지까지 출력되면 정상 동작한 것
+5. 현재는 순차다이어그램만 생성
+	- PlantUML 순차다이어그램 스크립트 파일: sequenceDiagramScript.txt
+	- 순차다이어그램 이미지 파일: sequenceDiagramScript.png
+
+
+※ DiagramRecover 소스코드 주석이 깨질 경우 인코딩을 UTF-8로 맞춰보세요
+porm.xml은 javaParser github 관련 파일이므로 지우면 안됨.

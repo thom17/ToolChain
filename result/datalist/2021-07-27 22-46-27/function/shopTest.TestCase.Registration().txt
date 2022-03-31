@@ -1,0 +1,19 @@
+@startuml
+class "shopTest.TestCase.Registration()" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Shop (239372207);
+..member..
+..method..
+	boolean regist(java.lang.String, java.lang.String) (868815265);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

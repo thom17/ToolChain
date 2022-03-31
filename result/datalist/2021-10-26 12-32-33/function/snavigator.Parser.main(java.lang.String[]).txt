@@ -1,0 +1,23 @@
+@startuml
+class "snavigator.Parser.main(java.lang.String[])" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	java.lang.String[] args (1424497441);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Parser (681747431);
+	PrintStream (2078239671);
+..member..
+..method..
+	void deleteFiles(java.io.File) (245530164);
+	void parsing() (866273692);
+	null println(java.lang.String) (1197176722);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

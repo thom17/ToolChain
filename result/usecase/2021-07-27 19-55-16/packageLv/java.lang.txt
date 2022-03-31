@@ -1,0 +1,7 @@
+@startuml
+ left to right direction
+
+actor String as actor1671179293
+
+
+@enduml

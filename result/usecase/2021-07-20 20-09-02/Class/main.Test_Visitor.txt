@@ -1,0 +1,107 @@
+@startuml
+ left to right direction
+
+actor Test_Visitor as actor954742840
+
+	rectangle addDataList{
+	 usecase Name as UC47
+	actor954742840--UC47
+	 usecase PackageDeclaration as UC48
+	actor954742840--UC48
+	}
+	rectangle getStmtList{
+	 usecase Block as UC49
+	actor954742840--UC49
+	 usecase ArrayList as UC50
+	actor954742840--UC50
+	}
+	rectangle typeDeclaration{
+	 usecase DataList as UC51
+	actor954742840--UC51
+	 usecase Class as UC52
+	actor954742840--UC52
+	}
+	rectangle fieldDeclaration{
+	 usecase DataList as UC53
+	actor954742840--UC53
+	 usecase Data_base as UC54
+	actor954742840--UC54
+	 usecase Member as UC55
+	actor954742840--UC55
+	 usecase ASTNode as UC56
+	actor954742840--UC56
+	}
+	rectangle makeFunction{
+	 usecase ASTNode as UC57
+	actor954742840--UC57
+	 usecase PrintStream as UC58
+	actor954742840--UC58
+	 usecase Function as UC59
+	actor954742840--UC59
+	 usecase DataList as UC60
+	actor954742840--UC60
+	 usecase StateNode as UC61
+	actor954742840--UC61
+	 usecase Data_base as UC62
+	actor954742840--UC62
+	}
+	rectangle returnStatement{
+	 usecase StateNode as UC63
+	actor954742840--UC63
+	 usecase ASTNode as UC64
+	actor954742840--UC64
+	}
+	rectangle forStatement{
+	 usecase StateNode as UC65
+	actor954742840--UC65
+	 usecase ForStateNode as UC66
+	actor954742840--UC66
+	 usecase ArrayList as UC67
+	actor954742840--UC67
+	}
+	rectangle ifStatement{
+	 usecase StateNode as UC68
+	actor954742840--UC68
+	}
+	rectangle expressionStatement{
+	 usecase StateNode as UC69
+	actor954742840--UC69
+	 usecase ASTNode as UC70
+	actor954742840--UC70
+	}
+	rectangle assignment{
+	 usecase Function as UC71
+	actor954742840--UC71
+	 usecase DataList as UC72
+	actor954742840--UC72
+	 usecase Data_base as UC73
+	actor954742840--UC73
+	 usecase Member as UC74
+	actor954742840--UC74
+	}
+	rectangle variableDeclarationStatement{
+	 usecase StateNode as UC75
+	actor954742840--UC75
+	 usecase ASTNode as UC76
+	actor954742840--UC76
+	 usecase VariableDeclaration as UC77
+	actor954742840--UC77
+	 usecase DataList as UC78
+	actor954742840--UC78
+	 usecase VarDecNode as UC79
+	actor954742840--UC79
+	 usecase Member as UC80
+	actor954742840--UC80
+	 usecase Function as UC81
+	actor954742840--UC81
+	}
+	rectangle switchStatement{
+	 usecase StateNode as UC82
+	actor954742840--UC82
+	 usecase ASTNode as UC83
+	actor954742840--UC83
+	 usecase SwitchStatement as UC84
+	actor954742840--UC84
+	}
+
+@enduml

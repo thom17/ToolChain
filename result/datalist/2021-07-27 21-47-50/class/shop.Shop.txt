@@ -1,0 +1,33 @@
+@startuml
+class shop.Shop{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Map<String,Goods> goodsSet (452121674);
+	Map<String,User> userSet (416841088);
+..method..
+	boolean regist(java.lang.String, java.lang.String) (1636050357);
+	User login(java.lang.String, java.lang.String) (1483298597);
+	boolean check(shop.User, shop.Goods) (1412794598);
+	boolean buy(shop.User, shop.Goods) (257608605);
+	boolean charge(shop.User, int) (1337192014);
+	void addGoods(shop.Goods, java.lang.String) (1567705314);
+__**<color:blue>calling list</color>**__
+..class..
+	User (621300254);
+..member..
+..method..
+	void setMoney(int) (637241618);
+__**<color:orange>called by list</color>**__
+..class..
+	TestScenario (2082781203);
+..member..
+..method..
+	void Login() (741730375);
+	void Buy_Product() (2077528955);
+	void Charge_Money() (35534346);
+	void Add_Product() (1537471098);
+	void Registration() (1490509465);
+}
+
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+class target.Barista.makeCoffee(target.Coffee, boolean){
+__**<color:green>has list</color>**__
+..class..
+..member..
+	Coffee target (240166646);
+	boolean shot (351028485);
+	Coffee result (1405747618);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Coffee (492079624);
+..member..
+..method..
+	void addShot() (380242442);
+__**<color:orange>called by list</color>**__
+..class..
+	Barista (1593180232);
+..member..
+..method..
+	boolean getOrder(target.Barista) (398690014);
+}
+
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+class packageSrc.packageName.ClassName
+{
+ <color:green>Info1: info
+ Info2 : __ is separate
+ __<color:red> both use __
+ ** this is bold** 
+}
+@enduml

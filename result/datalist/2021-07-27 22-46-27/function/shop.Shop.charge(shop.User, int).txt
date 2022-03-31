@@ -1,0 +1,26 @@
+@startuml
+class "shop.Shop.charge(shop.User, int)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	User user (1552999801);
+	int charge (1491755116);
+	int money (1866850137);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	User (1101184763);
+..member..
+..method..
+	void setMoney(int) (966544353);
+__**<color:orange>called by list</color>**__
+..class..
+	TestCase (689745064);
+	TestScenario (945722724);
+..member..
+..method..
+	void Charge_Money() (1278852808);
+	void Charge_Money() (422330142);
+}
+
+@enduml

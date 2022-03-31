@@ -1,0 +1,150 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 2
+	extendsClassScore = 0
+	callScore = 2
+	callByScore = 2
+	methodNum = 4
+	memberNum = 2
+	constructorNum = 1
+	selfCoverage = 2
+	needCallBy = 4
+	Absolute Score = 12
+	Relative Score = 2
+	coverage = 33.0%
+__**<color:green>has list</color>**__
+	<color:green>java.lang.String name (1)
+	<color:green>int pos (1)
+	<color:orange>new Player(java.lang.String) (5)
+	<color:green>String getName() (0)
+	<color:green>int getPos() (0)
+	<color:green>void setPos(int) (3)
+}
+
+class gameSystem.Player.Player1236444285 as "Player(java.lang.String)" 
+{
+	pram : (java.lang.String )
+	SrcOwnClassName : gameSystem.Player
+	SrcSig : gameSystem.Player.Player(java.lang.String)
+	Sig : Player(java.lang.String)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 4
+	CallBy Score : 2
+	memberUse Score : 4
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 2
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 2
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 9.5098
+	Volume : 23.2647
+	Diffifculty: 2
+	Effort : 46.5293
+	Absolute Score : 5
+	Relative Score : 5
+}
+class gameSystem.Player.getName605052357 as "getName()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : gameSystem.Player
+	SrcSig : gameSystem.Player.getName()
+	Sig : getName()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 1
+	Effort : 4.7549
+	Absolute Score : 0
+	Relative Score : 0
+}
+class gameSystem.Player.getPos823914581 as "getPos()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : gameSystem.Player
+	SrcSig : gameSystem.Player.getPos()
+	Sig : getPos()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 1
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 2
+	Volume : 4.7549
+	Diffifculty: 1
+	Effort : 4.7549
+	Absolute Score : 0
+	Relative Score : 0
+}
+class gameSystem.Player.setPos1150058854 as "setPos(int)"#line:green 
+{
+	pram : (int )
+	SrcOwnClassName : gameSystem.Player
+	SrcSig : gameSystem.Player.setPos(int)
+	Sig : setPos(int)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 0
+	Call Score : 2
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 1
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: 11.6096
+	Volume : 20.6797
+	Diffifculty: 7.5
+	Effort : 155.0978
+	Absolute Score : 3
+	Relative Score : 3
+}
+
+@enduml

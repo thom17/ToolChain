@@ -1,0 +1,54 @@
+@startuml
+group void test()
+	Main->PrintStream : println(java.lang.String)
+		PrintStream-->Main
+end
+
+group void main(java.lang.String[])
+	Main->PrintStream : println(java.lang.String)
+		PrintStream-->Main
+	Main->Parser : parsing()
+		Parser->Parser : deleteFiles(java.io.File)
+		Parser->PrintStream : println(java.lang.String)
+			PrintStream-->Parser
+		Parser->Throwable : printStackTrace()
+			Throwable-->Parser
+		Parser->PrintStream : print(java.lang.String)
+			PrintStream-->Parser
+		Parser->Process : waitFor()
+			Process-->Parser
+		Parser->Thread : sleep(long)
+			Thread-->Parser
+		Parser-->Main
+	Main->ClassDiagram : main(dataSet.DataList)
+		ClassDiagram->ClassDiagram : makeFile(java.lang.String)
+		ClassDiagram->ClassDiagram : makeString(dataSet.DataList)
+		ClassDiagram->Runtime : exec(java.lang.String)
+			Runtime-->ClassDiagram
+		ClassDiagram->Runtime : getRuntime()
+			Runtime-->ClassDiagram
+		ClassDiagram->PrintStream : println(java.lang.String)
+			PrintStream-->ClassDiagram
+		ClassDiagram-->Main
+	Main->CodeStateDiagram : main(dataSet.DataList)
+		CodeStateDiagram->CodeStateDiagram : makeFile(java.lang.String)
+		CodeStateDiagram->CodeStateDiagram : makeString(dataSet.DataList)
+		CodeStateDiagram->Runtime : exec(java.lang.String)
+			Runtime-->CodeStateDiagram
+		CodeStateDiagram->Runtime : getRuntime()
+			Runtime-->CodeStateDiagram
+		CodeStateDiagram->PrintStream : println(java.lang.String)
+			PrintStream-->CodeStateDiagram
+		CodeStateDiagram-->Main
+	Main->DataListDiagram : main(dataSet.DataList)
+		DataListDiagram->DataListDiagram : makeFile(java.lang.String)
+		DataListDiagram->Process : waitFor()
+			Process-->DataListDiagram
+		DataListDiagram->PrintStream : println(java.lang.String)
+			PrintStream-->DataListDiagram
+		DataListDiagram-->Main
+	Main->Object : toString()
+		Object-->Main
+end
+
+@enduml

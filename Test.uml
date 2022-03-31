@@ -1,0 +1,21 @@
+@startuml
+[*]-->head
+head : key :makeCoffeeparameter;
+head : code :(Coffee Resource );
+head --> L : true
+head --> R : else
+L : dataSet.statement.StateNode@16aa0a0a
+L : key :makeCoffee_call;
+L : code :resource.useRecipe(recipe);
+L --> LL : true
+L --> LR : else
+LL : dataSet.statement.StateNode@780cb77
+LL : key :coffee_return;
+LL : code :return coffee;;
+LL --> LLL : true
+LL --> LLR : else
+LLL : null 
+LLR : null 
+LR : null 
+R : null 
+@enduml

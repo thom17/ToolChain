@@ -1,0 +1,44 @@
+@startuml
+group void addHas(dataSet.Data_base)
+	Member->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Member
+end
+
+group void addCallBy(dataSet.Data_base)
+	Member->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Member
+	Member->Data_base : addCallBy(dataSet.Data_base)
+		Data_base-->Member
+end
+
+group void addCall(dataSet.Data_base)
+	Member->DataList : addData(dataSet.Data_base)
+		DataList->Data_base : getSrcName()
+			Data_base-->DataList
+		DataList-->Member
+	Member->Data_base : addCall(dataSet.Data_base)
+		Data_base-->Member
+	Member->Data_base : addCallBy(dataSet.Data_base)
+		Data_base-->Member
+end
+
+group void addImage(java.lang.String)
+	Member->ArrayList : add(E)
+		ArrayList-->Member
+end
+
+group String getSrcName()
+	Member->Data_base : getSrcName()
+		Data_base-->Member
+end
+
+group String getPackageName()
+	Member->Data_base : getPackageName()
+		Data_base-->Member
+end
+
+@enduml

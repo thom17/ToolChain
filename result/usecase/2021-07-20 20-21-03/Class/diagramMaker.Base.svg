@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1535px" preserveAspectRatio="none" style="width:280px;height:1535px;" version="1.1" viewBox="0 0 280 1535" width="280px" zoomAndPan="magnify"><defs><filter height="300%" id="f1le33c5dxufot" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[19cf646e193b9a40ce20afd4a39c7868]
+cluster makeDateFolder--><rect fill="#FFFFFF" filter="url(#f1le33c5dxufot)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="131" x="111.5" y="937.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="119.5" y="955.6533">makeDateFolder</text><!--MD5=[1e829f21a74d4de467c1b519aceec237]
+cluster makeFile--><rect fill="#FFFFFF" filter="url(#f1le33c5dxufot)" height="224" style="stroke: #000000; stroke-width: 1.5;" width="93" x="130" y="1049.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="145" y="1067.6533">makeFile</text><!--MD5=[e87643375315858534042310e8422e5d]
+cluster printLog--><rect fill="#FFFFFF" filter="url(#f1le33c5dxufot)" height="226" style="stroke: #000000; stroke-width: 1.5;" width="183" x="85" y="1297.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="147" y="1315.6533">printLog</text><ellipse cx="176.5416" cy="992.5973" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="27.0416" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="159.5416" y="998.7121">mkdir</text><ellipse cx="176.5772" cy="1104.5973" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="30.5772" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="157.0772" y="1110.7121">println</text><ellipse cx="176.5061" cy="1172.5973" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="23.5061" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="162.0061" y="1178.7121">write</text><ellipse cx="176.3345" cy="1240.5973" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="26.3345" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="159.8345" y="1246.7121">close</text><ellipse cx="176.3823" cy="1352.5973" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="70.8823" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="96" x="128.3823" y="1358.7121">getInputStream</text><ellipse cx="176.2986" cy="1421.4597" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="75.2986" ry="17.4597" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="122.2986" y="1427.5745">getOutputStream</text><ellipse cx="176.598" cy="1490.5973" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="42.598" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="148.598" y="1496.7121">readLine</text><!--MD5=[7cef00015646b70125f20e642565791e]
+entity actor260580453--><ellipse cx="23.5" cy="1174" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M23.5,1182 L23.5,1209 M10.5,1190 L36.5,1190 M23.5,1209 L10.5,1224 M23.5,1209 L36.5,1224 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="7.5" y="1245.6533">Base</text><!--MD5=[347317f6aa291d8bb4f23a8bf0a90493]
+entity actor2059316201--><ellipse cx="176.5" cy="847" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M176.5,855 L176.5,882 M163.5,863 L189.5,863 M176.5,882 L163.5,897 M176.5,882 L189.5,897 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="23" x="165" y="918.6533">File</text><!--MD5=[caf185cfefcc627367094d28006b9a0c]
+entity UC53--><ellipse cx="23.5" cy="847" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M23.5,855 L23.5,882 M10.5,863 L36.5,863 M23.5,882 L10.5,897 M23.5,882 L36.5,897 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="6" y="918.6533">UC53</text><!--MD5=[6e5b8b9080bf40386e983222e37dc0c6]
+entity actor2120154283--><ellipse cx="176.5" cy="728" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M176.5,736 L176.5,763 M163.5,744 L189.5,744 M176.5,763 L163.5,778 M176.5,763 L189.5,778 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="113.5" y="799.6533">OutputStreamWriter</text><!--MD5=[73976a83050ab9ca5924d1aed1166d4f]
+entity UC54--><ellipse cx="23.5" cy="728" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M23.5,736 L23.5,763 M10.5,744 L36.5,744 M23.5,763 L10.5,778 M23.5,763 L36.5,778 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="6" y="799.6533">UC54</text><!--MD5=[d11812ca287f6e2b9360f0be547853e2]
+entity actor94690722--><ellipse cx="176.5" cy="609" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M176.5,617 L176.5,644 M163.5,625 L189.5,625 M176.5,644 L163.5,659 M176.5,644 L189.5,659 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="157.5" y="680.6533">Writer</text><!--MD5=[f28acd3663a8cc87fc2534a2dfc44546]
+entity UC55--><ellipse cx="23.5" cy="609" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M23.5,617 L23.5,644 M10.5,625 L36.5,625 M23.5,644 L10.5,659 M23.5,644 L36.5,659 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="6" y="680.6533">UC55</text><!--MD5=[2699aedbcd2b1f3b132d3903ac9b60ef]
+entity actor652803980--><ellipse cx="176.5" cy="430" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M176.5,438 L176.5,465 M163.5,446 L189.5,446 M176.5,465 L163.5,480 M176.5,465 L189.5,480 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="139.5" y="501.6533">PrintStream</text><!--MD5=[19b914078b3102f5d4d29c9b678a465c]
+entity UC56--><ellipse cx="23.5" cy="371" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M23.5,379 L23.5,406 M10.5,387 L36.5,387 M23.5,406 L10.5,421 M23.5,406 L36.5,421 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="6" y="442.6533">UC56</text><!--MD5=[9455588c81ef6de97f272a1ad33b208f]
+entity actor381516513--><ellipse cx="176.5" cy="252" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M176.5,260 L176.5,287 M163.5,268 L189.5,268 M176.5,287 L163.5,302 M176.5,287 L189.5,302 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="126" y="323.6533">BufferedReader</text><!--MD5=[dd8e37ab8bd526f7c2888e6fc3e5e9bf]
+entity UC57--><ellipse cx="23.5" cy="252" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M23.5,260 L23.5,287 M10.5,268 L36.5,268 M23.5,287 L10.5,302 M23.5,287 L36.5,302 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="6" y="323.6533">UC57</text><!--MD5=[4d8b953343a499c95544554b63694239]
+entity UC58--><ellipse cx="23.5" cy="490" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M23.5,498 L23.5,525 M10.5,506 L36.5,506 M23.5,525 L10.5,540 M23.5,525 L36.5,540 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="6" y="561.6533">UC58</text><!--MD5=[25172bbf95bdbbdb21e6a8bcedfbc865]
+entity actor1520921298--><ellipse cx="176.5" cy="73" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M176.5,81 L176.5,108 M163.5,89 L189.5,89 M176.5,108 L163.5,123 M176.5,108 L189.5,123 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="151" y="144.6533">Process</text><!--MD5=[da471e9f19649ba5616eaefb5cee038a]
+entity UC59--><ellipse cx="23.5" cy="14" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M23.5,22 L23.5,49 M10.5,30 L36.5,30 M23.5,49 L10.5,64 M23.5,49 L36.5,64 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="6" y="85.6533">UC59</text><!--MD5=[453c964e9265f6423b2a92a40445e371]
+entity UC60--><ellipse cx="23.5" cy="133" fill="#FEFECE" filter="url(#f1le33c5dxufot)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M23.5,141 L23.5,168 M10.5,149 L36.5,149 M23.5,168 L10.5,183 M23.5,168 L36.5,183 " fill="none" filter="url(#f1le33c5dxufot)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="6" y="204.6533">UC60</text><!--MD5=[fac01c30fa9a4748eacf0510886cb8d2]
+link actor260580453 to UC398468940--><path d="M34.69,1164.42 C42.92,1136.26 56.55,1099.38 77,1071.5 C98.78,1041.8 134.4,1017.06 156.31,1003.56 " fill="none" id="actor260580453-UC398468940" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[60efac25711337e61022c36ec19a6707]
+link UC53 to actor2059316201--><path d="M41.24,879.5 C71.34,879.5 134.05,879.5 161.79,879.5 " fill="none" id="UC53-actor2059316201" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[15ff4ae1615b39917f06656d98ff596a]
+link actor260580453 to UC115297013--><path d="M39.56,1195.16 C48.78,1183.11 61.74,1166.46 77,1155.5 C102.71,1137.03 139.3,1127.92 159.88,1118.58 " fill="none" id="actor260580453-UC115297013" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[15ff4ae1615b39917f06656d98ff596a]
+link actor260580453 to UC115297013--><path d="M39.56,1164.33 C48.78,1148.11 61.74,1131.46 77,1120.5 C99.63,1104.25 130.68,1095.25 151.83,1094.57 " fill="none" id="actor260580453-UC115297013-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0f9762fe90496701670fe28fb687debf]
+link actor260580453 to UC38851648--><path d="M39.53,1203.12 C66.46,1197.05 123.01,1184.32 154.02,1177.34 " fill="none" id="actor260580453-UC38851648" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0cb27008554d1e83e02a6c4bab5d52f2]
+link actor260580453 to UC1992844647--><path d="M39.53,1209.88 C65.71,1215.78 119.9,1227.98 151.39,1235.07 " fill="none" id="actor260580453-UC1992844647" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d2342295228b73b8ccedda73db0d9686]
+link UC54 to actor2120154283--><path d="M41.24,760.5 C58.67,760.5 87.03,760.5 113.21,760.5 " fill="none" id="UC54-actor2120154283" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a22557a42305d59dcfede089808d34b9]
+link UC55 to actor94690722--><path d="M41.24,641.5 C69.8,641.5 127.73,641.5 157.28,641.5 " fill="none" id="UC55-actor94690722" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[09d61c82a7d8963ee2be4a2b81ca05ca]
+link UC56 to actor652803980--><path d="M41.24,410.04 C64.73,419.22 108.1,436.17 139.2,448.32 " fill="none" id="UC56-actor652803980" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a2de7331c19ce954413c58f4712e0f9b]
+link actor260580453 to UC95476731--><path d="M39.64,1228.36 C49.55,1241.99 63.18,1259.52 77,1273.5 C101.04,1297.82 132.36,1321.83 153.16,1336.89 " fill="none" id="actor260580453-UC95476731" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5331aecb808274b56e0f35f66a0eb050]
+link actor260580453 to UC1268629255--><path d="M26.13,1248.61 C29.9,1288.92 41.58,1348.98 77,1386.5 C87.71,1397.85 102.35,1405.52 117.05,1410.71 " fill="none" id="actor260580453-UC1268629255" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[14fb29bd761b98b2ff128d29484dcf9d]
+link actor260580453 to UC127401209--><path d="M28.35,1248.73 C34.91,1311.7 50.2,1426.11 77,1456.5 C91.72,1473.19 115.03,1481.69 135.28,1486.02 " fill="none" id="actor260580453-UC127401209" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5931b8b8a5443205305173a76aa91c51]
+link UC57 to actor381516513--><path d="M41.24,284.5 C61.51,284.5 96.57,284.5 125.78,284.5 " fill="none" id="UC57-actor381516513" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[291ddf7dd834a89c44222d1746389f23]
+link UC58 to actor652803980--><path d="M41.24,515.85 C64.73,506.51 108.1,489.28 139.2,476.93 " fill="none" id="UC58-actor652803980" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[34435e291233057b48885ef3ebb515ab]
+link UC59 to actor1520921298--><path d="M41.24,53.04 C67.88,63.45 120.08,83.85 150.96,95.91 " fill="none" id="UC59-actor1520921298" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b974322b2b84ad94ee3d2818271ff0bb]
+link UC60 to actor1520921298--><path d="M41.24,158.85 C67.88,148.26 120.08,127.52 150.96,115.25 " fill="none" id="UC60-actor1520921298" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[63111304f3f9a7ad5faa7f73284371fb]
+@startuml
+ left to right direction
+
+actor Base as actor260580453
+
+	rectangle makeDateFolder{
+	 usecase mkdir as UC398468940
+	actor260580453- -UC398468940
+	}
+	actor File as actor2059316201
+	 UC53 - - actor2059316201
+	rectangle makeFile{
+	 usecase println as UC115297013
+	actor260580453- -UC115297013
+	 usecase write as UC38851648
+	actor260580453- -UC38851648
+	 usecase close as UC1992844647
+	actor260580453- -UC1992844647
+	}
+	actor OutputStreamWriter as actor2120154283
+	 UC54 - - actor2120154283
+	actor Writer as actor94690722
+	 UC55 - - actor94690722
+	actor PrintStream as actor652803980
+	 UC56 - - actor652803980
+	rectangle printLog{
+	 usecase getInputStream as UC95476731
+	actor260580453- -UC95476731
+	 usecase getOutputStream as UC1268629255
+	actor260580453- -UC1268629255
+	 usecase println as UC115297013
+	actor260580453- -UC115297013
+	 usecase readLine as UC127401209
+	actor260580453- -UC127401209
+	}
+	actor BufferedReader as actor381516513
+	 UC57 - - actor381516513
+	actor PrintStream as actor652803980
+	 UC58 - - actor652803980
+	actor Process as actor1520921298
+	 UC59 - - actor1520921298
+	actor Process as actor1520921298
+	 UC60 - - actor1520921298
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

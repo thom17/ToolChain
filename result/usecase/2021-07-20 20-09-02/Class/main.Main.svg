@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="175px" preserveAspectRatio="none" style="width:236px;height:175px;" version="1.1" viewBox="0 0 236 175" width="236px" zoomAndPan="magnify"><defs><filter height="300%" id="fsrtaeb98ub12" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a70b0d373322012744ecc119c63f921b]
+cluster main--><rect fill="#FFFFFF" filter="url(#fsrtaeb98ub12)" height="156" style="stroke: #000000; stroke-width: 1.5;" width="144" x="80" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="135.5" y="25.1533">main</text><ellipse cx="152.033" cy="62.0973" fill="#FEFECE" filter="url(#fsrtaeb98ub12)" rx="56.033" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="114.533" y="68.2121">Test_Visitor</text><ellipse cx="151.8259" cy="130.0973" fill="#FEFECE" filter="url(#fsrtaeb98ub12)" rx="55.3259" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="114.8259" y="136.2121">PrintStream</text><!--MD5=[6bf4c339456388a6d0597c17932f6df6]
+entity actor1105129521--><ellipse cx="21" cy="63.5" fill="#FEFECE" filter="url(#fsrtaeb98ub12)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M21,71.5 L21,98.5 M8,79.5 L34,79.5 M21,98.5 L8,113.5 M21,98.5 L34,113.5 " fill="none" filter="url(#fsrtaeb98ub12)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="6" y="135.1533">Main</text><!--MD5=[7dd5a6089d891ff47500d81ee052dd72]
+link actor1105129521 to UC45--><path d="M36.3,92.23 C53.88,87.6 84.48,79.53 109.66,72.9 " fill="none" id="actor1105129521-UC45" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3c98e67d45132c6953d60f92ca61c836]
+link actor1105129521 to UC46--><path d="M36.3,99.77 C53.94,104.42 84.71,112.53 109.94,119.18 " fill="none" id="actor1105129521-UC46" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5af8c1815d97ead36d7e91c1becb0729]
+@startuml
+ left to right direction
+
+actor Main as actor1105129521
+
+	rectangle main{
+	 usecase Test_Visitor as UC45
+	actor1105129521- -UC45
+	 usecase PrintStream as UC46
+	actor1105129521- -UC46
+	}
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

@@ -1,0 +1,20 @@
+@startuml
+class org.eclipse.jdt.core.dom.Name{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+	null getFullyQualifiedName() (859653366);
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	Test_Visitor (1089579669);
+..member..
+..method..
+	void addDataList(org.eclipse.jdt.core.dom.CompilationUnit, dataSet.DataList) (700523674);
+}
+
+@enduml

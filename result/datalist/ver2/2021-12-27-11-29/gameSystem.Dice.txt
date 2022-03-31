@@ -1,0 +1,90 @@
+@startuml
+class "Dice" as cl1{
+Package gameSystem
+Lib false
+HashCode : 462526099
+ABS : 22
+RES : 5
+__**<color:green>has list</color>**__
+	<color:green>int[] shapeList (2)
+	<color:green>java.util.Random rand (2)
+....
+	<color:green>new Dice(int[]) (4)
+	<color:salmon>int roll() (7)
+__**<color:blue>calling list</color>**__
+..class..
+	java.util.Random (2142565033);
+..member..
+	gameSystem.Dice.shapeList (1304589447);
+	gameSystem.Dice.rand (1783568981);
+..method..
+	 java.util.Random.nextInt(int) (2113748097);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+	gameSystem.Dice (462526099);
+..member..
+	gameSystem.GameSystem.diceRoll(gameSystem.Dice).dice (2075952726);
+..method..
+	 gameSystem.GameSystem.diceRoll(gameSystem.Dice) (1764996806);
+	 gameSystem.Dice.Dice(int[]) (2101249621);
+	 gameSystem.Dice.roll() (2113604623);
+	 gameSystem.GameSystem.diceSetting() (1651162064);
+}
+
+ package Functions{
+class "Dice(int[])" as f2101249621  #line:green
+{
+Static : false
+return Type : new
+hashCode : 2101249621
+ABS : 4
+RES : 4
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.Dice.Dice(int[]).list (379303133);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	gameSystem.Dice.shapeList (1304589447);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+..method..
+	 gameSystem.GameSystem.diceSetting() (1651162064);
+}
+class "roll()" as f2113604623  
+{
+Static : false
+return Type : int
+hashCode : 2113604623
+ABS : 7
+RES : 7
+__**<color:green>has list</color>**__
+..class..
+..member..
+	gameSystem.Dice.roll().size (530486389);
+	gameSystem.Dice.roll().r (983595261);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	java.util.Random (2142565033);
+..member..
+	gameSystem.Dice.rand (1783568981);
+..method..
+	 java.util.Random.nextInt(int) (2113748097);
+__**<color:orange>called by list</color>**__
+..class..
+	gameSystem.GameSystem (629454893);
+..member..
+	gameSystem.GameSystem.diceRoll(gameSystem.Dice).dice (2075952726);
+..method..
+	 gameSystem.GameSystem.diceRoll(gameSystem.Dice) (1764996806);
+}
+}
+
+@enduml

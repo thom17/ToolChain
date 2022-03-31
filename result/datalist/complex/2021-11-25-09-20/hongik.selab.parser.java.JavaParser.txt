@@ -1,0 +1,196 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 9
+	extendsClassScore = 0
+	callScore = 76
+	callByScore = 76
+	methodNum = 6
+	memberNum = 5
+	constructorNum = 0
+	selfCoverage = 8
+	needCallBy = 3
+	ABS = 159
+	REL = 14
+	ABS = 159
+	REL = 14
+	coverage = 72.0%
+__**<color:green>has list</color>**__
+	<color:green>org.eclipse.jdt.core.dom.ASTParser parser (2)
+	<color:green>org.eclipse.jdt.core.dom.CompilationUnit compilationUnit (2)
+	<color:green>java.util.ArrayList<java.io.File> targetList (2)
+	<color:green>java.io.File settingFile (2)
+	<color:green>int fileNum (1)
+	<color:red>CompilationUnit[] makeASTList(java.lang.String) (17)
+	<color:red>boolean isJavaFile(java.io.File) (13)
+	<color:red>void makeFileList(java.io.File) (9)
+	<color:red>void init(java.io.File) (20)
+	<color:green>// 새방식
+CompilationUnit parsing() (2)
+	<color:red>void main(java.lang.String[]) (13)
+}
+
+class hongik.selab.parser.java.JavaParser.makeASTList1610818058 as "makeASTList(java.lang.String)"#back:salmon 
+{
+	pram : (java.lang.String )
+	SrcOwnClassName : hongik.selab.parser.java.JavaParser
+	SrcSig : hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String)
+	Sig : makeASTList(java.lang.String)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 1
+	classCall Score : 3
+	Call Score : 1
+	CallBy Score : 2
+	memberUse Score : 4
+	localValue Score : 4
+	exp Score : 15
+	repeat Score : 1
+	brench Score : 1
+	callCountNum : 13
+	cyclomatic : 2
+	State Node lineNum: 11
+	State Node Num : 13
+	State Node callListSize: 5
+	State Node repeatSize : 1
+	State Node writeSize : 3
+	State Node bifurSize : 0
+	ABS Score : 17
+	Relative Score : 13
+}
+class hongik.selab.parser.java.JavaParser.isJavaFile381045251 as "isJavaFile(java.io.File)"#back:salmon 
+{
+	pram : (java.io.File )
+	SrcOwnClassName : hongik.selab.parser.java.JavaParser
+	SrcSig : hongik.selab.parser.java.JavaParser.isJavaFile(java.io.File)
+	Sig : isJavaFile(java.io.File)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 3
+	CallBy Score : 3
+	memberUse Score : 2
+	localValue Score : 3
+	exp Score : 8
+	repeat Score : 1
+	brench Score : 1
+	callCountNum : 6
+	cyclomatic : 2
+	State Node lineNum: 6
+	State Node Num : 6
+	State Node callListSize: 2
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 1
+	ABS Score : 13
+	Relative Score : 9
+}
+class hongik.selab.parser.java.JavaParser.makeFileList1169780300 as "makeFileList(java.io.File)"#back:salmon 
+{
+	pram : (java.io.File )
+	SrcOwnClassName : hongik.selab.parser.java.JavaParser
+	SrcSig : hongik.selab.parser.java.JavaParser.makeFileList(java.io.File)
+	Sig : makeFileList(java.io.File)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 4
+	CallBy Score : 5
+	memberUse Score : 1
+	localValue Score : 2
+	exp Score : 3
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 3
+	cyclomatic : 1
+	State Node lineNum: 7
+	State Node Num : 1
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	ABS Score : 9
+	Relative Score : 6
+}
+class hongik.selab.parser.java.JavaParser.init137902612 as "init(java.io.File)"#back:salmon 
+{
+	pram : (java.io.File )
+	SrcOwnClassName : hongik.selab.parser.java.JavaParser
+	SrcSig : hongik.selab.parser.java.JavaParser.init(java.io.File)
+	Sig : init(java.io.File)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 3
+	Call Score : 3
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 6
+	exp Score : 15
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 15
+	cyclomatic : 1
+	State Node lineNum: 29
+	State Node Num : 13
+	State Node callListSize: 9
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	ABS Score : 20
+	Relative Score : 17
+}
+class hongik.selab.parser.java.JavaParser.parsing1265178129 as "parsing()"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : hongik.selab.parser.java.JavaParser
+	SrcSig : hongik.selab.parser.java.JavaParser.parsing()
+	Sig : parsing()
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : -2
+	CallBy Score : 2
+	memberUse Score : 2
+	localValue Score : 0
+	exp Score : 4
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 1
+	cyclomatic : 1
+	State Node lineNum: 2
+	State Node Num : 2
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 1
+	State Node bifurSize : 0
+	ABS Score : 2
+	Relative Score : 2
+}
+class hongik.selab.parser.java.JavaParser.main361021465 as "main(java.lang.String[])"#back:salmon 
+{
+	pram : (java.lang.String[] )
+	SrcOwnClassName : hongik.selab.parser.java.JavaParser
+	SrcSig : hongik.selab.parser.java.JavaParser.main(java.lang.String[])
+	Sig : main(java.lang.String[])
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 2
+	classCall Score : 5
+	Call Score : 7
+	CallBy Score : 0
+	memberUse Score : 0
+	localValue Score : 3
+	exp Score : 4
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 3
+	cyclomatic : 1
+	State Node lineNum: 5
+	State Node Num : 2
+	State Node callListSize: 1
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	ABS Score : 13
+	Relative Score : 8
+}
+
+@enduml

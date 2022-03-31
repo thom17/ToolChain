@@ -1,0 +1,19 @@
+@startuml
+group Function Function(dataSet.Class, java.lang.String)
+end
+
+group Function Function(dataSet.Class, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	Function->String : substring(int, int)
+		String-->Function
+	Function->String : length()
+		String-->Function
+	Function->String : split(java.lang.String)
+		String-->Function
+end
+
+group void forTest()
+	Function->PrintStream : println(java.lang.String)
+		PrintStream-->Function
+end
+
+@enduml

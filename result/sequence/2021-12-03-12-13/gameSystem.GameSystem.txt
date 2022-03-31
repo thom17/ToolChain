@@ -1,0 +1,28 @@
+@startuml
+group new GameSystem(int[][])
+end
+
+group void playGame(java.lang.String)
+end
+
+group void diceSetting()
+end
+
+group void printPos(gameSystem.Player)
+end
+
+group Dice choiceDice(gameSystem.Player)
+end
+
+group int diceRoll(gameSystem.Dice)
+end
+
+group void move(int, gameSystem.Player)
+end
+
+group void printResult()
+	GameSystem->PrintStream : println(java.lang.String)
+	GameSystem-->GameSystem
+end
+
+@enduml

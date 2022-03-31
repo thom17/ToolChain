@@ -1,0 +1,29 @@
+@startuml
+group void main(java.lang.String[])
+	Parser->Parser : deleteFiles(java.io.File)
+	Parser->Parser : parsing()
+	Parser->PrintStream : println(java.lang.String)
+		PrintStream-->Parser
+end
+
+group void deleteFiles(java.io.File)
+	Parser->Parser : deleteFiles(java.io.File)
+	Parser->File : delete()
+		File-->Parser
+end
+
+group void parsing()
+	Parser->Parser : deleteFiles(java.io.File)
+	Parser->PrintStream : println(java.lang.String)
+		PrintStream-->Parser
+	Parser->Throwable : printStackTrace()
+		Throwable-->Parser
+	Parser->PrintStream : print(java.lang.String)
+		PrintStream-->Parser
+	Parser->Process : waitFor()
+		Process-->Parser
+	Parser->Thread : sleep(long)
+		Thread-->Parser
+end
+
+@enduml

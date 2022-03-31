@@ -1,0 +1,22 @@
+@startuml
+class "dataSet.Class.Class(java.lang.String, boolean)" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+	java.lang.String className (1108066952);
+	boolean isLib (234223040);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	String (917277283);
+..member..
+	String className (1417554340);
+	boolean isLib (456785282);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

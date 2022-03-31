@@ -1,0 +1,51 @@
+@startuml
+ left to right direction
+
+actor JavaParser as actor1313816722
+
+	package java.util {
+		usecase size as UC1568841456
+		usecase add as UC1248201524
+	}
+	actor1313816722 -- UC1248201524
+	actor1313816722 -- UC1568841456
+	package java.lang {
+		usecase printStackTrace as UC1142350221
+		usecase append as UC1296277943
+		usecase toCharArray as UC98550436
+		usecase toString as UC1528099970
+	}
+	actor1313816722 -- UC1528099970
+	actor1313816722 -- UC98550436
+	actor1313816722 -- UC1296277943
+	actor1313816722 -- UC1142350221
+	package org.eclipse.jdt.core {
+		usecase setComplianceOptions as UC824199517
+	}
+	actor1313816722 -- UC824199517
+	package java.io {
+		usecase read as UC2015110295
+		usecase close as UC192264336
+		usecase println as UC1891930552
+	}
+	actor1313816722 -- UC1891930552
+	actor1313816722 -- UC192264336
+	actor1313816722 -- UC2015110295
+	package org.eclipse.jdt.core.dom {
+		usecase newParser as UC1134384220
+		usecase setKind as UC1513945124
+		usecase setSource as UC2083220171
+		usecase setStatementsRecovery as UC674659751
+		usecase setBindingsRecovery as UC27325257
+		usecase setResolveBindings as UC1012975233
+		usecase setCompilerOptions as UC456826612
+	}
+	actor1313816722 -- UC456826612
+	actor1313816722 -- UC1012975233
+	actor1313816722 -- UC27325257
+	actor1313816722 -- UC674659751
+	actor1313816722 -- UC2083220171
+	actor1313816722 -- UC1513945124
+	actor1313816722 -- UC1134384220
+
+@enduml

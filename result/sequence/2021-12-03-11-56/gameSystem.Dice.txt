@@ -1,0 +1,7 @@
+@startuml
+group int roll()
+	Dice->Random : nextInt(int)
+		Random-->Dice
+end
+
+@enduml

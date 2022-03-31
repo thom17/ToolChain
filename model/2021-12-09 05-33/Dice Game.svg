@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="272px" preserveAspectRatio="none" style="width:364px;height:272px;" version="1.1" viewBox="0 0 364 272" width="364px" zoomAndPan="magnify"><defs><filter height="300%" id="fsqul9pld0pfd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[5f9cfca025c350d9187f4eae00f76362]
+cluster Sys1--><rect fill="#FFFFFF" filter="url(#fsqul9pld0pfd)" height="156" style="stroke: #000000; stroke-width: 1.5;" width="345" x="7" y="104.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="132.5" y="122.6533">Game System</text><ellipse cx="75.2904" cy="227.5973" fill="#FEFECE" filter="url(#fsqul9pld0pfd)" rx="51.7904" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="40.7904" y="233.7121">Play Game</text><ellipse cx="75.4975" cy="159.5973" fill="#FEFECE" filter="url(#fsqul9pld0pfd)" rx="52.4975" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="40.4975" y="165.7121">View Score</text><ellipse cx="261.8173" cy="227.6635" fill="#FEFECE" filter="url(#fsqul9pld0pfd)" rx="73.8173" ry="17.1635" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="104" x="209.8173" y="233.7782">Configure Game</text><!--MD5=[6d35a3f10fabd2e47fa2124ab77a3790]
+entity ACTOR01--><ellipse cx="75.5" cy="14" fill="#FF0000" filter="url(#fsqul9pld0pfd)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M75.5,22 L75.5,49 M62.5,30 L88.5,30 M75.5,49 L62.5,64 M75.5,49 L88.5,64 " fill="none" filter="url(#fsqul9pld0pfd)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="55.5" y="85.6533">Player</text><!--MD5=[9e376f390b93d807b16bf3e1d843f92b]
+link UC01 to UC02--><!--MD5=[6bd7bd6bc9a15017dd0cbb6394bfab4f]
+link UC01 to UC03--><!--MD5=[b26697b3224d0bb53ced9841597a2028]
+@startuml
+ left to right direction
+	 actor "Player" as ACTOR01#red
+rectangle "Game System" as Sys1{
+	usecase "Play Game" as UC01
+	usecase "View Score" as UC02
+	usecase "Configure Game" as UC03
+}
+
+@enduml@startuml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

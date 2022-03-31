@@ -1,0 +1,53 @@
+@startuml
+class "Guitar" as cl1{
+Package classRelation
+Lib false
+HashCode : 712609105
+ABS Score : 1
+Relative Score : 1
+__**<color:green>has list</color>**__
+....
+	<color:green>new Guitar() (0)
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	classRelation.Guitarist (1836463382);
+	classRelation.GuitarAcademy (1388278453);
+..member..
+..method..
+	 classRelation.Guitarist.playSong(classRelation.Guitar) (934275857);
+	 classRelation.GuitarAcademy.GuitarAcademy() (1364913072);
+	 classRelation.Guitarist.buyGuitar() (232307208);
+}
+
+ package Functions{
+class "Guitar()" as f609962972  #line:green
+{
+Static : false
+return Type : new
+hashCode : 609962972
+ABS Score : 0
+Relative Score : 0
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	classRelation.GuitarAcademy (1388278453);
+	classRelation.Guitarist (1836463382);
+..member..
+..method..
+	 classRelation.GuitarAcademy.GuitarAcademy() (1364913072);
+	 classRelation.Guitarist.buyGuitar() (232307208);
+}
+}
+
+@enduml

@@ -1,0 +1,278 @@
+@startuml
+class "JavaParser" as cl1{
+Package hongik.selab.parser.java
+Lib false
+HashCode : 261849385
+ABS Score : 159
+Relative Score : 14
+__**<color:green>has list</color>**__
+	<color:green>org.eclipse.jdt.core.dom.ASTParser parser (2)
+	<color:green>org.eclipse.jdt.core.dom.CompilationUnit compilationUnit (2)
+	<color:green>java.util.ArrayList<java.io.File> targetList (2)
+	<color:green>java.io.File settingFile (2)
+	<color:green>int fileNum (1)
+....
+	<color:red>CompilationUnit[] makeASTList(java.lang.String) (17)
+	<color:red>boolean isJavaFile(java.io.File) (13)
+	<color:red>void makeFileList(java.io.File) (9)
+	<color:red>void init(java.io.File) (20)
+	<color:green>// 새방식
+CompilationUnit parsing() (2)
+	<color:red>void main(java.lang.String[]) (13)
+__**<color:blue>calling list</color>**__
+..class..
+	java.io.File (1558127130);
+	java.lang.String[] (1966082314);
+	java.util.null (1150464915);
+	hongik.selab.parser.java.JavaParser (261849385);
+	java.util.ArrayList (1861236708);
+	java.lang.String (1456906673);
+	java.lang.StringBuilder (1686091139);
+	org.eclipse.jdt.core.dom.ASTParser (1442526942);
+	org.eclipse.jdt.core.JavaCore (104494977);
+..member..
+	hongik.selab.parser.java.JavaParser.targetList (1941390869);
+	hongik.selab.parser.java.JavaParser.fileNum (577269211);
+	hongik.selab.parser.java.JavaParser.isJavaFile(java.io.File).target (774501006);
+	hongik.selab.parser.java.JavaParser.isJavaFile(java.io.File).fileName (2079989429);
+	hongik.selab.parser.java.JavaParser.makeFileList(java.io.File).file (850683953);
+	hongik.selab.parser.java.JavaParser.parser (1398005001);
+	hongik.selab.parser.java.JavaParser.compilationUnit (839907439);
+..method..
+	 java.io.File.java.io.File.File(java.lang.String) (422266669);
+	 java.util.null.java.util.ArrayList.ArrayList() (139416025);
+	 hongik.selab.parser.java.JavaParser.makeFileList(java.io.File) (1169780300);
+	 java.util.ArrayList.size() (716825662);
+	 java.util.ArrayList.get(int) (283092975);
+	 hongik.selab.parser.java.JavaParser.init(java.io.File) (137902612);
+	 hongik.selab.parser.java.JavaParser.parsing() (1265178129);
+	 java.io.File.getName() (962221884);
+	 java.lang.String.substring(int) (933205333);
+	 java.io.File.listFiles() (2118050088);
+	 java.lang.StringBuilder.java.lang.StringBuilder.StringBuilder() (2103748960);
+	 org.eclipse.jdt.core.dom.ASTParser.newParser(int) (376234567);
+	 org.eclipse.jdt.core.dom.ASTParser.setKind(int) (1569908962);
+	 org.eclipse.jdt.core.dom.ASTParser.setSource(char[]) (1412195801);
+	 org.eclipse.jdt.core.dom.ASTParser.setStatementsRecovery(boolean) (215738773);
+	 org.eclipse.jdt.core.dom.ASTParser.setBindingsRecovery(boolean) (2111069331);
+	 org.eclipse.jdt.core.dom.ASTParser.setResolveBindings(boolean) (927690291);
+	 org.eclipse.jdt.core.JavaCore.getOptions() (8312750);
+	 org.eclipse.jdt.core.JavaCore.setComplianceOptions(java.lang.String, java.util.Map) (1404703093);
+	 org.eclipse.jdt.core.dom.ASTParser.setCompilerOptions(java.util.Map) (215351125);
+	 hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String) (1610818058);
+__**<color:orange>called by list</color>**__
+..class..
+	hongik.selab.parser.java.JavaParser (261849385);
+	main.Main (632168320);
+..member..
+..method..
+	 hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String) (1610818058);
+	 hongik.selab.parser.java.JavaParser.isJavaFile(java.io.File) (381045251);
+	 hongik.selab.parser.java.JavaParser.makeFileList(java.io.File) (1169780300);
+	 hongik.selab.parser.java.JavaParser.init(java.io.File) (137902612);
+	 hongik.selab.parser.java.JavaParser.parsing() (1265178129);
+	 hongik.selab.parser.java.JavaParser.main(java.lang.String[]) (361021465);
+	 main.Main.main(java.lang.String[]) (1600249858);
+}
+
+ package Functions{
+class "makeASTList(java.lang.String)" as f1610818058  #back:salmon
+{
+Static : true
+return Type : CompilationUnit[]
+hashCode : 1610818058
+ABS Score : 17
+Relative Score : 13
+__**<color:green>has list</color>**__
+..class..
+..member..
+	hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String).src (914930347);
+	hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String).srcFile (1340267778);
+	hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String).astList (1805672623);
+	hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String).target (1477964234);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	java.io.File (1558127130);
+	java.util.null (1150464915);
+	hongik.selab.parser.java.JavaParser (261849385);
+	java.util.ArrayList (1861236708);
+..member..
+	hongik.selab.parser.java.JavaParser.targetList (1941390869);
+	hongik.selab.parser.java.JavaParser.fileNum (577269211);
+..method..
+	 java.io.File.java.io.File.File(java.lang.String) (422266669);
+	 java.util.null.java.util.ArrayList.ArrayList() (139416025);
+	 hongik.selab.parser.java.JavaParser.makeFileList(java.io.File) (1169780300);
+	 java.util.ArrayList.size() (716825662);
+	 java.util.ArrayList.get(int) (283092975);
+	 hongik.selab.parser.java.JavaParser.init(java.io.File) (137902612);
+	 hongik.selab.parser.java.JavaParser.parsing() (1265178129);
+__**<color:orange>called by list</color>**__
+..class..
+	hongik.selab.parser.java.JavaParser (261849385);
+	main.Main (632168320);
+..member..
+..method..
+	 hongik.selab.parser.java.JavaParser.main(java.lang.String[]) (361021465);
+	 main.Main.main(java.lang.String[]) (1600249858);
+}
+class "isJavaFile(java.io.File)" as f381045251  #back:salmon
+{
+Static : true
+return Type : boolean
+hashCode : 381045251
+ABS Score : 13
+Relative Score : 9
+__**<color:green>has list</color>**__
+..class..
+..member..
+	hongik.selab.parser.java.JavaParser.isJavaFile(java.io.File).target (774501006);
+	hongik.selab.parser.java.JavaParser.isJavaFile(java.io.File).fileName (2079989429);
+	hongik.selab.parser.java.JavaParser.isJavaFile(java.io.File).ext (725177729);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	java.io.File (1558127130);
+	java.lang.String (1456906673);
+..member..
+	hongik.selab.parser.java.JavaParser.isJavaFile(java.io.File).target (774501006);
+	hongik.selab.parser.java.JavaParser.isJavaFile(java.io.File).fileName (2079989429);
+..method..
+	 java.io.File.getName() (962221884);
+	 java.lang.String.substring(int) (933205333);
+__**<color:orange>called by list</color>**__
+..class..
+	hongik.selab.parser.java.JavaParser (261849385);
+..member..
+..method..
+	 hongik.selab.parser.java.JavaParser.isJavaFile(java.io.File) (381045251);
+}
+class "makeFileList(java.io.File)" as f1169780300  #back:salmon
+{
+Static : true
+return Type : void
+hashCode : 1169780300
+ABS Score : 9
+Relative Score : 6
+__**<color:green>has list</color>**__
+..class..
+..member..
+	hongik.selab.parser.java.JavaParser.makeFileList(java.io.File).file (850683953);
+	hongik.selab.parser.java.JavaParser.makeFileList(java.io.File).fileList (1919584041);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	java.io.File (1558127130);
+..member..
+	hongik.selab.parser.java.JavaParser.makeFileList(java.io.File).file (850683953);
+..method..
+	 java.io.File.listFiles() (2118050088);
+__**<color:orange>called by list</color>**__
+..class..
+	hongik.selab.parser.java.JavaParser (261849385);
+..member..
+..method..
+	 hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String) (1610818058);
+	 hongik.selab.parser.java.JavaParser.makeFileList(java.io.File) (1169780300);
+}
+class "init(java.io.File)" as f137902612  #back:salmon
+{
+Static : true
+return Type : void
+hashCode : 137902612
+ABS Score : 20
+Relative Score : 17
+__**<color:green>has list</color>**__
+..class..
+..member..
+	hongik.selab.parser.java.JavaParser.init(java.io.File).file (438772947);
+	hongik.selab.parser.java.JavaParser.init(java.io.File).reader (2111381500);
+	hongik.selab.parser.java.JavaParser.init(java.io.File).source (472766619);
+	hongik.selab.parser.java.JavaParser.init(java.io.File).buf (987252728);
+	hongik.selab.parser.java.JavaParser.init(java.io.File).numRead (435875276);
+	hongik.selab.parser.java.JavaParser.init(java.io.File).options (745089008);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	java.io.File (1558127130);
+	java.lang.StringBuilder (1686091139);
+	org.eclipse.jdt.core.dom.ASTParser (1442526942);
+	org.eclipse.jdt.core.JavaCore (104494977);
+..member..
+	hongik.selab.parser.java.JavaParser.parser (1398005001);
+..method..
+	 java.lang.StringBuilder.java.lang.StringBuilder.StringBuilder() (2103748960);
+	 org.eclipse.jdt.core.dom.ASTParser.newParser(int) (376234567);
+	 org.eclipse.jdt.core.dom.ASTParser.setKind(int) (1569908962);
+	 org.eclipse.jdt.core.dom.ASTParser.setSource(char[]) (1412195801);
+	 org.eclipse.jdt.core.dom.ASTParser.setStatementsRecovery(boolean) (215738773);
+	 org.eclipse.jdt.core.dom.ASTParser.setBindingsRecovery(boolean) (2111069331);
+	 org.eclipse.jdt.core.dom.ASTParser.setResolveBindings(boolean) (927690291);
+	 org.eclipse.jdt.core.JavaCore.getOptions() (8312750);
+	 org.eclipse.jdt.core.JavaCore.setComplianceOptions(java.lang.String, java.util.Map) (1404703093);
+	 org.eclipse.jdt.core.dom.ASTParser.setCompilerOptions(java.util.Map) (215351125);
+__**<color:orange>called by list</color>**__
+..class..
+	hongik.selab.parser.java.JavaParser (261849385);
+..member..
+..method..
+	 hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String) (1610818058);
+}
+class "parsing()" as f1265178129  #line:green
+{
+Static : true
+return Type : // 새방식
+CompilationUnit
+hashCode : 1265178129
+ABS Score : 2
+Relative Score : 2
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	hongik.selab.parser.java.JavaParser.compilationUnit (839907439);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	hongik.selab.parser.java.JavaParser (261849385);
+..member..
+..method..
+	 hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String) (1610818058);
+}
+class "main(java.lang.String[])" as f361021465  #back:salmon
+{
+Static : true
+return Type : void
+hashCode : 361021465
+ABS Score : 13
+Relative Score : 8
+__**<color:green>has list</color>**__
+..class..
+..member..
+	hongik.selab.parser.java.JavaParser.main(java.lang.String[]).test (1592970214);
+	hongik.selab.parser.java.JavaParser.main(java.lang.String[]).src (644718663);
+	hongik.selab.parser.java.JavaParser.main(java.lang.String[]).list (1756872139);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	java.lang.String[] (1966082314);
+	hongik.selab.parser.java.JavaParser (261849385);
+..member..
+..method..
+	 hongik.selab.parser.java.JavaParser.makeASTList(java.lang.String) (1610818058);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+}
+f1610818058-->f1169780300 : call 
+f1610818058-->f137902612 : call 
+f1610818058-->f1265178129 : call 
+f361021465-->f1610818058 : call 
+
+@enduml

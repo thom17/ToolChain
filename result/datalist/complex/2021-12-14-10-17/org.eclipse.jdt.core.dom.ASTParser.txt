@@ -1,0 +1,246 @@
+@startuml
+class ClassComplex{
+__**<color:orange>Complex Info</color>**__
+	memberScor = 0
+	extendsClassScore = 0
+	callScore = 0
+	callByScore = 0
+	methodNum = 0
+	memberNum = 0
+	constructorNum = 0
+	selfCoverage = 0
+	needCallBy = 0
+	ABS = 0
+	REL = 0
+	ABS = 0
+	REL = 0
+	coverage = 0.0%
+__**<color:green>has list</color>**__
+	<color:green>null newParser(int) (0)
+	<color:green>null setKind(int) (0)
+	<color:green>null setSource(char[]) (0)
+	<color:green>null setStatementsRecovery(boolean) (0)
+	<color:green>null setBindingsRecovery(boolean) (0)
+	<color:green>null setResolveBindings(boolean) (0)
+	<color:green>null setCompilerOptions(java.util.Map) (0)
+}
+
+class org.eclipse.jdt.core.dom.ASTParser.newParser300865111 as "newParser(int)"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.ASTParser
+	SrcSig : org.eclipse.jdt.core.dom.ASTParser.newParser(int)
+	Sig : newParser(int)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+class org.eclipse.jdt.core.dom.ASTParser.setKind1888420238 as "setKind(int)"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.ASTParser
+	SrcSig : org.eclipse.jdt.core.dom.ASTParser.setKind(int)
+	Sig : setKind(int)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+class org.eclipse.jdt.core.dom.ASTParser.setSource430119837 as "setSource(char[])"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.ASTParser
+	SrcSig : org.eclipse.jdt.core.dom.ASTParser.setSource(char[])
+	Sig : setSource(char[])
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+class org.eclipse.jdt.core.dom.ASTParser.setStatementsRecovery173783788 as "setStatementsRecovery(boolean)"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.ASTParser
+	SrcSig : org.eclipse.jdt.core.dom.ASTParser.setStatementsRecovery(boolean)
+	Sig : setStatementsRecovery(boolean)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+class org.eclipse.jdt.core.dom.ASTParser.setBindingsRecovery1835043230 as "setBindingsRecovery(boolean)"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.ASTParser
+	SrcSig : org.eclipse.jdt.core.dom.ASTParser.setBindingsRecovery(boolean)
+	Sig : setBindingsRecovery(boolean)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+class org.eclipse.jdt.core.dom.ASTParser.setResolveBindings1709930189 as "setResolveBindings(boolean)"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.ASTParser
+	SrcSig : org.eclipse.jdt.core.dom.ASTParser.setResolveBindings(boolean)
+	Sig : setResolveBindings(boolean)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+class org.eclipse.jdt.core.dom.ASTParser.setCompilerOptions1510731556 as "setCompilerOptions(java.util.Map)"#line:green 
+{
+	pram : ( )
+	SrcOwnClassName : org.eclipse.jdt.core.dom.ASTParser
+	SrcSig : org.eclipse.jdt.core.dom.ASTParser.setCompilerOptions(java.util.Map)
+	Sig : setCompilerOptions(java.util.Map)
+	__**<color:orange>Complex Info</color>**__
+	parameter Score : 0
+	classCall Score : 0
+	Call Score : 0
+	CallBy Score : 2
+	memberUse Score : 0
+	localValue Score : 0
+	exp Score : 0
+	repeat Score : 0
+	brench Score : 0
+	callCountNum : 0
+	cyclomatic : 1
+	State Node lineNum: 0
+	State Node Num : 0
+	State Node callListSize: 0
+	State Node repeatSize : 0
+	State Node writeSize : 0
+	State Node bifurSize : 0
+	Calculated Estunated Program Length: NaN
+	Volume : NaN
+	Diffifculty: NaN
+	Effort : NaN
+	ABS Score : 0
+	Relative Score : 0
+}
+
+@enduml

@@ -1,0 +1,307 @@
+@startuml
+/'do Class Define (클래스 정의)'/
+class complexity.Complex #back:salmon 
+{
+	int line; (Lv0)
+	int score; (Lv0)
+	java.lang.StringBuilder undefSize; (Lv0)
+	java.util.Map<java.lang.String, java.lang.String> memberScore; (Lv2)
+}
+
+class dataSet.Class #back:salmon 
+{
+	boolean isimplement; (Lv0)
+	dataSet.Class[] extendClass; (Lv0)
+	dataSet.Class[] implementClass; (Lv0)
+	java.lang.String[] extendSrcName; (Lv0)
+	java.lang.String[] implementSrcName; (Lv0)
+	java.lang.String packageSrc; (Lv0)
+	boolean isLib; (Lv0)
+	boolean isInterface; (Lv0)
+	complexity.Complex complex; (Lv2)
+}
+
+abstract dataSet.Data_base  
+{
+	java.lang.String name; (Lv4)
+	java.lang.String modifier; (Lv0)
+	dataSet.DataList hasList; (Lv4)
+	dataSet.DataList callList; (Lv4)
+	dataSet.DataList callByList; (Lv4)
+	boolean isAbstract; (Lv0)
+	boolean isStatic; (Lv0)
+}
+
+class dataSet.DataList #back:salmon 
+{
+	java.util.Map<java.lang.String, dataSet.Class> classList; (Lv2)
+	java.util.Map<java.lang.String, dataSet.Function> functionList; (Lv2)
+	java.util.Map<java.lang.String, dataSet.Member> memberList; (Lv2)
+}
+
+class dataSet.Function #back:salmon 
+{
+	boolean isStatic; (Lv0)
+	dataSet.Data_base owner; (Lv0)
+	java.lang.String returnType; (Lv0)
+	java.lang.String sig; (Lv0)
+	java.lang.String[] parameterType; (Lv0)
+	java.lang.String[] parameterName; (Lv0)
+	java.lang.String code; (Lv1)
+	dataSet.stateNode.StateNode headNode; (Lv2)
+	complexity.Complex complex; (Lv2)
+}
+
+class dataSet.stateNode.StateNode #back:salmon 
+{
+	int id; (Lv0)
+	java.lang.String code; (Lv1)
+	java.lang.String nextCheck; (Lv1)
+	java.lang.String key; (Lv1)
+	dataSet.stateNode.StateNode thenNode; (Lv2)
+	dataSet.stateNode.StateNode elseNode; (Lv2)
+	dataSet.stateNode.StateNode before; (Lv2)
+}
+
+class dataSet.Member #back:salmon 
+{
+	dataSet.Data_base owner; (Lv0)
+	java.util.ArrayList<java.lang.String> imageList; (Lv2)
+	dataSet.Data_base typedef; (Lv0)
+	java.lang.String typeName; (Lv0)
+	boolean superMember; (Lv0)
+}
+
+class dataSet.stateNode.ForStateNode #back:salmon 
+{
+	java.util.List init; (Lv0)
+	java.util.ArrayList<org.eclipse.jdt.core.dom.Statement> bodyList; (Lv0)
+	java.lang.String repeatCondition; (Lv0)
+	dataSet.stateNode.StateNode cond; (Lv2)
+	dataSet.stateNode.StateNode condElseNode; (Lv2)
+	java.util.ArrayList<dataSet.stateNode.StateNode> forFinList; (Lv2)
+}
+
+class dataSet.stateNode.SwitchNode #back:salmon 
+{
+	java.util.Map<java.lang.String, java.util.ArrayList<org.eclipse.jdt.core.dom.Statement>> caseMap; (Lv0)
+	java.lang.String target; (Lv0)
+}
+
+class dataSet.stateNode.VarDecNode  
+{
+	java.lang.String type; (Lv0)
+}
+
+class diagram.ForEx #back:salmon 
+{
+	java.util.Map<java.lang.String, java.util.ArrayList<dataSet.Class>> separateMap; (Lv2)
+	java.lang.String[] skipKey; (Lv0)
+	int packageNum; (Lv1)
+	int classNum; (Lv1)
+	int funNum; (Lv1)
+	java.lang.StringBuilder sb; (Lv2)
+}
+
+class diagram.ForQuiz4 #back:salmon 
+{
+	java.lang.String[] skipMember; (Lv0)
+	java.lang.String[] skipClass; (Lv0)
+	java.lang.String[] skipKey; (Lv0)
+	int funNum; (Lv0)
+	java.util.ArrayList<dataSet.stateNode.StateNode> nodelist; (Lv2)
+}
+
+class diagram.NodeClassDg #back:salmon 
+{
+	java.lang.StringBuilder sb; (Lv2)
+	int num; (Lv0)
+	java.util.ArrayList<dataSet.stateNode.StateNode> nodelist; (Lv2)
+}
+
+class hongik.selab.parser.java.JavaParser #back:salmon 
+{
+	org.eclipse.jdt.core.dom.ASTParser parser; (Lv2)
+	org.eclipse.jdt.core.dom.CompilationUnit compilationUnit; (Lv2)
+	java.util.ArrayList<java.io.File> targetList; (Lv2)
+	java.io.File settingFile; (Lv0)
+	int fileNum; (Lv1)
+}
+
+class org.eclipse.jdt.core.dom.ASTParser #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.CompilationUnit #line:green 
+{
+}
+
+abstract main.Base_Visitor #line:green 
+{
+}
+
+class main.DataListDiagram #back:salmon 
+{
+	java.lang.String[] skipList; (Lv0)
+}
+
+class main.Main #back:salmon 
+{
+}
+
+class main.MethodVisitor #back:salmon 
+{
+}
+
+class main.Test_Visitor #back:salmon 
+{
+	java.lang.String packageName; (Lv1)
+	dataSet.DataList datalist; (Lv2)
+	dataSet.stateNode.StateNode stateNode; (Lv2)
+}
+
+class org.eclipse.jdt.core.JavaCore #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.Name #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.Block #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.ASTNode #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.TypeDeclaration #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.FieldDeclaration #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.SimpleName #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.VariableDeclaration #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.MethodDeclaration #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.ForStatement #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.ExpressionStatement #line:green 
+{
+}
+
+class org.eclipse.jdt.core.dom.VariableDeclarationStatement #line:green 
+{
+}
+
+/'Class Define (클래스 정의) end'/
+
+/'do Extends Define (상속 관계 정의)'/
+	dataSet.Class-->dataSet.Data_base: dataSet.Class is dataSet.Data_base
+	dataSet.Function-->dataSet.Data_base: dataSet.Function is dataSet.Data_base
+	dataSet.Member-->dataSet.Data_base: dataSet.Member is dataSet.Data_base
+	dataSet.stateNode.ForStateNode-->dataSet.stateNode.StateNode: dataSet.stateNode.ForStateNode is dataSet.stateNode.StateNode
+	dataSet.stateNode.SwitchNode-->dataSet.stateNode.StateNode: dataSet.stateNode.SwitchNode is dataSet.stateNode.StateNode
+	dataSet.stateNode.VarDecNode-->dataSet.stateNode.StateNode: dataSet.stateNode.VarDecNode is dataSet.stateNode.StateNode
+	main.MethodVisitor-->main.Test_Visitor: main.MethodVisitor is main.Test_Visitor
+/'Extends Define (상속 관계 정의) end'/
+
+/'do call By Define-Class (클래스-클래스 호출 관계 정의)'/
+	complexity.Complex o-- dataSet.Function : ref dataSet.Function
+	complexity.Complex o-- dataSet.Class : ref dataSet.Class
+	complexity.Complex o-- dataSet.Data_base : ref dataSet.Data_base
+	complexity.Complex o-- complexity.Complex : ref complexity.Complex
+	complexity.Complex o-- dataSet.DataList : ref dataSet.DataList
+	dataSet.Class o-- dataSet.Class : ref dataSet.Class
+	dataSet.Class o-- dataSet.Data_base : ref dataSet.Data_base
+	dataSet.Class o-- dataSet.DataList : ref dataSet.DataList
+	dataSet.Class o-- complexity.Complex : ref complexity.Complex
+	dataSet.Data_base o-- dataSet.Data_base : ref dataSet.Data_base
+	dataSet.DataList o-- dataSet.Data_base : ref dataSet.Data_base
+	dataSet.DataList o-- dataSet.Class : ref dataSet.Class
+	dataSet.Function o-- dataSet.Class : ref dataSet.Class
+	dataSet.Function o-- dataSet.Data_base : ref dataSet.Data_base
+	dataSet.Function o-- dataSet.stateNode.StateNode : ref dataSet.stateNode.StateNode
+	dataSet.Function o-- complexity.Complex : ref complexity.Complex
+	dataSet.Function o-- dataSet.DataList : ref dataSet.DataList
+	dataSet.stateNode.StateNode o-- dataSet.stateNode.StateNode : ref dataSet.stateNode.StateNode
+	dataSet.Member o-- dataSet.Class : ref dataSet.Class
+	dataSet.Member o-- dataSet.Data_base : ref dataSet.Data_base
+	dataSet.Member o-- dataSet.Member : ref dataSet.Member
+	dataSet.Member o-- dataSet.DataList : ref dataSet.DataList
+	dataSet.stateNode.ForStateNode o-- org.eclipse.jdt.core.dom.ForStatement : ref org.eclipse.jdt.core.dom.ForStatement
+	dataSet.stateNode.ForStateNode o-- dataSet.stateNode.StateNode : ref dataSet.stateNode.StateNode
+	dataSet.stateNode.SwitchNode o-- org.eclipse.jdt.core.dom.SwitchStatement : ref org.eclipse.jdt.core.dom.SwitchStatement
+	diagram.ForEx o-- dataSet.DataList : ref dataSet.DataList
+	diagram.ForEx o-- dataSet.Class : ref dataSet.Class
+	diagram.ForEx o-- dataSet.Function : ref dataSet.Function
+	diagram.ForEx o-- dataSet.Data_base : ref dataSet.Data_base
+	diagram.ForEx o-- dataSet.stateNode.StateNode : ref dataSet.stateNode.StateNode
+	diagram.ForEx o-- diagram.ForEx : ref diagram.ForEx
+	diagram.ForEx o-- complexity.Complex : ref complexity.Complex
+	diagram.ForEx o-- dataSet.stateNode.SwitchNode : ref dataSet.stateNode.SwitchNode
+	diagram.ForQuiz4 o-- dataSet.DataList : ref dataSet.DataList
+	diagram.ForQuiz4 o-- dataSet.Class : ref dataSet.Class
+	diagram.ForQuiz4 o-- dataSet.stateNode.StateNode : ref dataSet.stateNode.StateNode
+	diagram.ForQuiz4 o-- diagram.ForQuiz4 : ref diagram.ForQuiz4
+	diagram.NodeClassDg o-- dataSet.Function : ref dataSet.Function
+	diagram.NodeClassDg o-- dataSet.stateNode.StateNode : ref dataSet.stateNode.StateNode
+	diagram.NodeClassDg o-- diagram.NodeClassDg : ref diagram.NodeClassDg
+	diagram.NodeClassDg o-- dataSet.stateNode.SwitchNode : ref dataSet.stateNode.SwitchNode
+	hongik.selab.parser.java.JavaParser o-- hongik.selab.parser.java.JavaParser : ref hongik.selab.parser.java.JavaParser
+	hongik.selab.parser.java.JavaParser o-- org.eclipse.jdt.core.dom.ASTParser : ref org.eclipse.jdt.core.dom.ASTParser
+	hongik.selab.parser.java.JavaParser o-- org.eclipse.jdt.core.JavaCore : ref org.eclipse.jdt.core.JavaCore
+	main.DataListDiagram o-- dataSet.DataList : ref dataSet.DataList
+	main.DataListDiagram o-- dataSet.Data_base : ref dataSet.Data_base
+	main.DataListDiagram o-- dataSet.Function : ref dataSet.Function
+	main.DataListDiagram o-- main.DataListDiagram : ref main.DataListDiagram
+	main.DataListDiagram o-- dataSet.Class : ref dataSet.Class
+	main.Main o-- hongik.selab.parser.java.JavaParser : ref hongik.selab.parser.java.JavaParser
+	main.Main o-- dataSet.DataList : ref dataSet.DataList
+	main.Main o-- diagram.ForEx : ref diagram.ForEx
+	main.MethodVisitor o-- dataSet.Function : ref dataSet.Function
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.CompilationUnit : ref org.eclipse.jdt.core.dom.CompilationUnit
+	main.Test_Visitor o-- dataSet.DataList : ref dataSet.DataList
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.Statement : ref org.eclipse.jdt.core.dom.Statement
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.AbstractTypeDeclaration : ref org.eclipse.jdt.core.dom.AbstractTypeDeclaration
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.FieldDeclaration : ref org.eclipse.jdt.core.dom.FieldDeclaration
+	main.Test_Visitor o-- dataSet.Data_base : ref dataSet.Data_base
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.MethodDeclaration : ref org.eclipse.jdt.core.dom.MethodDeclaration
+	main.Test_Visitor o-- dataSet.Function : ref dataSet.Function
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.Expression : ref org.eclipse.jdt.core.dom.Expression
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.Name : ref org.eclipse.jdt.core.dom.Name
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.Block : ref org.eclipse.jdt.core.dom.Block
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.ASTNode : ref org.eclipse.jdt.core.dom.ASTNode
+	main.Test_Visitor o-- dataSet.Class : ref dataSet.Class
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.TypeDeclaration : ref org.eclipse.jdt.core.dom.TypeDeclaration
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.SimpleName : ref org.eclipse.jdt.core.dom.SimpleName
+	main.Test_Visitor o-- dataSet.Member : ref dataSet.Member
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.VariableDeclaration : ref org.eclipse.jdt.core.dom.VariableDeclaration
+	main.Test_Visitor o-- dataSet.stateNode.StateNode : ref dataSet.stateNode.StateNode
+	main.Test_Visitor o-- main.Test_Visitor : ref main.Test_Visitor
+	main.Test_Visitor o-- dataSet.stateNode.ForStateNode : ref dataSet.stateNode.ForStateNode
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.ForStatement : ref org.eclipse.jdt.core.dom.ForStatement
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.ExpressionStatement : ref org.eclipse.jdt.core.dom.ExpressionStatement
+	main.Test_Visitor o-- org.eclipse.jdt.core.dom.VariableDeclarationStatement : ref org.eclipse.jdt.core.dom.VariableDeclarationStatement
+	main.Test_Visitor o-- dataSet.stateNode.VarDecNode : ref dataSet.stateNode.VarDecNode
+	main.Test_Visitor o-- dataSet.stateNode.SwitchNode : ref dataSet.stateNode.SwitchNode
+
+
+/'call By Define-Class (클래스-클래스 호출 관계 정의)' end/
+
+
+@enduml

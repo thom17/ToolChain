@@ -1,0 +1,61 @@
+@startuml
+ left to right direction
+
+actor Member as actor417118375
+
+	rectangle addHas{
+	 usecase addData as UC163
+	actor417118375--UC163
+	}
+actor addData as actor188193734
+UC163--actor188193734
+
+	rectangle addCallBy{
+	 usecase addData as UC164
+	actor417118375--UC164
+	 usecase addCallBy as UC165
+	actor417118375--UC165
+	}
+actor addCallBy as actor628694336
+UC165--actor628694336
+actor addData as actor188193734
+UC164--actor188193734
+
+	rectangle addCall{
+	 usecase addData as UC166
+	actor417118375--UC166
+	 usecase addCall as UC167
+	actor417118375--UC167
+	 usecase addCallBy as UC168
+	actor417118375--UC168
+	}
+actor addCallBy as actor628694336
+UC168--actor628694336
+actor addCall as actor628694336
+UC167--actor628694336
+actor addData as actor188193734
+UC166--actor188193734
+
+	rectangle addImage{
+	 usecase add as UC169
+	actor417118375--UC169
+	}
+actor add as actor1479446866
+UC169--actor1479446866
+
+	rectangle getSrcName{
+	 usecase getSrcName as UC170
+	actor417118375--UC170
+	}
+actor getSrcName as actor628694336
+UC170--actor628694336
+
+	rectangle getPackageName{
+	 usecase getPackageName as UC171
+	actor417118375--UC171
+	}
+actor getPackageName as actor628694336
+UC171--actor628694336
+
+
+@enduml

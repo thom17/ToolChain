@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="709px" preserveAspectRatio="none" style="width:411px;height:709px;" version="1.1" viewBox="0 0 411 709" width="411px" zoomAndPan="magnify"><defs><filter height="300%" id="f108t1zpnfirqq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[537950558e43b2560df457283b5a85a7]
+cluster getUndefSize--><rect fill="#FFFFFF" filter="url(#f108t1zpnfirqq)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="110" x="137" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="145" y="25.1533">getUndefSize</text><!--MD5=[3a76cada14e7aa6ecc7524fc7634f68c]
+cluster addFunctionScore--><rect fill="#FFFFFF" filter="url(#f108t1zpnfirqq)" height="292" style="stroke: #000000; stroke-width: 1.5;" width="175" x="104" y="119"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="129" x="127" y="137.1533">addFunctionScore</text><!--MD5=[3280d439c7efeca69ab8d3c7e9fc743d]
+cluster getMemberScore--><rect fill="#FFFFFF" filter="url(#f108t1zpnfirqq)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="162" x="110.5" y="459"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="130.5" y="477.1533">getMemberScore</text><!--MD5=[810ee23bb0ab43f2a38b555eb772dae5]
+cluster getLineNum--><rect fill="#FFFFFF" filter="url(#f108t1zpnfirqq)" height="88" style="stroke: #000000; stroke-width: 1.5;" width="109" x="137" y="586"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="84" x="149.5" y="604.1533">getLineNum</text><ellipse cx="191.6482" cy="62.0973" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="37.6482" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="167.1482" y="68.2121">toString</text><ellipse cx="191.4411" cy="174.0973" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="36.9411" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="167.4411" y="180.2121">append</text><ellipse cx="191.2843" cy="242.0973" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="31.2843" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="171.2843" y="248.2121">getSig</text><ellipse cx="191.2886" cy="310.1577" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="71.2886" ry="16.6577" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="142.7886" y="316.2725">getFunctionList</text><ellipse cx="191.669" cy="378.0973" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="49.669" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="158.669" y="384.2121">getHasList</text><ellipse cx="191.7254" cy="514.0973" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="65.2254" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="147.7254" y="520.2121">getTypeName</text><ellipse cx="191.3553" cy="641.0973" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="38.3553" ry="16.5973" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="166.3553" y="647.2121">hasNext</text><!--MD5=[6b788eeafbeb5841789c7437b3b344f7]
+entity actor1014135205--><ellipse cx="33" cy="243.5" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M33,251.5 L33,278.5 M20,259.5 L46,259.5 M33,278.5 L20,293.5 M33,278.5 L46,293.5 " fill="none" filter="url(#f108t1zpnfirqq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="6" y="315.1533">Complex</text><!--MD5=[864f7e280385d8f93481e354d7c7de74]
+entity actor230610941--><ellipse cx="363.5" cy="34.5" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M363.5,42.5 L363.5,69.5 M350.5,50.5 L376.5,50.5 M363.5,69.5 L350.5,84.5 M363.5,69.5 L376.5,84.5 " fill="none" filter="url(#f108t1zpnfirqq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="323" y="106.1533">StringBuilder</text><!--MD5=[d90094311435cfb86829af3e65eedad8]
+entity actor517787604--><ellipse cx="363.5" cy="391.5" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M363.5,399.5 L363.5,426.5 M350.5,407.5 L376.5,407.5 M363.5,426.5 L350.5,441.5 M363.5,426.5 L376.5,441.5 " fill="none" filter="url(#f108t1zpnfirqq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="329" y="463.1533">Data_base</text><!--MD5=[2402d7512d9aa01d473b8fba52e12d98]
+entity actor188193734--><ellipse cx="363.5" cy="272.5" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M363.5,280.5 L363.5,307.5 M350.5,288.5 L376.5,288.5 M363.5,307.5 L350.5,322.5 M363.5,307.5 L376.5,322.5 " fill="none" filter="url(#f108t1zpnfirqq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="337.5" y="344.1533">DataList</text><!--MD5=[c3a79de3dfdf70b4ead88bc26ff6f883]
+entity actor927744186--><ellipse cx="363.5" cy="153.5" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M363.5,161.5 L363.5,188.5 M350.5,169.5 L376.5,169.5 M363.5,188.5 L350.5,203.5 M363.5,188.5 L376.5,203.5 " fill="none" filter="url(#f108t1zpnfirqq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="336" y="225.1533">Function</text><!--MD5=[ff2cfac5f43e701ce7de056768dc8c39]
+entity actor417118375--><ellipse cx="363.5" cy="510.5" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M363.5,518.5 L363.5,545.5 M350.5,526.5 L376.5,526.5 M363.5,545.5 L350.5,560.5 M363.5,545.5 L376.5,560.5 " fill="none" filter="url(#f108t1zpnfirqq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="338" y="582.1533">Member</text><!--MD5=[c57b2856006f7831c689678788b65ea6]
+entity actor1770453310--><ellipse cx="363.5" cy="629.5" fill="#FEFECE" filter="url(#f108t1zpnfirqq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M363.5,637.5 L363.5,664.5 M350.5,645.5 L376.5,645.5 M363.5,664.5 L350.5,679.5 M363.5,664.5 L376.5,679.5 " fill="none" filter="url(#f108t1zpnfirqq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="337" y="701.1533">Scanner</text><!--MD5=[4e76b31956732e5b2a2b5d10e0d2b1a1]
+link actor1014135205 to UC458385820--><path d="M47.83,233.81 C58.3,205.76 74.55,169.07 96,141 C116.77,113.81 148.49,89.75 169.36,75.53 " fill="none" id="actor1014135205-UC458385820" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[fe24e3c77f07c716b55f92ec959cee7d]
+link UC458385820 to actor230610941--><path d="M228.97,63.07 C256.58,63.88 294.46,65 322.83,65.83 " fill="none" id="UC458385820-actor230610941" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2245ff09659f9a6da7ac43329ab4a1a3]
+link actor1014135205 to UC1510333744--><path d="M60.21,256.89 C70.34,246.18 82.71,233.87 96,225 C121.09,208.26 155.43,198.62 175.05,188.88 " fill="none" id="actor1014135205-UC1510333744" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2245ff09659f9a6da7ac43329ab4a1a3]
+link actor1014135205 to UC1510333744--><path d="M52.77,233.99 C63.97,217.82 79.26,201.17 96,190 C115.29,177.13 140.04,168.45 159.38,165.61 " fill="none" id="actor1014135205-UC1510333744-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4473e32f68a3f3273c84868639ea52dc]
+link actor1014135205 to UC1769565136--><path d="M60.19,270.31 C88.39,264.18 133.08,254.47 162.1,248.17 " fill="none" id="actor1014135205-UC1769565136" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[00cc46301df932cac8373388ffd609cb]
+link actor1014135205 to UC1150063356--><path d="M60.19,281.69 C81.6,286.34 112.52,293.06 138.86,298.78 " fill="none" id="actor1014135205-UC1150063356" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3c5fae4c282f6e7006fec4aa0ef690aa]
+link actor1014135205 to UC30604162--><path d="M60.21,311.1 C70.34,322.82 82.71,335.13 96,344 C112.53,355.03 133.08,362.98 150.79,368.41 " fill="none" id="actor1014135205-UC30604162" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[41e84a296fe8a1cb714d25f33c9bb3de]
+link UC30604162 to actor517787604--><path d="M230.65,388.32 C260.12,396.3 300.51,407.23 328.79,414.88 " fill="none" id="UC30604162-actor517787604" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ef52f4984777f65c7c6b16a0f94669c0]
+link UC1150063356 to actor188193734--><path d="M262.63,307.94 C289.15,307.16 317.67,306.32 337.41,305.74 " fill="none" id="UC1150063356-actor188193734" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5f69a19daa2653f3d5ced236d9d1098d]
+link UC1769565136 to actor927744186--><path d="M218.69,233.37 C250.45,222.91 303.7,205.37 335.72,194.82 " fill="none" id="UC1769565136-actor927744186" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3ca10d0588a2cb08aa576378b8daa12c]
+link UC1510333744 to actor230610941--><path d="M222.89,164.91 C250.78,150.62 292.27,124.83 322.77,102.99 " fill="none" id="UC1510333744-actor230610941" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3ca10d0588a2cb08aa576378b8daa12c]
+link UC1510333744 to actor230610941--><path d="M205.28,158.41 C229.91,136.71 284.88,100.75 322.82,80.35 " fill="none" id="UC1510333744-actor230610941-1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[194117c75b860885ea82b50fcb710705]
+link actor1014135205 to UC519751097--><path d="M49.42,318.23 C60.42,345.78 76.66,381.89 96,411 C118.56,444.96 152.21,478.7 172.68,497.89 " fill="none" id="actor1014135205-UC519751097" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[95f0b9bd0c4cd34e2519758cd59d5bb3]
+link UC519751097 to actor417118375--><path d="M245.82,523.1 C276.59,528.35 313.83,534.7 337.82,538.79 " fill="none" id="UC519751097-actor417118375" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f086dd02de1dcd6bc0c7356fde668a43]
+link actor1014135205 to UC109673034--><path d="M36.39,318.04 C41.1,373.62 55.03,473.14 96,547 C114.63,580.59 148.84,610.14 170.58,626.77 " fill="none" id="actor1014135205-UC109673034" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3abbe05ec75510f31729c06412d699e3]
+link UC109673034 to actor1770453310--><path d="M228.97,645.51 C261.46,649.52 308.17,655.29 336.86,658.83 " fill="none" id="UC109673034-actor1770453310" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1c059ad32cbb00dd5e5fe23f69d72b9a]
+@startuml
+ left to right direction
+
+actor Complex as actor1014135205
+
+	rectangle getUndefSize{
+	 usecase toString as UC458385820
+	actor1014135205- -UC458385820
+	}
+	actor StringBuilder as actor230610941
+	 UC458385820 - - actor230610941
+	rectangle addFunctionScore{
+	 usecase append as UC1510333744
+	actor1014135205- -UC1510333744
+	 usecase getSig as UC1769565136
+	actor1014135205- -UC1769565136
+	 usecase getFunctionList as UC1150063356
+	actor1014135205- -UC1150063356
+	 usecase getHasList as UC30604162
+	actor1014135205- -UC30604162
+	}
+	actor Data_base as actor517787604
+	 UC30604162 - - actor517787604
+	actor DataList as actor188193734
+	 UC1150063356 - - actor188193734
+	actor Function as actor927744186
+	 UC1769565136 - - actor927744186
+	actor StringBuilder as actor230610941
+	 UC1510333744 - - actor230610941
+	rectangle getMemberScore{
+	 usecase getTypeName as UC519751097
+	actor1014135205- -UC519751097
+	 usecase append as UC1510333744
+	actor1014135205- -UC1510333744
+	}
+	actor StringBuilder as actor230610941
+	 UC1510333744 - - actor230610941
+	actor Member as actor417118375
+	 UC519751097 - - actor417118375
+	rectangle getLineNum{
+	 usecase hasNext as UC109673034
+	actor1014135205- -UC109673034
+	}
+	actor Scanner as actor1770453310
+	 UC109673034 - - actor1770453310
+
+@enduml
+
+PlantUML version 1.2020.19(Tue Oct 13 00:10:01 KST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

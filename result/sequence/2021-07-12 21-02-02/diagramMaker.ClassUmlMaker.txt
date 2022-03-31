@@ -1,0 +1,7 @@
+@startuml
+group void main(dataSet.DataList)
+	ClassUmlMaker->Data_base : getHasList()
+		Data_base-->ClassUmlMaker
+end
+
+@enduml

@@ -1,0 +1,54 @@
+@startuml
+class "Sound" as cl1{
+Package classRelation
+Lib false
+HashCode : 1965445467
+ABS Score : 5
+Relative Score : 2
+__**<color:green>has list</color>**__
+	<color:green>int volume (1)
+....
+	<color:green>new Sound(int) (3)
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	classRelation.Sound.volume (1150963491);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	classRelation.Instrument (1682681674);
+	classRelation.Sound (1965445467);
+..member..
+..method..
+	 classRelation.Instrument.play() (707157673);
+	 classRelation.Sound.Sound(int) (1422238463);
+}
+
+ package Functions{
+class "Sound(int)" as f1422238463  #line:green
+{
+Static : false
+return Type : new
+hashCode : 1422238463
+ABS Score : 3
+Relative Score : 3
+__**<color:green>has list</color>**__
+..class..
+..member..
+	classRelation.Sound.Sound(int).volume (355518265);
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+	classRelation.Sound.volume (1150963491);
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	classRelation.Instrument (1682681674);
+..member..
+..method..
+	 classRelation.Instrument.play() (707157673);
+}
+}
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+class "shopTest.TestCase.Add_Product()" as cl1{
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+	Shop (239372207);
+..member..
+..method..
+	void addGoods(shop.Goods, java.lang.String) (1169474473);
+__**<color:orange>called by list</color>**__
+..class..
+..member..
+..method..
+}
+
+@enduml

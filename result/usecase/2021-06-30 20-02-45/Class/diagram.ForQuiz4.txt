@@ -1,0 +1,125 @@
+@startuml
+ left to right direction
+
+actor ForQuiz4 as actor1805031342
+
+	rectangle main{
+	 usecase waitFor as UC1695161087
+	actor1805031342--UC1695161087
+	 usecase println as UC1001114349
+	actor1805031342--UC1001114349
+	}
+	actor PrintStream as actor731802107
+	 UC1001114349 -- actor731802107
+	actor Process as actor431996456
+	 UC1695161087 -- actor431996456
+	rectangle main{
+	 usecase waitFor as UC1695161087
+	actor1805031342--UC1695161087
+	 usecase println as UC1001114349
+	actor1805031342--UC1001114349
+	}
+	actor PrintStream as actor731802107
+	 UC1001114349 -- actor731802107
+	actor Process as actor431996456
+	 UC1695161087 -- actor431996456
+	rectangle makeFile{
+	 usecase write as UC743936514
+	actor1805031342--UC743936514
+	 usecase close as UC1238292935
+	actor1805031342--UC1238292935
+	}
+	actor OutputStreamWriter as actor298295476
+	 UC1238292935 -- actor298295476
+	actor Writer as actor1978471002
+	 UC743936514 -- actor1978471002
+	rectangle makeScript{
+	 usecase append as UC1698322791
+	actor1805031342--UC1698322791
+	 usecase hashCode as UC1518712038
+	actor1805031342--UC1518712038
+	 usecase toString as UC1986751746
+	actor1805031342--UC1986751746
+	}
+	actor StringBuilder as actor1795804759
+	 UC1986751746 -- actor1795804759
+	actor Object as actor1548698416
+	 UC1518712038 -- actor1548698416
+	actor StringBuilder as actor1795804759
+	 UC1698322791 -- actor1795804759
+	rectangle makeMemberInfo{
+	 usecase append as UC1698322791
+	actor1805031342--UC1698322791
+	 usecase toString as UC731573979
+	actor1805031342--UC731573979
+	 usecase getImageList as UC104105431
+	actor1805031342--UC104105431
+	}
+	actor Member as actor444096469
+	 UC104105431 -- actor444096469
+	actor AbstractCollection as actor602572848
+	 UC731573979 -- actor602572848
+	actor StringBuilder as actor1795804759
+	 UC1698322791 -- actor1795804759
+	rectangle makeFunctionInfo{
+	 usecase append as UC1698322791
+	actor1805031342--UC1698322791
+	 usecase hashCode as UC1518712038
+	actor1805031342--UC1518712038
+	 usecase getHeadNode as UC93981118
+	actor1805031342--UC93981118
+	}
+	actor Function as actor426792528
+	 UC93981118 -- actor426792528
+	actor Object as actor1548698416
+	 UC1518712038 -- actor1548698416
+	actor StringBuilder as actor1795804759
+	 UC1698322791 -- actor1795804759
+	rectangle nextThen{
+	 usecase getThen as UC113676940
+	actor1805031342--UC113676940
+	 usecase getKey as UC1324029152
+	actor1805031342--UC1324029152
+	}
+	actor StateNode as actor2083220171
+	 UC1324029152 -- actor2083220171
+	actor StateNode as actor2083220171
+	 UC113676940 -- actor2083220171
+	rectangle nextElse{
+	 usecase getElse as UC1009260571
+	actor1805031342--UC1009260571
+	 usecase getThen as UC113676940
+	actor1805031342--UC113676940
+	 usecase getKey as UC1324029152
+	actor1805031342--UC1324029152
+	}
+	actor StateNode as actor2083220171
+	 UC1324029152 -- actor2083220171
+	actor StateNode as actor2083220171
+	 UC113676940 -- actor2083220171
+	actor StateNode as actor2083220171
+	 UC1009260571 -- actor2083220171
+	rectangle makeExpInfo{
+	 usecase add as UC2030748640
+	actor1805031342--UC2030748640
+	 usecase println as UC1001114349
+	actor1805031342--UC1001114349
+	 usecase append as UC1698322791
+	actor1805031342--UC1698322791
+	 usecase getKey as UC1324029152
+	actor1805031342--UC1324029152
+	 usecase hashCode as UC1518712038
+	actor1805031342--UC1518712038
+	}
+	actor Object as actor1548698416
+	 UC1518712038 -- actor1548698416
+	actor StateNode as actor2083220171
+	 UC1324029152 -- actor2083220171
+	actor StringBuilder as actor1795804759
+	 UC1698322791 -- actor1795804759
+	actor PrintStream as actor731802107
+	 UC1001114349 -- actor731802107
+	actor ArrayList as actor1538456363
+	 UC2030748640 -- actor1538456363
+
+@enduml

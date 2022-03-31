@@ -1,0 +1,25 @@
+@startuml
+class dataSet.Function.getHeadNode(){
+__**<color:green>has list</color>**__
+..class..
+..member..
+..method..
+__**<color:blue>calling list</color>**__
+..class..
+..member..
+..method..
+__**<color:orange>called by list</color>**__
+..class..
+	ForMidEx (1089579669);
+	ForQuiz2 (955581180);
+	ForQuiz3 (108798399);
+	ForQuiz4 (1739581705);
+..member..
+..method..
+	void funMake(dataSet.Function, java.lang.String) (2045895214);
+	void makeFunctionInfo(dataSet.Class, java.lang.StringBuilder) (1761864974);
+	void makeFunctionInfo(dataSet.Class, java.lang.StringBuilder) (236275784);
+	void makeFunctionInfo(dataSet.Class, java.lang.StringBuilder) (384438050);
+}
+
+@enduml

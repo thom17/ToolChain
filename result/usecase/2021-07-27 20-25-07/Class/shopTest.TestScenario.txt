@@ -1,0 +1,42 @@
+@startuml
+ left to right direction
+
+actor TestScenario as actor1309176095
+
+	rectangle Login{
+	 usecase login as UC2
+	actor1309176095--UC2
+	}
+actor login as actor1293680848
+UC2--actor1293680848
+
+	rectangle Buy_Product{
+	 usecase buy as UC3
+	actor1309176095--UC3
+	}
+actor buy as actor1293680848
+UC3--actor1293680848
+
+	rectangle Charge_Money{
+	 usecase charge as UC4
+	actor1309176095--UC4
+	}
+actor charge as actor1293680848
+UC4--actor1293680848
+
+	rectangle Add_Product{
+	 usecase addGoods as UC5
+	actor1309176095--UC5
+	}
+actor addGoods as actor1293680848
+UC5--actor1293680848
+
+	rectangle Registration{
+	 usecase regist as UC6
+	actor1309176095--UC6
+	}
+actor regist as actor1293680848
+UC6--actor1293680848
+
+
+@enduml
