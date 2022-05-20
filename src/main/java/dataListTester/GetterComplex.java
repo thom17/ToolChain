@@ -46,15 +46,6 @@ public class GetterComplex
 		System.out.println(src+"/target_projcet.info 파일 생성 됨\n");
 		//System.out.println(str);
 		
-		BufferedWriter writer;
-		try {
-			writer = new BufferedWriter(new FileWriter(file));
-			writer.write(str);
-			writer.close();	
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	
+		
 	}
 }

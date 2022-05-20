@@ -6,9 +6,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="testFor"/>
+	<classpathentry kind="src" path="demoVer"/>
 	<classpathentry kind="src" path="forTarget"/>
 	<classpathentry kind="src" path="modelSrc"/>
+	<classpathentry kind="src" path="myUtill"/>
+	<classpathentry kind="src" path="testCode"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -22,5 +24,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="lib" path="lib/ModelManager.jar"/>
+	<classpathentry kind="lib" path="lib/sqlite-jdbc-3.36.0.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

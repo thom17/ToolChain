@@ -13,7 +13,8 @@ public class Class extends Data_base{
 	Class implementClass[] = null;
  	
 	String extendSrcName[] = null;	//
- 	String implementSrcName[] = null;	//
+	String implementSrcName[] = null;	//
+	
 	String packageSrc = "default";	//해당 클래스의 패키지 경로
 	
 	boolean isLib = true;
@@ -148,6 +149,24 @@ public class Class extends Data_base{
 	{
 		hasList.addData(target);
 		
+	}
+	
+	public Class[] getExtendClass() {
+		return extendClass;
+	}
+	public Class[] getImplementClass() {
+		return implementClass;
+	}
+	public String[] getExtendSrcName() {
+		return extendSrcName;
+	}
+	public String[] getImplementSrcName() {
+		return implementSrcName;
+	}
+	
+	public String toString()
+	{
+		return this.getSrcName();
 	}
 	
 }

@@ -109,11 +109,9 @@ public class Main {
 		DataMapper mapper = new DataMapper(datalist, mmg);
 		UsecaseDg2.main(mmg.project);
 		
-		
 		//ClassDg.main(new XmiReade)
 		//testUML();
 		System.out.println("DiagramForJava's main end");
-		 
 	}
 
 }
