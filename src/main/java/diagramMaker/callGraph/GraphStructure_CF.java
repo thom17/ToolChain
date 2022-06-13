@@ -9,7 +9,7 @@ import java.util.HashMap;
 import complexity.ClassComplexity;
 import complexity.FunctionComplexity;
 import dataSet.Class;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
@@ -31,7 +31,7 @@ public class GraphStructure_CF
 		p.waitFor();
 		System.out.println("test done! graph.svg");
 	}
-	public static void main(DataList list) throws IOException, InterruptedException
+	public static void main(OMS list) throws IOException, InterruptedException
 	{
 		
 		System.out.println("make Graph start...");
@@ -51,7 +51,7 @@ public class GraphStructure_CF
 	}
 	
 	//클래스 작성 스크립트 메인
-	public static String makeGraphScript(DataList list)
+	public static String makeGraphScript(OMS list)
 	{
 		StringBuilder str= new StringBuilder("@startuml\n");
 		
@@ -123,9 +123,9 @@ public class GraphStructure_CF
 	
 	private static void addListSize(Data_base target, String hash, StringBuilder str)
 	{
-		DataList hasList = target.getHasList();
-		DataList callList = target.getCallList();
-		DataList callByList = target.getCallByList();
+		OMS hasList = target.getHasList();
+		OMS callList = target.getCallList();
+		OMS callByList = target.getCallByList();
 		
 		str.append("/' has List '/\n");
 		String tag = " : has\n";
@@ -160,7 +160,7 @@ public class GraphStructure_CF
 		str.append("}\n");
 	}
 	//dataList 추가 has/call/call_by 중 하나
-	private static int addList(String hash, String color , String tag , DataList datalist, StringBuilder str) 
+	private static int addList(String hash, String color , String tag , OMS datalist, StringBuilder str) 
 	{
 		int count=0;
 		//add classList

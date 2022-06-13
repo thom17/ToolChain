@@ -17,7 +17,7 @@ import complexity.ClassComplexity;
 import complexity.FunctionComplexity;
 import complexity.HalsteadComplex;
 import complexity.StateNodeComplex;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
@@ -51,7 +51,7 @@ public class ComplexDiagram
 		folder.mkdir();
 		return time;
 	}
-	public static void main(DataList list) throws IOException, InterruptedException
+	public static void main(OMS list) throws IOException, InterruptedException
 	{
 		String time = makeDateFolder();
 		String folderSrc = "result/datalist/complex/"+time;
@@ -188,7 +188,7 @@ public class ComplexDiagram
 		*/
 		
 		
-		DataList haslist = cls.getHasList();
+		OMS haslist = cls.getHasList();
 		str.append("__**<color:green>has list</color>**__\n");
 		for(Member member : haslist.getMemberList())
 		{

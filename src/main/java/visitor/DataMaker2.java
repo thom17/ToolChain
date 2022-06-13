@@ -46,7 +46,7 @@ import com.github.javaparser.resolution.types.ResolvedReferenceType;
 import com.github.javaparser.resolution.types.ResolvedType;
 
 import complexity.ClassComplexity;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
@@ -58,7 +58,7 @@ import dataSet.Class;
 
 public class DataMaker2 extends VoidVisitorAdapter<StringBuilder>
 {
-	private DataList datalist;
+	private OMS datalist;
 	Class hostClass;
 	public static void main(String[] args) throws IOException, InterruptedException 
 	{	
@@ -68,17 +68,17 @@ public class DataMaker2 extends VoidVisitorAdapter<StringBuilder>
 		
 		ArrayList<CompilationUnit> list = Parser.makeASTList();
 		
-		DataList datalist = new DataList();
+		OMS datalist = new OMS();
 		DataMaker dataMaker = new DataMaker(datalist);
 		ArrayList<String> classList = new ArrayList<String>();
 		StringBuilder sb = new StringBuilder();
 		for(CompilationUnit ast : list)
 		{
-			new DataMaker2(ast, new DataList());
+			new DataMaker2(ast, new OMS());
 		}
 
 	}
-	public DataMaker2(CompilationUnit ast, DataList datalist)
+	public DataMaker2(CompilationUnit ast, OMS datalist)
 	{
 		this.datalist = datalist;
 		String packageName = "default";
@@ -113,7 +113,7 @@ public class DataMaker2 extends VoidVisitorAdapter<StringBuilder>
 		setModif(cls, n.getModifiers() );
 		
 	}
-	public DataMaker2(DataList datalist)	
+	public DataMaker2(OMS datalist)	
 	{
 		this.datalist = datalist; 
 	};

@@ -42,7 +42,7 @@ import com.github.javaparser.resolution.declarations.ResolvedValueDeclaration;
 import com.github.javaparser.resolution.types.ResolvedReferenceType;
 import com.github.javaparser.resolution.types.ResolvedType;
 
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
@@ -58,14 +58,14 @@ import dev.khe.DiagramRecover.model.MOperationCall;
 public class StateNodeMaker extends VoidVisitorAdapter<StringBuilder>
 {
 	Function function;
-	DataList datalist;
+	OMS datalist;
 	StateNodeList nodeList;
 	StateNode stateNode;
 	StateNode head;
 	StateNode fin = new StateNode();
 	String condition = "true";
 	
-	public StateNodeMaker(Function fn, DataList datalist)
+	public StateNodeMaker(Function fn, OMS datalist)
 	{
 		this.datalist = datalist;
 		init(fn);

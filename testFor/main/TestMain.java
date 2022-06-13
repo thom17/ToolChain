@@ -26,7 +26,7 @@ import dataSet.Member;
 import dev.khe.DiagramRecover.PrintUtil;
 import diagramMaker.DataListDiagram2;
 import testDataSet.Datalist;
-import dataSet.DataList;
+import dataSet.OMS;
 
 public class TestMain {
 	public static void makeInitFile() throws IOException

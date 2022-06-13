@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dev.khe.DiagramRecover.PrintUtil;
@@ -43,7 +43,7 @@ public class UseCase_C_CC_HF extends Base
 		return time;
 	}
 	
-	public static void main(DataList datalist) throws IOException
+	public static void main(OMS datalist) throws IOException
 	{
 		String time=makeDateFolder();
 		String src = "result/usecase/"+time+"/C-CC-HF";

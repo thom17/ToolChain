@@ -6,11 +6,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import dataSet.Class;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
-
 
 public class ClassComplexity extends Complex_Base
 {	
@@ -103,8 +102,8 @@ public class ClassComplexity extends Complex_Base
 	
 	public void setCoverAge(Class cls)
 	{
-		DataList haslist = cls.getHasList();
-		DataList callList = cls.getCallList();
+		OMS haslist = cls.getHasList();
+		OMS callList = cls.getCallList();
 		
 		for(Function fun : haslist.getFunctionList() )
 		{
@@ -129,7 +128,7 @@ public class ClassComplexity extends Complex_Base
 	
 	public void callScore(Class cls)
 	{
-		DataList list = cls.getCallList();
+		OMS list = cls.getCallList();
 		for( Class target : list.getClassList() )
 		{
 			callScore += 3;
@@ -145,7 +144,7 @@ public class ClassComplexity extends Complex_Base
 	}
 	public void callByScore(Class cls)
 	{
-		DataList list = cls.getCallByList();
+		OMS list = cls.getCallByList();
 		for( Class target : list.getClassList() )
 		{
 			callByScore += 3;

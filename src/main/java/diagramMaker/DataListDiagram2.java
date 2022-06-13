@@ -12,7 +12,7 @@ import java.util.Set;
 import complexity.ClassComplexity;
 import complexity.FunctionComplexity;
 import complexity.StateNodeComplex;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
@@ -51,7 +51,7 @@ public class DataListDiagram2
 		folder.mkdir();
 		return time;
 	}
-	public static void draw(DataList list) throws IOException, InterruptedException
+	public static void draw(OMS list) throws IOException, InterruptedException
 	{
 		String time = makeDateFolder();
 		String folderSrc = "result/datalist/ver2/"+time;
@@ -153,7 +153,7 @@ public class DataListDiagram2
 		str.append("}\n");
 	}
 	//dataList 추가 has/call/call_by 중 하나
-	private static void addList(DataList datalist, StringBuilder str) 
+	private static void addList(OMS datalist, StringBuilder str) 
 	{
 		//add classList
 		str.append("..class..\n");
@@ -220,7 +220,7 @@ public class DataListDiagram2
 		str.append("ABS : "+cls.getComplex().getABS()+"\n");
 		str.append("RES : "+cls.getComplex().getRES()+"\n");
 
-		DataList haslist = cls.getHasList();
+		OMS haslist = cls.getHasList();
 		str.append("__**<color:green>has list</color>**__\n");
 		for(Member member : haslist.getMemberList())
 		{

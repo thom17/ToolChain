@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 import dataSet.Class;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.statement.StateNode;
@@ -42,7 +42,7 @@ public class SequenceDiagram
 		return false;
 	}
 	
-	public static void main(DataList list) throws IOException, InterruptedException
+	public static void main(OMS list) throws IOException, InterruptedException
 	{
 		String path = "result/sequence/";
 		

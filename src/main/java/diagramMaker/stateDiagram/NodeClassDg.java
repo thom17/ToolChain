@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Function;
 import dataSet.statement.StateNode;
 import dataSet.statement.StateNodeList;
@@ -19,7 +19,7 @@ public class NodeClassDg extends Base
 	static StringBuilder sb;
 	static int num=0;
 	static ArrayList<StateNode> nodelist;
- 	public static void main(DataList list) throws IOException, InterruptedException
+ 	public static void main(OMS list) throws IOException, InterruptedException
 	{
  		srcBase = srcBase+NodeClassDg.makeDateFolder(srcBase)+"/";
  		for(Function fun : list.getFunctionList())

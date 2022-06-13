@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import dataSet.DataList;
+import dataSet.OMS;
 import diagram.ClassDg;
 import mappingSet.ClassSet;
 import mappingSet.FunctionSet;
@@ -13,18 +13,18 @@ import xmiManage.XmiReader;
 
 public class DataMapper 
 {
-	DataList datalist;
+	OMS datalist;
 	ModelManager modelManager;
 	Map<String, ClassSet> classSet = new HashMap<String, ClassSet>();
 	Map<String, FunctionSet> functionSet;
 	
-	public DataMapper(DataList datalist, ModelManager modelManager)
+	public DataMapper(OMS datalist, ModelManager modelManager)
 	{
 		this.datalist = datalist;
 		this.modelManager = modelManager;
 		makeClass(datalist);
 	}
-	private void makeClass( DataList datalist)
+	private void makeClass( OMS datalist)
 	{
 		for(dataSet.Class cls : datalist.getClassList() )
 		{

@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import complexity.HalsteadComplex;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Function;
 import main.Parser;
 
@@ -28,7 +28,7 @@ public class GetterComplex
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		DataList datalist = Parser.makeDataList();
+		OMS datalist = Parser.makeDataList();
 		for(Function fun : datalist.getFunctionList())
 		{
 			HalsteadComplex cp = fun.getComplex().getHalstead();

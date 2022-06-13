@@ -29,7 +29,7 @@ import com.github.javaparser.resolution.types.ResolvedType;
 
 import complexity.TypeLevel;
 import dataSet.Class;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
@@ -41,10 +41,10 @@ import dev.khe.DiagramRecover.TypeUtil;
  */
 public class DataMaker extends VoidVisitorAdapter<StringBuilder>
 {
-	private DataList datalist;
+	private OMS datalist;
 	Class hostClass;
 	
-	public DataMaker(DataList datalist)	
+	public DataMaker(OMS datalist)	
 	{
 		this.datalist = datalist; 
 	};

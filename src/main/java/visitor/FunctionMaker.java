@@ -33,7 +33,7 @@ import com.github.javaparser.resolution.declarations.ResolvedTypeParameterDeclar
 import com.github.javaparser.resolution.declarations.ResolvedValueDeclaration;
 import com.github.javaparser.resolution.types.ResolvedType;
 
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
@@ -46,7 +46,7 @@ import dev.khe.DiagramRecover.model.MOperationCall;
 public class FunctionMaker extends VoidVisitorAdapter<StringBuilder>
 {
 	Function function;
-	DataList datalist;
+	OMS datalist;
 	StateNode stateNode;
 	StateNode head;
 	String condition = "true";

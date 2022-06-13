@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import complexity.ClassComplexity;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Function;
 import dataSet.Member;
 import dataSet.Class;
@@ -22,7 +22,7 @@ public class ClassDiagram2
 			"java.io" 
 	};
 	
-	public static void main(DataList list) throws IOException, InterruptedException
+	public static void main(OMS list) throws IOException, InterruptedException
 	{
 		makeFile( makeString(list) );
 		Process p = Runtime.getRuntime().exec("java -jar lib/plantuml.jar -tsvg result/classDg2.txt");
@@ -47,7 +47,7 @@ public class ClassDiagram2
 		return false;
 	}
 	
-	public static String makeString(DataList list)
+	public static String makeString(OMS list)
 	{
 		StringBuilder str= new StringBuilder("@startuml\n");
 		
@@ -69,13 +69,13 @@ public class ClassDiagram2
 		return str.toString();
 	}
 
-	private static void callByDef(DataList list, StringBuilder str ) 
+	private static void callByDef(OMS list, StringBuilder str ) 
 	{
 		
 		ArrayList<Class> classList = list.getClassList();
 		for(Class cls : classList)
 		{
-			DataList callList = cls.getCallList();
+			OMS callList = cls.getCallList();
 			ArrayList<Class> clientList = callList.getClassList();
 			for(Class client : clientList)
 			{
@@ -87,7 +87,7 @@ public class ClassDiagram2
 		str.append("\n\n");
 	}
 
-	private static void classExtends(DataList list, StringBuilder str)
+	private static void classExtends(OMS list, StringBuilder str)
 	{
 		ArrayList<Class> classList = list.getClassList();
 		for( Class cls : classList )
@@ -103,7 +103,7 @@ public class ClassDiagram2
 			}
 		}
 	}
-	private static void classDef(DataList list, StringBuilder str) {
+	private static void classDef(OMS list, StringBuilder str) {
 		// TODO Auto-generated method stub
 		ArrayList<Class> classList = list.getClassList();
 		for(Class cls : classList)
@@ -124,7 +124,7 @@ public class ClassDiagram2
 
 			str.append(name + color +  " \n{\n");
 			
-			DataList hasList = cls.getHasList();
+			OMS hasList = cls.getHasList();
 			
 			ArrayList<Member> MemberList = hasList.getMemberList();
 			for(Member value : MemberList )

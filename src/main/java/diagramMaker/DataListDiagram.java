@@ -8,7 +8,7 @@ import java.util.Date;
 
 import complexity.FunctionComplexity;
 import dataSet.Class;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
@@ -38,7 +38,7 @@ public class DataListDiagram
 		System.out.println("test done! TestClass.svg");
 		*/
 	}
-	public static void draw(DataList list) throws IOException, InterruptedException
+	public static void draw(OMS list) throws IOException, InterruptedException
 	{
 		String folderSrc = makeDataListFolder();
 		String src = folderSrc+"/class/";
@@ -146,7 +146,7 @@ public class DataListDiagram
 		str.append("}\n");
 	}
 	//dataList 추가 has/call/call_by 중 하나
-	private static void addList(DataList datalist, StringBuilder str) 
+	private static void addList(OMS datalist, StringBuilder str) 
 	{
 		//add classList
 		str.append("..class..\n");

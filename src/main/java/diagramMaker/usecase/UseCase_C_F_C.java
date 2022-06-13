@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dev.khe.DiagramRecover.PrintUtil;
@@ -31,7 +31,7 @@ public class UseCase_C_F_C extends Base
 		return time;
 	}
 	
-	public static void main(DataList datalist) throws IOException
+	public static void main(OMS datalist) throws IOException
 	{
 		String time=makeDateFolder();
 		String src = "result/usecase/"+time+"/C_F_C";
@@ -104,7 +104,7 @@ public class UseCase_C_F_C extends Base
 		}
 	}
 
-	private static Map<Class, ArrayList<Function>> seperateFile(DataList datalist) 
+	private static Map<Class, ArrayList<Function>> seperateFile(OMS datalist) 
 	{
 		Map<Class, ArrayList<Function>> map = new HashMap<Class, ArrayList<Function> >();
 		for(Class actor : datalist.getClassList() )

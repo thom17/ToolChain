@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Member;
 
 public class Simple 
 {
-	public static ArrayList<Member> findTypeName(String typeName, DataList datalist)
+	public static ArrayList<Member> findTypeName(String typeName, OMS datalist)
 	{
 		ArrayList<Member> list = new ArrayList<Member>();
 		for(Member m : datalist.getMemberList())
@@ -19,7 +19,7 @@ public class Simple
 		}
 		return list;
 	}
-	public static Map<String, ArrayList<Member>> seperateTypeMap(DataList datalist)
+	public static Map<String, ArrayList<Member>> seperateTypeMap(OMS datalist)
 	{
 		Map<String, ArrayList<Member>> map = new HashMap<String, ArrayList<Member>>();
 		for(Member m : datalist.getMemberList())

@@ -9,7 +9,7 @@ import java.util.HashMap;
 import complexity.ClassComplexity;
 import complexity.FunctionComplexity;
 import dataSet.Class;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
@@ -28,7 +28,7 @@ public class CallGraph_CF {
 		p.waitFor();
 		System.out.println("test done! TestClass.svg");
 	}
-	public static void main(DataList list) throws IOException, InterruptedException
+	public static void main(OMS list) throws IOException, InterruptedException
 	{
 		ArrayList<Class> classList = list.getClassList();
 		for( Class actor : classList )
@@ -58,7 +58,7 @@ public class CallGraph_CF {
 		System.out.println("FunctionDiagram draw done : DataList(Member).svg");
 		
 	}
-	private static String makeMemberScript(DataList list) 
+	private static String makeMemberScript(OMS list) 
 	{
 		StringBuilder str = new StringBuilder("@startuml\n");
 
@@ -121,7 +121,7 @@ public class CallGraph_CF {
 	}
 	
 	//클래스 작성 스크립트 메인
-	public static String makeClassScript(DataList list)
+	public static String makeClassScript(OMS list)
 	{
 		StringBuilder str= new StringBuilder("@startuml\n");
 		ArrayList<Class> cls = list.getClassList();
@@ -151,7 +151,7 @@ public class CallGraph_CF {
 		return str.toString();
 	}
 	//함수 작성 스크립트 메인 (dataList (Class) )
-	private static String makeFunctionScript(DataList list) 
+	private static String makeFunctionScript(OMS list) 
 	{
 		StringBuilder str = new StringBuilder("@startuml\n");
 
@@ -178,7 +178,7 @@ public class CallGraph_CF {
 		return str.toString();
 	}
 	//상속 정보 작성
-	private static void classExtends(DataList list, StringBuilder str)
+	private static void classExtends(OMS list, StringBuilder str)
 	{
 		ArrayList<Class> classList = list.getClassList();
 		for( Class cls : classList )
@@ -245,7 +245,7 @@ public class CallGraph_CF {
 		str.append("}\n");
 	}
 	//dataList 추가 has/call/call_by 중 하나
-	private static void addList(DataList datalist, StringBuilder str) 
+	private static void addList(OMS datalist, StringBuilder str) 
 	{
 		//add classList
 		str.append("..class..\n");

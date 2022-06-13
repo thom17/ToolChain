@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import complexity.ClassComplexity;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Function;
 import dataSet.Member;
 import dataSet.Class;
@@ -23,7 +23,7 @@ public class ClassDiagram3
 			"shopTest"
 	};
 	
-	public static void main(DataList list) throws IOException, InterruptedException
+	public static void main(OMS list) throws IOException, InterruptedException
 	{
 		makeFile( makeString(list) );
 		Process p = Runtime.getRuntime().exec("java -jar lib/plantuml.jar -tsvg result/classDg3.txt");
@@ -48,7 +48,7 @@ public class ClassDiagram3
 		return false;
 	}
 	
-	public static String makeString(DataList list)
+	public static String makeString(OMS list)
 	{
 		StringBuilder str= new StringBuilder("@startuml\n");
 		
@@ -74,7 +74,7 @@ public class ClassDiagram3
 		return str.toString();
 	}
 
-	private static void hasByDef(DataList list, StringBuilder str) 
+	private static void hasByDef(OMS list, StringBuilder str) 
 	{
 		for(Class cls : list.getClassList())
 		{
@@ -102,7 +102,7 @@ public class ClassDiagram3
 		}
 		
 	}
-	private static void callByDef(DataList list, StringBuilder str ) 
+	private static void callByDef(OMS list, StringBuilder str ) 
 	{
 		
 		ArrayList<Class> classList = list.getClassList();
@@ -110,7 +110,7 @@ public class ClassDiagram3
 		{
 			if(is_skip_package(skipList, cls.getPackageName())) continue;
 			
-			DataList callList = cls.getCallList();
+			OMS callList = cls.getCallList();
 			ArrayList<Class> clientList = callList.getClassList();
 			for(Class client : clientList)
 			{
@@ -123,7 +123,7 @@ public class ClassDiagram3
 		}
 		str.append("\n\n");
 	}
-	private static void classExtends(DataList list, StringBuilder str)
+	private static void classExtends(OMS list, StringBuilder str)
 	{
 		ArrayList<Class> classList = list.getClassList();
 		for( Class cls : classList )
@@ -139,7 +139,7 @@ public class ClassDiagram3
 			}
 		}
 	}
-	private static void classDef(DataList list, StringBuilder str) {
+	private static void classDef(OMS list, StringBuilder str) {
 		// TODO Auto-generated method stub
 		ArrayList<Class> classList = list.getClassList();
 		for(Class cls : classList)
@@ -161,7 +161,7 @@ public class ClassDiagram3
 			str.append(name + color+" \n{\n");
 			//str.append(name + color +  " \n{\n");
 			
-			DataList hasList = cls.getHasList();
+			OMS hasList = cls.getHasList();
 			
 			ArrayList<Member> varList = hasList.getMemberList();
 			for(Member value : varList )

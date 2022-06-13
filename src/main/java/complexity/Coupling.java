@@ -1,6 +1,6 @@
 package complexity;
 
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dataSet.Member;
@@ -38,7 +38,7 @@ public class Coupling
 
 	private boolean checkNotCallBy(Member member) 
 	{
-		DataList list = member.getCallByList();
+		OMS list = member.getCallByList();
 		Data_base owner = member.getOwner();
 		ArrayList<Function> useMethodList = list.getFunctionList();
 		if(owner instanceof Class)
@@ -56,7 +56,7 @@ public class Coupling
 	}
 
 	private boolean checkNotUse(Data_base target) {
-		DataList list = target.getCallByList();
+		OMS list = target.getCallByList();
 		int size = list.getClassList().size() + list.getFunctionList().size() + list.getMemberList().size();
 		if(size == 0)
 			return true;
@@ -65,7 +65,7 @@ public class Coupling
 	}
 
 	private boolean checkCommonCoupling(Member target) {
-		DataList callByList = target.getCallByList();
+		OMS callByList = target.getCallByList();
 		Data_base d_owner = target.getOwner();
 		if(d_owner instanceof dataSet.Class)
 		{
@@ -86,7 +86,7 @@ public class Coupling
 	}
 
 	private boolean checkStampCoupling(Member target) {
-		DataList callByList = target.getCallByList();
+		OMS callByList = target.getCallByList();
 		Data_base owner = target.getOwner();
 		if(owner instanceof dataSet.Class)
 		{
@@ -102,7 +102,7 @@ public class Coupling
 
 
 	private boolean checkDataCoupling(Member target) {
-		DataList callByList = target.getCallByList();
+		OMS callByList = target.getCallByList();
 		Data_base owner = target.getOwner();
 		String typeName = target.getTypeName();
 		if(TypeLevel.isDataType(typeName))

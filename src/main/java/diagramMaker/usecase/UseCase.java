@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Data_base;
 import dataSet.Function;
 import dev.khe.DiagramRecover.PrintUtil;
@@ -30,12 +30,12 @@ public class UseCase extends Base
 		return time;
 	}
 	
-	public static void main(DataList datalist) throws IOException
+	public static void main(OMS datalist) throws IOException
 	{
 		String time=makeDateFolder();
 		drawPackageLv(time, datalist);
 	}
-	private static void drawPackageLv(String time, DataList datalist) throws IOException {
+	private static void drawPackageLv(String time, OMS datalist) throws IOException {
 	
 		String src = "result/usecase/"+time+"/packageLv";
 		File folder = new File(src);

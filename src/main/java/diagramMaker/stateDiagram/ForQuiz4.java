@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import dataSet.Class;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Function;
 import dataSet.Member;
 import dataSet.statement.StateNode;
@@ -30,7 +30,7 @@ public class ForQuiz4
 	
 	
 	//datalist를 기반으로 그림을 생성하는 메인 함수
-	public static void main(DataList datalist) throws IOException, InterruptedException
+	public static void main(OMS datalist) throws IOException, InterruptedException
 	{
  		nodelist = new ArrayList<StateNode>();
 		String script = makeScript(datalist);
@@ -62,7 +62,7 @@ public class ForQuiz4
  	}
  	
  	//스크립트 문을 생성하는 함수 datalist의 클래스들의 정보를 순차적으로 작성
-	private static String makeScript(DataList datalist) 
+	private static String makeScript(OMS datalist) 
 	{
 		StringBuilder sb = new StringBuilder("@startuml\n");
 		ArrayList<Class> classList = datalist.getClassList();

@@ -9,9 +9,9 @@ public abstract class Data_base {
 	protected String cmd;
 	protected String name;
 	protected String modifier = "private";	//public private protected
-	protected DataList hasList = new DataList();
-	protected DataList callList = new DataList();
-	protected DataList callByList = new DataList();
+	protected OMS hasList = new OMS();
+	protected OMS callList = new OMS();
+	protected OMS callByList = new OMS();
 	
 	//Coupling couplingLv;
 	
@@ -31,9 +31,9 @@ public abstract class Data_base {
 	public String getName() {return name;}
 	public String getCmd() {return cmd;}	
 	
-	public DataList getCallList() {return this.callList; }
-	public DataList getHasList() {return this.hasList; }
-	public DataList getCallByList() {return this.callByList; }	
+	public OMS getCallList() {return this.callList; }
+	public OMS getHasList() {return this.hasList; }
+	public OMS getCallByList() {return this.callByList; }	
 	/**
 	 * this.getCallOtherList
 	 * this는 Data_base

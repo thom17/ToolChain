@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Function;
 import dataSet.statement.StateNode;
 import dataSet.Class;
@@ -62,7 +62,7 @@ public class StateNodeDiagram
 			sb.delete(0,  sb.length());
 		}
 	}
-	public static void main(DataList datalist) throws IOException, InterruptedException
+	public static void main(OMS datalist) throws IOException, InterruptedException
 	{
 		String folderPath =  "result/stateNode";
 		File folder = new File(folderPath);

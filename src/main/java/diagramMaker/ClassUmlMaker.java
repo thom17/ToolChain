@@ -2,11 +2,11 @@ package diagramMaker;
 
 import java.util.ArrayList;
 import dataSet.Class;
-import dataSet.DataList;
+import dataSet.OMS;
 
 public class ClassUmlMaker extends UmlMaker
 {
-	public static void main( DataList datalist )
+	public static void main( OMS datalist )
 	{
 		ArrayList<Class> classList = datalist.getClassList();
 		

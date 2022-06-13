@@ -9,7 +9,7 @@ import dataSet.Member;
 import dataSet.statement.StateNode;
 import dataSet.statement.StateNodeList;
 import dataSet.Class;
-import dataSet.DataList;
+import dataSet.OMS;
 
 public class FunctionComplexity extends Complex_Base
 {
@@ -126,7 +126,7 @@ public class FunctionComplexity extends Complex_Base
 		while( !(fun.getOwner() instanceof Class) ) fun = (Function)fun.getOwner();
 		
 		Class owner = (Class) fun.getOwner();
-		DataList callList = fun.getCallList();
+		OMS callList = fun.getCallList();
 		for(Class target : callList.getClassList() )
 		{
 			callCountNum++;
@@ -155,7 +155,7 @@ public class FunctionComplexity extends Complex_Base
 			
 		}
 		
-		DataList hasList = fun.getHasList();
+		OMS hasList = fun.getHasList();
 		for(Member target : hasList.getMemberList() )
 		{
 			localValueScore += 1;
@@ -177,7 +177,7 @@ public class FunctionComplexity extends Complex_Base
 
 	private void callByScoreSet(Function fun)
 	{
-		DataList callbyList = fun.getCallByList();
+		OMS callbyList = fun.getCallByList();
 		while( !(fun.getOwner() instanceof Class) ) fun = (Function)fun.getOwner();
 		Class owner = (Class) fun.getOwner();
 

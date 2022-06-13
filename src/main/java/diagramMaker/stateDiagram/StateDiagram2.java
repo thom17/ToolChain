@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import dataSet.Class;
-import dataSet.DataList;
+import dataSet.OMS;
 import dataSet.Function;
 import dataSet.statement.StateNode;
 
@@ -14,7 +14,7 @@ public class StateDiagram2
 {
 
 	static StringBuilder sb;
-	public static void main(DataList list) throws IOException
+	public static void main(OMS list) throws IOException
 	{
 		ArrayList<Class> clsList = list.getClassList();
 		for(Class cls : clsList )
